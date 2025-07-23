@@ -1,7 +1,7 @@
 ---
 title: "Circularidade: O Futuro Sustentável para Empresas e Sociedade"
 intro: "A circularidade é um novo paradigma que está a transformar a forma como produzimos, consumimos e gerimos recursos. Descobre porque é essencial para a sustentabilidade e competitividade."
-image: /proxy/image?path=content/images/circularidade.jpg
+image: /proxy/image?path=images/circularidade.jpg
 date: 2025-07-23
 tags: ["Circularidade", "Sustentabilidade", "EcoResupply", "pH7x"]
 ativo: true
