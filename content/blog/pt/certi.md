@@ -14,11 +14,11 @@ A obtenção de **certificações e selos verdes** é hoje uma vantagem competit
 
 * **ISO 14001 (Gestão Ambiental)**
   Norma internacional para implementação de Sistemas de Gestão Ambiental (SGA), reconhecida mundialmente. Ajuda empresas a identificar, controlar e melhorar o seu desempenho ambiental.
-  [Saiba mais: ISO 14001](https://www.iso.org/pt/iso-14001-environmental-management.html)
+  [Saiba mais: ISO 14001](https://www.iso.org/about)
 
 * **Rótulo Ecológico Europeu (EU Ecolabel)**
   Selo oficial da União Europeia para produtos e serviços com reduzido impacto ambiental durante todo o ciclo de vida. Aplica-se a detergentes, tintas, papel, alojamento turístico, etc.
-  [Ver critérios: EU Ecolabel](https://ec.europa.eu/environment/ecolabel/)
+  [Ver critérios: EU Ecolabel](https://environment.ec.europa.eu/topics/circular-economy/eu-ecolabel_en)
 
 * **EMAS (Eco-Management and Audit Scheme)**
   Sistema voluntário europeu de gestão ambiental e auditoria, para empresas que pretendam ir além da conformidade legal e reportar publicamente o seu desempenho ambiental.
