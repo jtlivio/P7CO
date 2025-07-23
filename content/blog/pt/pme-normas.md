@@ -64,10 +64,10 @@ A **legislação ambiental** em Portugal e na União Europeia está em constante
 # 4. Ferramentas e Plataformas de Suporte
 
 * [APA - Agência Portuguesa do Ambiente](https://apambiente.pt)
-* [SIRER - Registo Eletrónico de Resíduos](https://sirap.apambiente.pt)
+* [SIRER - Registo Eletrónico de Resíduos]()
 * [EcoResupply - Plataforma Circular](https://ph7x.pt)
 * [WasteApp - app gestão de resíduos e compliance](https://wasteapp.pt)
-* [eAmbiente - soluções para PME e municípios](https://eambiente.pt)
+* [eAmbiente - soluções para PME e municípios]()
 
 # 5. Recomendações finais
 
