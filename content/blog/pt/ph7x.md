@@ -13,8 +13,6 @@ ativo: true
 > Isto impede o abuso automático, reduz o spam e assegura que cada participação (como denúncia, publicação de excedentes ou contacto) é feita por uma pessoa real, validando a identidade sem comprometer a privacidade.  
 > O registo é gratuito e transparente: nunca partilhamos dados com terceiros sem consentimento.
 
----
-
 A confiança dos nossos utilizadores é a base da **P7CO® EcoResupply**. Operamos com elevados padrões de **segurança, transparência e responsabilidade**, com a gestão e desenvolvimento assegurados pela empresa **pH7x Systems®** ([ph7x.com](https://ph7x.com)), entidade legalmente registada, especialista em soluções digitais para sustentabilidade.
 
 ## 1. Fiabilidade Técnica e Operacional
