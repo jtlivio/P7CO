@@ -1,9 +1,9 @@
 ---
 title: "Circularidade: O Futuro Sustentável para Empresas e Sociedade"
-intro: "A circularidade é um novo paradigma que está a transformar a forma como produzimos, consumimos e gerimos recursos. Descobre porque é essencial para a sustentabilidade e competitividade."
-image: /proxy/image?path=images/circularidade.jpg
+intro: "A circularidade é um novo paradigma que está a transformar a forma como produzimos, consumimos e gerimos recursos. Descobre porque é essencial para a sustentabilidade e competitividade das empresas."
 date: 2025-07-23
-tags: ["Circularidade", "Sustentabilidade", "EcoResupply", "pH7x"]
+image: /proxy/image?path=images/circularidade.jpg
+tags: [EcoResupply, Circularidade, Sustentabilidade, pH7x]
 ativo: true
 ---
 
@@ -21,17 +21,19 @@ Num modelo circular, o valor dos produtos, materiais e recursos é mantido pelo 
 ## Exemplos práticos de circularidade
 
 - Reutilização de embalagens industriais.
-- Reparação e recondicionamento de equipamentos.
+- Reparação e recondicionamento de equipamentos e máquinas.
 - Partilha e aluguer de materiais entre empresas.
-- Plataformas digitais para dar nova vida a excedentes e resíduos.
+- Plataformas digitais para dar nova vida a excedentes e resíduos (como a P7CO EcoResupply).
+- Transformação de subprodutos em matérias-primas para novos processos produtivos.
 
 ## O papel da P7CO EcoResupply
 
-A P7CO EcoResupply existe para facilitar a circularidade em Portugal e internacionalmente, promovendo a partilha, reutilização e valorização de recursos excedentes de empresas.  
-Na nossa plataforma, qualquer organização pode listar, procurar e negociar materiais, promovendo a sustentabilidade e a inovação.
+A **P7CO EcoResupply** existe para facilitar a circularidade em Portugal e internacionalmente, promovendo a partilha, reutilização e valorização de recursos excedentes de empresas.  
+Na nossa plataforma, qualquer organização pode **listar, procurar e negociar materiais**, promovendo a sustentabilidade, a redução de desperdício e a inovação.
 
----
+Somos o elo digital entre empresas que querem transformar o excedente em oportunidade, dando nova vida a produtos, materiais e equipamentos.  
+Acreditamos que, juntos, podemos criar uma economia mais eficiente, competitiva e amiga do ambiente.
 
 **Junta-te à revolução circular!**  
-Descobre como podes participar e fazer parte de uma economia mais sustentável em [ph7x.pt](https://ph7x.pt) ou contacta-nos para saber mais.
+Descobre como podes participar e fazer parte de uma economia mais sustentável em [ph7x.pt](https://ph7x.pt) ou [contacta-nos](mailto:eco@ph7x.pt) para saber mais.
 
