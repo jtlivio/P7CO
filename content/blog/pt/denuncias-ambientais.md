@@ -28,7 +28,7 @@ A maioria dos crimes ambientais passa despercebida ou é resolvida tardiamente s
 2. **Anonimato e Proteção:**
 
    * As denúncias podem ser submetidas de forma totalmente anónima, mas com necessidade de login para evitar spam e abusos.
-   * Garantimos que o IP e os dados do denunciante não são registados nem partilhados com terceiros, veja a nossa [Política de Pricavidade](https://ph7x.pt/Home/Privacy)
+   * Garantimos que o IP e os dados do denunciante não são registados nem partilhados com terceiros, veja a nossa [Política Pricavidade](https://ph7x.pt/Home/Privacy)
 
 3. **Encaminhamento imediato:**
 
