@@ -28,8 +28,6 @@ A inovação é o motor do progresso na economia circular — e está a acelerar
 
 [Veja exemplos em Portugal: Agência Portuguesa do Ambiente – Inovação e Digitalização](https://apambiente.pt/)
 
----
-
 ## Tendências Internacionais de Circularidade Empresarial
 
 - **Modelos de negócio baseados em partilha**  
@@ -46,7 +44,6 @@ A inovação é o motor do progresso na economia circular — e está a acelerar
 
 [Relatório Europeu sobre Economia Circular (EC/EEA)](https://www.eea.europa.eu/pt/topics/waste/circular-economy)
 
----
 
 ## O Futuro do “Zero Waste” em Portugal
 
@@ -61,8 +58,6 @@ A inovação é o motor do progresso na economia circular — e está a acelerar
 - **Educação & sensibilização**  
   Programas nacionais e regionais para literacia ambiental, consumo responsável e participação ativa.  
   *Exemplo:* Parcerias entre escolas e autarquias para promover o “zero waste” no dia-a-dia.
-
----
 
 **Queres saber como inovar na tua empresa?**  
 Descobre as soluções EcoResupply e junta-te à comunidade circular. [Contacta-nos](https://ph7x.pt/Home/Contact) para uma demonstração ou consultoria.
