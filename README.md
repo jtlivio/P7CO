@@ -35,6 +35,35 @@ By reusing or redistributing any content from this repository, **you must always
 
 ---
 
+## Sample
+
+## Blog post file structure example
+
+Each blog post should be a Markdown (`.md`) file with [YAML frontmatter](https://jekyllrb.com/docs/front-matter/) at the top, followed by the article content.  
+Here’s a template:
+
+```markdown
+---
+title: "Sample Blog Post Title"
+intro: "This is a short dummy introduction to illustrate the blog post structure for the P7CO EcoResupply blog."
+image: /proxy/image?path=content/blog/en/images/example-image.jpg
+date: 2025-04-01
+tags: ["Example", "Demo", "Template", "Sustainability"]
+ativo: true
+---
+
+Your blog post content goes here.  
+You can use **Markdown** syntax for formatting, lists, images, blockquotes, and more.
+
+## Example Subtitle
+
+- Bullet list item
+- Another item
+
+> Example blockquote
+
+![Example image caption](https://dummyimage.com/600x200/cccccc/222222&text=Example+Image)
+
 ## Contact
 
 For questions, suggestions, or partnership inquiries, contact us at [ph7x.pt](https://ph7x.pt) or ecoressupply@ph7x.pt
