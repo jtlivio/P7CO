@@ -62,7 +62,7 @@ O P7CO® EcoResupply foi desenhado para ligar **parceiros estratégicos** e acel
 
 ## Parcerias que fazem a diferença
 
-Ser parceiro P7CO® EcoResupply não é apenas usar uma ferramenta digital — é fazer parte de um ecossistema inovador, colaborativo e premiado, que **valoriza o conhecimento de cada organização** e adapta as soluções a cada contexto.
+Ser parceiro P7CO® EcoResupply não é apenas usar uma ferramenta digital, é fazer parte de um ecossistema inovador, colaborativo que **valoriza o conhecimento de cada organização** e adapta as soluções a cada contexto.
 
 - Consultoria à medida: adaptamos os módulos ao seu negócio ou missão
 - Suporte técnico e formação contínua para equipas e stakeholders
