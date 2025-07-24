@@ -8,57 +8,72 @@ tags: [EcoResupply, Parceiros, Circularidade, Sustentabilidade, Benefícios, pH7
 ativo: true
 -----------
 
-A força de uma plataforma circular está no seu ecossistema de **parceiros estratégicos**. Mais do que uma rede, somos um motor de colaboração e inovação — conectando empresas, municípios, recicladoras, universidades, ONGs e operadores logísticos para gerar impacto real.
+A sustentabilidade deixou de ser um objetivo abstrato — é uma vantagem competitiva, uma obrigação legal e uma fonte de inovação.  
+O P7CO® EcoResupply foi desenhado para ligar **parceiros estratégicos** e acelerar a economia circular, criando valor partilhado para todos.
 
-## Porque é que vale a pena ser parceiro do P7CO® EcoResupply?
+## Porquê ser parceiro do P7CO® EcoResupply?
 
-- **Acesso a novas oportunidades de negócio:** Ganhe visibilidade em toda a rede nacional de circularidade, conquistando clientes que procuram soluções sustentáveis.
-- **Reporting e métricas ESG automáticas:** Os parceiros recebem relatórios detalhados de sustentabilidade, com dados de CO₂ evitado, toneladas reaproveitadas, fluxos e impacto para compliance, candidaturas e reputação.
-- **Inovação aplicada:** Participe em projetos-piloto, testes de novas soluções e co-desenvolva tecnologia com universidades e centros de I&D.
-- **Integração digital total:** APIs para ligação direta a ERPs, portais municipais, apps, operadores logísticos e sistemas de gestão.
-- **Campanhas conjuntas e visibilidade:** Parceiros têm destaque em campanhas, eventos e conteúdos digitais (incluindo o mapa de circularidade e casos de sucesso no blog).
-- **Apoio técnico e consultoria personalizada:** Acesso a equipas especializadas em circularidade, logística, resíduos e digitalização.
-- **Certificação e reconhecimento:** Emissão de certificados digitais de participação e impacto, úteis para branding, concursos, contratos públicos e incentivos.
+- **Acesso a uma rede nacional de empresas, municípios e entidades inovadoras**
+- **Ferramentas digitais para rastreio, gestão e valorização de excedentes e resíduos**
+- **Destaque institucional e reputação verde**
+- **Cumprimento fácil de normas ESG, PNGR, PERSU 2030, e relatórios ambientais**
+- **Apoio técnico, integração e consultoria especializada, sempre adaptada ao parceiro**
 
-> “Na economia circular, ninguém faz tudo sozinho. O valor nasce da colaboração entre todos os intervenientes.”
+> “A circularidade é feita em rede. Só juntos conseguimos fechar o ciclo e gerar impacto real.”
 
-## Exemplos de benefícios concretos para diferentes parceiros
+## Benefícios para cada tipo de parceiro
 
-### Para Empresas e Recicladoras
-- Captação de excedentes e resíduos de origem qualificada e rastreada.
-- Novos fluxos de materiais, clientes e parceiros.
-- Automação de processos (recolha, emissão de e-GAR, reporting legal, integração logística).
-- Maior transparência, visibilidade e reputação verde.
+### Empresas & Indústria
 
-### Para Operadores Logísticos
-- Rotas otimizadas com acesso direto a pedidos de recolha, transporte e logística inversa.
-- Parcerias para operações especiais e campanhas ambientais.
-- KPI de eficiência e reporting digital em tempo real.
+- **Valorização de excedentes:** Reduza custos com resíduos, transforme desperdício em receita ou poupança.
+- **Match digital:** Ligue-se a clientes, parceiros e recicladores à escala nacional.
+- **Gestão simplificada:** Automatize relatórios, registos e certificações de impacto.
+- **Visibilidade e reputação:** Mostre o seu compromisso ambiental e seja reconhecido no marketplace P7CO®.
 
-### Para Municípios & Entidades Locais
-- Receção automática de denúncias e pedidos de recolha dos cidadãos.
-- Dashboards para planeamento, análise e monitorização em tempo real.
-- Integração com plataformas municipais, ERPs, SIG e Smart Cities.
-- Melhoria do serviço público e imagem institucional.
+### Universidades & Politécnicos
 
-### Para Universidades & Centros de I&D
-- Projetos de investigação com dados reais e impacto mensurável.
-- Estágios, teses e participação em hackathons ou desafios de inovação aberta.
-- Transferência de conhecimento e desenvolvimento de soluções aplicadas.
+- **Acesso a dados reais:** Apoio a projetos de investigação, teses e inovação aplicada.
+- **Parcerias e estágios:** Colaboração em desafios, hackathons e eventos científicos.
+- **Transferência de conhecimento:** Promova spin-offs, protótipos e tecnologia aplicada à sustentabilidade.
 
-### Para ONGs e Associações Ambientais
-- Amplificação de campanhas, ações de sensibilização e advocacy com dados comprovados.
-- Maior envolvimento comunitário e acesso a plataformas de reporting social.
-- Parcerias para projetos educativos e gamificação ambiental.
+### Empresas de Reciclagem
 
-## O que distingue a parceria P7CO® EcoResupply
+- **Fluxos rastreados e validados:** Receba materiais com origem certificada e dados normalizados.
+- **Campanhas e reporting ESG:** Integre a plataforma para campanhas, campanhas com municípios e relatórios automáticos.
+- **API e integração digital:** Ligue o seu ERP ao P7CO® para operações sem fricção.
 
-- **Totalmente adaptado:** Soluções tecnológicas personalizadas para cada tipo de parceiro.
-- **Integração sem fricção:** APIs e módulos preparados para diferentes plataformas e fluxos.
-- **Comunicação e promoção conjunta:** Os parceiros são destacados nos nossos canais e conteúdos.
-- **Suporte dedicado:** Acompanhamento por equipas técnicas e consultores ambientais.
+### Operadores Logísticos & Transportadoras
 
-**Faz parte do futuro da circularidade em Portugal!**  
-Contacta-nos para saber como a tua organização pode beneficiar e ser protagonista na revolução circular.
+- **Novos fluxos comerciais:** Ganhe acesso a operações circulares e rotas otimizadas.
+- **Tracking em tempo real:** Partilhe dados de recolha, emissões e KPIs.
+- **Reputação sustentável:** Diferencie-se pela pegada ambiental e pela eficiência.
 
-[Descobre mais e candidata-te a parceiro em ph7x.pt](https://ph7x.pt) | [eco@ph7x.pt](mailto:eco@ph7x.pt)
+### ONGs Ambientais & Associações
+
+- **Amplificação de impacto:** Chegue a mais cidadãos e empresas com campanhas conjuntas.
+- **Ferramentas de educação e sensibilização:** Use a plataforma para monitorizar, mobilizar e reportar.
+- **Acesso a dados para advocacy:** Apoie projetos de investigação e ação local com métricas reais.
+
+### Municípios, Câmaras e Entidades Locais
+
+- **Gestão de denúncias ambientais e recolhas:** Receba, valide e planeie ações em tempo real.
+- **Dashboard e reporting:** KPIs automáticos para candidaturas, relatórios e transparência.
+- **Integração total:** Conecte a plataforma aos seus sistemas municipais, ERPs, portais do munícipe e Smart City.
+
+## Parcerias que fazem a diferença
+
+Ser parceiro P7CO® EcoResupply não é apenas usar uma ferramenta digital — é fazer parte de um ecossistema inovador, colaborativo e premiado, que **valoriza o conhecimento de cada organização** e adapta as soluções a cada contexto.
+
+- Consultoria à medida: adaptamos os módulos ao seu negócio ou missão
+- Suporte técnico e formação contínua para equipas e stakeholders
+- Visibilidade institucional na comunicação nacional e internacional
+- Participação em projetos piloto, candidaturas e inovação aberta
+
+> “O futuro é colaborativo. Só em parceria conseguimos acelerar a transição para a circularidade e sustentabilidade.”
+
+## Junte-se à rede P7CO® EcoResupply
+
+Quer saber como a sua organização pode beneficiar desta parceria?
+Fale connosco — juntos criamos valor, reduzimos custos e tornamos Portugal mais circular.
+
+[Contacte-nos](mailto:eco@ph7x.pt) | [ph7x.pt](https://ph7x.pt) | [LinkedIn](https://www.linkedin.com/company/ph7x-systems/)
