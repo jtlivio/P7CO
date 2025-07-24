@@ -13,11 +13,11 @@ O P7CO® EcoResupply foi desenhado para ligar **parceiros estratégicos** e acel
 
 ## Porquê ser parceiro do P7CO® EcoResupply?
 
-- **Acesso a uma rede nacional de empresas, municípios e entidades inovadoras**
-- **Ferramentas digitais para rastreio, gestão e valorização de excedentes e resíduos**
-- **Destaque institucional e reputação verde**
-- **Cumprimento fácil de normas ESG, PNGR, PERSU 2030, e relatórios ambientais**
-- **Apoio técnico, integração e consultoria especializada, sempre adaptada ao parceiro**
+- Acesso a uma rede nacional de empresas, municípios e entidades inovadoras
+- Ferramentas digitais para rastreio, gestão e valorização de excedentes e resíduos
+- Destaque institucional e reputação verde
+- Cumprimento fácil de normas ESG, PNGR, PERSU 2030, e relatórios ambientais
+- Apoio técnico, integração e consultoria especializada, sempre adaptada ao parceiro
 
 > “A circularidade é feita em rede. Só juntos conseguimos fechar o ciclo e gerar impacto real.”
 
