@@ -1,7 +1,7 @@
-# Contributing to P7CO Blog
+# Contributing to P7CO® EcoResupply Blog
 
 Thank you for considering contributing to the **P7CO® EcoResupply Blog**!
-We welcome contributions that help improve translations, fix mistakes, or add new articles about sustainability, circularity, environmental responsibility, and technology.
+We welcome contributions that improve translations, fix mistakes, or add new articles.
 
 ---
 
@@ -14,68 +14,77 @@ We welcome contributions that help improve translations, fix mistakes, or add ne
 
 ### 2. Submitting Changes
 
-* Fork the repository.
-* Create a new branch for your change:
-  `git checkout -b fix/typo-article1`
-* Make your edits in the correct location:
+1. Fork the repository.
+2. Create a new branch for your change:
 
-  * Blog posts: `content/blog/{lang}/` (`en`, `pt`, `fr`, `de`).
-  * Images: `images/` folder.
-* Commit with a clear message:
-  `git commit -m "Fix typo in Portuguese blog post about recycling"`
-* Open a Pull Request (PR) to the `main` branch.
+   ```bash
+   git checkout -b fix/typo-article1
+   ```
+3. Make your edits (Markdown files are under `/content/blog/{lang}/`).
+4. Commit with a clear message:
 
-### 3. Writing a Blog Post
+   ```bash
+   git commit -m "Fix typo in Portuguese blog post about recycling"
+   ```
+5. Open a Pull Request (PR) to the **main** branch.
 
-* Add your new post under the correct language folder:
-
-  * `content/blog/en/` — English posts.
-  * `content/blog/pt/` — Portuguese posts.
-  * `content/blog/fr/` — French posts.
-  * `content/blog/de/` — German posts.
-
-Each post **must** include YAML frontmatter at the top, for example:
-
-```
 ---
-title: "Title of the Post"
-intro: "Short introduction (1–2 sentences)."
+
+## ✍️ Writing a Blog Post
+
+* Add your new post under:
+
+  * `content/blog/en/` for English posts.
+  * `content/blog/pt/` for Portuguese posts.
+  * `content/blog/fr/` for French posts.
+  * `content/blog/de/` for German posts.
+
+Each post must include YAML frontmatter at the top using `+++` delimiters:
+
+## 🖼️ Image Requirements
+
+To keep the blog consistent and performant, **all images must respect these rules**:
+
+* **Format:** `.jpg` only (no `.png`, `.webp`, `.gif`).
+* **Dimensions:** exactly **1200 × 675 px**.
+* **Maximum size:** **150 KB**.
+
+> ⚠️ Pull Requests with images that do not follow these rules will be rejected automatically by our linter in CI.
+
+```yaml
++++
+title: "Sample Blog Post Title"
+intro: "A short introduction for the P7CO EcoResupply blog."
 image: /images/example.jpg
 date: 2025-04-01
 tags: ["Sustainability", "Circular Economy"]
 ativo: true
----
++++
 ```
 
-* Use **Markdown syntax** for formatting.
-* Add images to `/images/` and reference them with a relative path.
+---
 
-### 4. Translations
+## 🌍 Translations
 
-* Translations are welcome!
-* Place translated blog posts in the corresponding folder (`/en/`, `/pt/`, `/fr/`, `/de/`).
-* Ensure the frontmatter fields are also translated (title, intro, tags).
+When contributing translations:
+
+* Translate **title**, **intro**, and **tags** fields.
+* Keep **date**, **image**, and **ativo** unchanged.
+* Place translations in the appropriate folder (`/content/blog/{lang}/`).
 
 ---
 
-## ✅ Contribution Rules
+## 📜 Code of Conduct
 
-* **Respectful communication**: follow our [Code of Conduct](CODE_OF_CONDUCT.md).
-* **Clarity**: keep language clear, concise, and accessible.
-* **Accuracy**: verify facts and cite reliable sources.
-* **Neutrality**: avoid political bias; focus on sustainability and technology.
+Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT.md).
+By participating in this project, you agree to abide by its terms.
 
 ---
 
-## 🔍 Review & Approval
+## ✅ Checklist before submitting a PR
 
-* All contributions go through Pull Requests.
-* The pH7x Systems editorial team reviews PRs before merging.
-* Approved PRs will be published automatically in the next site deployment.
+* [ ] Frontmatter is complete and valid.
+* [ ] Images exist under `/images/` and respect format, size, and dimensions (JPG 1200×675 ≤150 KB).
+* [ ] Content body is not empty.
+* [ ] Changes follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
----
-
-## 📜 License
-
-* **Source code (scripts)** → [GPL v3.0](LICENSE)
-* **Content (Markdown, articles, images)** → [CC BY-SA 4.0](LICENSE-content.md)

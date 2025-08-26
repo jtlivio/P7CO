@@ -1,12 +1,11 @@
----
-
++++
 title: "Certificações e Selos Verdes: Como Valorizar a Sua Empresa"
 intro: "Saiba como as certificações ambientais podem diferenciar a sua empresa, abrir portas a novos mercados e potenciar benefícios fiscais e reputacionais. Descubra quais as mais relevantes e como preparar o seu negócio para ser certificado."
 date: 2025-07-23
 image: /proxy/image?path=images/certificacoes-selos-verdes.jpg
 tags:  [Certificações, Sustentabilidade, ISO14001, RótuloEcológico, PME, EcoResupply]
 ativo: true
------------
++++
 
 A obtenção de **certificações e selos verdes** é hoje uma vantagem competitiva para empresas que querem liderar em sustentabilidade. Além de provar o compromisso ambiental, abrem portas a novos mercados, reduzem riscos e podem gerar benefícios fiscais e reputacionais.
 

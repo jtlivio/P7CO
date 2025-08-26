@@ -1,11 +1,18 @@
----
++++
 title: "Circularidade: O Futuro Sustentável para Empresas e Sociedade"
 intro: "A circularidade é um novo paradigma que está a transformar a forma como produzimos, consumimos e gerimos recursos. Descobre porque é essencial para a sustentabilidade e competitividade das empresas."
 date: 2025-07-23
-image: /proxy/image?path=images/circularidade.jpg
-tags: [EcoResupply, Circularidade, Sustentabilidade, pH7x]
+image: /images/circularidade.jpg
+tags:
+  - EcoResupply
+  - Circularidade
+  - Sustentabilidade
+  - pH7x
 ativo: true
----
++++
+
+Aqui começa o corpo do artigo em Markdown.
+
 
 A **circularidade** é mais do que uma tendência — é uma necessidade urgente para empresas, organizações e toda a sociedade.  
 Num modelo circular, o valor dos produtos, materiais e recursos é mantido pelo maior tempo possível. O desperdício é minimizado, os materiais são reutilizados, reparados, renovados e, no fim de vida, reciclados.
@@ -36,4 +43,3 @@ Acreditamos que, juntos, podemos criar uma economia mais eficiente, competitiva 
 
 **Junta-te à revolução circular!**  
 Descobre como podes participar e fazer parte de uma economia mais sustentável em [ph7x.pt](https://ph7x.pt) ou [contacta-nos](mailto:eco@ph7x.pt) para saber mais.
-

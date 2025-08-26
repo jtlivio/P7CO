@@ -1,0 +1,11 @@
+# FUNDING.yml for p7co-blog
+# This file configures the GitHub Sponsors button.
+
+# Replace with your own usernames/links
+github: jtlivio          # GitHub Sponsors (se activares)
+patreon: ph7xsystems     # Patreon username
+open_collective: p7co    # OpenCollective slug
+ko_fi: ph7xsystems       # Ko-fi username
+custom:
+  - "https://ph7x.pt"    # Custom link (ex: página oficial de donativos)
+

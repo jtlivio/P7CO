@@ -1,12 +1,11 @@
----
-
++++
 title: "Denúncias Ambientais: A Chave para um Futuro Sustentável e Transparente"
 intro: "Descobre por que a participação ativa de cidadãos e empresas é fundamental para proteger o ambiente e como a EcoResupply protege, apoia e potencia denúncias responsáveis, anónimas e seguras."
 date: 2025-07-23
 image: /proxy/image?path=images/denuncias-ambientais.jpg
 tags:  [Denúncia, Sustentabilidade, Ambiente, Transparência, EcoResupply, Cidadania, Proteção]
 ativo: true
------------
++++
 
 # Denúncias Ambientais: A Chave para um Futuro Sustentável e Transparente
 
@@ -76,6 +75,6 @@ Cada participação conta. Denunciar não é "fazer queixa" — é ser agente de
 
 [Saiba como participar ou denuncie aqui](https://ph7x.pt/Complaint/Index)
 
----
++++
 
 > *EcoResupply – Transparência, Proteção e Inovação para todos.*

@@ -1,11 +1,11 @@
----
++++
 title: "Fiabilidade e Responsabilidade na P7CO® EcoResupply: O Compromisso com a Segurança e a Ética"
 intro: "Descobre como garantimos a confiança, a privacidade dos dados e a responsabilidade no funcionamento da plataforma, cumprindo todas as normas legais, técnicas e éticas do setor."
 date: 2025-07-23
 image: /proxy/image?path=images/fiabilidade-plataforma.jpg
 tags:  [Fiabilidade, Segurança, Privacidade, Termos, Cookies, PH7x, P7CO, EcoResupply]
 ativo: true
----
++++
 
 > **Porquê é necessário registo para aceder a algumas funcionalidades?**  
 >  

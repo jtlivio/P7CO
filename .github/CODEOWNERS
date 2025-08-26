@@ -1,0 +1,22 @@
+# CODEOWNERS for p7co-blog
+# This file defines who automatically reviews Pull Requests for specific paths.
+
+# Default owners for all files
+* @jtlivio
+
+# Blog content by language
+/content/blog/en/ @jtlivio
+/content/blog/pt/ @jtlivio
+/content/blog/fr/ @jtlivio
+/content/blog/de/ @jtlivio
+
+# Images
+/images/ @jtlivio
+
+# Governance & meta documents
+README.md @jtlivio
+CONTRIBUTING.md @jtlivio
+CODE_OF_CONDUCT.md @jtlivio
+GOVERNANCE.md @jtlivio
+TRANSLATIONS.md @jtlivio
+SECURITY.md @jtlivio

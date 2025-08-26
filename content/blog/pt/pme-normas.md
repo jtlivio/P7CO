@@ -1,12 +1,11 @@
----
-
++++
 title: "Legislação e Boas Práticas Ambientais: O Essencial para Empresas Circulares"
 intro: "Descobre as principais leis e obrigações ambientais em Portugal e na União Europeia, e garante a conformidade da tua empresa com boas práticas, exemplos práticos e ferramentas digitais para a economia circular."
 date: 2025-07-23
 image: /proxy/image?path=images/legislacao-ambiental.jpg
 tags: [Legislação, Sustentabilidade, PME, Circularidade, Boas Práticas]
 ativo: true
------------
++++
 
 A **legislação ambiental** em Portugal e na União Europeia está em constante evolução, tornando-se cada vez mais rigorosa. Cumprir com a lei não só evita coimas e processos legais, como valoriza a reputação da empresa, abre portas a novos mercados e reduz custos a médio/longo prazo.
 
@@ -76,7 +75,7 @@ A **legislação ambiental** em Portugal e na União Europeia está em constante
 * Participa em formações e webinars de atualização legislativa
 * Faz benchmark com empresas líderes na área
 
----
++++
 
 **A circularidade não é apenas uma tendência — é uma vantagem competitiva e uma obrigação legal.**
 

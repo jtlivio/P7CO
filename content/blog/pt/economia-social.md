@@ -1,12 +1,11 @@
----
-
++++
 title: "Economia Social & Circularidade: Mais Valor, Mais Impacto na Comunidade"
 intro: "Descobre como a reutilização de bens, parcerias sociais e projetos de zero desperdício podem transformar empresas e comunidades, criando impacto social e ambiental positivo. Vê exemplos, oportunidades e como integrar a tua organização neste movimento."
 date: 2025-07-23
 image: /proxy/image?path=images/economia-social-circularidade.jpg
 tags: [Economia Social, Circularidade, ZeroDesperdício, ImpactoSocial, Comunidade, EcoResupply]
 ativo: true
------------
++++
 
 A **economia circular** não é só uma questão ambiental — é também uma alavanca de **inclusão social**, combate ao desperdício e geração de valor real nas comunidades. Cada vez mais, empresas, IPSS, escolas e associações unem esforços para dar uma segunda vida a materiais, equipamentos e bens, promovendo o acesso e o impacto positivo.
 

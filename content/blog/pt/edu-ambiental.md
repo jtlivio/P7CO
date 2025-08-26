@@ -1,12 +1,11 @@
----
-
++++
 title: "Educação Ambiental para Empresas e Colaboradores: Formar para a Sustentabilidade"
 intro: "Saiba como capacitar equipas e organizações para a transição circular através de formação, recursos digitais e comunicação eficaz. Descubra plataformas, boas práticas e o papel da liderança sustentável."
 date: 2025-07-23
 image: /proxy/image?path=images/educacao-ambiental.jpg
 tags:  [Educação, Sustentabilidade, Circularidade, Formação, Empresas, EcoResupply]
 ativo: true
------------
++++
 
 A **educação ambiental** tornou-se uma prioridade estratégica para empresas competitivas e responsáveis. Preparar equipas e colaboradores para a circularidade não é apenas uma exigência legal — é uma alavanca de inovação, reputação e eficiência.
 

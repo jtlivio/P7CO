@@ -1,12 +1,11 @@
----
-
++++
 title: "Parceiros Estratégicos: Vantagens Reais para Empresas, Municípios e Sociedade"
 intro: "Descobre como parcerias com o P7CO® EcoResupply trazem benefícios concretos para organizações que querem liderar na economia circular. Saiba o que ganham empresas, universidades, recicladoras, operadores logísticos, ONGs e municípios."
 date: 2025-07-24
 image: /proxy/image?path=images/parceiros-beneficios.jpg
 tags: [EcoResupply, Parceiros, Circularidade, Sustentabilidade, Benefícios, pH7x]
 ativo: true
------------
++++
 
 A sustentabilidade deixou de ser um objetivo abstrato — é uma vantagem competitiva, uma obrigação legal e uma fonte de inovação.  
 O P7CO® EcoResupply foi desenhado para ligar **parceiros estratégicos** e acelerar a economia circular, criando valor partilhado para todos.

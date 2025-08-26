@@ -30,17 +30,17 @@ Join us and be part of a new generation of solutions: smarter, more collaborativ
 * `content/blog/de/` — Blog posts in German
 * `images/` — Images used in blog posts
 
-All articles are written in **Markdown** with structured YAML frontmatter:
+All articles are written in **Markdown** with structured YAML frontmatter using `+++` delimiters:
 
-```
----
+```yaml
++++
 title: "Sample Blog Post Title"
 intro: "A short introduction for the P7CO EcoResupply blog."
 image: /images/example.jpg
 date: 2025-04-01
 tags: ["Sustainability", "Circular Economy"]
 ativo: true
----
++++
 ```
 
 ---
