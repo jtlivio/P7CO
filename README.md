@@ -2,6 +2,8 @@
 
 [![Content Lint](https://github.com/jtlivio/p7co-blog/actions/workflows/lint.yml/badge.svg)](https://github.com/jtlivio/p7co-blog/actions/workflows/lint.yml)
 
+
+
 **P7CO® EcoResupply Blog**
 Official blog content repository managed by **pH7x Systems®**.
 
