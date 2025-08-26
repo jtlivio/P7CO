@@ -1,7 +1,11 @@
 # p7co-blog
 
+[![Content Lint](https://github.com/jtlivio/p7co-blog/actions/workflows/lint.yml/badge.svg)](https://github.com/jtlivio/p7co-blog/actions/workflows/lint.yml)
+
 **P7CO® EcoResupply Blog**
 Official blog content repository managed by **pH7x Systems®**.
+
+![P7CO® EcoResupply Logo](/images/p7co.png)
 
 ---
 
@@ -42,6 +46,28 @@ tags: ["Sustainability", "Circular Economy"]
 ativo: true
 +++
 ```
+
+---
+
+## 🖼️ Image Requirements
+
+To keep the blog consistent and performant, all images must follow:
+
+* **Format:** `.jpg`
+* **Dimensions:** **1200 × 675 px**
+* **Max size:** **≤ 150 KB**
+
+> Pull Requests with non-conforming images will be rejected automatically by CI.
+
+---
+
+## 🔒 Branch Protection & CI
+
+This repository uses a protected **`main`** branch:
+
+* All changes must come via **Pull Request**.
+* The **Content Lint** workflow must pass before merging.
+* At least **1 review approval** is required.
 
 ---
 
