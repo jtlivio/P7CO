@@ -1,28 +1,53 @@
-name: content-lint
+# .github/workflows/lint.yml
+name: Content Lint
 
 on:
   pull_request:
+    branches: [ main ]
     paths:
-      - 'content/blog/**.md'
+      - 'content/**'
+      - 'images/**'
+      - 'tools/**'
+      - 'package.json'
+      - 'package-lock.json'
   push:
     branches: [ main ]
     paths:
-      - 'content/blog/**.md'
+      - 'content/**'
+      - 'images/**'
+      - 'tools/**'
+      - 'package.json'
+      - 'package-lock.json'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lint-content-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  lint:
+  lint-content:
+    name: Lint posts & images
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: '20'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
 
       - name: Run content linter
         run: npm run lint:content
