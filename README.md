@@ -1,81 +1,72 @@
-# Contributing to P7CO Blog
-
-Thank you for considering contributing to the **P7CO® EcoResupply Blog**!
-We welcome contributions that help improve translations, fix mistakes, or add new articles about sustainability, circularity, environmental responsibility, and technology.
+# P7CO® EcoResupply · Code of Conduct
 
 ---
 
-## 📝 How to Contribute
+## 🌍 Project Introduction
 
-### 1. Reporting Issues
+**Our Mission**  
+To promote a real circular economy in Portugal by simplifying the reuse of surplus and waste through innovative technology.  
+We connect companies, public entities, and citizens, making material reuse simple, transparent, and measurable.
 
-* Use the **GitHub Issues** tab to report problems, typos, or suggestions.
-* Please provide clear context (file, section, language).
+**Our Vision**  
+To become the reference platform for sustainable resource management, inspiring a shift toward a regenerative and collaborative economic model — where every material counts, and every contribution creates positive, measurable impact for society and the planet.
 
-### 2. Submitting Changes
-
-* Fork the repository.
-* Create a new branch for your change:
-  `git checkout -b fix/typo-article1`
-* Make your edits:
-
-  * Blog posts are under `content/blog/{lang}/` where `{lang}` is the language code (e.g. `en`, `pt`).
-  * Images go to the `images/` folder.
-* Commit with a clear message:
-  `git commit -m "Fix typo in Portuguese blog post about recycling"`
-* Open a Pull Request (PR) to the `main` branch.
-
-### 3. Writing a Blog Post
-
-* Add your new post under the correct language folder:
-
-  * `content/blog/en/` for English posts.
-  * `content/blog/pt/` for Portuguese posts.
-* Each post **must** include YAML frontmatter at the top, for example:
-
-```
----
-title: "Title of the Post"
-intro: "Short introduction (1–2 sentences)."
-image: /images/example.jpg
-date: 2025-04-01
-tags: ["Sustainability", "Circular Economy"]
-ativo: true
----
-```
-
-* Use **Markdown syntax** for formatting.
-* Add images to `/images/` and reference them with a relative path.
-
-### 4. Translations
-
-* Translations are welcome!
-* Place translated blog posts in the corresponding folder:
-
-  * `content/blog/en/` for English translations.
-  * `content/blog/pt/` for Portuguese translations.
-* Ensure the frontmatter fields are also translated (title, intro, tags).
+**Circularity**  
+The future begins with every choice: reuse, share, transform!  
+P7CO® EcoResupply is the national community that connects companies, citizens, and organizations to give new life to surpluses.  
+Here, every action matters — contribute to a more circular economy, reduce waste, and inspire real change.  
+Join us and be part of a new generation of solutions: smarter, more collaborative, and more sustainable.
 
 ---
 
-## ✅ Contribution Rules
+## 🇬🇧 Code of Conduct (English)
 
-* **Respectful communication**: follow our [Code of Conduct](CODE_OF_CONDUCT.md).
-* **Clarity**: keep language clear, concise, and accessible.
-* **Accuracy**: verify facts and cite reliable sources.
-* **Neutrality**: avoid political bias; focus on sustainability and technology.
+- Treat everyone with **respect and empathy**.  
+- Avoid discriminatory, offensive, or political language.  
+- Accept constructive criticism and collaborate openly.  
+- Share only content relevant to sustainability, circularity, and technology.  
+- Violations may result in warnings or removal from the community.
+
+Contact: ecoresupply@ph7x.pt
 
 ---
 
-## 🔍 Review & Approval
+## 🇵🇹 Código de Conduta (Português)
 
-* All contributions go through Pull Requests.
-* The pH7x Systems editorial team reviews PRs before merging.
-* Approved PRs will be published automatically in the next site deployment.
+- Trate todos com **respeito e empatia**.  
+- Evite linguagem discriminatória, ofensiva ou política.  
+- Aceite críticas construtivas e colabore de forma aberta.  
+- Partilhe apenas conteúdos relevantes para sustentabilidade, circularidade e tecnologia.  
+- Violações podem resultar em avisos ou exclusão da comunidade.
+
+Contacto: ecoresupply@ph7x.pt
+
+---
+
+## 🇫🇷 Code de Conduite (Français)
+
+- Traitez chacun avec **respect et empathie**.  
+- Évitez le langage discriminatoire, offensant ou politique.  
+- Acceptez les critiques constructives et collaborez ouvertement.  
+- Partagez uniquement du contenu lié à la durabilité, la circularité et la technologie.  
+- Les violations peuvent entraîner des avertissements ou une exclusion de la communauté.
+
+Contact : ecoresupply@ph7x.pt
+
+---
+
+## 🇩🇪 Verhaltenskodex (Deutsch)
+
+- Behandeln Sie alle mit **Respekt und Empathie**.  
+- Vermeiden Sie diskriminierende, beleidigende oder politische Sprache.  
+- Akzeptieren Sie konstruktive Kritik und arbeiten Sie offen zusammen.  
+- Teilen Sie nur Inhalte, die für Nachhaltigkeit, Kreislaufwirtschaft und Technologie relevant sind.  
+- Verstöße können zu Verwarnungen oder zum Ausschluss aus der Community führen.
+
+Kontakt: ecoresupply@ph7x.pt
 
 ---
 
 ## 📜 License
 
-* **Source code (scripts)** → [GPL v3.0](LICENSE)
-* **Content (Markdown, articles, images)** → [CC BY-SA 4.0](LICENSE-content.md)
+This Code of Conduct is adapted from the [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/).
