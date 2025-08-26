@@ -5,7 +5,7 @@
 ## 🌍 Project Introduction
 
 **Our Mission**  
-To promote a real circular economy in Portugal by simplifying the reuse of surplus and waste through innovative technology.  
+To promote a real circular economy worldwide by simplifying the reuse of surplus and waste through innovative technology.  
 We connect companies, public entities, and citizens, making material reuse simple, transparent, and measurable.
 
 **Our Vision**  
@@ -13,7 +13,7 @@ To become the reference platform for sustainable resource management, inspiring 
 
 **Circularity**  
 The future begins with every choice: reuse, share, transform!  
-P7CO® EcoResupply is the national community that connects companies, citizens, and organizations to give new life to surpluses.  
+P7CO® EcoResupply is the international community that connects companies, citizens, and organizations to give new life to surpluses.  
 Here, every action matters — contribute to a more circular economy, reduce waste, and inspire real change.  
 Join us and be part of a new generation of solutions: smarter, more collaborative, and more sustainable.
 
@@ -27,7 +27,7 @@ Join us and be part of a new generation of solutions: smarter, more collaborativ
 - Share only content relevant to sustainability, circularity, and technology.  
 - Violations may result in warnings or removal from the community.
 
-Contact: ecoresupply@ph7x.pt
+Contact: eco@ph7x.pt
 
 ---
 
@@ -39,7 +39,7 @@ Contact: ecoresupply@ph7x.pt
 - Partilhe apenas conteúdos relevantes para sustentabilidade, circularidade e tecnologia.  
 - Violações podem resultar em avisos ou exclusão da comunidade.
 
-Contacto: ecoresupply@ph7x.pt
+Contacto: eco@ph7x.pt
 
 ---
 
@@ -51,7 +51,7 @@ Contacto: ecoresupply@ph7x.pt
 - Partagez uniquement du contenu lié à la durabilité, la circularité et la technologie.  
 - Les violations peuvent entraîner des avertissements ou une exclusion de la communauté.
 
-Contact : ecoresupply@ph7x.pt
+Contact : eco@ph7x.pt
 
 ---
 
@@ -63,7 +63,7 @@ Contact : ecoresupply@ph7x.pt
 - Teilen Sie nur Inhalte, die für Nachhaltigkeit, Kreislaufwirtschaft und Technologie relevant sind.  
 - Verstöße können zu Verwarnungen oder zum Ausschluss aus der Community führen.
 
-Kontakt: ecoresupply@ph7x.pt
+Kontakt: eco@ph7x.pt
 
 ---
 
