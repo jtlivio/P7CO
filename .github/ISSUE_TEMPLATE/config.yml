@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Contribution Guide
+    url: https://github.com/jtlivio/p7co-blog/blob/main/CONTRIBUTING.md
+    about: Please read the contributing guidelines before opening an issue.
