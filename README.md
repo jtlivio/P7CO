@@ -145,10 +145,10 @@ Please read our [Contributing Guide](CONTRIBUTING.md) and follow our [Code of Co
 
 ## 📜 License
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE-arti.md)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE-content.md)
 
-* **Source code (scripts, helpers):** [GNU GPL v3.0](LICENSE)
+* **Source code (scripts, helpers):** [GNU GPL v3.0](LICENSE-arti.md)
 * **Content (articles, images, markdown):** [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE-content.md)
 
 ## 📬 Contact
