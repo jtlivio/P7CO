@@ -1,11 +1,16 @@
-# FUNDING.yml for p7co-blog
-# This file configures the GitHub Sponsors button.
+# .github/FUNDING.yml
+# Configure the "Sponsor" button on GitHub.
 
-# Replace with your own usernames/links
-github: jtlivio          # GitHub Sponsors
-patreon: ph7xsystems     # Patreon username
-open_collective: p7co    # OpenCollective slug
-ko_fi: ph7xsystems       # Ko-fi username
+# When GitHub Sponsors is active for your user/org,
+# uncomment the lines below and keep only valid accounts.
+# github:
+#   - jtlivio
+
+# Other platforms (do not require GitHub validation)
+# patreon: ph7xsystems
+open_collective: p7co
+# ko_fi: ph7xsystems
+
+# Custom links
 custom:
-  - "https://ph7x.pt"    # Custom link
-
+  - https://ph7x.pt
