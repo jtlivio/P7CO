@@ -52,8 +52,16 @@ title: "Sample Blog Post Title"
 intro: "A short introduction for the P7CO EcoResupply blog."
 image: /images/example.jpg
 date: 2025-04-01
+updated_at: 2025-04-02
+category: "guides"
 tags: ["Sustainability", "Circular Economy"]
-ativo: true
+author: "João Tito Livio"
+author_bio: "Founder of pH7x Systems, working on sustainability and circular innovation."
+author_image_url: /images/authors/jtlivio.jpg
+reading_time: 4
+summary: "Extended description for SEO and previews."
+active: true
+slug: "sample-blog-post-title"
 +++
 ```
 
