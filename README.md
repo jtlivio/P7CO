@@ -1,4 +1,4 @@
-# P7CO® EcoResupply Blog
+# P7CO® EcoResupply Blog and UI
 
 Content repository for sustainability, circular economy and innovation articles
 
