@@ -7,7 +7,10 @@ Content repository for sustainability, circular economy and innovation articles
 **P7CO® EcoResupply Blog**
 Official blog content repository managed by **pH7x Systems®**.
 
-![P7CO® EcoResupply Logo](/images/p7co.png)
+<p align="center">
+  <img src="/images/p7co.png" alt="P7CO® EcoResupply Logo" width="240"/>
+</p>
+
 
 ## 🌍 About the Project
 
