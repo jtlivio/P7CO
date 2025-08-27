@@ -43,8 +43,6 @@ Join us and be part of a new generation of solutions: smarter, more collaborativ
   * `ui/es/components/*.json`
 * `images/` — Images used in blog posts
 
-All articles are written in **Markdown** with structured YAML frontmatter using `+++` delimiters:
-
 ## 🙏 Acknowledgements
 
 Special thanks to everyone contributing with **translations**, **content reviews**, and **community feedback**.  
@@ -53,6 +51,8 @@ Your effort helps make the **P7CO® EcoResupply Blog** accessible in multiple la
 If you want to contribute with translations or corrections, please check the [`/ui`](./ui) and [`/content/blog`](./content/blog) folders and open a Pull Request.  
 
 ## 📌 Blog Frontmatter Specification (P7CO® EcoResupply)
+
+All articles are written in **Markdown** with structured YAML frontmatter using `+++` delimiters:
 
 Each article must begin with a **frontmatter block** in YAML, delimited by `+++`.  
 This metadata controls how the blog content is structured, displayed, and indexed.
