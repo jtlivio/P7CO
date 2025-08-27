@@ -1,11 +1,17 @@
 +++
 title: "Certificações e Selos Verdes: Como Valorizar a Sua Empresa"
 intro: "Saiba como as certificações ambientais podem diferenciar a sua empresa, abrir portas a novos mercados e potenciar benefícios fiscais e reputacionais. Descubra quais as mais relevantes e como preparar o seu negócio para ser certificado."
-date: 2025-07-23
 image: /proxy/image?path=images/certificacoes-selos-verdes.jpg
-tags:  [Certificações, Sustentabilidade, ISO14001, RótuloEcológico, PME, EcoResupply]
-ativo: true
+date: 2025-07-23
+category: "guides"
+tags: ["Certificações", "Sustentabilidade", "ISO14001", "RótuloEcológico", "PME", "EcoResupply"]
+author: "P7CO® EcoResupply"
+author_bio: "A P7CO® EcoResupply visa promover uma economia circular real em Portugal, simplificando o reaproveitamento de excedentes e resíduos através de tecnologia inovadora. Ligamos empresas, entidades públicas e cidadãos, tornando a reutilização de materiais simples, transparente e mensurável."
+author_image_url: /proxy/image?path=images/authors/p7co-logo.jpg
+reading_time: 6
+active: true
 +++
+
 
 A obtenção de **certificações e selos verdes** é hoje uma vantagem competitiva para empresas que querem liderar em sustentabilidade. Além de provar o compromisso ambiental, abrem portas a novos mercados, reduzem riscos e podem gerar benefícios fiscais e reputacionais.
 

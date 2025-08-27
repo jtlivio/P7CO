@@ -1,11 +1,17 @@
 +++
 title: "Legislação e Boas Práticas Ambientais: O Essencial para Empresas Circulares"
 intro: "Descobre as principais leis e obrigações ambientais em Portugal e na União Europeia, e garante a conformidade da tua empresa com boas práticas, exemplos práticos e ferramentas digitais para a economia circular."
-date: 2025-07-23
 image: /proxy/image?path=images/legislacao-ambiental.jpg
-tags: [Legislação, Sustentabilidade, PME, Circularidade, Boas Práticas]
-ativo: true
+date: 2025-07-23
+category: "guides"
+tags: ["Legislação", "Sustentabilidade", "PME", "Circularidade", "Boas Práticas"]
+author: "P7CO® EcoResupply"
+author_bio: "A P7CO® EcoResupply visa promover uma economia circular real em Portugal, simplificando o reaproveitamento de excedentes e resíduos através de tecnologia inovadora. Ligamos empresas, entidades públicas e cidadãos, tornando a reutilização de materiais simples, transparente e mensurável."
+author_image_url: /proxy/image?path=images/authors/p7co-logo.jpg
+reading_time: 6
+active: true
 +++
+
 
 A **legislação ambiental** em Portugal e na União Europeia está em constante evolução, tornando-se cada vez mais rigorosa. Cumprir com a lei não só evita coimas e processos legais, como valoriza a reputação da empresa, abre portas a novos mercados e reduz custos a médio/longo prazo.
 
@@ -74,8 +80,6 @@ A **legislação ambiental** em Portugal e na União Europeia está em constante
 * Mantém contacto com consultores ambientais
 * Participa em formações e webinars de atualização legislativa
 * Faz benchmark com empresas líderes na área
-
-+++
 
 **A circularidade não é apenas uma tendência — é uma vantagem competitiva e uma obrigação legal.**
 

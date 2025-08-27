@@ -1,11 +1,17 @@
 +++
 title: "Fiabilidade e Responsabilidade na P7CO® EcoResupply: O Compromisso com a Segurança e a Ética"
 intro: "Descobre como garantimos a confiança, a privacidade dos dados e a responsabilidade no funcionamento da plataforma, cumprindo todas as normas legais, técnicas e éticas do setor."
-date: 2025-07-23
 image: /proxy/image?path=images/fiabilidade-plataforma.jpg
-tags:  [Fiabilidade, Segurança, Privacidade, Termos, Cookies, PH7x, P7CO, EcoResupply]
-ativo: true
+date: 2025-07-23
+category: "guides"
+tags: ["Fiabilidade", "Segurança", "Privacidade", "Termos", "Cookies", "pH7x", "P7CO", "EcoResupply"]
+author: "P7CO® EcoResupply"
+author_bio: "A P7CO® EcoResupply visa promover uma economia circular real em Portugal, simplificando o reaproveitamento de excedentes e resíduos através de tecnologia inovadora. Ligamos empresas, entidades públicas e cidadãos, tornando a reutilização de materiais simples, transparente e mensurável."
+author_image_url: /proxy/image?path=images/authors/p7co-logo.jpg
+reading_time: 6
+active: true
 +++
+
 
 > **Porquê é necessário registo para aceder a algumas funcionalidades?**  
 >  

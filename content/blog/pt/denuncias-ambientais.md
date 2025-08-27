@@ -1,11 +1,17 @@
 +++
 title: "Denúncias Ambientais: A Chave para um Futuro Sustentável e Transparente"
 intro: "Descobre por que a participação ativa de cidadãos e empresas é fundamental para proteger o ambiente e como a EcoResupply protege, apoia e potencia denúncias responsáveis, anónimas e seguras."
-date: 2025-07-23
 image: /proxy/image?path=images/denuncias-ambientais.jpg
-tags:  [Denúncia, Sustentabilidade, Ambiente, Transparência, EcoResupply, Cidadania, Proteção]
-ativo: true
+date: 2025-07-23
+category: "guides"
+tags: ["Denúncia", "Sustentabilidade", "Ambiente", "Transparência", "EcoResupply", "Cidadania", "Proteção"]
+author: "P7CO® EcoResupply"
+author_bio: "A P7CO® EcoResupply visa promover uma economia circular real em Portugal, simplificando o reaproveitamento de excedentes e resíduos através de tecnologia inovadora. Ligamos empresas, entidades públicas e cidadãos, tornando a reutilização de materiais simples, transparente e mensurável."
+author_image_url: /proxy/image?path=images/authors/p7co-logo.jpg
+reading_time: 6
+active: true
 +++
+
 
 # Denúncias Ambientais: A Chave para um Futuro Sustentável e Transparente
 

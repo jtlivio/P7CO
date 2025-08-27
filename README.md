@@ -19,12 +19,12 @@ To promote a real circular economy worldwide by simplifying the reuse of surplus
 We connect companies, public entities, and citizens, making material reuse simple, transparent, and measurable.
 
 **Our Vision**
-To become the reference platform for sustainable resource management, inspiring a shift toward a regenerative and collaborative economic model — where every material counts, and every contribution creates positive, measurable impact for society and the planet.
+To become the reference platform for sustainable resource management, inspiring a shift toward a regenerative and collaborative economic model, where every material counts and every contribution creates positive, measurable impact for society and the planet.
 
 **Circularity**
 The future begins with every choice: reuse, share, transform!
 P7CO® EcoResupply is the international community that connects companies, citizens, and organizations to give new life to surpluses.
-Here, every action matters — contribute to a more circular economy, reduce waste, and inspire real change.
+Here, every action matters. Contribute to a more circular economy, reduce waste, and inspire real change.
 Join us and be part of a new generation of solutions: smarter, more collaborative, and more sustainable.
 
 ## 🗂️ Repository Structure
@@ -96,7 +96,6 @@ author: "João Tito Livio"
 author_bio: "Founder of pH7x Systems"
 author_image_url: /images/authors/jtlivio.jpg
 reading_time: 5
-lang: "en"
 active: true
 +++
 ```

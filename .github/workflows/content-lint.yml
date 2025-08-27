@@ -1,35 +1,38 @@
-# .github/workflows/lint.yml
 name: Content Lint
 
 on:
   pull_request:
     branches: [ main ]
     paths:
-      - 'content/**'
-      - 'images/**'
-      - 'tools/**'
-      - 'package.json'
-      - 'package-lock.json'
+      - "content/**"
+      - "images/**"
+      - "ui/**"
+      - "tools/**"
+      - "package.json"
+      - "package-lock.json"
   push:
     branches: [ main ]
     paths:
-      - 'content/**'
-      - 'images/**'
-      - 'tools/**'
-      - 'package.json'
-      - 'package-lock.json'
+      - "content/**"
+      - "images/**"
+      - "ui/**"
+      - "tools/**"
+      - "package.json"
+      - "package-lock.json"
 
 permissions:
   contents: read
 
 concurrency:
-  group: lint-content-${{ github.ref }}
+  group: content-lint-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  lint-content:
-    name: Lint posts & images
+  lint:
+    name: Lint content & assets
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,7 +40,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'   # <-- sem cache
+          node-version: "20"
+          cache: "npm"
+
+      - name: Show tool versions
+        run: |
+          node -v
+          npm -v
 
       - name: Install dependencies
         run: |
