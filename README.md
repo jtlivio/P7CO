@@ -9,8 +9,6 @@ Official blog content repository managed by **pH7x Systems®**.
 
 ![P7CO® EcoResupply Logo](/images/p7co.png)
 
----
-
 ## 🌍 About the Project
 
 **Our Mission**
@@ -25,8 +23,6 @@ The future begins with every choice: reuse, share, transform!
 P7CO® EcoResupply is the international community that connects companies, citizens, and organizations to give new life to surpluses.
 Here, every action matters — contribute to a more circular economy, reduce waste, and inspire real change.
 Join us and be part of a new generation of solutions: smarter, more collaborative, and more sustainable.
-
----
 
 ## 🗂️ Repository Structure
 
@@ -75,8 +71,6 @@ This metadata controls how the blog content is structured, displayed, and indexe
 - **lang** → Language code (`pt`, `en`, `es`, `fr`, `de`).  
   Usually inferred from folder path (`/content/blog/en/`), but can be explicitly set for validation.
 
----
-
 ### ✅ Example
 
 ```yaml
@@ -108,8 +102,6 @@ To keep the blog consistent and performant, all images must follow:
 
 > Pull Requests with non-conforming images will be rejected automatically by CI.
 
----
-
 ## 🔐 Branch Protection & CI
 
 This repository uses a protected **`main`** branch:
@@ -117,8 +109,6 @@ This repository uses a protected **`main`** branch:
 * All changes must come via **Pull Request**.
 * The **Content Lint** workflow must pass before merging.
 * At least **1 review approval** is required.
-
----
 
 ## 🤝 Contributing
 
@@ -143,8 +133,6 @@ Suggestions, corrections, and translations are welcome via **Issues** or **Pull 
 
 Please read our [Contributing Guide](CONTRIBUTING.md) and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
----
-
 ## 📜 License
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
@@ -152,8 +140,6 @@ Please read our [Contributing Guide](CONTRIBUTING.md) and follow our [Code of Co
 
 * **Source code (scripts, helpers):** [GNU GPL v3.0](LICENSE)
 * **Content (articles, images, markdown):** [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE-content.md)
-
----
 
 ## 📬 Contact
 
