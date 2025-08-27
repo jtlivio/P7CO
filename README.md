@@ -46,6 +46,39 @@ Join us and be part of a new generation of solutions: smarter, more collaborativ
 
 All articles are written in **Markdown** with structured YAML frontmatter using `+++` delimiters:
 
+## 📌 Blog Frontmatter Specification (P7CO® EcoResupply)
+
+Each article must begin with a **frontmatter block** in YAML, delimited by `+++`.  
+This metadata controls how the blog content is structured, displayed, and indexed.
+
+### Required fields
+- **title** → Main article title (used in headers and listing cards).
+- **intro** → Short introduction (used in previews and summaries).
+- **image** → Path to the cover image (1200×675 px, ≤150 KB).
+- **date** → Publication date (`YYYY-MM-DD`).
+- **active** → Controls visibility (`true` or `false`).
+
+### Recommended fields
+- **updated_at** → Last updated date (helps with SEO and freshness).
+- **category** → Main category of the article (`guides`, `news`, `case-studies`, `esg`, `tech`).
+- **tags** → Array of keywords (e.g. `["Sustainability", "Circular Economy"]`).
+- **summary** → Extended SEO description for search engines and social previews.
+- **slug** → Unique identifier for the URL (defaults to file name but can be overridden).
+
+### Author fields
+- **author** → Name of the main author.
+- **author_bio** → Short biography or role.
+- **author_image_url** → Author’s photo (e.g. `/images/authors/jtlivio.jpg`).
+
+### Optional fields
+- **reading_time** → Estimated reading time in minutes.
+- **lang** → Language code (`pt`, `en`, `es`, `fr`, `de`).  
+  Usually inferred from folder path (`/content/blog/en/`), but can be explicitly set for validation.
+
+---
+
+### ✅ Example
+
 ```yaml
 +++
 title: "Sample Blog Post Title"
@@ -56,14 +89,12 @@ updated_at: 2025-04-02
 category: "guides"
 tags: ["Sustainability", "Circular Economy"]
 author: "João Tito Livio"
-author_bio: "Founder of pH7x Systems, working on sustainability and circular innovation."
+author_bio: "Founder of pH7x Systems"
 author_image_url: /images/authors/jtlivio.jpg
-reading_time: 4
-summary: "Extended description for SEO and previews."
+reading_time: 5
+lang: "en"
 active: true
-slug: "sample-blog-post-title"
 +++
-```
 
 ---
 
