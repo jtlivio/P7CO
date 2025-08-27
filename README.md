@@ -45,6 +45,13 @@ Join us and be part of a new generation of solutions: smarter, more collaborativ
 
 All articles are written in **Markdown** with structured YAML frontmatter using `+++` delimiters:
 
+## 🙏 Acknowledgements
+
+Special thanks to everyone contributing with **translations**, **content reviews**, and **community feedback**.  
+Your effort helps make the **P7CO® EcoResupply Blog** accessible in multiple languages and relevant for a global audience.  
+
+If you want to contribute with translations or corrections, please check the [`/ui`](./ui) and [`/content/blog`](./content/blog) folders and open a Pull Request.  
+
 ## 📌 Blog Frontmatter Specification (P7CO® EcoResupply)
 
 Each article must begin with a **frontmatter block** in YAML, delimited by `+++`.  
