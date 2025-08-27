@@ -7,5 +7,5 @@ patreon: ph7xsystems     # Patreon username
 open_collective: p7co    # OpenCollective slug
 ko_fi: ph7xsystems       # Ko-fi username
 custom:
-  - "https://ph7x.pt"    # Custom link (ex: página oficial de donativos)
+  - "https://ph7x.pt"    # Custom link
 
