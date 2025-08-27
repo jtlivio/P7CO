@@ -1,7 +1,8 @@
-# P7CO® EcoResupply Blog  
+# P7CO® EcoResupply Blog
+
 Content repository for sustainability, circular economy and innovation articles
 
-[![Content Lint](https://github.com/jtlivio/p7co-blog/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/p7co-blog/actions/workflows/content-lint.yml)
+[![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml)
 
 **P7CO® EcoResupply Blog**
 Official blog content repository managed by **pH7x Systems®**.
@@ -27,12 +28,20 @@ Join us and be part of a new generation of solutions: smarter, more collaborativ
 
 ---
 
-## 📂 Repository Structure
+## 🗂️ Repository Structure
 
 * `content/blog/pt/` — Blog posts in Portuguese
 * `content/blog/en/` — Blog posts in English
 * `content/blog/fr/` — Blog posts in French
 * `content/blog/de/` — Blog posts in German
+* `content/blog/es/` — Blog posts in Spanish (**new**)
+* `ui/` — JSON files for UI translation (non-application scope)
+
+  * `ui/pt/components/*.json`
+  * `ui/en/components/*.json`
+  * `ui/fr/components/*.json`
+  * `ui/de/components/*.json`
+  * `ui/es/components/*.json`
 * `images/` — Images used in blog posts
 
 All articles are written in **Markdown** with structured YAML frontmatter using `+++` delimiters:
@@ -62,7 +71,7 @@ To keep the blog consistent and performant, all images must follow:
 
 ---
 
-## 🔒 Branch Protection & CI
+## 🔐 Branch Protection & CI
 
 This repository uses a protected **`main`** branch:
 
@@ -76,6 +85,22 @@ This repository uses a protected **`main`** branch:
 
 This repository is **public but protected** — only the pH7x Systems team can commit directly.
 Suggestions, corrections, and translations are welcome via **Issues** or **Pull Requests**.
+
+### Contribution Rules
+
+* **Blog (`/content/blog/{lang}`)**
+
+  * Only `.md` files are allowed.
+  * Maximum file size: **100 KB**.
+  * Mandatory frontmatter: `title`, `intro`, `image`, `date`, `ativo`.
+  * Only UTF-8 valid characters (no invalid control chars).
+
+* **UI (`/ui/{lang}`)**
+
+  * Only `.json` files are allowed.
+  * Structure: flat key-value (`"key": "value"`).
+  * No HTML or JavaScript inside values.
+  * Must validate as strict JSON (`jq . file.json`).
 
 Please read our [Contributing Guide](CONTRIBUTING.md) and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
@@ -95,4 +120,4 @@ Please read our [Contributing Guide](CONTRIBUTING.md) and follow our [Code of Co
 
 For questions, suggestions, or partnerships:
 🌐 [ph7x.pt](https://ph7x.pt)
-✉️ [eco@ph7x.pt](mailto:eco@ph7x.pt)
+📩 [eco@ph7x.pt](mailto:eco@ph7x.pt)
