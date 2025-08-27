@@ -95,7 +95,7 @@ reading_time: 5
 lang: "en"
 active: true
 +++
-
+```
 ---
 
 ## 🖼️ Image Requirements
