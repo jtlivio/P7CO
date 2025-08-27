@@ -154,4 +154,4 @@ Please read our [Contributing Guide](CONTRIBUTING.md) and follow our [Code of Co
 
 For questions, suggestions, or partnerships:
 🌐 [ph7x.pt](https://ph7x.pt)
-📩 [eco@ph7x.pt](mailto:eco@ph7x.pt)
+📩 [hello@p7co.org](mailto:hello@p7co.org)

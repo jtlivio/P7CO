@@ -23,7 +23,7 @@ Join us and be part of a new generation of solutions: smarter, more collaborativ
 * Share only content relevant to sustainability, circularity, and technology.
 * Violations may result in warnings or removal from the community.
 
-Contact: [eco@ph7x.pt](mailto:eco@ph7x.pt)
+Contact: [hello@p7co.org](mailto:hello@p7co.org)
 
 ## 🇵🇹 Código de Conduta (Português)
 
@@ -33,7 +33,7 @@ Contact: [eco@ph7x.pt](mailto:eco@ph7x.pt)
 * Partilhe apenas conteúdos relevantes para sustentabilidade, circularidade e tecnologia.
 * Violações podem resultar em avisos ou exclusão da comunidade.
 
-Contacto: [eco@ph7x.pt](mailto:eco@ph7x.pt)
+Contacto: [hello@p7co.org](mailto:hello@p7co.org)
 
 ## 🇵🇹 Código de Conducta (Español)
 
@@ -43,7 +43,7 @@ Contacto: [eco@ph7x.pt](mailto:eco@ph7x.pt)
 * Comparta solo contenido relevante para sostenibilidad, circularidad y tecnología.
 * Las violaciones pueden resultar en advertencias o exclusión de la comunidad.
 
-Contacto: [eco@ph7x.pt](mailto:eco@ph7x.pt)
+Contacto: [hello@p7co.org](mailto:hello@p7co.org)
 
 ## 🇫🇷 Code de Conduite (Français)
 
@@ -53,7 +53,7 @@ Contacto: [eco@ph7x.pt](mailto:eco@ph7x.pt)
 * Partagez uniquement du contenu lié à la durabilité, la circularité et la technologie.
 * Les violations peuvent entraîner des avertissements ou une exclusion de la communauté.
 
-Contact : [eco@ph7x.pt](mailto:eco@ph7x.pt)
+Contact : [hello@p7co.org](mailto:hello@p7co.org)
 
 ## 🇩🇪 Verhaltenskodex (Deutsch)
 
@@ -63,7 +63,7 @@ Contact : [eco@ph7x.pt](mailto:eco@ph7x.pt)
 * Teilen Sie nur Inhalte, die für Nachhaltigkeit, Kreislaufwirtschaft und Technologie relevant sind.
 * Verstöße können zu Verwarnungen oder zum Ausschluss aus der Community führen.
 
-Kontakt: [eco@ph7x.pt](mailto:eco@ph7x.pt)
+Kontakt: [hello@p7co.org](mailto:hello@p7co.org)
 
 ## 📜 License
 

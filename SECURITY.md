@@ -14,7 +14,7 @@ If you discover a security vulnerability:
 - **Do not** open a public Issue or Pull Request.  
 - Instead, report it directly and privately to our security team:
 
-✉️ Email: eco@ph7x.pt  
+✉️ Email: hello@p7co.org  
 🔗 Website: [ph7x.pt](https://ph7x.pt)
 
 ## ⚡ Response Process

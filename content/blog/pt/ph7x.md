@@ -57,4 +57,4 @@ Para além da tecnologia, a fiabilidade assenta em princípios de ética, inclus
 - A P7CO® EcoResupply não é responsável pelos conteúdos publicados pelos utilizadores, mas remove e bloqueia contas em caso de violação grave dos termos.
 
 **Mais informações ou dúvidas?**  
-Contacte-nos em [eco@ph7x.pt](mailto:eco@ph7x.pt) ou consulte os nossos recursos oficiais em [ph7x.pt](https://ph7x.pt) e [ph7x.com](https://ph7x.com).
+Contacte-nos em [hello@p7co.org](mailto:hello@p7co.org) ou consulte os nossos recursos oficiais em [ph7x.pt](https://ph7x.pt) e [ph7x.com](https://ph7x.com).

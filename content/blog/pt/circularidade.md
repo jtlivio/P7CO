@@ -45,4 +45,4 @@ Somos o elo digital entre empresas que querem transformar o excedente em oportun
 Acreditamos que, juntos, podemos criar uma economia mais eficiente, competitiva e amiga do ambiente.
 
 **Junta-te à revolução circular!**  
-Descobre como podes participar e fazer parte de uma economia mais sustentável em [ph7x.pt](https://ph7x.pt) ou [contacta-nos](mailto:eco@ph7x.pt) para saber mais.
+Descobre como podes participar e fazer parte de uma economia mais sustentável em [ph7x.pt](https://ph7x.pt) ou [contacta-nos](mailto:hello@p7co.org) para saber mais.
