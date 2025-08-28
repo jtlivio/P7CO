@@ -4,14 +4,12 @@ Content repository for sustainability, circular economy and innovation articles
 
 [![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml) [![Crowdin](https://badges.crowdin.net/p7co/localized.svg)](https://crowdin.com/project/p7co)
 
-
 **P7CO® EcoResupply Blog**
 Official blog content repository managed by **pH7x Systems®**.
 
 <p align="center">
   <img src="/images/p7co.png" alt="P7CO® EcoResupply Logo" width="240"/>
 </p>
-
 
 ## 🌍 About the Project
 
@@ -46,40 +44,52 @@ Join us and be part of a new generation of solutions: smarter, more collaborativ
 
 ## 🙏 Acknowledgements
 
-Special thanks to everyone contributing with **translations**, **content reviews**, and **community feedback**.  
-Your effort helps make the **P7CO® EcoResupply Blog** accessible in multiple languages and relevant for a global audience.  
+Special thanks to everyone contributing with **translations**, **content reviews**, and **community feedback**.
+Your effort helps make the **P7CO® EcoResupply Blog** accessible in multiple languages and relevant for a global audience.
 
-If you want to contribute with translations or corrections, please check the [`/ui`](./ui) and [`/content/blog`](./content/blog) folders and open a Pull Request.  
+## 🌐 Crowdin Integration
+
+This repository is connected to [Crowdin](https://crowdin.com/project/p7co) for collaborative translations.  
+
+- **Source language:** English (`/content/blog/en/`, `/ui/en/`)  
+- **Target languages:** Portuguese, Spanish, French, German  
+- Translations are managed in Crowdin and synced back to this repository via GitHub Actions.  
+
+If you want to contribute with translations or corrections, please check the [`/ui`](./ui) and [`/content/blog`](./content/blog) folders and open a Pull Request.
 
 ## 📌 Blog Frontmatter Specification (P7CO® EcoResupply)
 
 All articles are written in **Markdown** with structured YAML frontmatter using `+++` delimiters:
 
-Each article must begin with a **frontmatter block** in YAML, delimited by `+++`.  
+Each article must begin with a **frontmatter block** in YAML, delimited by `+++`.
 This metadata controls how the blog content is structured, displayed, and indexed.
 
 ### Required fields
-- **title** → Main article title (used in headers and listing cards).
-- **intro** → Short introduction (used in previews and summaries).
-- **image** → Path to the cover image (1200×675 px, ≤150 KB).
-- **date** → Publication date (`YYYY-MM-DD`).
-- **active** → Controls visibility (`true` or `false`).
+
+* **title** → Main article title (used in headers and listing cards).
+* **intro** → Short introduction (used in previews and summaries).
+* **image** → Path to the cover image (1200×675 px, ≤150 KB).
+* **date** → Publication date (`YYYY-MM-DD`).
+* **active** → Controls visibility (`true` or `false`).
 
 ### Recommended fields
-- **updated_at** → Last updated date (helps with SEO and freshness).
-- **category** → Main category of the article (`guides`, `news`, `case-studies`, `esg`, `tech`).
-- **tags** → Array of keywords (e.g. `["Sustainability", "Circular Economy"]`).
-- **summary** → Extended SEO description for search engines and social previews.
-- **slug** → Unique identifier for the URL (defaults to file name but can be overridden).
+
+* **updated\_at** → Last updated date (helps with SEO and freshness).
+* **category** → Main category of the article (`guides`, `news`, `case-studies`, `esg`, `tech`).
+* **tags** → Array of keywords (e.g. `["Sustainability", "Circular Economy"]`).
+* **summary** → Extended SEO description for search engines and social previews.
+* **slug** → Unique identifier for the URL (defaults to file name but can be overridden).
 
 ### Author fields
-- **author** → Name of the main author.
-- **author_bio** → Short biography or role.
-- **author_image_url** → Author’s photo (e.g. `/images/authors/jtlivio.jpg`).
+
+* **author** → Name of the main author.
+* **author\_bio** → Short biography or role.
+* **author\_image\_url** → Author’s photo (e.g. `/images/authors/jtlivio.jpg`).
 
 ### Optional fields
-- **reading_time** → Estimated reading time in minutes.
-- **lang** → Language code (`pt`, `en`, `es`, `fr`, `de`).  
+
+* **reading\_time** → Estimated reading time in minutes.
+* **lang** → Language code (`pt`, `en`, `es`, `fr`, `de`).
   Usually inferred from folder path (`/content/blog/en/`), but can be explicitly set for validation.
 
 ### ✅ Example
@@ -88,19 +98,15 @@ This metadata controls how the blog content is structured, displayed, and indexe
 +++
 title: "Sample Blog Post Title"
 intro: "A short introduction for the P7CO EcoResupply blog."
-image: /images/example.jpg
+image: /proxy/image?path=images/example.jpg
 date: 2025-04-01
 updated_at: 2025-04-02
 category: "guides"
 tags: ["Sustainability", "Circular Economy"]
-author: "João Tito Livio"
-author_bio: "Founder of pH7x Systems"
-author_image_url: /images/authors/jtlivio.jpg
 reading_time: 5
 active: true
 +++
 ```
----
 
 ## 🖼️ Image Requirements
 
@@ -131,7 +137,7 @@ Suggestions, corrections, and translations are welcome via **Issues** or **Pull 
 
   * Only `.md` files are allowed.
   * Maximum file size: **100 KB**.
-  * Mandatory frontmatter: `title`, `intro`, `image`, `date`, `ativo`.
+  * Mandatory frontmatter: `title`, `intro`, `image`, `date`, `active`.
   * Only UTF-8 valid characters (no invalid control chars).
 
 * **UI (`/ui/{lang}`)**
@@ -155,8 +161,8 @@ Please read our [Contributing Guide](CONTRIBUTING.md) and follow our [Code of Co
 
 You can support the **P7CO® EcoResupply Blog** via:
 
-- [Patreon](https://www.patreon.com/p7co)
-- [OpenCollective](https://opencollective.com/p7co)
+* [Patreon](https://www.patreon.com/p7co)
+* [OpenCollective](https://opencollective.com/p7co)
 
 ## 📬 Contact
 
