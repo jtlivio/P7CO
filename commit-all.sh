@@ -1,18 +1,33 @@
 #!/bin/bash
-set -e
+set -euo pipefail
 
-# Commit e push no submódulo (Wiki)
+# --- Submódulo (Wiki) ---
 cd content/wiki
 git add -A
 if ! git diff --cached --quiet; then
-  git commit -m "chore: auto-commit wiki updates"
-  git push origin HEAD
+  msg="chore: auto-commit wiki updates ($(date -u '+%Y-%m-%d %H:%M:%S UTC'))"
+  git commit -m "$msg"
+  git push origin HEAD:master
+  echo "✅ Wiki committed & pushed: $msg"
+else
+  echo "ℹ️  No changes to commit in Wiki"
 fi
 cd ../..
 
-# Commit e push no repositório principal
+# --- Repo principal ---
+current_branch="$(git rev-parse --abbrev-ref HEAD)"
+if git rev-parse --abbrev-ref --symbolic-full-name @{u} >/dev/null 2>&1; then
+  git pull --rebase --autostash
+else
+  echo "ℹ️  No upstream set for '$current_branch' — skipping rebase"
+fi
+
 git add -A
 if ! git diff --cached --quiet; then
-  git commit -m "chore: auto-commit project updates"
+  msg="chore: auto-commit project updates ($(date -u '+%Y-%m-%d %H:%M:%S UTC'))"
+  git commit -m "$msg"
   git push origin HEAD
+  echo "✅ Project committed & pushed on '$current_branch': $msg"
+else
+  echo "ℹ️  No changes to commit in Project"
 fi
