@@ -153,5 +153,5 @@ Please read our [Contributing Guide](CONTRIBUTING.md) and follow our [Code of Co
 ## 📬 Contact
 
 For questions, suggestions, or partnerships:
-🌐 [ph7x.pt](https://ph7x.pt)
+🌐 [p7co.org](https://p7co.org)
 📩 [hello@p7co.org](mailto:hello@p7co.org)

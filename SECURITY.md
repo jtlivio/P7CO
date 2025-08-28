@@ -15,7 +15,7 @@ If you discover a security vulnerability:
 - Instead, report it directly and privately to our security team:
 
 ✉️ Email: hello@p7co.org  
-🔗 Website: [ph7x.pt](https://ph7x.pt)
+🔗 Website: [p7co.org](https://p7co.org)
 
 ## ⚡ Response Process
 

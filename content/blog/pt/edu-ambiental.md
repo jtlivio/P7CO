@@ -48,4 +48,4 @@ A **educação ambiental** tornou-se uma prioridade estratégica para empresas c
 * **Medir e comunicar resultados**: Usar indicadores (KPI), relatórios e dashboards para mostrar evolução e impacto ambiental.
 
 **Aposta numa equipa capacitada — o futuro sustentável começa com a formação de hoje.**
-[Contacta a EcoResupply](https://ph7x.pt/Home/Contact) para planos de formação ou integração de recursos educativos na tua organização.
+[Contacta a EcoResupply](https://p7co.org/Home/Contact) para planos de formação ou integração de recursos educativos na tua organização.

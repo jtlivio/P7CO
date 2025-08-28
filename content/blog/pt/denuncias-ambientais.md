@@ -33,7 +33,7 @@ A maioria dos crimes ambientais passa despercebida ou é resolvida tardiamente s
 2. **Anonimato e Proteção:**
 
    * As denúncias podem ser submetidas de forma totalmente anónima, mas com necessidade de login para evitar spam e abusos.
-   * Garantimos que o IP e os dados do denunciante não são registados nem partilhados com terceiros, veja a nossa [Política Pricavidade](https://ph7x.pt/Home/Privacy)
+   * Garantimos que o IP e os dados do denunciante não são registados nem partilhados com terceiros, veja a nossa [Política Pricavidade](https://p7co.org/Home/Privacy)
 
 3. **Encaminhamento imediato:**
 
@@ -71,7 +71,7 @@ A maioria dos crimes ambientais passa despercebida ou é resolvida tardiamente s
 
 **E se eu quiser apenas alertar, sem denunciar formalmente?**
 
-> Usa o botão "Não Gosto" ou envia-nos um [comentário privado](https://ph7x.pt/Home/Contact). Nem tudo é crime — a sensibilização também conta!
+> Usa o botão "Não Gosto" ou envia-nos um [comentário privado](https://p7co.org/Home/Contact). Nem tudo é crime — a sensibilização também conta!
 
 ## A importância do cidadão ativo
 
@@ -79,7 +79,7 @@ Cada participação conta. Denunciar não é "fazer queixa" — é ser agente de
 
 **Exerça o seu direito, proteja o ambiente!**
 
-[Saiba como participar ou denuncie aqui](https://ph7x.pt/Complaint/Index)
+[Saiba como participar ou denuncie aqui](https://p7co.org/Complaint/Index)
 
 +++
 

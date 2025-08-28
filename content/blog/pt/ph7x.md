@@ -33,13 +33,13 @@ A plataforma é alojada em infraestruturas seguras e utiliza tecnologias robusta
 
 A privacidade dos utilizadores é uma prioridade máxima. Cumprimos o **Regulamento Geral sobre a Proteção de Dados (RGPD)** e toda a legislação nacional e europeia aplicável:
 
-- **Política de Privacidade:** Todos os dados são tratados de acordo com a [Política de Privacidade](https://ph7x.pt/Home/Privacy) publicada, que detalha como são recolhidos, utilizados e protegidos.
-- **Gestão de Cookies:** Utilizamos cookies apenas para funcionalidades essenciais, estatísticas e melhoria da experiência de utilização. A gestão dos cookies é explicada na nossa [Política de Cookies](https://ph7x.pt/Home/Cookies).
+- **Política de Privacidade:** Todos os dados são tratados de acordo com a [Política de Privacidade](https://p7co.org/Home/Privacy) publicada, que detalha como são recolhidos, utilizados e protegidos.
+- **Gestão de Cookies:** Utilizamos cookies apenas para funcionalidades essenciais, estatísticas e melhoria da experiência de utilização. A gestão dos cookies é explicada na nossa [Política de Cookies](https://p7co.org/Home/Cookies).
 - Os dados não são partilhados com terceiros sem consentimento explícito, exceto nos casos exigidos por lei ou para cumprimento de obrigações contratuais.
 
 ## 3. Termos de Utilização e Responsabilidade
 
-O acesso e uso da plataforma estão sujeitos aos [Termos e Condições de Utilização](https://ph7x.pt/Home/Terms), que regulam:
+O acesso e uso da plataforma estão sujeitos aos [Termos e Condições de Utilização](https://p7co.org/Home/Terms), que regulam:
 
 - Direitos e deveres dos utilizadores
 - Limitações de responsabilidade da plataforma e da pH7x Systems®
@@ -57,4 +57,4 @@ Para além da tecnologia, a fiabilidade assenta em princípios de ética, inclus
 - A P7CO® EcoResupply não é responsável pelos conteúdos publicados pelos utilizadores, mas remove e bloqueia contas em caso de violação grave dos termos.
 
 **Mais informações ou dúvidas?**  
-Contacte-nos em [hello@p7co.org](mailto:hello@p7co.org) ou consulte os nossos recursos oficiais em [ph7x.pt](https://ph7x.pt) e [ph7x.com](https://ph7x.com).
+Contacte-nos em [hello@p7co.org](mailto:hello@p7co.org) ou consulte os nossos recursos oficiais em [p7co.org](https://p7co.org) e [ph7x.com](https://ph7x.com).

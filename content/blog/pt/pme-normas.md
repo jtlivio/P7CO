@@ -70,7 +70,7 @@ A **legislação ambiental** em Portugal e na União Europeia está em constante
 
 * [APA - Agência Portuguesa do Ambiente](https://apambiente.pt)
 * [SIRER - Registo Eletrónico de Resíduos]()
-* [EcoResupply - Plataforma Circular](https://ph7x.pt)
+* [EcoResupply - Plataforma Circular](https://p7co.org)
 * [WasteApp - app gestão de resíduos e compliance](https://wasteapp.pt)
 * [eAmbiente - soluções para PME e municípios]()
 

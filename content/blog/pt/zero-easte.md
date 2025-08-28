@@ -66,4 +66,4 @@ A inovação é o motor do progresso na economia circular — e está a acelerar
   *Exemplo:* Parcerias entre escolas e autarquias para promover o “zero waste” no dia-a-dia.
 
 **Queres saber como inovar na tua empresa?**  
-Descobre as soluções EcoResupply e junta-te à comunidade circular. [Contacta-nos](https://ph7x.pt/Home/Contact) para uma demonstração ou consultoria.
+Descobre as soluções EcoResupply e junta-te à comunidade circular. [Contacta-nos](https://p7co.org/Home/Contact) para uma demonstração ou consultoria.

@@ -51,4 +51,4 @@ A obtenção de **certificações e selos verdes** é hoje uma vantagem competit
 
 **Valorize a sua empresa com certificações verdes!**
 A EcoResupply pode ajudar no diagnóstico, preparação e manutenção da certificação ambiental da sua empresa.
-[Contacte-nos para apoio ou consultoria](https://ph7x.pt/Home/Contact)
+[Contacte-nos para apoio ou consultoria](https://p7co.org/Home/Contact)

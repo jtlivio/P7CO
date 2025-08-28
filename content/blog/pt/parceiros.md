@@ -81,4 +81,4 @@ Ser parceiro P7CO® EcoResupply não é apenas usar uma ferramenta digital, é f
 Quer saber como a sua organização pode beneficiar desta parceria?
 Fale connosco — juntos criamos valor, reduzimos custos e tornamos Portugal mais circular.
 
-[Contacte-nos](mailto:hello@p7co.org) | [ph7x.pt](https://ph7x.pt) | [LinkedIn](https://www.linkedin.com/company/107601974)
+[Contacte-nos](mailto:hello@p7co.org) | [p7co.org](https://p7co.org) | [LinkedIn](https://www.linkedin.com/company/107601974)

@@ -42,4 +42,4 @@ O EcoResupply é a ponte entre o setor empresarial, social e educativo — permi
 * Fomentar parcerias para inovação social, sustentabilidade e combate ao desperdício.
 
 **Queres saber como integrar a tua empresa, IPSS ou associação neste movimento?**
-[Contacta-nos](https://ph7x.pt/Home/Contact) para apoio personalizado, protocolos ou consultoria de impacto social.
+[Contacta-nos](https://p7co.org/Home/Contact) para apoio personalizado, protocolos ou consultoria de impacto social.
