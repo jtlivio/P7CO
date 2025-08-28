@@ -2,7 +2,8 @@
 
 Content repository for sustainability, circular economy and innovation articles
 
-[![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml)
+[![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml) [![Crowdin](https://badges.crowdin.net/p7co/localized.svg)](https://crowdin.com/project/p7co)
+
 
 **P7CO® EcoResupply Blog**
 Official blog content repository managed by **pH7x Systems®**.
