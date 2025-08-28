@@ -150,6 +150,13 @@ Please read our [Contributing Guide](CONTRIBUTING.md) and follow our [Code of Co
 * **Source code (scripts, helpers):** [GNU GPL v3.0](LICENSE-arti.md)
 * **Content (articles, images, markdown):** [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE-content.md)
 
+## 💚 Support this Project
+
+You can support the **P7CO® EcoResupply Blog** via:
+
+- [Patreon](https://www.patreon.com/p7co)
+- [OpenCollective](https://opencollective.com/p7co)
+
 ## 📬 Contact
 
 For questions, suggestions, or partnerships:
