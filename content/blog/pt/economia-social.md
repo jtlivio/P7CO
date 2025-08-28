@@ -1,17 +1,13 @@
 +++
-title: "Economia Social & Circularidade: Mais Valor, Mais Impacto na Comunidade"
-intro: "Descobre como a reutilização de bens, parcerias sociais e projetos de zero desperdício podem transformar empresas e comunidades, criando impacto social e ambiental positivo. Vê exemplos, oportunidades e como integrar a tua organização neste movimento."
-image: /proxy/image?path=images/economia-social-circularidade.jpg
-date: 2025-07-23
-category: "guides"
-tags: ["Economia Social", "Circularidade", "ZeroDesperdício", "ImpactoSocial", "Comunidade", "EcoResupply"]
-author: "P7CO® EcoResupply"
-author_bio: "A P7CO® EcoResupply visa promover uma economia circular real em Portugal, simplificando o reaproveitamento de excedentes e resíduos através de tecnologia inovadora. Ligamos empresas, entidades públicas e cidadãos, tornando a reutilização de materiais simples, transparente e mensurável."
-author_image_url: /proxy/image?path=images/authors/p7co-logo.jpg
-reading_time: 6
-active: true
+title = "Economia Social & Circularidade: Mais Valor, Mais Impacto na Comunidade"
+intro = "Descobre como a reutilização de bens, parcerias sociais e projetos de zero desperdício podem transformar empresas e comunidades, criando impacto social e ambiental positivo. Vê exemplos, oportunidades e como integrar a tua organização neste movimento."
+image = "/proxy/image?path=images/economia-social-circularidade.jpg"
+date = 2025-07-23
+category = "guides"
+tags = ["Economia Social", "Circularidade", "ZeroDesperdício", "ImpactoSocial", "Comunidade", "EcoResupply"]
+reading_time = 6
+active = true
 +++
-
 
 A **economia circular** não é só uma questão ambiental — é também uma alavanca de **inclusão social**, combate ao desperdício e geração de valor real nas comunidades. Cada vez mais, empresas, IPSS, escolas e associações unem esforços para dar uma segunda vida a materiais, equipamentos e bens, promovendo o acesso e o impacto positivo.
 

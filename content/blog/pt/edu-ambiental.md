@@ -1,17 +1,13 @@
 +++
-title: "Educação Ambiental para Empresas e Colaboradores: Formar para a Sustentabilidade"
-intro: "Saiba como capacitar equipas e organizações para a transição circular através de formação, recursos digitais e comunicação eficaz. Descubra plataformas, boas práticas e o papel da liderança sustentável."
-image: /proxy/image?path=images/educacao-ambiental.jpg
-date: 2025-07-23
-category: "guides"
-tags: ["Educação", "Sustentabilidade", "Circularidade", "Formação", "Empresas", "EcoResupply"]
-author: "P7CO® EcoResupply"
-author_bio: "A P7CO® EcoResupply visa promover uma economia circular real em Portugal, simplificando o reaproveitamento de excedentes e resíduos através de tecnologia inovadora. Ligamos empresas, entidades públicas e cidadãos, tornando a reutilização de materiais simples, transparente e mensurável."
-author_image_url: /proxy/image?path=images/authors/p7co-logo.jpg
-reading_time: 6
-active: true
+title = "Educação Ambiental para Empresas e Colaboradores: Formar para a Sustentabilidade"
+intro = "Saiba como capacitar equipas e organizações para a transição circular através de formação, recursos digitais e comunicação eficaz. Descubra plataformas, boas práticas e o papel da liderança sustentável."
+image = "/proxy/image?path=images/educacao-ambiental.jpg"
+date = 2025-07-23
+category = "guides"
+tags = ["Educação", "Sustentabilidade", "Circularidade", "Formação", "Empresas", "EcoResupply"]
+reading_time = 6
+active = true
 +++
-
 
 A **educação ambiental** tornou-se uma prioridade estratégica para empresas competitivas e responsáveis. Preparar equipas e colaboradores para a circularidade não é apenas uma exigência legal — é uma alavanca de inovação, reputação e eficiência.
 

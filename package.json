@@ -1,14 +1,18 @@
 {
-  "name": "p7co-blog",
+  "name": "p7co",
   "private": true,
   "version": "1.0.0",
   "description": "**P7CO® EcoResupply Blog** Official blog content repository managed by **pH7x Systems®**.",
   "main": "index.js",
   "scripts": {
     "lint:content": "node tools/content-lint.js",
-      "devDependencies": { "gray-matter": "^4.0.3", "sharp": "^0.33.4" }
+    "devDependencies": {
+      "gray-matter": "^4.0.3",
+      "sharp": "^0.33.4"
+    }
   },
   "devDependencies": {
+    "@iarna/toml": "^2.2.5",
     "gray-matter": "^4.0.3",
     "sharp": "^0.33.0"
   },
