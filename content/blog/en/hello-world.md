@@ -1,10 +1,16 @@
 +++
-title: "Hello from P7CO"
-intro: "Short intro in English."
-image: /images/example.jpg
-date: 2025-04-01
-tags: ["Sustainability"]
-active: true
+title = "Hello World"
+intro = "Short intro"
+image = "/images/example.jpg"
+date = 2025-04-01
+category = "guides"
+tags = ["Sustainability", "Circular Economy"]
+author = "P7CO® EcoResupply"
+author_bio = "..."
+author_image_url = "/images/authors/p7co-logo.jpg"
+reading_time = 6
+ativo = true
 +++
 
-This is a sample English post.
+# Hello World
+Content here…
