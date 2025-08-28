@@ -1,4 +1,3 @@
-# .github/FUNDING.yml
 # Configure the "Sponsor" button on GitHub.
 
 # When GitHub Sponsors is active for your user/org,
@@ -7,9 +6,9 @@
 #   - jtlivio
 
 # Other platforms (do not require GitHub validation)
-# patreon: ph7xsystems
+patreon: p7co
 open_collective: p7co
-# ko_fi: ph7xsystems
+# ko_fi: p7co
 
 # Custom links
 custom:
