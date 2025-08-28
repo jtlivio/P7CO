@@ -1,0 +1,3 @@
+[submodule "content/wiki"]
+	path = content/wiki
+	url = git@github.com:jtlivio/P7CO.wiki.git
