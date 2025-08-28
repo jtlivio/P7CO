@@ -1,3 +1,7 @@
+```csharp
+// ================================
+// JsonUiLocalizer.cs (commented)
+// ================================
 using System.Globalization;
 using System.Text.Json;
 using Microsoft.Extensions.Caching.Memory;
@@ -92,3 +96,42 @@ public class JsonUiLocalizer : IUiLocalizer
         return map;
     }
 }
+```
+
+---
+
+```json
+// ===============================================
+// Example: Resources/i18n/pt/components/navbar.json
+// ===============================================
+{
+  "home": "Início",
+  "about": "Sobre Nós",
+  "services": "Serviços",
+  "projects": "Projetos",
+  "blog": "Blog",
+  "contact": "Contactos",
+  "login": "Entrar",
+  "register": "Registar",
+  "logout": "Sair",
+  "profile": "Perfil"
+}
+```
+
+```json
+// ===============================================
+// Example: Resources/i18n/en/components/navbar.json
+// ===============================================
+{
+  "home": "Home",
+  "about": "About Us",
+  "services": "Services",
+  "projects": "Projects",
+  "blog": "Blog",
+  "contact": "Contact",
+  "login": "Login",
+  "register": "Register",
+  "logout": "Logout",
+  "profile": "Profile"
+}
+```
