@@ -1,18 +1,26 @@
 #!/bin/bash
 set -e
 
-# Commit e push no submódulo (Wiki)
+# Commit & push no submódulo (Wiki)
 cd content/wiki
 git add -A
 if ! git diff --cached --quiet; then
-  git commit -m "chore: auto-commit wiki updates"
-  git push origin HEAD
+  msg="chore: auto-commit wiki updates ($(date -u '+%Y-%m-%d %H:%M:%S UTC'))"
+  git commit -m "$msg"
+  git push origin main
+  echo "✅ Wiki committed & pushed: $msg"
+else
+  echo "ℹ️  No changes to commit in Wiki"
 fi
 cd ../..
 
-# Commit e push no repositório principal
+# Commit & push no repositório principal
 git add -A
 if ! git diff --cached --quiet; then
-  git commit -m "chore: auto-commit project updates"
-  git push origin HEAD
+  msg="chore: auto-commit project updates ($(date -u '+%Y-%m-%d %H:%M:%S UTC'))"
+  git commit -m "$msg"
+  git push origin main
+  echo "✅ Project committed & pushed: $msg"
+else
+  echo "ℹ️  No changes to commit in Project"
 fi

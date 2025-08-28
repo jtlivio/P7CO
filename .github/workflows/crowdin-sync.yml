@@ -3,7 +3,7 @@ name: Crowdin Sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"   
+    - cron: "0 */6 * * *"
   push:
     branches: [ main ]
     branches-ignore: [ l10n_main ]
@@ -16,9 +16,13 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: crowdin-sync
+  cancel-in-progress: true
+
 jobs:
   sync:
-    if: ${{ github.ref_name != 'l10n_main' }}
+    if: ${{ github.ref_name != 'l10n_main' && github.actor != 'github-actions[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -38,14 +42,13 @@ jobs:
           create_pull_request: true
           pull_request_title: "chore(l10n): Crowdin batch sync"
           pull_request_body: |
-            🤖 This PR contains the latest **Crowdin translations sync**.  
-            It was generated automatically by CI.  
+            🤖 This PR contains the latest **Crowdin translations sync**.
+            It was generated automatically by CI.
 
             Please review changes to ensure they comply with:
             - ✅ Lint rules (`npm run lint:content`)
             - ✅ Image constraints (JPG 1200×675 ≤150 KB)
             - ✅ Proper folder and frontmatter
-
           pull_request_labels: l10n, crowdin
           pull_request_assignees: jtlivio
           project_id: ${{ secrets.CROWDIN_PROJECT_ID }}
