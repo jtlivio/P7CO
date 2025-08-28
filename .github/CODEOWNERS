@@ -1,17 +1,30 @@
 # CODEOWNERS for p7co-blog
 # This file defines who automatically reviews Pull Requests for specific paths.
 
-# Default owners for all files
+# Default: all files
 * @jtlivio
 
-# Blog content by language
+# Blog content (Markdown by language)
 /content/blog/en/ @jtlivio
 /content/blog/pt/ @jtlivio
 /content/blog/fr/ @jtlivio
 /content/blog/de/ @jtlivio
+/content/blog/es/ @jtlivio
 
-# Images
+# UI translations (JSON)
+/ui/ @jtlivio
+/ui/**/*.json @jtlivio
+
+# Images (covers, logos)
 /images/ @jtlivio
+
+# Tools & scripts (Node linter, etc.)
+/tools/ @jtlivio
+package.json @jtlivio
+package-lock.json @jtlivio
+
+# C# services for blog/markdown
+*.cs @jtlivio
 
 # Governance & meta documents
 README.md @jtlivio
