@@ -17,6 +17,6 @@ This repository contains **content** (articles, Markdown files, and images) that
 ## 🔔 Notices
 
 * This license applies **only to the content** (articles, Markdown files, and images) in this repository.
-* Source code and scripts are licensed separately under the [GNU General Public License v3.0 (GPL-3.0)](LICENSE).
+* Source code and scripts are licensed separately under the [GNU General Public License v3.0 (GPL-3.0)](LICENSE-arti.md).
 
 📄 Full license text: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
