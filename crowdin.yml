@@ -1,1 +1,27 @@
-files: []
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
+base_url: "https://api.crowdin.com"
+preserve_hierarchy: true
+
+# English is the source language
+source_language: "en"
+
+# Map Crowdin language codes to your folder names
+languages_mapping:
+  two_letters_code:
+    # blog locales
+    pt: "pt"
+    es: "es"
+    fr: "fr"
+    de: "de"
+    en: "en"
+
+# Files to translate
+files:
+  # UI labels (English source -> other locales)
+  - source: "/ui/en/**.json"
+    translation: "/ui/%two_letters_code%/**.json"
+
+  # Blog posts: English source -> other locales
+  - source: "/content/blog/en/**.md"
+    translation: "/content/blog/%two_letters_code%/**.md"
