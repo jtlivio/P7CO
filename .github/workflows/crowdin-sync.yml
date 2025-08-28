@@ -4,17 +4,25 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
+    branches-ignore: [ l10n_main ]   # evita loop quando a action cria/atualiza a branch de l10n
     paths:
       - "crowdin.yml"
       - "ui/**"
       - "content/**"
 
+permissions:
+  contents: write          
+  pull-requests: write     
+
 jobs:
   sync:
+    if: ${{ github.ref_name != 'l10n_main' }}   # belt & suspenders contra loops
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   
 
       - name: Crowdin Sync
         uses: crowdin/github-action@v2
@@ -25,5 +33,8 @@ jobs:
           download_translations: false
           localization_branch_name: l10n_main
           commit_message: "chore(l10n): sync from Crowdin"
-          project_id: ${{ secrets.CROWDIN_PROJECT_ID }}
-          token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          create_pull_request: true 
+          pull_request_title: "chore(l10n): Crowdin sync"
+          pull_request_body: "Automated sync from Crowdin → please review."
+          project_id: ${{ secrets.CROWDIN_PROJECT_ID }}   
+          token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }} 
