@@ -5,28 +5,26 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "content/**"
-      - "ui/**"
       - "crowdin.yml"
-  pull_request:
-    branches: [ main ]
-    paths:
-      - "content/**"
       - "ui/**"
-      - "crowdin.yml"
+      - "content/**"
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Crowdin Action
+      - name: Crowdin Sync
         uses: crowdin/github-action@v2
         with:
-          upload_translations: true
-          download_translations: true
           config: crowdin.yml
+          upload_sources: true
+          upload_translations: false
+          download_translations: false
+          localization_branch_name: l10n_main
+          commit_message: "chore(l10n): sync from Crowdin"
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
