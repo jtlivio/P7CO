@@ -26,6 +26,14 @@ P7CO® EcoResupply is the international community that connects companies, citiz
 Here, every action matters. Contribute to a more circular economy, reduce waste, and inspire real change.
 Join us and be part of a new generation of solutions: smarter, more collaborative, and more sustainable.
 
+P7CO® EcoResupply is led by **JOAO LIVIO**, a recognized technology and sustainability professional with a strong background in innovation and community leadership.  
+
+- **Microsoft Most Valuable Professional (MVP) Alumni** (11 years of recognition) — [View credential](https://www.credly.com/badges/5826ec68-08fa-437b-b24b-7b33331c15b4)  
+- **Copilot for Microsoft 365 Technical Champion (2024)** — [View credential](https://www.credly.com/badges/7ac0fc49-a255-4e51-86e6-6475c0617676)  
+
+This experience reflects a long-standing commitment to **technology, knowledge sharing, and innovation**, which now extends into the environmental sector.  
+With P7CO, this expertise is applied to empower **companies, municipalities, and civic organizations** to act on sustainability, transparency, and circular economy practices.  
+
 ## 🗂️ Repository Structure
 
 * `content/blog/pt/` — Blog posts in Portuguese
