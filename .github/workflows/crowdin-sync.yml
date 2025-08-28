@@ -13,11 +13,9 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Crowdin Sync
-        uses: crowdin/github-action@v2
+      - uses: crowdin/github-action@v2
         with:
           config: crowdin.yml
           upload_sources: true
