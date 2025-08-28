@@ -1,18 +1,17 @@
 name: Sync Wiki
 on:
   schedule:
-    - cron: "0 3 * * *" 
-  workflow_dispatch:     
+    - cron: "0 3 * * *"
+  workflow_dispatch:
 
 jobs:
-  sync-wiki:
+  sync:       
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
-
       - name: Update submodule (Wiki)
         run: |
           git submodule update --remote --init content/wiki
