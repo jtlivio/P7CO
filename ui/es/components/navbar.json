@@ -1,0 +1,200 @@
+{
+  "top": {
+    "tagline": "Por la naturaleza, por el futuro",
+    "contact_us": "Contáctanos",
+    "languages": {
+      "pt": "Portugués",
+      "en": "Inglés",
+      "es": "Español",
+      "fr": "Francés",
+      "de": "Alemán"
+    },
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram"
+    }
+  },
+  "logo": "P7CO™ EcoResupply",
+  "menu": {
+    "home": {
+      "title": "Inicio",
+      "highlight": {
+        "subtitle": "GITHUB",
+        "title": "CONTRIBUIR",
+        "desc": "Artículos, traducciones, publicaciones.",
+        "cta": "REPOSITORIO"
+      },
+      "about": {
+        "title": "SOBRE EL PROYECTO",
+        "items": [
+          "Acerca de nosotros",
+          "Cómo funciona",
+          "Misión & Visión",
+          "Alianzas Circulares",
+          "Aplicación Móvil"
+        ]
+      },
+      "get_started": {
+        "title": "EMPEZAR",
+        "items": [
+          "Crear cuenta",
+          "Ver guías rápidas"
+        ]
+      },
+      "resources": {
+        "title": "RECURSOS",
+        "items": [
+          "Mapa de Circularidad",
+          "Operadores Autorizados",
+          "Denuncias Ambientales",
+          "Mapa de Incendios",
+          "Indicadores & Datos"
+        ]
+      },
+      "community": {
+        "title": "COMUNIDAD",
+        "items": [
+          "Blog",
+          "Traducciones",
+          "Contribuir"
+        ]
+      },
+      "organizations": {
+        "title": "PARA ORGANIZACIONES",
+        "items": [
+          "Empresas",
+          "Municipios",
+          "ONG & Academia",
+          "Logística & Recicladores",
+          "Programas & Eventos"
+        ]
+      },
+      "support": {
+        "title": "SOPORTE",
+        "items": [
+          "FAQ",
+          "Contactos"
+        ]
+      }
+    },
+    "change": {
+      "title": "Cambio",
+      "circularity": {
+        "title": "CIRCULARIDAD",
+        "items": [
+          "Excedentes Disponibles",
+          "Casos de Reutilización",
+          "Materiales Destacados",
+          "Indicadores de Impacto"
+        ]
+      },
+      "complaints": {
+        "title": "DENUNCIAS",
+        "items": [
+          "Mapa de Denuncias",
+          "Categorías",
+          "Orientaciones Oficiales",
+          "Estadísticas Regionales"
+        ]
+      },
+      "esg": {
+        "title": "ESG & EMPRESAS",
+        "items": [
+          "Informes MIRR",
+          "Certificaciones Verdes",
+          "Casos de Éxito",
+          "Alianzas Circulares"
+        ]
+      },
+      "cta": {
+        "subtitle": "EMPIEZA",
+        "title": "AHORA",
+        "desc": "Explorar, denunciar, compartir y reutilizar.",
+        "btn": "UNIRME"
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "explore": {
+        "title": "Explorar",
+        "items": [
+          "Todos los artículos",
+          "Destacados",
+          "Más leídos",
+          "Autores"
+        ]
+      },
+      "categories": {
+        "title": "Categorías",
+        "items": [
+          "Guías",
+          "Noticias",
+          "Casos de Estudio",
+          "ESG",
+          "Tecnología"
+        ]
+      },
+      "languages": {
+        "title": "Idiomas",
+        "items": [
+          "Portugués",
+          "Inglés",
+          "Español",
+          "Francés",
+          "Alemán"
+        ]
+      }
+    },
+    "about": {
+      "title": "Acerca",
+      "about": {
+        "title": "Sobre",
+        "items": [
+          "Sobre Nosotros",
+          "Equipo",
+          "Carreras"
+        ]
+      },
+      "contacts": {
+        "title": "Contactos",
+        "items": [
+          "Contactos",
+          "Soporte"
+        ]
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          "FAQ General",
+          "Términos de Uso",
+          "Política de Privacidad",
+          "Cookies",
+          "Agradecimientos"
+        ]
+      }
+    },
+    "auth": {
+      "guest": {
+        "title": "Entrar",
+        "items": [
+          "Login",
+          "Crear Cuenta"
+        ]
+      },
+      "user": {
+        "title": "Hola, João",
+        "items": [
+          "Dashboard",
+          "Mis listados",
+          "Configuraciones",
+          "Salir"
+        ]
+      }
+    }
+  },
+  "cta_button": {
+    "text": "EMPEZAR",
+    "icon": "fas fa-seedling"
+  }
+}
