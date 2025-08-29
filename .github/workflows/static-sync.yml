@@ -40,7 +40,7 @@ jobs:
             until [ $n -ge 6 ]
             do
               if az storage blob list --account-name $ACCOUNT --container-name '$web' --auth-mode login --num-results 1 >/dev/null 2>&1; then
-                echo "AAD access to $ACCOUNT/$web OK"
+                echo "AAD access to ${ACCOUNT}/\$web OK"
                 break
               fi
               n=$((n+1))
