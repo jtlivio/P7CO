@@ -28,30 +28,27 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Sanity check – subscription & storage
+      - name: Upload & set headers (AAD)
         uses: azure/cli@v2
         with:
           inlineScript: |
-            az account set --subscription "${{ secrets.AZURE_SUBSCRIPTION_ID }}"
-            az account show -o table
-            az storage account show -n p7costatic -g P7CO -o table
-
-      - name: Upload to $web
-        uses: azure/cli@v2
-        with:
-          inlineScript: |
-            set -e
+            set -euo pipefail
             ACCOUNT="p7costatic"
 
-            # Static Website (usar AAD)
-            az storage blob service-properties update \
-              --account-name $ACCOUNT \
-              --auth-mode login \
-              --static-website \
-              --index-document index.html \
-              --404-document 404.html
+            # Pequeno retry para aguentar propagação de RBAC
+            n=0
+            until [ $n -ge 6 ]
+            do
+              if az storage blob list --account-name $ACCOUNT --container-name '$web' --auth-mode login --num-results 1 >/dev/null 2>&1; then
+                echo "AAD access to $ACCOUNT/$web OK"
+                break
+              fi
+              n=$((n+1))
+              echo "A aguardar propagação de RBAC… tentativa $n/6"
+              sleep 15
+            done
 
-            # Upload (usar AAD)
+            # Upload
             az storage blob upload-batch \
               --account-name $ACCOUNT \
               --auth-mode login \
@@ -59,7 +56,7 @@ jobs:
               -d '$web' \
               --overwrite
 
-            # Tipos de conteúdo e cache (usar AAD em todos)
+            # Tipos & cache (TODOS com --auth-mode login)
             az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n index.html --content-type 'text/html; charset=utf-8' || true
             az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n 404.html   --content-type 'text/html; charset=utf-8' || true
 
@@ -69,14 +66,14 @@ jobs:
                 --content-type 'text/html; charset=utf-8' || true
             done
 
-            # json (cache curto)
+            # json
             find static -type f -name '*.json' -printf '%P\n' | while read f; do
               az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
                 --content-type 'application/json' \
                 --content-cache-control 'public, max-age=300, must-revalidate' || true
             done
 
-            # css / js (cache longo)
+            # css / js
             find static -type f -name '*.css' -printf '%P\n' | while read f; do
               az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
                 --content-type 'text/css; charset=utf-8' \
@@ -88,7 +85,7 @@ jobs:
                 --content-cache-control 'public, max-age=31536000, immutable' || true
             done
 
-            # imagens (cache longo)
+            # imagens
             for ext in jpg jpeg png webp gif svg ico; do
               find static -type f -name "*.$ext" -printf '%P\n' | while read f; do
                 case "$ext" in
@@ -105,7 +102,7 @@ jobs:
               done
             done
 
-            # web manifest (cache curto)
+            # webmanifest
             find static -type f -name '*.webmanifest' -printf '%P\n' | while read f; do
               az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
                 --content-type 'application/manifest+json' \
