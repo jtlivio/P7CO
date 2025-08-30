@@ -1,0 +1,14 @@
+{
+  "promo": {
+    "kicker": "MAPA CIRCULAR P7CO®",
+    "title": "Donde los Excedentes y las Denuncias Ambientales obtienen visibilidad nacional",
+    "lead1": "Consulta en el mapa los excedentes de <b>Portugal Continental, Azores y Madeira</b> disponibles para reutilización y sigue en tiempo real las <b>denuncias ambientales</b> realizadas por ciudadanos y empresas.",
+    "lead2": "Autenticación rápida con <b>Google</b>, <b>Facebook</b> o <b>correo electrónico</b>.",
+    "buttons": {
+      "view_map": "Ver Mapa Circular",
+      "register": "Crear cuenta gratuita"
+    },
+    "note": "Para ver los detalles completos de los excedentes o publicar denuncias es necesario registrarse — garantiza privacidad, seguridad y autenticidad de las participaciones.",
+    "image_alt": "Mapa de Portugal – Mapa Circular P7CO®"
+  }
+}

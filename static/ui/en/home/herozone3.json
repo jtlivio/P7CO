@@ -1,0 +1,14 @@
+{
+  "promo": {
+    "kicker": "P7CO® CIRCULAR MAP",
+    "title": "Where Surpluses and Environmental Reports gain national visibility",
+    "lead1": "Check on the map the surpluses of <b>Mainland Portugal, Azores and Madeira</b> available for reuse, and follow in real time the <b>environmental reports</b> submitted by citizens and companies.",
+    "lead2": "Quick login with <b>Google</b>, <b>Facebook</b> or <b>email</b>.",
+    "buttons": {
+      "view_map": "View Circular Map",
+      "register": "Create free account"
+    },
+    "note": "To see full details of surpluses or publish reports, registration is required — ensuring privacy, security and authenticity of contributions.",
+    "image_alt": "Portugal map – P7CO® Circular Map"
+  }
+}
