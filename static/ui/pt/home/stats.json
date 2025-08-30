@@ -1,0 +1,15 @@
+{
+  "strapline": "Juntos, vamos somar impacto real e mostrar resultados de sustentabilidade desde o primeiro dia.",
+  "label": {
+    "co2": "Toneladas de CO₂ Evitadas",
+    "clients": "Clientes Sustentáveis",
+    "complaints": "Participações Ambientais",
+    "reuses": "Reutilizações de Materiais"
+  },
+  "aria": {
+    "co2": "Toneladas de dióxido de carbono equivalente evitadas",
+    "clients": "Clientes sustentáveis",
+    "complaints": "Participações ambientais",
+    "reuses": "Reutilizações de materiais"
+  }
+}

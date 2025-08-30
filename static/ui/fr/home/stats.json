@@ -1,0 +1,15 @@
+{
+  "strapline": "Ensemble, nous créerons un impact réel et montrerons des résultats durables dès le premier jour.",
+  "label": {
+    "co2": "Tonnes de CO₂ Évitée",
+    "clients": "Clients Durables",
+    "complaints": "Signalements Environnementaux",
+    "reuses": "Réutilisations de Matériaux"
+  },
+  "aria": {
+    "co2": "Tonnes de dioxyde de carbone équivalent évitées",
+    "clients": "Clients durables",
+    "complaints": "Signalements environnementaux",
+    "reuses": "Réutilisations de matériaux"
+  }
+}

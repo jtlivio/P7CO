@@ -1,0 +1,15 @@
+{
+  "strapline": "Gemeinsam schaffen wir echte Wirkung und zeigen Nachhaltigkeitsergebnisse vom ersten Tag an.",
+  "label": {
+    "co2": "Tonnen vermiedener CO₂",
+    "clients": "Nachhaltige Kunden",
+    "complaints": "Umweltmeldungen",
+    "reuses": "Materialwiederverwendungen"
+  },
+  "aria": {
+    "co2": "Tonnen vermiedener Kohlendioxid-Äquivalente",
+    "clients": "Nachhaltige Kunden",
+    "complaints": "Umweltmeldungen",
+    "reuses": "Materialwiederverwendungen"
+  }
+}

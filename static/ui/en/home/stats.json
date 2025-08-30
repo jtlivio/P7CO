@@ -1,0 +1,15 @@
+{
+  "strapline": "Together, we will create real impact and show sustainability results from day one.",
+  "label": {
+    "co2": "Tonnes of CO₂ Avoided",
+    "clients": "Sustainable Clients",
+    "complaints": "Environmental Reports",
+    "reuses": "Material Reuses"
+  },
+  "aria": {
+    "co2": "Tonnes of carbon dioxide equivalent avoided",
+    "clients": "Sustainable clients",
+    "complaints": "Environmental reports",
+    "reuses": "Material reuses"
+  }
+}
