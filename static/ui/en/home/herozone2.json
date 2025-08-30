@@ -1,0 +1,18 @@
+{
+  "promo": {
+    "title": "GHG Emissions by Sector (Portugal)",
+    "lead": "Official visualization based on <b>SNIAMB / dados.gov.pt</b>, integrated into <b>P7CO® EcoResupply</b>. Explore the chart and the sector summary.",
+    "cta": {
+      "view_chart": "View chart",
+      "view_summary": "Sector summary"
+    },
+    "sources": {
+      "label_source": "Source:",
+      "sniamb": "SNIAMB / dados.gov.pt",
+      "api_label": "P7CO® API",
+      "api_example": "/eco/api/gee/emissions?from=2005&group=series",
+      "licenses": "Licenses — dados.gov.pt: CC BY 4.0 • P7CO® API: CC BY 4.0"
+    },
+    "image_alt": "GHG emissions by sector — visualization"
+  }
+}

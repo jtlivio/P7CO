@@ -1,0 +1,18 @@
+{
+  "promo": {
+    "title": "Emissões GEE por setor (Portugal)",
+    "lead": "Visualização oficial com base <b>SNIAMB / dados.gov.pt</b>, integrada no <b>P7CO® EcoResupply</b>. Explora o gráfico e o resumo por setor.",
+    "cta": {
+      "view_chart": "Ver gráfico",
+      "view_summary": "Resumo por setor"
+    },
+    "sources": {
+      "label_source": "Fonte:",
+      "sniamb": "SNIAMB / dados.gov.pt",
+      "api_label": "P7CO® API",
+      "api_example": "/eco/api/gee/emissions?from=2005&group=series",
+      "licenses": "Licenças — dados.gov.pt: CC BY 4.0 • P7CO® API: CC BY 4.0"
+    },
+    "image_alt": "Emissões GEE por setor — visualização"
+  }
+}

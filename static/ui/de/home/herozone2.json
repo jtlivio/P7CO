@@ -1,0 +1,18 @@
+{
+  "promo": {
+    "title": "Treibhausgasemissionen nach Sektor (Portugal)",
+    "lead": "Offizielle Visualisierung basierend auf <b>SNIAMB / dados.gov.pt</b>, integriert in <b>P7CO® EcoResupply</b>. Erkunde das Diagramm und die sektorale Zusammenfassung.",
+    "cta": {
+      "view_chart": "Diagramm anzeigen",
+      "view_summary": "Sektorübersicht"
+    },
+    "sources": {
+      "label_source": "Quelle:",
+      "sniamb": "SNIAMB / dados.gov.pt",
+      "api_label": "P7CO® API",
+      "api_example": "/eco/api/gee/emissions?from=2005&group=series",
+      "licenses": "Lizenzen — dados.gov.pt: CC BY 4.0 • P7CO® API: CC BY 4.0"
+    },
+    "image_alt": "Treibhausgasemissionen nach Sektor — Visualisierung"
+  }
+}

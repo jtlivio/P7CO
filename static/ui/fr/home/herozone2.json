@@ -1,0 +1,18 @@
+{
+  "promo": {
+    "title": "Émissions de GES par secteur (Portugal)",
+    "lead": "Visualisation officielle basée sur <b>SNIAMB / dados.gov.pt</b>, intégrée à <b>P7CO® EcoResupply</b>. Explorez le graphique et le résumé par secteur.",
+    "cta": {
+      "view_chart": "Voir le graphique",
+      "view_summary": "Résumé par secteur"
+    },
+    "sources": {
+      "label_source": "Source:",
+      "sniamb": "SNIAMB / dados.gov.pt",
+      "api_label": "P7CO® API",
+      "api_example": "/eco/api/gee/emissions?from=2005&group=series",
+      "licenses": "Licences — dados.gov.pt: CC BY 4.0 • P7CO® API: CC BY 4.0"
+    },
+    "image_alt": "Émissions de GES par secteur — visualisation"
+  }
+}

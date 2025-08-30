@@ -1,0 +1,18 @@
+{
+  "promo": {
+    "title": "Emisiones GEI por sector (Portugal)",
+    "lead": "Visualización oficial basada en <b>SNIAMB / dados.gov.pt</b>, integrada en <b>P7CO® EcoResupply</b>. Explora el gráfico y el resumen por sector.",
+    "cta": {
+      "view_chart": "Ver gráfico",
+      "view_summary": "Resumen por sector"
+    },
+    "sources": {
+      "label_source": "Fuente:",
+      "sniamb": "SNIAMB / dados.gov.pt",
+      "api_label": "P7CO® API",
+      "api_example": "/eco/api/gee/emissions?from=2005&group=series",
+      "licenses": "Licencias — dados.gov.pt: CC BY 4.0 • P7CO® API: CC BY 4.0"
+    },
+    "image_alt": "Emisiones GEI por sector — visualización"
+  }
+}
