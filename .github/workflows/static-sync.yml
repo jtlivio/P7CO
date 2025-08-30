@@ -15,7 +15,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     concurrency:
-      group: deploy-static-$${{ github.ref }}
+      group: deploy-static-${{ github.ref }}
       cancel-in-progress: false
 
     steps:
@@ -33,17 +33,18 @@ jobs:
         uses: azure/cli@v2
         with:
           inlineScript: |
-            set -e
+            set -euo pipefail
             ACCOUNT="p7costatic"
 
-            # ensure static website is enabled (idempotent)
+            # ensure static website is enabled (idempotent, via AAD)
             az storage blob service-properties update \
               --account-name $ACCOUNT \
+              --auth-mode login \
               --static-website \
               --index-document index.html \
               --404-document 404.html >/dev/null
 
-            # upload (overwrites changed files)
+            # upload (overwrites changed files, via AAD)
             az storage blob upload-batch \
               --account-name $ACCOUNT \
               --auth-mode login \
@@ -52,30 +53,30 @@ jobs:
               --overwrite
 
             # set content-types
-            az storage blob update --account-name $ACCOUNT -c '$web' -n index.html --content-type 'text/html; charset=utf-8' || true
-            az storage blob update --account-name $ACCOUNT -c '$web' -n 404.html   --content-type 'text/html; charset=utf-8' || true
+            az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n index.html --content-type 'text/html; charset=utf-8' || true
+            az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n 404.html   --content-type 'text/html; charset=utf-8' || true
 
             # html
             find static -type f -name '*.html' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT -c '$web' -n "$f" \
+              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
                 --content-type 'text/html; charset=utf-8' || true
             done
 
             # json (short cache)
             find static -type f -name '*.json' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT -c '$web' -n "$f" \
+              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
                 --content-type 'application/json' \
                 --content-cache-control 'public, max-age=300, must-revalidate' || true
             done
 
             # css / js
             find static -type f -name '*.css' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT -c '$web' -n "$f" \
+              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
                 --content-type 'text/css; charset=utf-8' \
                 --content-cache-control 'public, max-age=31536000, immutable' || true
             done
             find static -type f -name '*.js' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT -c '$web' -n "$f" \
+              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
                 --content-type 'application/javascript; charset=utf-8' \
                 --content-cache-control 'public, max-age=31536000, immutable' || true
             done
@@ -83,7 +84,6 @@ jobs:
             # images & static assets (long cache)
             for ext in jpg jpeg png webp gif svg ico; do
               find static -type f -name "*.$ext" -printf '%P\n' | while read f; do
-                # pick best-effort mime
                 case "$ext" in
                   jpg|jpeg) ctype="image/jpeg" ;;
                   png)      ctype="image/png" ;;
@@ -92,7 +92,7 @@ jobs:
                   svg)      ctype="image/svg+xml" ;;
                   ico)      ctype="image/x-icon" ;;
                 esac
-                az storage blob update --account-name $ACCOUNT -c '$web' -n "$f" \
+                az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
                   --content-type "$ctype" \
                   --content-cache-control 'public, max-age=31536000, immutable' || true
               done
@@ -100,7 +100,7 @@ jobs:
 
             # web manifest
             find static -type f -name '*.webmanifest' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT -c '$web' -n "$f" \
+              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
                 --content-type 'application/manifest+json' \
                 --content-cache-control 'public, max-age=300, must-revalidate' || true
             done
