@@ -23,6 +23,32 @@ jobs:
         with:
           fetch-depth: 0  # precisamos do diff
 
+      - name: Compute diff (static/**)
+        id: diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE="${{ github.event.before }}"
+          HEAD="${{ github.sha }}"
+
+          if [[ "${{ github.event_name }}" != "push" || -z "${BASE:-}" || "${BASE}" == "0000000000000000000000000000000000000000" ]]; then
+            echo "Initial/dispatch run → full upload."
+            git ls-files 'static/**' > .changed.txt || true
+            : > .deleted.txt
+          else
+            git diff --name-status "$BASE" "$HEAD" -- 'static/**' > .diff || true
+            awk '$1=="A"||$1=="M"{print $2}' .diff > .changed.txt
+            awk '$1=="D"{print $2}' .diff > .deleted.txt
+          fi
+
+          echo "Changed files:"
+          sed -n '1,200p' .changed.txt || true
+          echo "Deleted files:"
+          sed -n '1,200p' .deleted.txt || true
+
+          echo "changed=$(wc -l < .changed.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+          echo "deleted=$(wc -l < .deleted.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+
       - name: Azure Login (OIDC)
         uses: azure/login@v2
         with:
@@ -30,7 +56,7 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Deploy only changed files
+      - name: Deploy changed files to $web (AAD)
         uses: azure/cli@v2
         env:
           ACCOUNT: p7costatic
@@ -38,7 +64,7 @@ jobs:
           inlineScript: |
             set -euo pipefail
 
-            # ---- RBAC warmup ---------------------------------------------------
+            # RBAC warmup
             for n in 1 2 3 4 5 6; do
               if az storage blob list --account-name "$ACCOUNT" --container-name '$web' --auth-mode login --num-results 1 >/dev/null 2>&1; then
                 echo "AAD access to ${ACCOUNT}/\$web OK"
@@ -48,32 +74,11 @@ jobs:
               sleep 10
             done
 
-            # ---- Descobrir alterações (push vs before) -------------------------
-            if [[ "${{ github.event_name }}" == "push" ]]; then
-              BASE="${{ github.event.before }}"
-              HEAD="${{ github.sha }}"
-            else
-              # workflow_dispatch: faz diff contra o commit anterior
-              BASE="$(git rev-parse HEAD~1 || echo "")"
-              HEAD="$(git rev-parse HEAD)"
-            fi
-
-            echo "Base: ${BASE:-<none>}  Head: $HEAD"
-            # Se não tivermos BASE (ex: primeiro commit), faz upload completo
-            if [[ -z "${BASE:-}" ]]; then
-              CHANGED=$(git ls-files 'static/**' || true)
-              DELETED=""
-            else
-              # Formato: <status>\t<path>
-              DIFF=$(git diff --name-status "$BASE" "$HEAD" -- 'static/**' || true)
-              echo "$DIFF" | sed -n '1,200p'
-              CHANGED=$(echo "$DIFF" | awk '$1=="A"||$1=="M"{print $2}')
-              DELETED=$(echo "$DIFF" | awk '$1=="D"{print $2}')
-            fi
-
             upload_one () {
               local src="$1"
-              local rel="${src#static/}"   # caminho relativo dentro do $web
+              local rel="${src#static/}"
+              [[ -f "$src" ]] || return 0
+
               local ctype=""
               case "$rel" in
                 *.html) ctype='text/html; charset=utf-8' ;;
@@ -89,7 +94,6 @@ jobs:
                 *.md)   ctype='text/markdown; charset=utf-8' ;;
               esac
 
-              # upload do ficheiro (overwrite idempotente)
               az storage blob upload \
                 --account-name "$ACCOUNT" \
                 --auth-mode login \
@@ -99,16 +103,13 @@ jobs:
                 --overwrite true \
                 --only-show-errors
 
-              # cache-control por tipo
               local cache=""
               case "$rel" in
                 *.json|*.webmanifest) cache='public, max-age=300, must-revalidate' ;;
                 *.css|*.js|*.jpg|*.jpeg|*.png|*.webp|*.gif|*.svg|*.ico) cache='public, max-age=31536000, immutable' ;;
-                *) cache='' ;;
               esac
 
-              # aplicar headers se identificados
-              if [[ -n "$ctype" || -n "$cache" ]]; then
+              if [[ -n "${ctype}" || -n "${cache}" ]]; then
                 az storage blob update \
                   --account-name "$ACCOUNT" \
                   --auth-mode login \
@@ -131,24 +132,26 @@ jobs:
                 --only-show-errors || true
             }
 
-            # ---- Upload alterados/adicionados ---------------------------------
-            any_uploaded=false
-            while IFS= read -r f; do
-              [[ -z "$f" ]] && continue
-              [[ -f "$f" ]] || continue
-              echo "↑ CHANGED: $f"
-              upload_one "$f"
-              any_uploaded=true
-            done <<< "$CHANGED"
+            any=false
+            if [[ -s .changed.txt ]]; then
+              while IFS= read -r f; do
+                [[ -z "$f" ]] && continue
+                echo "↑ CHANGED: $f"
+                upload_one "$f"
+                any=true
+              done < .changed.txt
+            fi
 
-            # ---- Apagar removidos ----------------------------------------------
-            while IFS= read -r f; do
-              [[ -z "$f" ]] && continue
-              echo "× DELETED: $f"
-              delete_one "$f"
-            done <<< "$DELETED"
+            if [[ -s .deleted.txt ]]; then
+              while IFS= read -r f; do
+                [[ -z "$f" ]] && continue
+                echo "× DELETED: $f"
+                delete_one "$f"
+                any=true
+              done < .deleted.txt
+            fi
 
-            # Index/404 headers (se existirem)
+            # Garantir headers base se existirem
             for f in index.html 404.html; do
               if [[ -f "static/$f" ]]; then
                 az storage blob update \
@@ -161,4 +164,4 @@ jobs:
               fi
             done
 
-            $any_uploaded || echo "Nada para publicar."
+            $any || echo "Nada para publicar."
