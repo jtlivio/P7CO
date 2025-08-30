@@ -10,6 +10,8 @@ on:
       - "crowdin.yml"
       - "static/ui/**"
       - "static/content/**"
+      - "ui/**"
+      - "content/blog/**"
 
 permissions:
   contents: write
@@ -37,6 +39,7 @@ jobs:
         with:
           config: crowdin.yml
           upload_sources: true
+          upload_sources_args: "--delete-obsolete"   # <-- apaga no Crowdin o que saiu do config/repos
           upload_translations: false
           download_translations: false
           localization_branch_name: l10n_main
@@ -44,12 +47,7 @@ jobs:
           create_pull_request: true
           pull_request_title: "chore(l10n): Crowdin batch sync"
           pull_request_body: |
-            🤖 This PR contains the latest **Crowdin translations sync**.
-            It was generated automatically by CI.
-
-            Please review:
-            - ✅ Lint rules (`npm run lint:content`)
-            - ✅ Image constraints (JPG 1200×675 ≤150 KB)
-            - ✅ Folder & frontmatter
+            🤖 Automated Crowdin sync.
+            Please verify lint/content rules and image constraints.
           pull_request_labels: l10n, crowdin
           pull_request_assignees: jtlivio
