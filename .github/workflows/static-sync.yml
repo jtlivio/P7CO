@@ -28,64 +28,65 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Upload & set headers (AAD)
+      - name: Sync static to $web and set headers (AAD)
         uses: azure/cli@v2
         with:
           inlineScript: |
             set -euo pipefail
             ACCOUNT="p7costatic"
 
-            # Pequeno retry para aguentar propagação de RBAC
-            n=0
-            until [ $n -ge 6 ]
-            do
-              if az storage blob list --account-name $ACCOUNT --container-name '$web' --auth-mode login --num-results 1 >/dev/null 2>&1; then
+            # Retry curto para propagação de RBAC
+            for n in 1 2 3 4 5 6; do
+              if az storage blob list --account-name "$ACCOUNT" --container-name '$web' --auth-mode login --num-results 1 >/dev/null 2>&1; then
                 echo "AAD access to ${ACCOUNT}/\$web OK"
                 break
               fi
-              n=$((n+1))
               echo "A aguardar propagação de RBAC… tentativa $n/6"
               sleep 15
             done
 
-            # Upload
-            az storage blob upload-batch \
-              --account-name $ACCOUNT \
+            echo "==> Sync (envia só diferenças; apaga o que foi removido localmente)"
+            az storage blob sync \
+              --account-name "$ACCOUNT" \
               --auth-mode login \
+              -c '$web' \
               -s ./static \
-              -d '$web' \
-              --overwrite
+              --delete-destination true \
+              --only-show-errors
 
-            # Tipos & cache (TODOS com --auth-mode login)
-            az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n index.html --content-type 'text/html; charset=utf-8' || true
-            az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n 404.html   --content-type 'text/html; charset=utf-8' || true
+            echo "==> Content-Type e cache-control"
+            # HTML - curto
+            az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n index.html --content-type 'text/html; charset=utf-8' --content-cache-control 'public, max-age=300, must-revalidate' || true
+            az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n 404.html   --content-type 'text/html; charset=utf-8' --content-cache-control 'public, max-age=300, must-revalidate' || true
 
-            # html
+            # html em subpastas
             find static -type f -name '*.html' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
-                --content-type 'text/html; charset=utf-8' || true
+              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
+                --content-type 'text/html; charset=utf-8' \
+                --content-cache-control 'public, max-age=300, must-revalidate' || true
             done
 
-            # json
+            # json - curto
             find static -type f -name '*.json' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
+              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
                 --content-type 'application/json' \
                 --content-cache-control 'public, max-age=300, must-revalidate' || true
             done
 
-            # css / js
+            # css/js - sem immutable (não há fingerprint); cache moderada
             find static -type f -name '*.css' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
+              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
                 --content-type 'text/css; charset=utf-8' \
-                --content-cache-control 'public, max-age=31536000, immutable' || true
-            done
-            find static -type f -name '*.js' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
-                --content-type 'application/javascript; charset=utf-8' \
-                --content-cache-control 'public, max-age=31536000, immutable' || true
+                --content-cache-control 'public, max-age=3600, must-revalidate' || true
             done
 
-            # imagens
+            find static -type f -name '*.js' -printf '%P\n' | while read f; do
+              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
+                --content-type 'application/javascript; charset=utf-8' \
+                --content-cache-control 'public, max-age=3600, must-revalidate' || true
+            done
+
+            # imagens - sem immutable; 30 dias é seguro para assets estáticos não fingerprintados
             for ext in jpg jpeg png webp gif svg ico; do
               find static -type f -name "*.$ext" -printf '%P\n' | while read f; do
                 case "$ext" in
@@ -96,15 +97,15 @@ jobs:
                   svg)      ctype="image/svg+xml" ;;
                   ico)      ctype="image/x-icon" ;;
                 esac
-                az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
+                az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
                   --content-type "$ctype" \
-                  --content-cache-control 'public, max-age=31536000, immutable' || true
+                  --content-cache-control 'public, max-age=2592000' || true
               done
             done
 
-            # webmanifest
+            # webmanifest - curto
             find static -type f -name '*.webmanifest' -printf '%P\n' | while read f; do
-              az storage blob update --account-name $ACCOUNT --auth-mode login -c '$web' -n "$f" \
+              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
                 --content-type 'application/manifest+json' \
                 --content-cache-control 'public, max-age=300, must-revalidate' || true
             done
