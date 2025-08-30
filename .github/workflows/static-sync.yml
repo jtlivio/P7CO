@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # precisamos do diff
 
       - name: Azure Login (OIDC)
         uses: azure/login@v2
@@ -28,81 +30,135 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Sync & set headers (AAD)
+      - name: Deploy only changed files
         uses: azure/cli@v2
+        env:
+          ACCOUNT: p7costatic
         with:
           inlineScript: |
             set -euo pipefail
-            ACCOUNT="p7costatic"
 
-            # Retry leve para propagação de RBAC do SP do GitHub
+            # ---- RBAC warmup ---------------------------------------------------
             for n in 1 2 3 4 5 6; do
               if az storage blob list --account-name "$ACCOUNT" --container-name '$web' --auth-mode login --num-results 1 >/dev/null 2>&1; then
                 echo "AAD access to ${ACCOUNT}/\$web OK"
                 break
               fi
               echo "A aguardar propagação de RBAC… tentativa $n/6"
-              sleep 15
+              sleep 10
             done
 
-            # SINCRONIZAÇÃO INCREMENTAL (só novos/alterados)
-            az storage blob sync \
-              --account-name "$ACCOUNT" \
-              --auth-mode login \
-              --container '$web' \
-              --source ./static \
-              --only-show-errors
-              # --delete-destination true  # <- descomenta se quiseres apagar do $web o que não existe em ./static
+            # ---- Descobrir alterações (push vs before) -------------------------
+            if [[ "${{ github.event_name }}" == "push" ]]; then
+              BASE="${{ github.event.before }}"
+              HEAD="${{ github.sha }}"
+            else
+              # workflow_dispatch: faz diff contra o commit anterior
+              BASE="$(git rev-parse HEAD~1 || echo "")"
+              HEAD="$(git rev-parse HEAD)"
+            fi
 
-            # Tipos & cache (idempotente)
-            az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n index.html --content-type 'text/html; charset=utf-8' || true
-            az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n 404.html   --content-type 'text/html; charset=utf-8' || true
+            echo "Base: ${BASE:-<none>}  Head: $HEAD"
+            # Se não tivermos BASE (ex: primeiro commit), faz upload completo
+            if [[ -z "${BASE:-}" ]]; then
+              CHANGED=$(git ls-files 'static/**' || true)
+              DELETED=""
+            else
+              # Formato: <status>\t<path>
+              DIFF=$(git diff --name-status "$BASE" "$HEAD" -- 'static/**' || true)
+              echo "$DIFF" | sed -n '1,200p'
+              CHANGED=$(echo "$DIFF" | awk '$1=="A"||$1=="M"{print $2}')
+              DELETED=$(echo "$DIFF" | awk '$1=="D"{print $2}')
+            fi
 
-            # html
-            find static -type f -name '*.html' -printf '%P\n' | while read -r f; do
-              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
-                --content-type 'text/html; charset=utf-8' || true
+            upload_one () {
+              local src="$1"
+              local rel="${src#static/}"   # caminho relativo dentro do $web
+              local ctype=""
+              case "$rel" in
+                *.html) ctype='text/html; charset=utf-8' ;;
+                *.json) ctype='application/json' ;;
+                *.css)  ctype='text/css; charset=utf-8' ;;
+                *.js)   ctype='application/javascript; charset=utf-8' ;;
+                *.jpg|*.jpeg) ctype='image/jpeg' ;;
+                *.png)  ctype='image/png' ;;
+                *.webp) ctype='image/webp' ;;
+                *.gif)  ctype='image/gif' ;;
+                *.svg)  ctype='image/svg+xml' ;;
+                *.ico)  ctype='image/x-icon' ;;
+                *.md)   ctype='text/markdown; charset=utf-8' ;;
+              esac
+
+              # upload do ficheiro (overwrite idempotente)
+              az storage blob upload \
+                --account-name "$ACCOUNT" \
+                --auth-mode login \
+                --container '$web' \
+                --file "$src" \
+                --name "$rel" \
+                --overwrite true \
+                --only-show-errors
+
+              # cache-control por tipo
+              local cache=""
+              case "$rel" in
+                *.json|*.webmanifest) cache='public, max-age=300, must-revalidate' ;;
+                *.css|*.js|*.jpg|*.jpeg|*.png|*.webp|*.gif|*.svg|*.ico) cache='public, max-age=31536000, immutable' ;;
+                *) cache='' ;;
+              esac
+
+              # aplicar headers se identificados
+              if [[ -n "$ctype" || -n "$cache" ]]; then
+                az storage blob update \
+                  --account-name "$ACCOUNT" \
+                  --auth-mode login \
+                  -c '$web' \
+                  -n "$rel" \
+                  ${ctype:+--content-type "$ctype"} \
+                  ${cache:+--content-cache-control "$cache"} \
+                  --only-show-errors >/dev/null || true
+              fi
+            }
+
+            delete_one () {
+              local src="$1"
+              local rel="${src#static/}"
+              az storage blob delete \
+                --account-name "$ACCOUNT" \
+                --auth-mode login \
+                --container '$web' \
+                --name "$rel" \
+                --only-show-errors || true
+            }
+
+            # ---- Upload alterados/adicionados ---------------------------------
+            any_uploaded=false
+            while IFS= read -r f; do
+              [[ -z "$f" ]] && continue
+              [[ -f "$f" ]] || continue
+              echo "↑ CHANGED: $f"
+              upload_one "$f"
+              any_uploaded=true
+            done <<< "$CHANGED"
+
+            # ---- Apagar removidos ----------------------------------------------
+            while IFS= read -r f; do
+              [[ -z "$f" ]] && continue
+              echo "× DELETED: $f"
+              delete_one "$f"
+            done <<< "$DELETED"
+
+            # Index/404 headers (se existirem)
+            for f in index.html 404.html; do
+              if [[ -f "static/$f" ]]; then
+                az storage blob update \
+                  --account-name "$ACCOUNT" \
+                  --auth-mode login \
+                  -c '$web' \
+                  -n "$f" \
+                  --content-type 'text/html; charset=utf-8' \
+                  --only-show-errors >/dev/null || true
+              fi
             done
 
-            # json (cache curta)
-            find static -type f -name '*.json' -printf '%P\n' | while read -r f; do
-              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
-                --content-type 'application/json' \
-                --content-cache-control 'public, max-age=300, must-revalidate' || true
-            done
-
-            # css / js (cache longa)
-            find static -type f -name '*.css' -printf '%P\n' | while read -r f; do
-              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
-                --content-type 'text/css; charset=utf-8' \
-                --content-cache-control 'public, max-age=31536000, immutable' || true
-            done
-            find static -type f -name '*.js' -printf '%P\n' | while read -r f; do
-              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
-                --content-type 'application/javascript; charset=utf-8' \
-                --content-cache-control 'public, max-age=31536000, immutable' || true
-            done
-
-            # imagens (cache longa)
-            for ext in jpg jpeg png webp gif svg ico; do
-              find static -type f -name "*.$ext" -printf '%P\n' | while read -r f; do
-                case "$ext" in
-                  jpg|jpeg) ctype="image/jpeg" ;;
-                  png)      ctype="image/png" ;;
-                  webp)     ctype="image/webp" ;;
-                  gif)      ctype="image/gif" ;;
-                  svg)      ctype="image/svg+xml" ;;
-                  ico)      ctype="image/x-icon" ;;
-                esac
-                az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
-                  --content-type "$ctype" \
-                  --content-cache-control 'public, max-age=31536000, immutable' || true
-              done
-            done
-
-            # webmanifest (cache curta)
-            find static -type f -name '*.webmanifest' -printf '%P\n' | while read -r f; do
-              az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n "$f" \
-                --content-type 'application/manifest+json' \
-                --content-cache-control 'public, max-age=300, must-revalidate' || true
-            done
+            $any_uploaded || echo "Nada para publicar."
