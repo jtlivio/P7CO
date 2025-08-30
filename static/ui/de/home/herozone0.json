@@ -1,0 +1,31 @@
+{
+  "promo": {
+    "kicker": "Offizielle Daten · dynamische Reihe",
+    "title": "Zirkularität, Siedlungsabfälle (PT)",
+    "lead": "Entwicklung der <b>Recyclingquote</b>, Ziele <b>55% (2025)</b> und <b>60% (2030)</b>, Lücken und Prioritäten — mit <b>automatisch aktualisierten Diagrammen</b> (zwischen <b>2h</b> und <b>24h</b>, je nach Quelle/Cache), KaTeX-Formeln und <b>CC BY 4.0 Quellen</b>.",
+    "badges": {
+      "target2025": "Ziel 2025 · 55%",
+      "target2030": "Ziel 2030 · 60%",
+      "ramp": "pp/Jahr · Mindestanstieg"
+    },
+    "cta": {
+      "view_dynamic": "Dynamische Seite ansehen",
+      "report": "Umweltverstöße melden"
+    },
+    "sources": {
+      "label": "Quellen:",
+      "dgov": "dados.gov.pt",
+      "license": "CC BY 4.0",
+      "api_label": "P7CO® EcoResupply API"
+    },
+    "image_alt": "Dynamische Zirkularitätsdiagramme",
+    "image_badge": "Dynamische Diagramme"
+  },
+  "complaints": {
+    "kicker": "Top 5 • Umweltbeschwerde-Kategorien",
+    "title": "Kategorien mit den Meisten Beschwerden",
+    "subtitle": "Die am häufigsten gemeldeten Umweltthemen auf der Plattform. Vorerst nur in Portugal verfügbar.",
+    "availability_note": "Vorerst nur in Portugal verfügbar.",
+    "empty": "Keine Beschwerdekategorien gefunden."
+  }
+}
