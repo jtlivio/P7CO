@@ -1,4 +1,4 @@
-name: Deploy Static to Azure Storage
+name: Deploy Static to Azure Storage (smart SHA)
 
 on:
   push:
@@ -21,33 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # precisamos do diff
-
-      - name: Compute diff (static/**)
-        id: diff
-        shell: bash
-        run: |
-          set -euo pipefail
-          BASE="${{ github.event.before }}"
-          HEAD="${{ github.sha }}"
-
-          if [[ "${{ github.event_name }}" != "push" || -z "${BASE:-}" || "${BASE}" == "0000000000000000000000000000000000000000" ]]; then
-            echo "Initial/dispatch run → full upload."
-            git ls-files 'static/**' > .changed.txt || true
-            : > .deleted.txt
-          else
-            git diff --name-status "$BASE" "$HEAD" -- 'static/**' > .diff || true
-            awk '$1=="A"||$1=="M"{print $2}' .diff > .changed.txt
-            awk '$1=="D"{print $2}' .diff > .deleted.txt
-          fi
-
-          echo "Changed files:"
-          sed -n '1,200p' .changed.txt || true
-          echo "Deleted files:"
-          sed -n '1,200p' .deleted.txt || true
-
-          echo "changed=$(wc -l < .changed.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
-          echo "deleted=$(wc -l < .deleted.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+          fetch-depth: 0
 
       - name: Azure Login (OIDC)
         uses: azure/login@v2
@@ -56,17 +30,20 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Deploy changed files to $web (AAD)
+      - name: Upload only changed files by SHA (AAD)
         uses: azure/cli@v2
-        env:
-          ACCOUNT: p7costatic
         with:
           inlineScript: |
             set -euo pipefail
+            ACCOUNT="p7costatic"
 
-            # RBAC warmup
+            # precisamos de git no container do azure/cli para calcular o diff
+            apt-get update -y >/dev/null 2>&1 || true
+            apt-get install -y git >/dev/null 2>&1 || true
+
+            # sanity: acesso AAD ao $web (propagação de RBAC)
             for n in 1 2 3 4 5 6; do
-              if az storage blob list --account-name "$ACCOUNT" --container-name '$web' --auth-mode login --num-results 1 >/dev/null 2>&1; then
+              if az storage blob list --account-name "$ACCOUNT" -c '$web' --auth-mode login --num-results 1 >/dev/null 2>&1; then
                 echo "AAD access to ${ACCOUNT}/\$web OK"
                 break
               fi
@@ -74,94 +51,111 @@ jobs:
               sleep 10
             done
 
-            upload_one () {
-              local src="$1"
-              local rel="${src#static/}"
-              [[ -f "$src" ]] || return 0
+            # gama de comparação (último commit vs anterior)
+            BASE="$(git rev-parse HEAD^ || echo '')"
+            HEAD="$(git rev-parse HEAD)"
+            if [ -z "$BASE" ]; then
+              # primeiro commit no repo/branch
+              CHANGED=$(git ls-files 'static/**' || true)
+              DELETED=""
+            else
+              CHANGED=$(git diff --name-only --diff-filter=AM "$BASE" "$HEAD" -- 'static/**' || true)
+              DELETED=$(git diff --name-only --diff-filter=D  "$BASE" "$HEAD" -- 'static/**' || true)
+            fi
 
-              local ctype=""
-              case "$rel" in
-                *.html) ctype='text/html; charset=utf-8' ;;
-                *.json) ctype='application/json' ;;
-                *.css)  ctype='text/css; charset=utf-8' ;;
-                *.js)   ctype='application/javascript; charset=utf-8' ;;
-                *.jpg|*.jpeg) ctype='image/jpeg' ;;
-                *.png)  ctype='image/png' ;;
-                *.webp) ctype='image/webp' ;;
-                *.gif)  ctype='image/gif' ;;
-                *.svg)  ctype='image/svg+xml' ;;
-                *.ico)  ctype='image/x-icon' ;;
-                *.md)   ctype='text/markdown; charset=utf-8' ;;
+            # helper: content-type + cache pelas extensões
+            guess_headers() {
+              local rel="$1"
+              local ext="${rel##*.}"
+              case "$ext" in
+                html)  echo "--content-type 'text/html; charset=utf-8'";;
+                json)  echo "--content-type 'application/json' --content-cache-control 'public, max-age=300, must-revalidate'";;
+                css)   echo "--content-type 'text/css; charset=utf-8' --content-cache-control 'public, max-age=31536000, immutable'";;
+                js)    echo "--content-type 'application/javascript; charset=utf-8' --content-cache-control 'public, max-age=31536000, immutable'";;
+                jpg|jpeg) echo "--content-type 'image/jpeg' --content-cache-control 'public, max-age=31536000, immutable'";;
+                png)   echo "--content-type 'image/png' --content-cache-control 'public, max-age=31536000, immutable'";;
+                webp)  echo "--content-type 'image/webp' --content-cache-control 'public, max-age=31536000, immutable'";;
+                gif)   echo "--content-type 'image/gif' --content-cache-control 'public, max-age=31536000, immutable'";;
+                svg)   echo "--content-type 'image/svg+xml' --content-cache-control 'public, max-age=31536000, immutable'";;
+                ico)   echo "--content-type 'image/x-icon' --content-cache-control 'public, max-age=31536000, immutable'";;
+                md)    echo "--content-type 'text/markdown; charset=utf-8'";;
+                webmanifest) echo "--content-type 'application/manifest+json' --content-cache-control 'public, max-age=300, must-revalidate'";;
+                *)     echo "";;
               esac
+            }
 
-              az storage blob upload \
-                --account-name "$ACCOUNT" \
-                --auth-mode login \
-                --container '$web' \
-                --file "$src" \
-                --name "$rel" \
-                --overwrite true \
-                --only-show-errors
+            uploaded=0
+            skipped=0
+            deleted=0
 
-              local cache=""
-              case "$rel" in
-                *.json|*.webmanifest) cache='public, max-age=300, must-revalidate' ;;
-                *.css|*.js|*.jpg|*.jpeg|*.png|*.webp|*.gif|*.svg|*.ico) cache='public, max-age=31536000, immutable' ;;
-              esac
+            # apagar blobs removidos no repo
+            if [ -n "${DELETED:-}" ]; then
+              echo "A remover blobs em falta no repo…"
+              while IFS= read -r f; do
+                [ -z "$f" ] && continue
+                rel="${f#static/}"
+                # ignora diretórios
+                if az storage blob exists --account-name "$ACCOUNT" -c '$web' -n "$rel" --auth-mode login --query exists -o tsv | grep -q true; then
+                  az storage blob delete --account-name "$ACCOUNT" -c '$web' -n "$rel" --auth-mode login >/dev/null
+                  echo "  - deleted: $rel"
+                  deleted=$((deleted+1))
+                fi
+              done <<< "$DELETED"
+            fi
 
-              if [[ -n "${ctype}" || -n "${cache}" ]]; then
-                az storage blob update \
+            # enviar só alterados (por SHA)
+            if [ -n "${CHANGED:-}" ]; then
+              echo "A avaliar ficheiros alterados…"
+              while IFS= read -r f; do
+                [ -z "$f" ] && continue
+                [ -f "$f" ] || continue
+                rel="${f#static/}"
+                sha_local="$(sha256sum "$f" | awk '{print $1}')"
+
+                sha_remote="$(az storage blob show \
+                  --account-name "$ACCOUNT" \
+                  -c '$web' \
+                  -n "$rel" \
+                  --auth-mode login \
+                  --query 'metadata.sha256' -o tsv 2>/dev/null || true)"
+
+                if [ "$sha_local" = "$sha_remote" ]; then
+                  echo "  = skip (mesmo SHA): $rel"
+                  skipped=$((skipped+1))
+                  continue
+                fi
+
+                # upload + headers
+                az storage blob upload \
+                  --account-name "$ACCOUNT" \
+                  --auth-mode login \
+                  -c '$web' \
+                  -f "$f" \
+                  -n "$rel" \
+                  --overwrite >/dev/null
+
+                hdrs=$(guess_headers "$rel")
+                if [ -n "$hdrs" ]; then
+                  # shellcheck disable=SC2086
+                  az storage blob update \
+                    --account-name "$ACCOUNT" \
+                    --auth-mode login \
+                    -c '$web' \
+                    -n "$rel" \
+                    $hdrs >/dev/null || true
+                fi
+
+                # grava o SHA no metadado
+                az storage blob metadata update \
                   --account-name "$ACCOUNT" \
                   --auth-mode login \
                   -c '$web' \
                   -n "$rel" \
-                  ${ctype:+--content-type "$ctype"} \
-                  ${cache:+--content-cache-control "$cache"} \
-                  --only-show-errors >/dev/null || true
-              fi
-            }
+                  --metadata "sha256=$sha_local" >/dev/null
 
-            delete_one () {
-              local src="$1"
-              local rel="${src#static/}"
-              az storage blob delete \
-                --account-name "$ACCOUNT" \
-                --auth-mode login \
-                --container '$web' \
-                --name "$rel" \
-                --only-show-errors || true
-            }
-
-            any=false
-            if [[ -s .changed.txt ]]; then
-              while IFS= read -r f; do
-                [[ -z "$f" ]] && continue
-                echo "↑ CHANGED: $f"
-                upload_one "$f"
-                any=true
-              done < .changed.txt
+                echo "  + uploaded: $rel (sha=${sha_local})"
+                uploaded=$((uploaded+1))
+              done <<< "$CHANGED"
             fi
 
-            if [[ -s .deleted.txt ]]; then
-              while IFS= read -r f; do
-                [[ -z "$f" ]] && continue
-                echo "× DELETED: $f"
-                delete_one "$f"
-                any=true
-              done < .deleted.txt
-            fi
-
-            # Garantir headers base se existirem
-            for f in index.html 404.html; do
-              if [[ -f "static/$f" ]]; then
-                az storage blob update \
-                  --account-name "$ACCOUNT" \
-                  --auth-mode login \
-                  -c '$web' \
-                  -n "$f" \
-                  --content-type 'text/html; charset=utf-8' \
-                  --only-show-errors >/dev/null || true
-              fi
-            done
-
-            $any || echo "Nada para publicar."
+            echo "Resumo: uploaded=$uploaded, skipped=$skipped, deleted=$deleted"
