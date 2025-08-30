@@ -2,7 +2,7 @@
 
 Content repository for sustainability, circular economy and innovation articles
 
-[![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml) [![Crowdin](https://badges.crowdin.net/p7co/localized.svg)](https://crowdin.com/project/p7co)
+[![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml)
 
 **P7CO® EcoResupply Blog**
 Official blog content repository managed by **pH7x Systems®**.
@@ -54,16 +54,6 @@ With P7CO, this expertise is applied to empower **companies, municipalities, and
 
 Special thanks to everyone contributing with **translations**, **content reviews**, and **community feedback**.
 Your effort helps make the **P7CO® EcoResupply Blog** accessible in multiple languages and relevant for a global audience.
-
-## 🌐 Crowdin Integration
-
-This repository is connected to [Crowdin](https://crowdin.com/project/p7co) for collaborative translations.  
-
-- **Source language:** English (`/content/blog/en/`, `/ui/en/`)  
-- **Target languages:** Portuguese, Spanish, French, German  
-- Translations are managed in Crowdin and synced back to this repository via GitHub Actions.  
-
-If you want to contribute with translations or corrections, please check the [`/ui`](./ui) and [`/content/blog`](./content/blog) folders and open a Pull Request.
 
 ## 📌 Blog Frontmatter Specification (P7CO® EcoResupply)
 
