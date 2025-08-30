@@ -32,6 +32,9 @@ jobs:
 
       - name: Crowdin Sync
         uses: crowdin/github-action@v2
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
         with:
           config: crowdin.yml
           upload_sources: true
@@ -45,11 +48,9 @@ jobs:
             🤖 This PR contains the latest **Crowdin translations sync**.
             It was generated automatically by CI.
 
-            Please review changes to ensure they comply with:
+            Please review:
             - ✅ Lint rules (`npm run lint:content`)
             - ✅ Image constraints (JPG 1200×675 ≤150 KB)
-            - ✅ Proper folder and frontmatter
+            - ✅ Folder & frontmatter
           pull_request_labels: l10n, crowdin
           pull_request_assignees: jtlivio
-          project_id: ${{ secrets.CROWDIN_PROJECT_ID }}
-          token: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
