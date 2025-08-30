@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "kicker": "WAS MAN ÜBER UNS SAGT",
+    "title": "Wir sind nicht allein",
+    "lead": "Referenzkunden und -partner teilen ihr Vertrauen und ihre Erfahrungen mit uns."
+  },
+  "nav": {
+    "left": "Referenzen <span>&</span>",
+    "right": "Partner"
+  },
+  "testimonials": [
+    {
+      "text": "Die Zusammenarbeit mit Microsoft for Startups erweist sich als entscheidend, um unseren nachhaltigen digitalen Wandel zu beschleunigen.",
+      "author": "P7CO® EcoResupply"
+    },
+    {
+      "text": "Das Engagement des Teams ermöglichte uns, schnell zu innovieren und greifbare Ergebnisse in unserer Umweltmission zu erzielen.",
+      "author": "pH7x Systems"
+    },
+    {
+      "text": "Die Zusammenarbeit mit P7CO® EcoResupply ist ein strategischer Pfeiler, um Abfälle in Ressourcen zu verwandeln.",
+      "author": "Verwaltung Maré Alta"
+    },
+    {
+      "text": "Die Zusammenarbeit mit P7CO® EcoResupply war entscheidend, um effiziente und nachhaltige Lager- und Parklösungen sicherzustellen.",
+      "author": "Verwaltung PublicTendersAlerts"
+    }
+  ],
+  "partners": [
+    { "alt": "pH7x Systems" },
+    { "alt": "Microsoft Startup Hub Founders" },
+    { "alt": "Maré Alta" },
+    { "alt": "PublicTendersAlerts" }
+  ],
+  "early": {
+    "kicker": "WAS MAN ÜBER UNS SAGT",
+    "title": "Es ist noch früh, aber es lohnt sich, dranzubleiben!",
+    "lead": "P7CO® RESUPPLY startet gerade — erste Erfahrungen von Kunden und Partnern.",
+    "cta_text": "Möchten Sie zu den Ersten gehören, die in dieser Community Spuren hinterlassen?",
+    "cta_link": "Machen Sie mit!"
+  }
+}
