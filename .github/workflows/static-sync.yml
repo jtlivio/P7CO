@@ -28,7 +28,7 @@ jobs:
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Upload & set headers (AAD)
+      - name: Sync & set headers (AAD)
         uses: azure/cli@v2
         with:
           inlineScript: |
@@ -45,15 +45,16 @@ jobs:
               sleep 15
             done
 
-            # Upload (só o que muda é regravado)
-            az storage blob upload-batch \
+            # SINCRONIZAÇÃO INCREMENTAL (só novos/alterados)
+            az storage blob sync \
               --account-name "$ACCOUNT" \
               --auth-mode login \
-              -s ./static \
-              -d '$web' \
-              --overwrite
+              --container '$web' \
+              --source ./static \
+              --only-show-errors
+              # --delete-destination true  # <- descomenta se quiseres apagar do $web o que não existe em ./static
 
-            # Tipos & cache
+            # Tipos & cache (idempotente)
             az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n index.html --content-type 'text/html; charset=utf-8' || true
             az storage blob update --account-name "$ACCOUNT" --auth-mode login -c '$web' -n 404.html   --content-type 'text/html; charset=utf-8' || true
 
