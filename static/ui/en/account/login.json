@@ -1,0 +1,25 @@
+{
+  "title": "Login",
+  "breadcrumb": {
+    "home": "Home",
+    "login": "Login"
+  },
+  "heading": "Login",
+  "already_member": "ALREADY A MEMBER?",
+  "enter": "Sign in",
+  "buttons": {
+    "google": "Sign in with Google",
+    "facebook": "Sign in with Facebook",
+    "login": "SIGN IN"
+  },
+  "labels": {
+    "user_or_email": "EMAIL / USERNAME",
+    "password": "PASSWORD",
+    "remember": "Remember me"
+  },
+  "links": {
+    "forgot": "Forgot your password?",
+    "register": "Register now"
+  },
+  "no_account": "Don't have an account?"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Connexion",
+  "breadcrumb": {
+    "home": "Accueil",
+    "login": "Connexion"
+  },
+  "heading": "Connexion",
+  "already_member": "DÉJÀ MEMBRE ?",
+  "enter": "Se connecter",
+  "buttons": {
+    "google": "Se connecter avec Google",
+    "facebook": "Se connecter avec Facebook",
+    "login": "CONNEXION"
+  },
+  "labels": {
+    "user_or_email": "E-MAIL / NOM D’UTILISATEUR",
+    "password": "MOT DE PASSE",
+    "remember": "Se souvenir de moi"
+  },
+  "links": {
+    "forgot": "Mot de passe oublié ?",
+    "register": "S’inscrire maintenant"
+  },
+  "no_account": "Vous n’avez pas encore de compte ?"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Login",
+  "breadcrumb": {
+    "home": "Início",
+    "login": "Login"
+  },
+  "heading": "Login",
+  "already_member": "JÁ É UM MEMBRO?",
+  "enter": "Entrar",
+  "buttons": {
+    "google": "Entrar com Google",
+    "facebook": "Entrar com Facebook",
+    "login": "ENTRAR"
+  },
+  "labels": {
+    "user_or_email": "E-MAIL / NOME DE UTILIZADOR",
+    "password": "PALAVRA-PASSE",
+    "remember": "Lembrar-me"
+  },
+  "links": {
+    "forgot": "Esqueceu-se da palavra-passe?",
+    "register": "Registe-se agora"
+  },
+  "no_account": "Ainda não tem conta?"
+}

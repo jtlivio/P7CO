@@ -1,0 +1,25 @@
+{
+  "title": "Iniciar sesión",
+  "breadcrumb": {
+    "home": "Inicio",
+    "login": "Iniciar sesión"
+  },
+  "heading": "Iniciar sesión",
+  "already_member": "¿YA ERES MIEMBRO?",
+  "enter": "Entrar",
+  "buttons": {
+    "google": "Entrar con Google",
+    "facebook": "Entrar con Facebook",
+    "login": "ENTRAR"
+  },
+  "labels": {
+    "user_or_email": "CORREO / NOMBRE DE USUARIO",
+    "password": "CONTRASEÑA",
+    "remember": "Recordarme"
+  },
+  "links": {
+    "forgot": "¿Olvidaste tu contraseña?",
+    "register": "Regístrate ahora"
+  },
+  "no_account": "¿Aún no tienes cuenta?"
+}
