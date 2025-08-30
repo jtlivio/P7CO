@@ -1,200 +1,128 @@
 {
-  "top": {
-    "tagline": "For nature, for the future",
-    "contact_us": "Contact Us",
-    "languages": {
-      "pt": "Portuguese",
-      "en": "English",
-      "es": "Spanish",
-      "fr": "French",
-      "de": "German"
-    },
-    "social": {
-      "facebook": "Facebook",
-      "twitter": "Twitter",
-      "instagram": "Instagram"
-    }
-  },
-  "logo": "P7CO™ EcoResupply",
-  "menu": {
-    "home": {
-      "title": "Home",
-      "highlight": {
-        "subtitle": "GITHUB",
-        "title": "CONTRIBUTE",
-        "desc": "Articles, translations, publications.",
-        "cta": "REPOSITORY"
-      },
-      "about": {
-        "title": "ABOUT THE PROJECT",
-        "items": [
-          "About us",
-          "How it works",
-          "Mission & Vision",
-          "Circular Partnerships",
-          "Mobile App"
-        ]
-      },
-      "get_started": {
-        "title": "GET STARTED",
-        "items": [
-          "Create account",
-          "View quick guides"
-        ]
-      },
-      "resources": {
-        "title": "RESOURCES",
-        "items": [
-          "Circularity Map",
-          "Licensed Operators",
-          "Environmental Complaints",
-          "Fire Map",
-          "Indicators & Data"
-        ]
-      },
-      "community": {
-        "title": "COMMUNITY",
-        "items": [
-          "Blog",
-          "Translations",
-          "Contribute"
-        ]
-      },
-      "organizations": {
-        "title": "FOR ORGANIZATIONS",
-        "items": [
-          "Companies",
-          "Municipalities",
-          "NGOs & Academia",
-          "Logistics & Recyclers",
-          "Programs & Events"
-        ]
-      },
-      "support": {
-        "title": "SUPPORT",
-        "items": [
-          "FAQ",
-          "Contacts"
-        ]
-      }
-    },
-    "change": {
-      "title": "Change",
-      "circularity": {
-        "title": "CIRCULARITY",
-        "items": [
-          "Available Surpluses",
-          "Reuse Cases",
-          "Featured Materials",
-          "Impact Indicators"
-        ]
-      },
-      "complaints": {
-        "title": "COMPLAINTS",
-        "items": [
-          "Complaints Map",
-          "Categories",
-          "Official Guidelines",
-          "Regional Statistics"
-        ]
-      },
-      "esg": {
-        "title": "ESG & COMPANIES",
-        "items": [
-          "MIRR Reports",
-          "Green Certifications",
-          "Success Stories",
-          "Circular Partnerships"
-        ]
-      },
-      "cta": {
-        "subtitle": "START",
-        "title": "NOW",
-        "desc": "Explore, report, share and reuse.",
-        "btn": "JOIN"
-      }
-    },
-    "blog": {
-      "title": "Blog",
-      "explore": {
-        "title": "Explore",
-        "items": [
-          "All articles",
-          "Featured",
-          "Most read",
-          "Authors"
-        ]
-      },
-      "categories": {
-        "title": "Categories",
-        "items": [
-          "Guides",
-          "News",
-          "Case Studies",
-          "ESG",
-          "Tech"
-        ]
-      },
-      "languages": {
-        "title": "Languages",
-        "items": [
-          "Portuguese",
-          "English",
-          "Spanish",
-          "French",
-          "German"
-        ]
-      }
-    },
-    "about": {
-      "title": "About",
-      "about": {
-        "title": "About",
-        "items": [
-          "About Us",
-          "Team",
-          "Careers"
-        ]
-      },
-      "contacts": {
-        "title": "Contacts",
-        "items": [
-          "Contacts",
-          "Support"
-        ]
-      },
-      "faq": {
-        "title": "FAQ",
-        "items": [
-          "General FAQ",
-          "Terms of Use",
-          "Privacy Policy",
-          "Cookies",
-          "Acknowledgements"
-        ]
-      }
-    },
-    "auth": {
-      "guest": {
-        "title": "Sign In",
-        "items": [
-          "Login",
-          "Create Account"
-        ]
-      },
-      "user": {
-        "title": "Hello, João",
-        "items": [
-          "Dashboard",
-          "My Listings",
-          "Settings",
-          "Logout"
-        ]
-      }
-    }
-  },
-  "cta_button": {
-    "text": "GET STARTED",
-    "icon": "fas fa-seedling"
-  }
+  "header.top.tagline": "For nature, for the future",
+  "header.top.contact_us": "Contact Us",
+  "header.top.languages.pt": "Portuguese",
+  "header.top.languages.en": "English",
+  "header.top.languages.es": "Spanish",
+  "header.top.languages.fr": "French",
+  "header.top.languages.de": "German",
+  "header.top.social_titles.facebook": "Facebook",
+  "header.top.social_titles.twitter": "Twitter",
+  "header.top.social_titles.instagram": "Instagram",
+
+  "header.logo_alt": "P7CO™ EcoResupply",
+
+  "header.nav.home.label": "Home",
+  "header.nav.home.cta_panel.badge": "GITHUB",
+  "header.nav.home.cta_panel.title": "CONTRIBUTE",
+  "header.nav.home.cta_panel.description": "Articles, translations, publications.",
+  "header.nav.home.cta_panel.button": "REPOSITORY",
+
+  "header.nav.home.about.title": "ABOUT THE PROJECT",
+  "header.nav.home.about.items.about_us": "About us",
+  "header.nav.home.about.items.how_it_works": "How it works",
+  "header.nav.home.about.items.mission_vision": "Mission & Vision",
+  "header.nav.home.about.items.circular_partnerships": "Circular Partnerships",
+  "header.nav.home.about.items.mobile_app": "Mobile App",
+
+  "header.nav.home.get_started.title": "GET STARTED",
+  "header.nav.home.get_started.items.create_account": "Create account",
+  "header.nav.home.get_started.items.quick_guides": "View quick guides",
+
+  "header.nav.home.resources.title": "RESOURCES",
+  "header.nav.home.resources.items.circular_map": "Circularity Map",
+  "header.nav.home.resources.items.licensed_operators": "Licensed Operators",
+  "header.nav.home.resources.items.environmental_reports": "Environmental Complaints",
+  "header.nav.home.resources.items.fires_map": "Fire Map",
+  "header.nav.home.resources.items.indicators_data": "Indicators & Data",
+
+  "header.nav.home.community.title": "COMMUNITY",
+  "header.nav.home.community.items.blog": "Blog",
+  "header.nav.home.community.items.translations": "Translations",
+  "header.nav.home.community.items.contribute": "Contribute",
+
+  "header.nav.home.orgs.title": "FOR ORGANIZATIONS",
+  "header.nav.home.orgs.items.companies": "Companies",
+  "header.nav.home.orgs.items.municipalities": "Municipalities",
+  "header.nav.home.orgs.items.ngos_academia": "NGOs & Academia",
+  "header.nav.home.orgs.items.logistics_recyclers": "Logistics & Recyclers",
+  "header.nav.home.orgs.items.programs_events": "Programs & Events",
+
+  "header.nav.home.support.title": "SUPPORT",
+  "header.nav.home.support.items.faq": "FAQ",
+  "header.nav.home.support.items.contacts": "Contacts",
+
+  "header.nav.taxonomy.label": "Change",
+  "header.nav.taxonomy.circularity.title": "CIRCULARITY",
+  "header.nav.taxonomy.circularity.items.available_surpluses": "Available Surpluses",
+  "header.nav.taxonomy.circularity.items.reuse_cases": "Reuse Cases",
+  "header.nav.taxonomy.circularity.items.featured_materials": "Featured Materials",
+  "header.nav.taxonomy.circularity.items.impact_indicators": "Impact Indicators",
+
+  "header.nav.taxonomy.reports.title": "COMPLAINTS",
+  "header.nav.taxonomy.reports.items.reports_map": "Complaints Map",
+  "header.nav.taxonomy.reports.items.categories": "Categories",
+  "header.nav.taxonomy.reports.items.official_guidelines": "Official Guidelines",
+  "header.nav.taxonomy.reports.items.regional_stats": "Regional Statistics",
+
+  "header.nav.taxonomy.esg.title": "ESG & COMPANIES",
+  "header.nav.taxonomy.esg.items.mirr_reports": "MIRR Reports",
+  "header.nav.taxonomy.esg.items.green_certs": "Green Certifications",
+  "header.nav.taxonomy.esg.items.success_cases": "Success Stories",
+  "header.nav.taxonomy.esg.items.circular_partnerships": "Circular Partnerships",
+
+  "header.nav.taxonomy.cta_block.badge": "START",
+  "header.nav.taxonomy.cta_block.title": "NOW",
+  "header.nav.taxonomy.cta_block.description": "Explore, report, share and reuse.",
+  "header.nav.taxonomy.cta_block.button": "JOIN",
+
+  "header.nav.blog.label": "Blog",
+  "header.nav.blog.explore.title": "Explore",
+  "header.nav.blog.explore.items.all_posts": "All articles",
+  "header.nav.blog.explore.items.featured": "Featured",
+  "header.nav.blog.explore.items.most_read": "Most read",
+  "header.nav.blog.explore.items.authors": "Authors",
+
+  "header.nav.blog.categories.title": "Categories",
+  "header.nav.blog.categories.items.guides": "Guides",
+  "header.nav.blog.categories.items.news": "News",
+  "header.nav.blog.categories.items.case_studies": "Case Studies",
+  "header.nav.blog.categories.items.esg": "ESG",
+  "header.nav.blog.categories.items.tech": "Tech",
+
+  "header.nav.blog.languages.title": "Languages",
+  "header.nav.blog.languages.items.pt": "Portuguese",
+  "header.nav.blog.languages.items.en": "English",
+  "header.nav.blog.languages.items.es": "Spanish",
+  "header.nav.blog.languages.items.fr": "French",
+  "header.nav.blog.languages.items.de": "German",
+
+  "header.nav.pages.label": "About",
+  "header.nav.pages.about.title": "About",
+  "header.nav.pages.about.items.about_us": "About Us",
+  "header.nav.pages.about.items.team": "Team",
+  "header.nav.pages.about.items.careers": "Careers",
+
+  "header.nav.pages.contacts.title": "Contacts",
+  "header.nav.pages.contacts.items.contacts": "Contacts",
+  "header.nav.pages.contacts.items.support": "Support",
+
+  "header.nav.pages.faq.title": "FAQ",
+  "header.nav.pages.faq.items.general_faq": "General FAQ",
+  "header.nav.pages.faq.items.terms": "Terms of Use",
+  "header.nav.pages.faq.items.privacy": "Privacy Policy",
+  "header.nav.pages.faq.items.cookies": "Cookies",
+  "header.nav.pages.faq.items.acknowledgements": "Acknowledgements",
+
+  "header.auth.guest_menu_label": "Sign In",
+  "header.auth.login": "Login",
+  "header.auth.create_account": "Create Account",
+  "header.auth.user_menu_label": "Hello, {name}",
+  "header.auth.dashboard": "Dashboard",
+  "header.auth.my_listings": "My Listings",
+  "header.auth.settings": "Settings",
+  "header.auth.logout": "Logout",
+
+  "header.cta_primary.text": "GET STARTED",
+  "header.cta_primary.icon": "fas fa-seedling"
 }

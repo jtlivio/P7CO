@@ -1,195 +1,129 @@
 {
-  "header": {
-    "top": {
-      "tagline": "Pela natureza, pelo futuro",
-      "contact_us": "Contactos",
-      "languages_menu_aria": "Selecionar idioma",
-      "languages": {
-        "pt": "Português",
-        "en": "English",
-        "es": "Español",
-        "fr": "Français",
-        "de": "Deutsch"
-      },
-      "social_titles": {
-        "facebook": "Facebook",
-        "twitter": "Twitter",
-        "instagram": "Instagram"
-      }
-    },
-    "logo_alt": "P7CO™ EcoResupply",
-    "nav": {
-      "home": {
-        "label": "Início",
-        "cta_panel": {
-          "badge": "GITHUB",
-          "title": "CONTRIBUA",
-          "description": "Artigos, traduções, publicações.",
-          "button": "REPOSITÓRIO"
-        },
-        "about": {
-          "title": "SOBRE O PROJETO",
-          "items": {
-            "about_us": "Acerca de nós",
-            "how_it_works": "Como funciona",
-            "mission_vision": "Missão & Visão",
-            "circular_partnerships": "Parcerias Circulares",
-            "mobile_app": "Aplicação Mobile"
-          }
-        },
-        "get_started": {
-          "title": "COMEÇAR",
-          "items": {
-            "create_account": "Criar conta",
-            "quick_guides": "Ver guias rápidos"
-          }
-        },
-        "resources": {
-          "title": "RECURSOS",
-          "items": {
-            "circular_map": "Mapa de Circularidade",
-            "licensed_operators": "Operadores Licenciados",
-            "environmental_reports": "Denúncias Ambientais",
-            "fires_map": "Mapa de Incêndios",
-            "indicators_data": "Indicadores & Dados"
-          }
-        },
-        "community": {
-          "title": "COMUNIDADE",
-          "items": {
-            "blog": "Blog",
-            "translations": "Traduções",
-            "contribute": "Contribuir"
-          }
-        },
-        "orgs": {
-          "title": "PARA ORGANIZAÇÕES",
-          "items": {
-            "companies": "Empresas",
-            "municipalities": "Municípios",
-            "ngos_academia": "ONGs & Academia",
-            "logistics_recyclers": "Logística & Recicladores",
-            "programs_events": "Programas & Eventos"
-          }
-        },
-        "support": {
-          "title": "SUPORTE",
-          "items": {
-            "faq": "FAQ",
-            "contacts": "Contactos"
-          }
-        }
-      },
-      "taxonomy": {
-        "label": "Mudança",
-        "circularity": {
-          "title": "CIRCULARIDADE",
-          "items": {
-            "available_surpluses": "Excedentes Disponíveis",
-            "reuse_cases": "Casos de Reutilização",
-            "featured_materials": "Materiais em Destaque",
-            "impact_indicators": "Indicadores de Impacto"
-          }
-        },
-        "reports": {
-          "title": "DENÚNCIAS",
-          "items": {
-            "reports_map": "Mapa de Denúncias",
-            "categories": "Categorias",
-            "official_guidelines": "Orientações Oficiais",
-            "regional_stats": "Estatísticas Regionais"
-          }
-        },
-        "esg": {
-          "title": "ESG & EMPRESAS",
-          "items": {
-            "mirr_reports": "Relatórios MIRR",
-            "green_certs": "Certificações Verdes",
-            "success_cases": "Casos de Sucesso",
-            "circular_partnerships": "Parcerias Circulares"
-          }
-        },
-        "cta_block": {
-          "badge": "COMECE",
-          "title": "AGORA",
-          "description": "Explorar, denunciar, partilhar e reutilizar.",
-          "button": "JUNTAR-ME"
-        }
-      },
-      "blog": {
-        "label": "Blog",
-        "explore": {
-          "title": "Explorar",
-          "items": {
-            "all_posts": "Todos os artigos",
-            "featured": "Em destaque",
-            "most_read": "Mais lidos",
-            "authors": "Autores"
-          }
-        },
-        "categories": {
-          "title": "Categorias",
-          "items": {
-            "guides": "Guias",
-            "news": "Notícias",
-            "case_studies": "Estudos de Caso",
-            "esg": "ESG",
-            "tech": "Tecnologia"
-          }
-        },
-        "languages": {
-          "title": "Idiomas",
-          "items": {
-            "pt": "Português",
-            "en": "English",
-            "es": "Español",
-            "fr": "Français",
-            "de": "Deutsch"
-          }
-        }
-      },
-      "pages": {
-        "label": "Acerca",
-        "about": {
-          "title": "Sobre",
-          "items": {
-            "about_us": "Sobre Nós",
-            "team": "Equipa",
-            "careers": "Carreiras"
-          }
-        },
-        "contacts": {
-          "title": "Contactos",
-          "items": {
-            "contacts": "Contactos",
-            "support": "Suporte"
-          }
-        },
-        "faq": {
-          "title": "FAQ",
-          "items": {
-            "general_faq": "FAQ Geral",
-            "terms": "Termos de Uso",
-            "privacy": "Política de Privacidade",
-            "cookies": "Cookies",
-            "acknowledgements": "Agradecimentos"
-          }
-        }
-      },
-      "auth": {
-        "guest_menu_label": "Entrar",
-        "login": "Login",
-        "create_account": "Criar Conta",
-        "user_menu_label": "Olá, {name}",
-        "dashboard": "Dashboard",
-        "my_listings": "As minhas listagens",
-        "settings": "Definições",
-        "logout": "Sair"
-      },
-      "cta_primary": {
-        "text": "COMEÇAR",
-        "icon": "fa-seedling"
-      }
-    }
-  }
+  "header.top.tagline": "Pela natureza, pelo futuro",
+  "header.top.contact_us": "Contactos",
+  "header.top.languages_menu_aria": "Selecionar idioma",
+  "header.top.languages.pt": "Português",
+  "header.top.languages.en": "English",
+  "header.top.languages.es": "Español",
+  "header.top.languages.fr": "Français",
+  "header.top.languages.de": "Deutsch",
+  "header.top.social_titles.facebook": "Facebook",
+  "header.top.social_titles.twitter": "Twitter",
+  "header.top.social_titles.instagram": "Instagram",
+
+  "header.logo_alt": "P7CO™ EcoResupply",
+
+  "header.nav.home.label": "Início",
+  "header.nav.home.cta_panel.badge": "GITHUB",
+  "header.nav.home.cta_panel.title": "CONTRIBUA",
+  "header.nav.home.cta_panel.description": "Artigos, traduções, publicações.",
+  "header.nav.home.cta_panel.button": "REPOSITÓRIO",
+
+  "header.nav.home.about.title": "SOBRE O PROJETO",
+  "header.nav.home.about.items.about_us": "Acerca de nós",
+  "header.nav.home.about.items.how_it_works": "Como funciona",
+  "header.nav.home.about.items.mission_vision": "Missão & Visão",
+  "header.nav.home.about.items.circular_partnerships": "Parcerias Circulares",
+  "header.nav.home.about.items.mobile_app": "Aplicação Mobile",
+
+  "header.nav.home.get_started.title": "COMEÇAR",
+  "header.nav.home.get_started.items.create_account": "Criar conta",
+  "header.nav.home.get_started.items.quick_guides": "Ver guias rápidos",
+
+  "header.nav.home.resources.title": "RECURSOS",
+  "header.nav.home.resources.items.circular_map": "Mapa de Circularidade",
+  "header.nav.home.resources.items.licensed_operators": "Operadores Licenciados",
+  "header.nav.home.resources.items.environmental_reports": "Denúncias Ambientais",
+  "header.nav.home.resources.items.fires_map": "Mapa de Incêndios",
+  "header.nav.home.resources.items.indicators_data": "Indicadores & Dados",
+
+  "header.nav.home.community.title": "COMUNIDADE",
+  "header.nav.home.community.items.blog": "Blog",
+  "header.nav.home.community.items.translations": "Traduções",
+  "header.nav.home.community.items.contribute": "Contribuir",
+
+  "header.nav.home.orgs.title": "PARA ORGANIZAÇÕES",
+  "header.nav.home.orgs.items.companies": "Empresas",
+  "header.nav.home.orgs.items.municipalities": "Municípios",
+  "header.nav.home.orgs.items.ngos_academia": "ONGs & Academia",
+  "header.nav.home.orgs.items.logistics_recyclers": "Logística & Recicladores",
+  "header.nav.home.orgs.items.programs_events": "Programas & Eventos",
+
+  "header.nav.home.support.title": "SUPORTE",
+  "header.nav.home.support.items.faq": "FAQ",
+  "header.nav.home.support.items.contacts": "Contactos",
+
+  "header.nav.taxonomy.label": "Mudança",
+  "header.nav.taxonomy.circularity.title": "CIRCULARIDADE",
+  "header.nav.taxonomy.circularity.items.available_surpluses": "Excedentes Disponíveis",
+  "header.nav.taxonomy.circularity.items.reuse_cases": "Casos de Reutilização",
+  "header.nav.taxonomy.circularity.items.featured_materials": "Materiais em Destaque",
+  "header.nav.taxonomy.circularity.items.impact_indicators": "Indicadores de Impacto",
+
+  "header.nav.taxonomy.reports.title": "DENÚNCIAS",
+  "header.nav.taxonomy.reports.items.reports_map": "Mapa de Denúncias",
+  "header.nav.taxonomy.reports.items.categories": "Categorias",
+  "header.nav.taxonomy.reports.items.official_guidelines": "Orientações Oficiais",
+  "header.nav.taxonomy.reports.items.regional_stats": "Estatísticas Regionais",
+
+  "header.nav.taxonomy.esg.title": "ESG & EMPRESAS",
+  "header.nav.taxonomy.esg.items.mirr_reports": "Relatórios MIRR",
+  "header.nav.taxonomy.esg.items.green_certs": "Certificações Verdes",
+  "header.nav.taxonomy.esg.items.success_cases": "Casos de Sucesso",
+  "header.nav.taxonomy.esg.items.circular_partnerships": "Parcerias Circulares",
+
+  "header.nav.taxonomy.cta_block.badge": "COMECE",
+  "header.nav.taxonomy.cta_block.title": "AGORA",
+  "header.nav.taxonomy.cta_block.description": "Explorar, denunciar, partilhar e reutilizar.",
+  "header.nav.taxonomy.cta_block.button": "JUNTAR-ME",
+
+  "header.nav.blog.label": "Blog",
+  "header.nav.blog.explore.title": "Explorar",
+  "header.nav.blog.explore.items.all_posts": "Todos os artigos",
+  "header.nav.blog.explore.items.featured": "Em destaque",
+  "header.nav.blog.explore.items.most_read": "Mais lidos",
+  "header.nav.blog.explore.items.authors": "Autores",
+
+  "header.nav.blog.categories.title": "Categorias",
+  "header.nav.blog.categories.items.guides": "Guias",
+  "header.nav.blog.categories.items.news": "Notícias",
+  "header.nav.blog.categories.items.case_studies": "Estudos de Caso",
+  "header.nav.blog.categories.items.esg": "ESG",
+  "header.nav.blog.categories.items.tech": "Tecnologia",
+
+  "header.nav.blog.languages.title": "Idiomas",
+  "header.nav.blog.languages.items.pt": "Português",
+  "header.nav.blog.languages.items.en": "English",
+  "header.nav.blog.languages.items.es": "Español",
+  "header.nav.blog.languages.items.fr": "Français",
+  "header.nav.blog.languages.items.de": "Deutsch",
+
+  "header.nav.pages.label": "Acerca",
+  "header.nav.pages.about.title": "Sobre",
+  "header.nav.pages.about.items.about_us": "Sobre Nós",
+  "header.nav.pages.about.items.team": "Equipa",
+  "header.nav.pages.about.items.careers": "Carreiras",
+
+  "header.nav.pages.contacts.title": "Contactos",
+  "header.nav.pages.contacts.items.contacts": "Contactos",
+  "header.nav.pages.contacts.items.support": "Suporte",
+
+  "header.nav.pages.faq.title": "FAQ",
+  "header.nav.pages.faq.items.general_faq": "FAQ Geral",
+  "header.nav.pages.faq.items.terms": "Termos de Uso",
+  "header.nav.pages.faq.items.privacy": "Política de Privacidade",
+  "header.nav.pages.faq.items.cookies": "Cookies",
+  "header.nav.pages.faq.items.acknowledgements": "Agradecimentos",
+
+  "header.auth.guest_menu_label": "Entrar",
+  "header.auth.login": "Login",
+  "header.auth.create_account": "Criar Conta",
+  "header.auth.user_menu_label": "Olá, {name}",
+  "header.auth.dashboard": "Dashboard",
+  "header.auth.my_listings": "As minhas listagens",
+  "header.auth.settings": "Definições",
+  "header.auth.logout": "Sair",
+
+  "header.cta_primary.text": "COMEÇAR",
+  "header.cta_primary.icon": "fa-seedling"
 }
