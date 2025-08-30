@@ -1,0 +1,22 @@
+{
+  "bg_text": "OPERATORS",
+  "title": "Licensed Operators Map",
+  "lead": {
+    "line1": "Find <b>licensed waste management operators</b> in mainland Portugal and islands.",
+    "line2": "Search by municipality, category and proximity. Official data from <b>SILOGR/APA</b>."
+  },
+  "buttons": {
+    "open_map": "Open map",
+    "view_dataset": "View dataset (dados.gov.pt)"
+  },
+  "meta": {
+    "label_source": "Data",
+    "source": "SILOGR / APA",
+    "label_license": "License",
+    "license": "CC BY 4.0",
+    "label_updated": "Updated"
+  },
+  "image": {
+    "alt": "Licensed Operators Map (SILOGR/APA)"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "bg_text": "OPÉRATEURS",
+  "title": "Carte des Opérateurs Agréés",
+  "lead": {
+    "line1": "Trouvez <b>des opérateurs agréés de gestion des déchets</b> au Portugal continental et dans les îles.",
+    "line2": "Recherche par commune, catégorie et proximité. Données officielles <b>SILOGR/APA</b>."
+  },
+  "buttons": {
+    "open_map": "Ouvrir la carte",
+    "view_dataset": "Voir dataset (dados.gov.pt)"
+  },
+  "meta": {
+    "label_source": "Données",
+    "source": "SILOGR / APA",
+    "label_license": "Licence",
+    "license": "CC BY 4.0",
+    "label_updated": "Mis à jour"
+  },
+  "image": {
+    "alt": "Carte des Opérateurs Agréés (SILOGR/APA)"
+  }
+}

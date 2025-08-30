@@ -1,0 +1,22 @@
+{
+  "bg_text": "BETREIBER",
+  "title": "Karte der Lizenzierten Betreiber",
+  "lead": {
+    "line1": "Finden Sie <b>lizenzierte Abfallwirtschaftsbetreiber</b> auf dem portugiesischen Festland und den Inseln.",
+    "line2": "Suche nach Gemeinde, Kategorie und Nähe. Offizielle Daten von <b>SILOGR/APA</b>."
+  },
+  "buttons": {
+    "open_map": "Karte öffnen",
+    "view_dataset": "Datensatz ansehen (dados.gov.pt)"
+  },
+  "meta": {
+    "label_source": "Daten",
+    "source": "SILOGR / APA",
+    "label_license": "Lizenz",
+    "license": "CC BY 4.0",
+    "label_updated": "Aktualisiert"
+  },
+  "image": {
+    "alt": "Karte der Lizenzierten Betreiber (SILOGR/APA)"
+  }
+}

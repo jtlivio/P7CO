@@ -1,0 +1,22 @@
+{
+  "bg_text": "OPERADORES",
+  "title": "Mapa de Operadores Autorizados",
+  "lead": {
+    "line1": "Encuentra <b>operadores de gestión de residuos autorizados</b> en Portugal continental e islas.",
+    "line2": "Busca por municipio, categoría y proximidad. Datos oficiales de <b>SILOGR/APA</b>."
+  },
+  "buttons": {
+    "open_map": "Abrir mapa",
+    "view_dataset": "Ver dataset (dados.gov.pt)"
+  },
+  "meta": {
+    "label_source": "Datos",
+    "source": "SILOGR / APA",
+    "label_license": "Licencia",
+    "license": "CC BY 4.0",
+    "label_updated": "Actualizado"
+  },
+  "image": {
+    "alt": "Mapa de Operadores Autorizados (SILOGR/APA)"
+  }
+}

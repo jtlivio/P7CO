@@ -1,0 +1,22 @@
+{
+  "bg_text": "OPERADORES",
+  "title": "Mapa de Operadores Licenciados",
+  "lead": {
+    "line1": "Encontre <b>operadores de gestão de resíduos licenciados</b> em Portugal continental e ilhas.",
+    "line2": "Pesquisa por concelho, categoria e proximidade. Dados oficiais <b>SILOGR/APA</b>."
+  },
+  "buttons": {
+    "open_map": "Abrir mapa",
+    "view_dataset": "Ver dataset (dados.gov.pt)"
+  },
+  "meta": {
+    "label_source": "Dados",
+    "source": "SILOGR / APA",
+    "label_license": "Licença",
+    "license": "CC BY 4.0",
+    "label_updated": "Atualizado"
+  },
+  "image": {
+    "alt": "Mapa de Operadores Licenciados (SILOGR/APA)"
+  }
+}
