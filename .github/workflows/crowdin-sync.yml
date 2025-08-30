@@ -6,7 +6,6 @@ on:
     - cron: "0 */6 * * *"
   push:
     branches: [ main ]
-    branches-ignore: [ l10n_main ]
     paths:
       - "crowdin.yml"
       - "static/ui/**"
