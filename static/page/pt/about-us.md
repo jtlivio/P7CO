@@ -1,45 +1,61 @@
 +++
 title = "Acerca de Nós"
-intro = "Conhece a visão, missão e equipa por detrás do P7CO® EcoResupply — uma plataforma criada para transformar excedentes em impacto positivo, promovendo uma economia circular real."
+intro = "O P7CO® EcoResupply é uma plataforma de dados transparentes e colaboração cidadã que transforma excedentes em impacto positivo e promove uma economia circular real."
 image = "/images/about-p7co.jpg"
 date = 2025-09-01
-tags = ["Institucional", "Sustentabilidade", "Inovação", "Equipa", "Missão"]
+tags = ["Institucional", "Sustentabilidade", "Inovação", "Cidadania", "Transparência"]
 active = true
 +++
 
 ## Quem Somos
-O **P7CO® EcoResupply** é uma iniciativa da **pH7x Systems®**, nascida em Portugal com uma missão clara: **facilitar a reutilização de excedentes, reduzir desperdícios e acelerar a transição para uma economia circular regenerativa**.  
+O **P7CO® EcoResupply** nasceu em Portugal pela mão da **pH7x Systems®** para responder a uma necessidade urgente: **mais transparência na gestão de excedentes, resíduos e denúncias ambientais**.  
 
-Desenvolvemos tecnologia inovadora, acessível e modular, que liga empresas, municípios, cidadãos e entidades ambientais numa rede colaborativa, digital e transparente.
+Vivemos num tempo em que **os dados são poder**. Se ficam escondidos, a sociedade perde capacidade de agir; se são abertos e confiáveis, ganhamos todos — cidadãos, empresas e governos. O P7CO® EcoResupply existe para garantir esse acesso.
 
-## A Nossa Missão
-Criar impacto positivo através de soluções digitais que simplificam a gestão de excedentes e resíduos, asseguram **compliance legal e ambiental** e promovem **colaboração aberta** entre todos os atores do ecossistema.  
+### A Nossa Missão
+A nossa missão é clara:  
+- **Dar visibilidade aos excedentes** que podem ser reutilizados em vez de desperdiçados.  
+- **Disponibilizar dados transparentes** que qualquer cidadão, entidade pública ou empresa possa consultar.  
+- **Transformar participações individuais** — como denúncias ambientais — em **informação validada e útil para a sociedade**.  
 
-Queremos que cada material tenha uma **segunda vida** e que cada organização consiga **medir, certificar e comunicar** o seu contributo para a sustentabilidade.
+Queremos que **cada ação, cada registo, cada denúncia** se converta em dados acessíveis que **aumentem a confiança, acelerem a colaboração e criem impacto positivo mensurável**.
 
-## A Nossa Visão
-Ser a **plataforma de referência internacional** na valorização de recursos, inspirando um **novo modelo económico** baseado em circularidade, transparência e impacto social.  
-Acreditamos que **cada contributo conta** — desde uma pequena empresa até um grande município — e que juntos podemos criar **um futuro mais equilibrado e regenerativo**.
+### A Nossa Visão
+Ser a **plataforma internacional de confiança em dados ambientais** que inspira governos, empresas e cidadãos a **agir em conjunto**.  
+Um ecossistema digital onde:  
+- a informação é aberta,  
+- a circularidade é monitorizada em tempo real,  
+- e a cidadania se traduz em **participação ativa e responsável**.  
 
-## Os Nossos Valores
-- **Sustentabilidade** — tudo o que fazemos visa proteger o planeta e os recursos naturais.  
-- **Inovação** — usamos tecnologia para simplificar processos e criar valor real.  
-- **Transparência** — métricas claras, certificação de impacto e reporting verificável.  
-- **Colaboração** — unir empresas, entidades públicas, cidadãos e ONGs em rede.  
-- **Responsabilidade** — cumprimos normas legais, éticas e ambientais, sempre.  
+Acreditamos que **a transparência é a base da sustentabilidade**. Sem dados claros, não há economia circular justa, nem democracia ambiental saudável.
 
-## A Nossa Equipa
-Somos uma equipa multidisciplinar que combina **engenharia de software, ciência de dados, gestão ambiental e experiência em operações logísticas**.  
-Contamos ainda com parceiros estratégicos — universidades, operadores tecnológicos e municípios — que nos ajudam a levar o P7CO® EcoResupply mais longe.
+### Os Nossos Valores
+- **Transparência** — todos os dados, métricas e relatórios são auditáveis.  
+- **Cidadania** — cada utilizador tem poder de participação, denúncia e monitorização.  
+- **Sustentabilidade** — cada decisão assente em dados evita desperdício e reduz impactos.  
+- **Inovação** — tecnologia modular e acessível para integrar ERP, APIs municipais e aplicações cidadãs.  
+- **Responsabilidade** — cumprimos normas legais, éticas e ambientais, sem compromissos.  
 
-## O Nosso Impacto
-- Mais de **X toneladas de excedentes** já publicados e reutilizados.  
-- **CO₂ evitado** equivalente a milhares de árvores plantadas.  
-- **Municípios e empresas** em diferentes setores já integrados.  
-- **Cidadãos envolvidos** na denúncia de situações ambientais e na partilha de recursos.  
+### A Nossa Equipa
+A nossa equipa combina **engenharia de software, ciência de dados, gestão ambiental e operações logísticas**.  
+Trabalhamos lado a lado com **municípios, universidades, ONGs e empresas privadas** para garantir que o P7CO® EcoResupply não é apenas uma plataforma tecnológica, mas sim uma **infraestrutura de confiança social**.
 
-## Junta-te a Nós
-Se és empresa, município ou entidade parceira, queremos caminhar contigo.  
-Juntos, podemos **transformar excedentes em valor**, reduzir custos, melhorar indicadores ESG e criar um planeta mais justo para todos.
+### O Nosso Impacto
+O impacto do P7CO® mede-se em dados, não em promessas:  
+- **Excedentes registados e reutilizados**: toneladas de materiais desviados do desperdício.  
+- **CO₂ evitado**: equivalente a milhares de árvores plantadas.  
+- **Denúncias ambientais**: transformadas em informação validada e encaminhada para autoridades.  
+- **Municípios integrados**: com dashboards abertos e relatórios em tempo real.  
+- **Cidadãos participantes**: que encontram no P7CO® uma ferramenta de ação e fiscalização.  
 
-**pH7x Systems® — Balance is our formula.**  
+### Junta-te a Nós
+Se és cidadão, tens no P7CO® uma forma simples de **participar e vigiar**.  
+Se és empresa, encontras um **canal de confiança para divulgar excedentes e cumprir ESG**.  
+Se és município, tens **dados em tempo real** para gerir políticas ambientais com transparência.  
+
+No P7CO® EcoResupply, **cada registo conta e cada dado partilhado faz a diferença**.  
+Juntos, construímos uma sociedade mais justa, sustentável e participativa.
+
+**pH7x Systems®** — Balance is our formula.  
+Powered by **P7CO® EcoResupply**.
+
