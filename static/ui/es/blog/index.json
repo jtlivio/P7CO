@@ -1,13 +1,13 @@
 {
   "seo": {
     "title": "Blog – P7CO EcoResupply",
-    "desc": "Descubre noticias, artículos y consejos sobre circularidad, innovación y responsabilidad en el proyecto P7CO EcoResupply.",
+    "desc": "Descubre noticias, artículos y consejos sobre circularidad, innovación y responsabilidad del proyecto P7CO EcoResupply.",
     "keys": "blog, artículos, noticias, circularidad, innovación, responsabilidad, P7CO, EcoResupply"
   },
   "hero": {
     "badge": "Blog",
-    "title": "Novedades & Artículos",
-    "desc": "Información, responsabilidad, circularidad e innovación. ¡Descubre artículos y consejos del proyecto P7CO EcoResupply!"
+    "title": "Noticias & Artículos",
+    "desc": "Información, responsabilidad, circularidad e innovación. Descubre artículos y consejos del proyecto P7CO EcoResupply."
   },
   "cta": {
     "read": "Leer artículo"
@@ -15,10 +15,22 @@
   "pager": {
     "label": "Paginación del blog",
     "prev": "Anterior",
-    "next": "Siguiente"
+    "next": "Siguiente",
+    "load_more": "Cargar más"
   },
   "card": {
     "badge": "Blog"
   },
-  "empty": "Aún no se han publicado artículos."
+  "empty": "Aún no se han publicado artículos.",
+  "crumb": {
+    "home": "Inicio",
+    "blog": "Blog"
+  },
+  "search": {
+    "placeholder": "Buscar…"
+  },
+  "side": {
+    "categories": "Categorías",
+    "tags": "Etiquetas"
+  }
 }

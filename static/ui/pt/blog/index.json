@@ -15,10 +15,22 @@
   "pager": {
     "label": "Paginação do blog",
     "prev": "Anterior",
-    "next": "Seguinte"
+    "next": "Seguinte",
+    "load_more": "Carregar mais"
   },
   "card": {
     "badge": "Blog"
   },
-  "empty": "Ainda não existem artigos publicados."
+  "empty": "Ainda não existem artigos publicados.",
+  "crumb": {
+    "home": "Início",
+    "blog": "Blog"
+  },
+  "search": {
+    "placeholder": "Procurar…"
+  },
+  "side": {
+    "categories": "Categorias",
+    "tags": "Tags"
+  }
 }

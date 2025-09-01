@@ -1,0 +1,50 @@
+{
+  "seo": {
+    "title_fallback": "Article du Blog",
+    "desc_fallback": "Article du Blog - P7CO EcoResupply"
+  },
+  "fallback": {
+    "title": "Article du Blog",
+    "desc": "Article du Blog - P7CO EcoResupply"
+  },
+  "crumb": {
+    "home": "Accueil",
+    "blog": "Blog"
+  },
+  "back": {
+    "blog": "Retour au Blog"
+  },
+  "meta": {
+    "min_read": "min",
+    "date_aria": "Date de publication",
+    "tags_aria": "Étiquettes"
+  },
+  "author": {
+    "title": "À propos de l’auteur"
+  },
+  "related": {
+    "title": "Articles connexes"
+  },
+  "comments": {
+    "title": "Commentaires",
+    "leave": "Laissez votre commentaire"
+  },
+  "form": {
+    "name": "Nom",
+    "comment": "Commentaire",
+    "send": "Envoyer le commentaire"
+  },
+  "search": {
+    "placeholder": "Rechercher…"
+  },
+  "side": {
+    "categories": "Catégories",
+    "popular": "Populaires",
+    "tags": "Tags",
+    "newsletter": {
+      "title": "Recevoir les nouveautés",
+      "desc": "Abonnez-vous pour recevoir les prochains articles.",
+      "btn": "S’abonner"
+    }
+  }
+}
