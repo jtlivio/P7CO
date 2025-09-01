@@ -42,7 +42,7 @@ All Markdown files must start with **TOML frontmatter** using `+++` delimiters. 
 +++
 title = "Circular Economy: A Global Challenge"
 intro = "A short introduction in the target language."
-image = "/images/circular.jpg"
+image: /proxy/image?path=images/circular.jpg"
 date = 2025-04-01
 category = "guides"
 tags = ["Sustainability", "Circular Economy"]

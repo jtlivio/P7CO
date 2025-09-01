@@ -89,7 +89,7 @@ legal, environment, market, services, about, faq
 +++
 title = "Sample Title"
 intro = "A short introduction for P7CO EcoResupply."
-image = "/images/example.jpg"
+image: /proxy/image?path=images/example.jpg"
 date = 2025-04-01
 updated_at = 2025-04-02
 category = "guides"
