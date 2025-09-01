@@ -1,0 +1,24 @@
+{
+  "seo": {
+    "title": "Blog – P7CO EcoResupply",
+    "desc": "Découvrez des actualités, des articles et des conseils sur la circularité, l’innovation et la responsabilité dans le projet P7CO EcoResupply.",
+    "keys": "blog, articles, actualités, circularité, innovation, responsabilité, P7CO, EcoResupply"
+  },
+  "hero": {
+    "badge": "Blog",
+    "title": "Actualités & Articles",
+    "desc": "Information, responsabilité, circularité et innovation. Découvrez les articles et conseils du projet P7CO EcoResupply !"
+  },
+  "cta": {
+    "read": "Lire l’article"
+  },
+  "pager": {
+    "label": "Pagination du blog",
+    "prev": "Précédent",
+    "next": "Suivant"
+  },
+  "card": {
+    "badge": "Blog"
+  },
+  "empty": "Aucun article publié pour le moment."
+}
