@@ -1,27 +1,51 @@
 ---
 name: "🐞 Bug Report"
-about: Report a problem in the blog content or repository scripts
-title: "[BUG] Short description"
+about: Report a problem in the blog content, images, translations, or repository scripts
+title: "\[BUG] Short description"
 labels: bug
 assignees: ''
 ---
 
-## Describe the bug
+## 🐛 Describe the Bug
+
 A clear and concise description of the problem.
 
-## Location
-- File/Path: `content/blog/{lang}/...`
-- Section (if applicable): …
+## 📍 Location
 
-## Steps to Reproduce
+* File/Path: `static/{type}/{lang}/...` (e.g. `static/blog/en/post.md`)
+* Section (if applicable): …
+* Related Image (if any): `/images/...`
+
+## 🔁 Steps to Reproduce
+
 1. Go to …
-2. Open post …
-3. See error
+2. Open …
+3. See error …
 
-## Expected behavior
-What you expected to see.
+## ✅ Expected Behavior
 
-## Screenshots (optional)
+Explain what you expected to see.
 
-## Additional context
-Add any other details that might help us investigate.
+## 📸 Screenshots (optional)
+
+If applicable, add screenshots to help explain your problem.
+
+## 🌍 Affected Languages
+
+* [ ] English (`/en/`)
+* [ ] Portuguese (`/pt/`)
+* [ ] Spanish (`/es/`)
+* [ ] French (`/fr/`)
+* [ ] German (`/de/`)
+
+## 🛠️ Environment (if relevant)
+
+* [ ] Blog, Pages, Articles rendering (Markdown → HTML)
+* [ ] Images (format, size, dimensions)
+* [ ] Translation / i18n issues
+* [ ] Linter / CI validation
+
+
+## 📎 Additional Context
+
+Add any other context, logs, or details that might help us investigate the issue.

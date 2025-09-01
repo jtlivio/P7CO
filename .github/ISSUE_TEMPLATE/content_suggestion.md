@@ -1,22 +1,29 @@
 ---
-name: "📝 Content Suggestion"
-about: Suggest a new blog post, correction, or improvement
-title: "[SUGGESTION] Short description"
+name: "💡 Content Suggestion"
+about: Propose a new post, page, or improvement
+title: "\[SUGGESTION] Brief description"
 labels: enhancement
 assignees: ''
 ---
 
-## Suggestion
-Describe your idea clearly.
+## 📌 Suggestion
 
-## Motivation
-Why do you think this content should be added or updated?
+Provide a clear description of your idea or proposal.
 
-## Example (optional)
-Links, sources, or drafts.
+## 🎯 Motivation
 
-## Language
-- [ ] English (`/en/`)
-- [ ] Portuguese (`/pt/`)
-- [ ] French (`/fr/`)
-- [ ] German (`/de/`)
+Explain why this content should be added, updated, or improved. What value does it bring?
+
+## 🔗 References (optional)
+
+Include links, drafts, or sources that could help shape this content.
+
+## 🌍 Target Language(s)
+
+Select one or more languages for the content:
+
+* [ ] English (`/en/`)
+* [ ] Portuguese (`/pt/`)
+* [ ] Spanish (`/es/`)
+* [ ] French (`/fr/`)
+* [ ] German (`/de/`)

@@ -1,52 +1,16 @@
 // tools/content-lint.js
 /**
  * ================================================================
- *  P7CO® EcoResupply Blog — Content Linter (with image validator)
+ *  P7CO® EcoResupply — Content Linter (blog/page/article)
  * ================================================================
  *
- * Scope:
- *  - Validates Markdown blog posts and cover images.
- *
  * Checked paths:
- * - content/blog/{pt|en|fr|de|es}/*.md
+ * - blog/{pt|en|fr|de|es}/*.md
+ * - page/{pt|en|fr|de|es}/*.md
+ * - article/{pt|en|fr|de|es}/*.md
  * - images/**
  *
- * Rules:
- *  1) Frontmatter (required delimiters: +++ ... +++)
- *     - Required fields:
- *         • title      → non-empty string, no HTML
- *         • intro      → non-empty string, max 280 chars
- *         • image      → must start with "/images/", file must exist
- *         • date       → ISO format YYYY-MM-DD
- *         • tags       → non-empty array of strings
- *         • active     → boolean (true/false)
- *     - Optional fields:
- *         • category   → one of: guides, news, case-studies, esg, tech
- *         • lang       → must match folder (pt|en|fr|de|es) if present
- *
- *  2) Markdown body
- *     - Must not be empty
- *
- *  3) Cover image validation
- *     - Format: JPEG (.jpg/.jpeg)
- *     - Dimensions: exactly 1200 × 675 px
- *     - File size: ≤ 150 KB
- *
- *  4) Markdown file constraints
- *     - File size: ≤ 100 KB
- *     - No invalid control characters
- *       (ASCII ranges 0–8, 11, 12, 14–31, 127)
- *
- * Output:
- *  - Prints GitHub Actions annotations (::error) for each issue
- *  - Exits with code 1 if any error is found
- *
- * Usage:
- *   npm run lint:content
- *
- * Dependencies:
- *   - gray-matter (frontmatter parser)
- *   - sharp (image metadata validator)
+ * Regras: iguais às anteriores (title, intro, image, date, tags, active, etc)
  * ================================================================
  */
 
@@ -57,23 +21,36 @@ const toml = require("@iarna/toml");
 const sharp = require("sharp");
 
 const REPO_ROOT = process.cwd();
-const BLOG_ROOT = path.join(REPO_ROOT, "content", "blog");
+const CONTENT_ROOTS = ["blog", "page", "article"].map((t) =>
+  path.join(REPO_ROOT, t)
+);
 const IMAGES_ROOT = path.join(REPO_ROOT, "images");
 
 const SUPPORTED_LANGS = new Set(["pt", "en", "fr", "de", "es"]);
 const ALLOWED_CATEGORIES = new Set([
-  "guides", // How-to articles, tutorials
-  "news", // Updates, announcements
-  "case-studies", // Real-world examples
-  "esg", // Environmental, Social, Governance
-  "tech", // Technology & tools
-  "p7co", // Internal / brand-specific posts
-  "policy", // Legislation, regulations, policies
-  "community", // Contributions, stories from citizens & orgs
-  "innovation", // New methods, startups, R&D
-  "circularity", // Circular economy best practices
-  "events", // Conferences, webinars, local events
-  "na", // Not applicable
+  "guides",       // Tutorials, how-to articles
+  "news",         // News, announcements
+  "case-studies", // Real-world case studies
+  "esg",          // Environmental, Social, Governance
+  "tech",         // Technology & tools
+  "p7co",         // Internal / brand-specific
+  "policy",       // Legislation, regulations, policies
+  "community",    // Community contributions & stories
+  "innovation",   // R&D, startups, new methods
+  "circularity",  // Circular economy best practices
+  "events",       // Conferences, webinars, events
+  "na",           // Not applicable
+  "opinion",      // Opinion, editorial
+  "analysis",     // Analysis and comparisons
+  "whitepaper",   // Technical or academic papers
+  "report",       // Reports or studies
+  "insight",      // Market trends and insights
+  "legal",        // Legal articles
+  "environment",  // Environment & sustainability
+  "market",       // Market or sector-specific
+  "services",     // Service pages
+  "about",        // Institutional / About us
+  "faq",          // Frequently asked questions
 ]);
 
 const IMG_MAX_BYTES = 150 * 1024; // 150 KB
@@ -142,93 +119,73 @@ function validateFrontmatter(f, data, langFromPath) {
   const errs = [];
   const required = ["title", "intro", "image", "date", "tags", "active"];
 
-  // required fields
   for (const key of required) {
     if (!(key in data))
       errs.push(`Missing required frontmatter field: "${key}"`);
   }
 
-  // title
   if ("title" in data) {
     if (typeof data.title !== "string" || !data.title.trim()) {
       errs.push(`"title" must be a non-empty string`);
     } else if (/<[^>]+>/.test(data.title)) {
-      errs.push(`"title" should not contain HTML tags`);
+      errs.push(`"title" should not contain HTML`);
     }
   }
 
-  // intro
   if ("intro" in data) {
     if (typeof data.intro !== "string" || !data.intro.trim()) {
       errs.push(`"intro" must be a non-empty string`);
     } else if (data.intro.length > 280) {
-      errs.push(`"intro" is too long (> 280 chars). Consider shortening.`);
+      errs.push(`"intro" too long (> 280 chars)`);
     }
   }
 
-  // date
   if ("date" in data) {
     const dOnly = normalizeDate(data.date);
     if (!dOnly || !isIsoDate(dOnly)) {
-      errs.push(
-        `"date" must be ISO YYYY-MM-DD (got: ${JSON.stringify(data.date)})`
-      );
+      errs.push(`"date" must be ISO YYYY-MM-DD (got: ${JSON.stringify(data.date)})`);
     } else {
-      data.date = dOnly; // normalize
+      data.date = dOnly;
     }
   }
 
-  // tags
   if ("tags" in data) {
     const ok =
       Array.isArray(data.tags) &&
       data.tags.length > 0 &&
       data.tags.every((t) => typeof t === "string" && t.trim());
-    if (!ok) errs.push(`"tags" must be a non-empty array of strings`);
+    if (!ok) errs.push(`"tags" must be non-empty array of strings`);
   }
 
-  // active
   if ("active" in data && typeof data.active !== "boolean") {
     errs.push(`"active" must be boolean (true/false)`);
   }
 
-  // category
   if ("category" in data && data.category) {
     if (
       typeof data.category !== "string" ||
       !ALLOWED_CATEGORIES.has(data.category)
     ) {
-      errs.push(
-        `"category" must be one of: ${[...ALLOWED_CATEGORIES].join(", ")}`
-      );
+      errs.push(`"category" must be one of: ${[...ALLOWED_CATEGORIES].join(", ")}`);
     }
   }
 
-  // lang
   if ("lang" in data && data.lang) {
     if (typeof data.lang !== "string" || !SUPPORTED_LANGS.has(data.lang)) {
       errs.push(`"lang" must be one of: ${[...SUPPORTED_LANGS].join(", ")}`);
     } else if (data.lang !== langFromPath) {
-      errs.push(
-        `"lang" (${data.lang}) does not match folder language (${langFromPath}).`
-      );
+      errs.push(`"lang" (${data.lang}) does not match folder (${langFromPath})`);
     }
   }
 
-  // image
   if ("image" in data) {
     data.image = normalizeImagePath(data.image);
     if (typeof data.image !== "string" || !data.image.startsWith("/images/")) {
-      errs.push(
-        `"image" must start with "/images/" (got: ${JSON.stringify(
-          data.image
-        )})`
-      );
+      errs.push(`"image" must start with "/images/" (got: ${JSON.stringify(data.image)})`);
     } else {
       const rel = data.image.replace(/^\/+/, "");
       const imgPath = path.join(REPO_ROOT, rel);
-      if (!fs.existsSync(imgPath))
-        errs.push(`Image file not found in repository: ${data.image}`);
+      if (!fs.existsSync(imgPath)) errs.push(`Image not found: ${data.image}`);
     }
   }
 
@@ -238,7 +195,7 @@ function validateFrontmatter(f, data, langFromPath) {
 
 async function validateImageFile(postFile, imageRel) {
   const errs = [];
-  const rel = imageRel.replace(/^\/+/, ""); // images/...
+  const rel = imageRel.replace(/^\/+/, "");
   const full = path.join(REPO_ROOT, rel);
 
   if (!fs.existsSync(full)) {
@@ -246,32 +203,22 @@ async function validateImageFile(postFile, imageRel) {
   } else {
     const ext = path.extname(full).toLowerCase();
     if (!(ext === ".jpg" || ext === ".jpeg")) {
-      errs.push(
-        `Image must be JPG (.jpg/.jpeg). Got: ${ext || "no extension"}`
-      );
+      errs.push(`Image must be JPG (.jpg/.jpeg). Got: ${ext}`);
     }
-
     const stats = fs.statSync(full);
     if (stats.size > IMG_MAX_BYTES) {
       errs.push(`Image too large: ${stats.size} bytes (max ${IMG_MAX_BYTES})`);
     }
-
     try {
       const meta = await sharp(full).metadata();
       if (meta.format !== "jpeg") {
-        errs.push(
-          `Image format must be JPEG. Detected: ${meta.format || "unknown"}`
-        );
+        errs.push(`Image format must be JPEG. Detected: ${meta.format}`);
       }
-      const w = meta.width ?? 0;
-      const h = meta.height ?? 0;
-      if (w !== IMG_WIDTH || h !== IMG_HEIGHT) {
-        errs.push(
-          `Image dimensions must be ${IMG_WIDTH}x${IMG_HEIGHT}. Detected: ${w}x${h}`
-        );
+      if (meta.width !== IMG_WIDTH || meta.height !== IMG_HEIGHT) {
+        errs.push(`Image must be ${IMG_WIDTH}x${IMG_HEIGHT}. Detected: ${meta.width}x${meta.height}`);
       }
     } catch (e) {
-      errs.push(`Unable to read image metadata: ${(e && e.message) || e}`);
+      errs.push(`Unable to read image metadata: ${e.message}`);
     }
   }
 
@@ -283,64 +230,47 @@ function validateMarkdownFileBytesAndChars(filePath) {
   const errs = [];
   try {
     const buf = fs.readFileSync(filePath);
-    const size = buf.length;
-    if (size > MD_MAX_BYTES) {
-      errs.push(
-        `Markdown file too large: ${size} bytes (max ${MD_MAX_BYTES}).`
-      );
+    if (buf.length > MD_MAX_BYTES) {
+      errs.push(`Markdown too large: ${buf.length} bytes (max ${MD_MAX_BYTES})`);
     }
-    const text = buf.toString("utf8");
-    if (INVALID_CTRL_REGEX.test(text)) {
+    if (INVALID_CTRL_REGEX.test(buf.toString("utf8"))) {
       errs.push(`Markdown contains invalid control characters.`);
     }
   } catch (e) {
-    errs.push(
-      `Unable to read file for size/charset validation: ${
-        (e && e.message) || e
-      }`
-    );
+    errs.push(`Unable to read file: ${e.message}`);
   }
   for (const e of errs) ghaError(filePath, e);
   return errs;
 }
 
 /* ------------------------------- main ------------------------------ */
-async function main() {
-  if (!fs.existsSync(BLOG_ROOT)) {
-    console.log(`No content/blog directory found. Skipping.`);
-    return;
+async function lintFolder(root, type) {
+  if (!fs.existsSync(root)) {
+    console.log(`No ${type}/ directory found. Skipping.`);
+    return 0;
   }
-
-  const files = walk(BLOG_ROOT);
+  const files = walk(root);
   if (files.length === 0) {
-    console.log(`No Markdown files found under content/blog.`);
-    return;
+    console.log(`No Markdown in ${type}/`);
+    return 0;
   }
 
   let totalErrors = 0;
 
   for (const f of files) {
-    // language by folder
     const rel = path.relative(REPO_ROOT, f);
     const parts = rel.split(path.sep);
-    const blogIdx = parts.indexOf("blog");
-    const langFromPath = blogIdx >= 0 ? parts[blogIdx + 1] : undefined;
+    const idx = parts.indexOf(type);
+    const langFromPath = idx >= 0 ? parts[idx + 1] : undefined;
 
     if (!langFromPath || !SUPPORTED_LANGS.has(langFromPath)) {
-      ghaError(
-        f,
-        `Invalid language folder "${
-          langFromPath ?? "(none)"
-        }". Must be one of: ${[...SUPPORTED_LANGS].join(", ")}`
-      );
+      ghaError(f, `Invalid language folder "${langFromPath}". Must be one of: ${[...SUPPORTED_LANGS].join(", ")}`);
       totalErrors++;
       continue;
     }
 
-    // .md file size + invalid chars
     totalErrors += validateMarkdownFileBytesAndChars(f).length;
 
-    // parse frontmatter
     let fm;
     try {
       fm = matter.read(f, {
@@ -349,54 +279,48 @@ async function main() {
         engines: { toml: (src) => toml.parse(src) },
       });
     } catch (e) {
-      ghaError(f, `Invalid frontmatter (expected +++ ... +++): ${e.message}`);
+      ghaError(f, `Invalid frontmatter: ${e.message}`);
       totalErrors++;
       continue;
     }
 
     if (!fm || !fm.data || Object.keys(fm.data).length === 0) {
-      ghaError(f, `Missing frontmatter block at top of file ("+++ ... +++").`);
+      ghaError(f, `Missing frontmatter block ("+++ ... +++").`);
       totalErrors++;
       continue;
     }
 
-    // validate frontmatter fields
-    const fmErrs = validateFrontmatter(f, fm.data, langFromPath);
-    totalErrors += fmErrs.length;
+    totalErrors += validateFrontmatter(f, fm.data, langFromPath).length;
 
-    // body not empty
     const body = (fm.content || "").trim();
     if (!body) {
-      ghaError(f, `Empty Markdown body after frontmatter.`);
+      ghaError(f, `Empty Markdown body`);
       totalErrors++;
     }
 
-    // image strict validation
-    if (
-      fm.data &&
-      typeof fm.data.image === "string" &&
-      fm.data.image.startsWith("/images/")
-    ) {
-      const imgErrs = await validateImageFile(f, fm.data.image);
-      totalErrors += imgErrs.length;
+    if (fm.data && typeof fm.data.image === "string" && fm.data.image.startsWith("/images/")) {
+      totalErrors += (await validateImageFile(f, fm.data.image)).length;
     }
   }
 
+  return totalErrors;
+}
+
+async function main() {
+  let totalErrors = 0;
+  for (const type of ["blog", "page", "article"]) {
+    totalErrors += await lintFolder(path.join(REPO_ROOT, type), type);
+  }
+
   if (totalErrors > 0) {
-    console.error(
-      `\n❌ Content linter found ${totalErrors} issue(s). Please fix before merging.`
-    );
+    console.error(`\n❌ Content linter found ${totalErrors} issue(s).`);
     process.exit(1);
   } else {
-    console.log("✅ Content linter passed. All posts and images are valid.");
+    console.log("✅ Content linter passed. All content is valid.");
   }
 }
 
 main().catch((err) => {
-  console.error(
-    `::error::Unexpected linter failure: ${
-      err && err.message ? err.message : err
-    }`
-  );
+  console.error(`::error::Unexpected linter failure: ${err.message}`);
   process.exit(1);
 });

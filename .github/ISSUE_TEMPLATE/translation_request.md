@@ -1,19 +1,32 @@
 ---
 name: "🌍 Translation Request"
-about: Request or contribute a translation of an article
-title: "[TRANSLATION] Post title / Language"
+about: Suggest or contribute a translation for existing content
+title: "\[TRANSLATION] {Post Title} → {Target Language}"
 labels: translation
 assignees: ''
 ---
 
-## Post
-- Original file: `content/blog/{lang}/post.md`
+## 📄 Source Post
 
-## Target Language
-- [ ] English (`/en/`)
-- [ ] Portuguese (`/pt/`)
-- [ ] French (`/fr/`)
-- [ ] German (`/de/`)
+* Original file: `content/{type}/{lang}/{slug}.md`
+* Type: Blog | Page | Article
 
-## Notes
-Add context for translators (terminology, tone, glossary).
+## 🌐 Target Language
+
+* [ ] English (`/en/`)
+* [ ] Portuguese (`/pt/`)
+* [ ] Spanish (`/es/`)
+* [ ] French (`/fr/`)
+* [ ] German (`/de/`)
+
+## 📝 Translation Notes
+
+Please provide guidance for translators:
+
+* Key terminology or glossary items
+* Tone of voice (formal, neutral, technical, etc.)
+* Any cultural or contextual notes
+
+---
+
+✅ Once reviewed and approved, the translation will be merged into the repository.
