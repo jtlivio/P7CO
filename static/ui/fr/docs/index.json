@@ -1,0 +1,34 @@
+{
+  "seo.title": "Documents Publics | P7CO® EcoResupply",
+  "seo.desc": "Accédez aux réglementations, guides, modèles et autres ressources essentielles pour utiliser la plateforme P7CO® EcoResupply en toute sécurité et efficacité.",
+  "seo.keys": "documents publics, réglementations, guides, modèles, secteur public, P7CO, EcoResupply, conformité, marketplace",
+
+  "crumb.home": "Accueil",
+  "crumb.docs": "Documents",
+
+  "hero.title": "Documents Publics",
+  "hero.desc": "Règlements, guides, modèles et autres ressources essentielles.",
+
+  "intro.lead": "Dans cette section, vous trouverez les principaux documents d’appui à l’utilisation de P7CO® EcoResupply — règlements actualisés, guides pratiques, bonnes pratiques et modèles prêts à l’emploi. Des ressources de consultation rapide conçues pour accompagner entreprises, municipalités, organisations et citoyens.",
+
+  "bullets.latest": "Versions actualisées des règlements, exigences de conformité et modèles de formulaires.",
+  "bullets.organized": "Organisation par type pour une recherche et un téléchargement rapides.",
+  "bullets.support": "En cas de doute, contactez-nous — nous sommes là pour vous aider.",
+  "disclaimer": "Les documents sont fournis à titre informatif et peuvent être mis à jour sans préavis.",
+
+  "types.other": "Autre",
+  "types.bestpractices": "Bonnes Pratiques",
+  "types.guides": "Guides",
+
+  "actions.view": "Voir",
+  "actions.download": "Télécharger",
+
+  "empty": "Aucun document disponible pour le moment.",
+  "modal.title": "Visualisation de Document",
+  "modal.close": "Fermer",
+
+  "files.p7co.title": "P7CO.pdf",
+  "files.p7co.desc": "Les pratiques durables englobent toutes les actions, politiques et procédures visant …",
+  "files.fazerdiferente.title": "Fazer Diferente.pdf",
+  "files.fazerdiferente.desc": "Qu’est-ce que le gaspillage ? Pourquoi devrions-nous nous en préoccuper ? Au fil de ces pages, vous trouverez des stratégies simples et des exemples réels pour adopter une consommation plus durable — bénéfique pour l’environnement et votre portefeuille."
+}

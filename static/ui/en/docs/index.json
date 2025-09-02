@@ -9,21 +9,26 @@
   "hero.title": "Public Documents",
   "hero.desc": "Regulations, guides, templates and other essential resources.",
 
-  "intro.lead": "Here you’ll find the key support documents for using P7CO® EcoResupply — up-to-date regulations, practical guides, best practices and ready-to-use templates. Quick-reference resources for companies, municipalities, organizations and citizens.",
+  "intro.lead": "In this section you will find the main support documents for using P7CO® EcoResupply — updated regulations, practical guides, best practices and ready-to-use templates. Quick reference resources designed to support companies, municipalities, organizations and citizens.",
 
-  "bullets.latest": "Up-to-date versions of regulations, compliance requirements and form templates.",
-  "bullets.organized": "Organized by type for quick browsing and downloads.",
-  "bullets.support": "If you have any questions, reach out — we’re here to help.",
-
-  "disclaimer": "Documents are for information only and may be updated without prior notice.",
+  "bullets.latest": "Updated versions of regulations, compliance requirements and form templates.",
+  "bullets.organized": "Organized by type for quick search and downloads.",
+  "bullets.support": "If in doubt, contact us — we are here to help.",
+  "disclaimer": "Documents are for informational purposes and may be updated without prior notice.",
 
   "types.other": "Other",
+  "types.bestpractices": "Best Practices",
+  "types.guides": "Guides",
 
   "actions.view": "View",
   "actions.download": "Download",
 
-  "empty": "There are no documents available at the moment.",
+  "empty": "No documents available at the moment.",
+  "modal.title": "Document Viewer",
+  "modal.close": "Close",
 
-  "modal.title": "Document Preview",
-  "modal.close": "Close"
+  "files.p7co.title": "P7CO.pdf",
+  "files.p7co.desc": "Sustainable practices include all actions, policies and procedures aimed at …",
+  "files.fazerdiferente.title": "Fazer Diferente.pdf",
+  "files.fazerdiferente.desc": "What is waste? Why should we care? Throughout these pages, you will find simple strategies and real examples to adopt a more sustainable consumption — benefiting the environment and your wallet."
 }
