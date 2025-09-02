@@ -71,5 +71,39 @@
     "DSR": "Data Subject Rights Request",
     "Denuncias": "Third-Party Content Complaints",
     "Other": "Other"
+  },
+  "ComplaintCategory": {
+    "IllegalDumping": "Illegal dumping of waste",
+    "HazardousWaste": "Hazardous waste",
+    "WaterContamination": "Water contamination",
+    "AirPollution": "Air pollution",
+    "NoisePollution": "Noise pollution",
+    "ImproperRecycling": "Improper recycling",
+    "IndustrialSpill": "Industrial spill",
+    "Deforestation": "Deforestation",
+    "WildlifeHarm": "Harm to wildlife",
+    "IllegalBurning": "Illegal burning or bonfires",
+    "IllegalDischarges": "Illegal discharges (sewage or wastewater)",
+    "IllegalConstruction": "Illegal construction or demolition",
+    "AbandonedVehicles": "Abandoned or stored vehicles",
+    "IllegalOccupation": "Illegal occupation of public space",
+    "IllegalTreeFelling": "Illegal tree felling",
+    "ProtectedSpeciesThreat": "Threat to protected species",
+    "ProtectedAreaViolation": "Violations in protected/Natura 2000 areas",
+    "Other": "Other"
+  },
+  "ComplaintStatus": {
+    "Submitted": "Submitted",
+    "UnderReview": "Under review",
+    "Validated": "Validated",
+    "Rejected": "Rejected",
+    "Resolved": "Resolved",
+    "Reported": "Reported"
+  },
+  "ProductValueType": {
+    "Escoar": "Flow out (Circular Priority)",
+    "Doacao": "Donation (Social Circularity)",
+    "ValorSimbolico": "Symbolic Value (Circular)",
+    "ValorAcordar": "Value to Agree (Between Parties)"
   }
 }

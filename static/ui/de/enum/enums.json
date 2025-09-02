@@ -71,5 +71,39 @@
     "DSR": "Anfrage zu Betroffenenrechten (DSGVO)",
     "Denuncias": "Beschwerden über Inhalte Dritter",
     "Other": "Andere"
+  },
+  "ComplaintCategory": {
+    "IllegalDumping": "Illegale Abfallablagerung",
+    "HazardousWaste": "Gefährliche Abfälle",
+    "WaterContamination": "Wasserverschmutzung",
+    "AirPollution": "Luftverschmutzung",
+    "NoisePollution": "Lärmbelästigung",
+    "ImproperRecycling": "Fehlerhafte Wiederverwertung",
+    "IndustrialSpill": "Industrieller Austritt",
+    "Deforestation": "Abholzung",
+    "WildlifeHarm": "Schädigung der Tierwelt",
+    "IllegalBurning": "Illegales Verbrennen oder Feuer",
+    "IllegalDischarges": "Illegale Einleitungen (Abwasser)",
+    "IllegalConstruction": "Illegales Bauen oder Abreißen",
+    "AbandonedVehicles": "Abgestellte oder verlassene Fahrzeuge",
+    "IllegalOccupation": "Illegale Nutzung öffentlichen Raums",
+    "IllegalTreeFelling": "Illegales Fällen von Bäumen",
+    "ProtectedSpeciesThreat": "Bedrohung geschützter Arten",
+    "ProtectedAreaViolation": "Verstöße in Schutzgebieten/Natura 2000",
+    "Other": "Andere"
+  },
+  "ComplaintStatus": {
+    "Submitted": "Eingereicht",
+    "UnderReview": "In Prüfung",
+    "Validated": "Validiert",
+    "Rejected": "Abgelehnt",
+    "Resolved": "Gelöst",
+    "Reported": "Gemeldet"
+  },
+  "ProductValueType": {
+    "Escoar": "Abführen (Zirkuläre Priorität)",
+    "Doacao": "Spende (Soziale Zirkularität)",
+    "ValorSimbolico": "Symbolischer Wert (Zirkulär)",
+    "ValorAcordar": "Wert nach Vereinbarung (Zwischen Parteien)"
   }
 }

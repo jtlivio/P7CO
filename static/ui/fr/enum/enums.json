@@ -71,5 +71,39 @@
     "DSR": "Demande de Droits (RGPD)",
     "Denuncias": "Signalement de Contenus Tiers",
     "Other": "Autre"
+  },
+  "ComplaintCategory": {
+    "IllegalDumping": "Dépôt illégal de déchets",
+    "HazardousWaste": "Déchets dangereux",
+    "WaterContamination": "Contamination de l’eau",
+    "AirPollution": "Pollution de l’air",
+    "NoisePollution": "Pollution sonore",
+    "ImproperRecycling": "Recyclage incorrect",
+    "IndustrialSpill": "Déversement industriel",
+    "Deforestation": "Déforestation",
+    "WildlifeHarm": "Atteinte à la faune sauvage",
+    "IllegalBurning": "Brûlage illégal ou feux",
+    "IllegalDischarges": "Rejets illégaux (eaux usées)",
+    "IllegalConstruction": "Construction ou démolition illégale",
+    "AbandonedVehicles": "Véhicules abandonnés ou stockés",
+    "IllegalOccupation": "Occupation illégale de l’espace public",
+    "IllegalTreeFelling": "Abattage illégal d’arbres",
+    "ProtectedSpeciesThreat": "Menace aux espèces protégées",
+    "ProtectedAreaViolation": "Infractions dans zones protégées/Natura 2000",
+    "Other": "Autre"
+  },
+  "ComplaintStatus": {
+    "Submitted": "Soumise",
+    "UnderReview": "En cours d’examen",
+    "Validated": "Validée",
+    "Rejected": "Rejetée",
+    "Resolved": "Résolue",
+    "Reported": "Signalée"
+  },
+  "ProductValueType": {
+    "Escoar": "Écouler (Priorité Circulaire)",
+    "Doacao": "Don (Circularité Sociale)",
+    "ValorSimbolico": "Valeur Symbolique (Circulaire)",
+    "ValorAcordar": "Valeur à Déterminer (Entre Parties)"
   }
 }

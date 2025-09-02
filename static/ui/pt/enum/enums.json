@@ -71,5 +71,39 @@
     "DSR": "Pedido de Exercício de Direitos pelo Titular dos Dados",
     "Denuncias": "Denúncias sobre conteúdo de terceiros",
     "Other": "Outro"
+  },
+  "ComplaintCategory": {
+    "IllegalDumping": "Deposição ilegal de resíduos",
+    "HazardousWaste": "Resíduos perigosos",
+    "WaterContamination": "Contaminação da água",
+    "AirPollution": "Poluição do ar",
+    "NoisePollution": "Poluição sonora",
+    "ImproperRecycling": "Reciclagem incorreta",
+    "IndustrialSpill": "Derrame industrial",
+    "Deforestation": "Desflorestação",
+    "WildlifeHarm": "Danos à vida selvagem",
+    "IllegalBurning": "Queima ilegal ou fogueiras",
+    "IllegalDischarges": "Descargas ilegais (esgotos ou águas residuais)",
+    "IllegalConstruction": "Construção ou demolição ilegal",
+    "AbandonedVehicles": "Armazenamento ou abandono de veículos",
+    "IllegalOccupation": "Ocupação ilegal de espaço público",
+    "IllegalTreeFelling": "Abate ilegal de árvores",
+    "ProtectedSpeciesThreat": "Ameaça a espécies protegidas",
+    "ProtectedAreaViolation": "Infrações em áreas protegidas/Natura 2000",
+    "Other": "Outro"
+  },
+  "ComplaintStatus": {
+    "Submitted": "Submetida",
+    "UnderReview": "Em análise",
+    "Validated": "Validada",
+    "Rejected": "Rejeitada",
+    "Resolved": "Resolvida",
+    "Reported": "Reportada"
+  },
+  "ProductValueType": {
+    "Escoar": "Escoar (Prioridade Circular)",
+    "Doacao": "Doação (Circularidade Social)",
+    "ValorSimbolico": "Valor Simbólico (Circular)",
+    "ValorAcordar": "Valor a Acordar (Entre Partes)"
   }
 }
