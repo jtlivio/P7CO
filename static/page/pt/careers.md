@@ -1,7 +1,7 @@
 +++
 title = "Carreiras no P7CO®"
 intro = "O P7CO® EcoResupply está em crescimento e procura reforçar a sua equipa em várias áreas-chave. Trabalhar connosco é contribuir para uma missão de impacto real na sustentabilidade e na economia circular."
-image = "/images/careers/p7co-careers-hero.jpg"
+image = "/images/p7co-careers-hero.jpg"
 date = 2025-09-02
 tags = ["Carreiras", "Recrutamento", "Equipa", "Sustentabilidade", "P7CO"]
 active = true

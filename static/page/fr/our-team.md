@@ -1,7 +1,7 @@
 +++
 title = "Notre Équipe"
 intro = "P7CO® EcoResupply est porté par une équipe pluridisciplinaire avec une crédibilité internationale et est en pleine croissance — nous recrutons de nouveaux talents."
-image = "/images/team/p7co-team-hero.jpg"
+image = "/images/p7co-team-hero.jpg"
 date = 2025-09-02
 tags = ["Équipe", "Crédibilité", "Recrutement", "Durabilité", "P7CO"]
 active = true

@@ -1,7 +1,7 @@
 +++
 title = "Careers at P7CO®"
 intro = "P7CO® EcoResupply is growing and strengthening its team in key areas. Working with us means contributing to real impact in sustainability and the circular economy."
-image = "/images/careers/p7co-careers-hero.jpg"
+image = "/images/p7co-careers-hero.jpg"
 date = 2025-09-02
 tags = ["Careers", "Hiring", "Team", "Sustainability", "P7CO"]
 active = true

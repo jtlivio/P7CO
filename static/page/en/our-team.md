@@ -1,7 +1,7 @@
 +++
 title = "Our Team"
 intro = "P7CO® EcoResupply is driven by a multidisciplinary team with international credibility and is growing — we are hiring new talent."
-image = "/images/team/p7co-team-hero.jpg"
+image = "/images/p7co-team-hero.jpg"
 date = 2025-09-02
 tags = ["Team", "Credibility", "Hiring", "Sustainability", "P7CO"]
 active = true

@@ -1,7 +1,7 @@
 +++
 title = "Karriere bei P7CO®"
 intro = "P7CO® EcoResupply wächst und verstärkt sein Team in Schlüsselbereichen. Mit uns zu arbeiten bedeutet, echten Einfluss auf Nachhaltigkeit und Kreislaufwirtschaft zu nehmen."
-image = "/images/careers/p7co-careers-hero.jpg"
+image = "/images/p7co-careers-hero.jpg"
 date = 2025-09-02
 tags = ["Karriere", "Rekrutierung", "Team", "Nachhaltigkeit", "P7CO"]
 active = true
