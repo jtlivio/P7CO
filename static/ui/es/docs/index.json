@@ -1,0 +1,29 @@
+{
+  "seo.title": "Documentos Públicos | P7CO® EcoResupply",
+  "seo.desc": "Accede a normativas, guías, plantillas y otros recursos esenciales para utilizar la plataforma P7CO® EcoResupply de forma segura y eficiente.",
+  "seo.keys": "documentos públicos, normativas, guías, plantillas, sector público, P7CO, EcoResupply, compliance, marketplace",
+
+  "crumb.home": "Inicio",
+  "crumb.docs": "Documentos",
+
+  "hero.title": "Documentos Públicos",
+  "hero.desc": "Normativas, guías, plantillas y otros recursos esenciales.",
+
+  "intro.lead": "En esta sección encontrarás los principales documentos de apoyo para utilizar P7CO® EcoResupply — normativas actualizadas, guías prácticas, buenas prácticas y plantillas listas para usar. Recursos de consulta rápida para empresas, municipios, organizaciones y ciudadanía.",
+
+  "bullets.latest": "Versiones actualizadas de normativas, requisitos de cumplimiento y plantillas.",
+  "bullets.organized": "Organizado por tipo para consultas y descargas rápidas.",
+  "bullets.support": "Si tienes dudas, contáctanos — estamos cerca.",
+
+  "disclaimer": "Los documentos son informativos y pueden actualizarse sin previo aviso.",
+
+  "types.other": "Otro",
+
+  "actions.view": "Ver",
+  "actions.download": "Descargar",
+
+  "empty": "No hay documentos disponibles en este momento.",
+
+  "modal.title": "Vista previa del documento",
+  "modal.close": "Cerrar"
+}
