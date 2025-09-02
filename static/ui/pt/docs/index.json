@@ -17,18 +17,14 @@
   "disclaimer": "Os documentos são informativos e podem ser atualizados sem aviso prévio.",
 
   "types.other": "Outro",
-  "types.bestpractices": "Boas Práticas",
   "types.guides": "Guias",
+  "types.bestpractices": "Boas Práticas",
 
   "actions.view": "Ver",
   "actions.download": "Download",
 
   "empty": "Não existem documentos disponíveis neste momento.",
-  "modal.title": "Visualização de Documento",
-  "modal.close": "Fechar",
 
-  "files.p7co.title": "P7CO.pdf",
-  "files.p7co.desc": "Práticas sustentáveis englobam todas as ações, políticas e procedimentos que visam?",
-  "files.fazerdiferente.title": "Fazer Diferente.pdf",
-  "files.fazerdiferente.desc": "O que é o desperdício? Porque devemos preocupar-nos? Ao longo destas páginas, encontras estratégias simples e exemplos reais para adotares um consumo mais sustentável — beneficiando o ambiente e a tua carteira."
+  "modal.title": "Visualização de Documento",
+  "modal.close": "Fechar"
 }

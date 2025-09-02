@@ -1,6 +1,6 @@
 {
   "seo.title": "Documentos Públicos | P7CO® EcoResupply",
-  "seo.desc": "Accede a normativas, guías, plantillas y otros recursos esenciales para utilizar la plataforma P7CO® EcoResupply de forma segura y eficiente.",
+  "seo.desc": "Accede a normativas, guías, plantillas y otros recursos esenciales para utilizar P7CO® EcoResupply de forma segura y eficiente.",
   "seo.keys": "documentos públicos, normativas, guías, plantillas, sector público, P7CO, EcoResupply, cumplimiento, marketplace",
 
   "crumb.home": "Inicio",
@@ -9,26 +9,22 @@
   "hero.title": "Documentos Públicos",
   "hero.desc": "Normativas, guías, plantillas y otros recursos esenciales.",
 
-  "intro.lead": "En esta sección encontrarás los principales documentos de apoyo para el uso de P7CO® EcoResupply — normativas actualizadas, guías prácticas, buenas prácticas y plantillas listas para usar. Recursos de consulta rápida pensados para apoyar a empresas, municipios, organizaciones y ciudadanos.",
+  "intro.lead": "En esta sección encontrarás los principales documentos de apoyo para el uso de P7CO® EcoResupply — normativas actualizadas, guías prácticas, buenas prácticas y plantillas listas para usar. Recursos de consulta rápida, pensados para apoyar a empresas, municipios, organizaciones y ciudadanos.",
 
-  "bullets.latest": "Versiones actualizadas de normativas, requisitos de cumplimiento y modelos de formularios.",
-  "bullets.organized": "Organización por tipo para consulta y descargas rápidas.",
-  "bullets.support": "En caso de duda, contáctanos — estamos aquí para ayudarte.",
+  "bullets.latest": "Versiones actualizadas de normativas, requisitos de cumplimiento y plantillas de formularios.",
+  "bullets.organized": "Organización por tipo para una consulta y descarga rápidas.",
+  "bullets.support": "En caso de duda, ponte en contacto con nosotros — estamos cerca para ayudarte.",
   "disclaimer": "Los documentos son informativos y pueden actualizarse sin previo aviso.",
 
   "types.other": "Otro",
-  "types.bestpractices": "Buenas Prácticas",
   "types.guides": "Guías",
+  "types.bestpractices": "Buenas Prácticas",
 
   "actions.view": "Ver",
   "actions.download": "Descargar",
 
-  "empty": "No existen documentos disponibles en este momento.",
-  "modal.title": "Visualización de Documento",
-  "modal.close": "Cerrar",
+  "empty": "No hay documentos disponibles en este momento.",
 
-  "files.p7co.title": "P7CO.pdf",
-  "files.p7co.desc": "Las prácticas sostenibles incluyen todas las acciones, políticas y procedimientos que buscan …",
-  "files.fazerdiferente.title": "Fazer Diferente.pdf",
-  "files.fazerdiferente.desc": "¿Qué es el desperdicio? ¿Por qué debemos preocuparnos? A lo largo de estas páginas encontrarás estrategias sencillas y ejemplos reales para adoptar un consumo más sostenible — beneficiando al medio ambiente y a tu bolsillo."
+  "modal.title": "Visualización de Documento",
+  "modal.close": "Cerrar"
 }

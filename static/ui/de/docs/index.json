@@ -1,22 +1,30 @@
 {
+  "seo.title": "Öffentliche Dokumente | P7CO® EcoResupply",
+  "seo.desc": "Greifen Sie auf Richtlinien, Leitfäden, Vorlagen und weitere wichtige Ressourcen zu, um P7CO® EcoResupply sicher und effizient zu nutzen.",
+  "seo.keys": "öffentliche Dokumente, Richtlinien, Leitfäden, Vorlagen, öffentlicher Sektor, P7CO, EcoResupply, Compliance, Marktplatz",
+
   "crumb.home": "Startseite",
   "crumb.docs": "Dokumente",
 
   "hero.title": "Öffentliche Dokumente",
   "hero.desc": "Richtlinien, Leitfäden, Vorlagen und weitere wichtige Ressourcen.",
 
-  "intro.lead": "In diesem Bereich finden Sie die wichtigsten Unterstützungsdokumente für die Nutzung von P7CO® EcoResupply — aktuelle Richtlinien, praktische Leitfäden, bewährte Verfahren und gebrauchsfertige Vorlagen. Schnell abrufbare Ressourcen, die Unternehmen, Gemeinden, Organisationen und Bürgern helfen sollen.",
+  "intro.lead": "In diesem Bereich finden Sie die wichtigsten Unterlagen zur Nutzung von P7CO® EcoResupply — aktuelle Richtlinien, praktische Leitfäden, Best Practices und einsatzbereite Vorlagen. Schnell zugängliche Ressourcen für Unternehmen, Kommunen, Organisationen und Bürger.",
 
   "bullets.latest": "Aktuelle Versionen von Richtlinien, Compliance-Anforderungen und Formularvorlagen.",
   "bullets.organized": "Nach Typ organisiert für schnelle Suche und Downloads.",
   "bullets.support": "Bei Fragen kontaktieren Sie uns — wir helfen gern.",
   "disclaimer": "Die Dokumente dienen nur zur Information und können ohne Vorankündigung aktualisiert werden.",
 
-  "types.bestpractices": "Best Practices",
+  "types.other": "Sonstiges",
   "types.guides": "Leitfäden",
+  "types.bestpractices": "Best Practices",
 
-  "files.p7co.title": "P7CO.pdf",
-  "files.p7co.desc": "Nachhaltige Praktiken umfassen alle Maßnahmen, Politiken und Verfahren, die darauf abzielen …",
-  "files.fazerdiferente.title": "Fazer Diferente.pdf",
-  "files.fazerdiferente.desc": "Was ist Verschwendung? Warum sollten wir uns darum kümmern? Auf diesen Seiten finden Sie einfache Strategien und reale Beispiele, um nachhaltiger zu konsumieren – zum Vorteil der Umwelt und Ihres Geldbeutels."
+  "actions.view": "Ansehen",
+  "actions.download": "Download",
+
+  "empty": "Derzeit sind keine Dokumente verfügbar.",
+
+  "modal.title": "Dokumentvorschau",
+  "modal.close": "Schließen"
 }
