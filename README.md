@@ -2,14 +2,7 @@
 
 Content repository for sustainability, circular economy and innovation articles
 
-[![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml)  
-![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-green)  
-![Made in Portugal](https://img.shields.io/badge/made%20in-Portugal-red)  
-![Citable](https://img.shields.io/badge/citable-yes-blue)  
-![Open Data](https://img.shields.io/badge/open--data-verified-brightgreen)
-![GitHub Repo Stars](https://img.shields.io/github/stars/jtlivio/P7CO?style=social)  
-![GitHub Forks](https://img.shields.io/github/forks/jtlivio/P7CO?style=social)  
-![GitHub Last Commit](https://img.shields.io/github/last-commit/jtlivio/P7CO)  
+[![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml) ![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-green) ![Made in Portugal](https://img.shields.io/badge/made%20in-Portugal-red) ![Citable](https://img.shields.io/badge/citable-yes-blue) ![Open Data](https://img.shields.io/badge/open--data-verified-brightgreen) ![GitHub Repo Stars](https://img.shields.io/github/stars/jtlivio/P7CO?style=social) ![GitHub Forks](https://img.shields.io/github/forks/jtlivio/P7CO?style=social) ![GitHub Last Commit](https://img.shields.io/github/last-commit/jtlivio/P7CO)
 
 **P7CO® EcoResupply Blog**
 Official blog content repository managed by **pH7x Systems®**.
