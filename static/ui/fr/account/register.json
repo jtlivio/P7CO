@@ -1,0 +1,32 @@
+{
+  "page.title": "Inscription",
+  "hero.badge": "CRÉER UN COMPTE",
+  "hero.heading": "Inscrivez-vous maintenant !",
+  "button.google": "Se connecter avec Google",
+  "button.facebook": "Se connecter avec Facebook",
+  "label.fullname": "Nom complet",
+  "label.email": "E-mail",
+  "label.usertype": "Type d’utilisateur",
+  "label.password": "Mot de passe",
+  "label.confirm_password": "Confirmer le mot de passe",
+  "placeholder.fullname": "Nom complet",
+  "placeholder.email": "email@domaine.com",
+  "placeholder.select": "Sélectionner…",
+  "placeholder.password": "Mot de passe",
+  "placeholder.confirm_password": "Confirmer le mot de passe",
+  "submit.register": "S’INSCRIRE",
+  "login.prompt": "Vous avez déjà un compte ?",
+  "login.link": "Se connecter",
+
+  "age_modal.title": "Restriction d’âge",
+  "age_modal.body": "Vous devez avoir au moins 13 ans pour vous inscrire. Veuillez saisir une date de naissance valide.",
+  "age_modal.close": "Fermer",
+
+  "email_modal.title": "Confirmation de l’email",
+  "email_modal.success": "Votre inscription a été effectuée avec succès !",
+  "email_modal.step": "Pour finaliser l’activation de votre compte, confirmez votre adresse e-mail en suivant les instructions envoyées dans votre boîte de réception.",
+  "email_modal.spam_hint": "Si vous ne trouvez pas l’email dans la boîte de réception, vérifiez aussi le dossier spam/courrier indésirable.",
+  "email_modal.contact_hint": "Si vous ne recevez toujours pas l’email, contactez-nous :",
+  "email_modal.contact_email": "privacy@ph7x.com",
+  "email_modal.ok": "OK, compris"
+}

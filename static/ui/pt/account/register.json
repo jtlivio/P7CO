@@ -1,0 +1,32 @@
+{
+  "page.title": "Registo",
+  "hero.badge": "CRIAR NOVA CONTA",
+  "hero.heading": "Registe-se Agora!",
+  "button.google": "Entrar com Google",
+  "button.facebook": "Entrar com Facebook",
+  "label.fullname": "Nome completo",
+  "label.email": "Email",
+  "label.usertype": "Tipo de Utilizador",
+  "label.password": "Password",
+  "label.confirm_password": "Confirmar Password",
+  "placeholder.fullname": "Nome completo",
+  "placeholder.email": "email@dominio.pt",
+  "placeholder.select": "Selecionar...",
+  "placeholder.password": "Password",
+  "placeholder.confirm_password": "Confirmar Password",
+  "submit.register": "REGISTAR",
+  "login.prompt": "Já tem conta?",
+  "login.link": "Entrar",
+
+  "age_modal.title": "Restrição de Idade",
+  "age_modal.body": "É necessário ter pelo menos 13 anos para se registar no nosso sistema. Por favor, insira uma data de nascimento válida.",
+  "age_modal.close": "Fechar",
+
+  "email_modal.title": "Confirmação de Email",
+  "email_modal.success": "O seu registo foi efetuado com sucesso!",
+  "email_modal.step": "Para concluir a ativação da sua conta, confirme o seu endereço de email seguindo as instruções enviadas para a sua caixa de correio.",
+  "email_modal.spam_hint": "Se não encontrar o email na caixa de entrada, verifica também a pasta de spam/lixo ou \"Correio não solicitado\".",
+  "email_modal.contact_hint": "Caso continues sem receber o email, contacta-nos:",
+  "email_modal.contact_email": "privacy@ph7x.com",
+  "email_modal.ok": "OK, Percebi"
+}

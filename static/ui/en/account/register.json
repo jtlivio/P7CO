@@ -1,0 +1,32 @@
+{
+  "page.title": "Registration",
+  "hero.badge": "CREATE NEW ACCOUNT",
+  "hero.heading": "Sign up now!",
+  "button.google": "Sign in with Google",
+  "button.facebook": "Sign in with Facebook",
+  "label.fullname": "Full name",
+  "label.email": "Email",
+  "label.usertype": "User Type",
+  "label.password": "Password",
+  "label.confirm_password": "Confirm Password",
+  "placeholder.fullname": "Full name",
+  "placeholder.email": "email@domain.com",
+  "placeholder.select": "Select...",
+  "placeholder.password": "Password",
+  "placeholder.confirm_password": "Confirm Password",
+  "submit.register": "REGISTER",
+  "login.prompt": "Already have an account?",
+  "login.link": "Sign in",
+
+  "age_modal.title": "Age Restriction",
+  "age_modal.body": "You must be at least 13 years old to register. Please enter a valid date of birth.",
+  "age_modal.close": "Close",
+
+  "email_modal.title": "Email Confirmation",
+  "email_modal.success": "Your registration was successful!",
+  "email_modal.step": "To complete activation, please confirm your email address by following the instructions sent to your inbox.",
+  "email_modal.spam_hint": "If you can't find the email in your inbox, also check your spam/junk folder.",
+  "email_modal.contact_hint": "If you still don't receive the email, contact us:",
+  "email_modal.contact_email": "privacy@ph7x.com",
+  "email_modal.ok": "OK, got it"
+}

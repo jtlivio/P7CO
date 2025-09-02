@@ -122,6 +122,8 @@
   "header.auth.my_listings": "My Listings",
   "header.auth.settings": "Settings",
   "header.auth.logout": "Logout",
+  "header.auth.profile": "View Profile",
+  "header.auth.change_password": "Change Password",
 
   "header.cta_primary.text": "GET STARTED",
   "header.cta_primary.icon": "fas fa-seedling"

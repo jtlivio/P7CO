@@ -122,6 +122,8 @@
   "header.auth.my_listings": "Mes annonces",
   "header.auth.settings": "Paramètres",
   "header.auth.logout": "Déconnexion",
+  "header.auth.profile": "Voir le profil",
+  "header.auth.change_password": "Changer le mot de passe",
 
   "header.cta_primary.text": "COMMENCER",
   "header.cta_primary.icon": "fas fa-seedling"

@@ -123,7 +123,9 @@
   "header.auth.my_listings": "As minhas listagens",
   "header.auth.settings": "Definições",
   "header.auth.logout": "Sair",
-
+  "header.auth.profile": "Ver Perfil",
+  "header.auth.change_password": "Mudar Password",
+  
   "header.cta_primary.text": "COMEÇAR",
   "header.cta_primary.icon": "fa-seedling"
 }

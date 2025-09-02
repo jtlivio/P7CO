@@ -1,0 +1,32 @@
+{
+  "page.title": "Registrierung",
+  "hero.badge": "NEUES KONTO ERSTELLEN",
+  "hero.heading": "Jetzt registrieren!",
+  "button.google": "Mit Google anmelden",
+  "button.facebook": "Mit Facebook anmelden",
+  "label.fullname": "Vollständiger Name",
+  "label.email": "E-Mail",
+  "label.usertype": "Benutzertyp",
+  "label.password": "Passwort",
+  "label.confirm_password": "Passwort bestätigen",
+  "placeholder.fullname": "Vollständiger Name",
+  "placeholder.email": "email@domain.com",
+  "placeholder.select": "Auswählen…",
+  "placeholder.password": "Passwort",
+  "placeholder.confirm_password": "Passwort bestätigen",
+  "submit.register": "REGISTRIEREN",
+  "login.prompt": "Sie haben bereits ein Konto?",
+  "login.link": "Anmelden",
+
+  "age_modal.title": "Altersbeschränkung",
+  "age_modal.body": "Für die Registrierung müssen Sie mindestens 13 Jahre alt sein. Bitte geben Sie ein gültiges Geburtsdatum ein.",
+  "age_modal.close": "Schließen",
+
+  "email_modal.title": "E-Mail-Bestätigung",
+  "email_modal.success": "Ihre Registrierung war erfolgreich!",
+  "email_modal.step": "Um die Aktivierung abzuschließen, bestätigen Sie bitte Ihre E-Mail-Adresse, indem Sie den Anweisungen in Ihrem Posteingang folgen.",
+  "email_modal.spam_hint": "Wenn Sie die E-Mail nicht im Posteingang finden, prüfen Sie auch den Spam-Ordner bzw. „Unerwünschte E-Mail“.",
+  "email_modal.contact_hint": "Falls Sie die E-Mail weiterhin nicht erhalten, kontaktieren Sie uns:",
+  "email_modal.contact_email": "privacy@ph7x.com",
+  "email_modal.ok": "OK, verstanden"
+}
