@@ -2,7 +2,14 @@
 
 Content repository for sustainability, circular economy and innovation articles
 
-[![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml)
+[![Content Lint](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml/badge.svg)](https://github.com/jtlivio/P7CO/actions/workflows/content-lint.yml)  
+![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY--4.0-green)  
+![Made in Portugal](https://img.shields.io/badge/made%20in-Portugal-red)  
+![GitHub Topics](https://img.shields.io/github/topics/jtlivio/P7CO)  
+![Citable](https://img.shields.io/badge/citable-yes-blue)  
+![Open Data](https://img.shields.io/badge/open--data-verified-brightgreen)
+
+
 
 **P7CO® EcoResupply Blog**
 Official blog content repository managed by **pH7x Systems®**.
