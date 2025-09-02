@@ -1,21 +1,23 @@
-# CITATION.cff for P7CO® EcoResupply Blog
-```yaml
 cff-version: 1.2.0
-title: "P7CO® EcoResupply Blog"
-message: "If you use this blog content or cite EcoResupply materials, please cite as follows."
-type: software
+title: "P7CO® EcoResupply"
+message: "If you use this project or any of its materials (blog, UI, articles, documentation), please cite it as follows."
+type: generic
 
 authors:
-  - family-names: "Tito Livio"
-    given-names: "João Pedro de Sousa Viegas"
+  - family-names: "Sousa"
+    given-names: "João Pedro de Viegas Tito Livio"
     affiliation: "pH7x Systems®"
 
 repository-code: "https://github.com/jtlivio/P7CO"
 url: "https://p7co.org"
 abstract: >
-  The P7CO® EcoResupply Blog is a multilingual open content repository (PT, EN, FR, DE, ES)
-  dedicated to sustainability, circular economy, environmental responsibility,
-  and technology innovation. All posts are written in Markdown and published under CC BY 4.0.
+  The P7CO® EcoResupply repository combines multiple components:
+  - Blog: multilingual open articles on sustainability and circular economy.
+  - UI: user interface code powering EcoResupply platform modules.
+  - Articles: knowledge resources and guides.
+  - Pages: institutional and project documentation.
+
+  All content is published in Markdown, open to the community, and distributed under CC BY 4.0.
 
 keywords:
   - sustainability
@@ -24,8 +26,11 @@ keywords:
   - technology
   - open source
   - multilingual
+  - blog
+  - ui
+  - articles
+  - pages
 
-license: "CC-BY-4.0"
+license: "Creative Commons Attribution 4.0 International (CC BY 4.0)"
 date-released: 2025-04-01
 version: "1.0.0"
-```

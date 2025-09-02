@@ -169,6 +169,15 @@ You can support **P7CO® EcoResupply** via:
 * Patreon: [https://www.patreon.com/p7co](https://www.patreon.com/p7co)
 * OpenCollective: [https://opencollective.com/p7co](https://opencollective.com/p7co)
 
+## 📖 Citation
+
+If you use this project, please cite it using one of the formats below:
+
+- [APA](./CITATION.apa.txt)
+- [BibTeX](./CITATION.bib)
+
+Or use the GitHub “Cite this repository” button powered by [CITATION.cff](./CITATION.cff).
+
 ## 📬 Contact
 
 For questions, suggestions, or partnerships:
