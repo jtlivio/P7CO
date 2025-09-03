@@ -1,7 +1,7 @@
 +++
 title = "Programs & Events | P7CO® EcoResupply"
 intro = "The transition to a circular economy happens through networks. P7CO® EcoResupply acts as a meeting point for programs, projects, and events that are already transforming the way we produce, consume, and reuse resources."
-image = "/images/orgs/programs-events-hero.jpg"
+image = "/images/programs-events-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Programs", "Events", "Sustainability", "Circularity", "Community", "EU", "SDGs", "Innovation"]

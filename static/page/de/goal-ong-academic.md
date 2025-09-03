@@ -1,7 +1,7 @@
 +++
 title = "NGOs & Akademie | P7CO® EcoResupply"
 intro = "Umwelt-NGOs und akademische Einrichtungen spielen eine zentrale Rolle bei Überwachung, Sensibilisierung und Innovation für Nachhaltigkeit. P7CO® EcoResupply bietet eine Plattform, um Wirkung zu verstärken, Bürgerdaten zu sammeln und angewandte Forschung zu unterstützen."
-image = "/images/orgs/ngos-academia-hero.jpg"
+image = "/images/ngos-academia-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["NGOs", "Akademie", "Bürgerschaft", "Nachhaltigkeit", "Kreislaufwirtschaft", "Umweltbeschwerden", "Open Science", "SDGs", "EU"]

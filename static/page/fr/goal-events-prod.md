@@ -1,7 +1,7 @@
 +++
 title = "Programmes & Événements | P7CO® EcoResupply"
 intro = "La transition vers l’économie circulaire se construit en réseau. P7CO® EcoResupply se positionne comme un espace de rencontre pour les programmes, projets et événements qui transforment déjà notre manière de produire, consommer et réutiliser les ressources."
-image = "/images/orgs/programs-events-hero.jpg"
+image = "/images/programs-events-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Programmes", "Événements", "Durabilité", "Économie Circulaire", "Communauté", "UE", "ODD", "Innovation"]

@@ -1,7 +1,7 @@
 +++
 title = "Empresas | P7CO® EcoResupply"
 intro = "En la Unión Europea, la sostenibilidad ya no es opcional: es obligatoria. Descubre cómo P7CO® EcoResupply ayuda a las empresas a alinearse con el Pacto Verde Europeo, reducir costes y cumplir con las normativas de circularidad y transparencia."
-image = "/images/orgs/companies-hero.jpg"
+image = "/images/companies-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Empresas", "Sostenibilidad", "Circularidad", "Cumplimiento", "ESG", "Excedentes", "Denuncias Ambientales", "ResiduoCero", "UE"]

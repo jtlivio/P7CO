@@ -1,7 +1,7 @@
 +++
 title = "Municipalités | P7CO® EcoResupply"
 intro = "Les municipalités européennes sont à l’avant-garde de la transition vers la neutralité carbone et l’économie circulaire. P7CO® EcoResupply fournit des outils numériques pour réduire les coûts, se conformer aux réglementations et impliquer les citoyens dans la durabilité locale."
-image = "/images/orgs/municipalities-hero.jpg"
+image = "/images/municipalities-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Municipalités", "Durabilité", "Économie Circulaire", "Conformité", "ESG", "Excédents", "Plaintes Environnementales", "ZeroWaste", "UE", "ERP", "API"]

@@ -1,7 +1,7 @@
 +++
 title = "Companies | P7CO® EcoResupply"
 intro = "In the European Union, sustainability is no longer optional — it is mandatory. Discover how P7CO® EcoResupply helps companies align with the European Green Deal, cut costs, and comply with circularity and transparency regulations."
-image = "/images/orgs/companies-hero.jpg"
+image = "/images/companies-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Companies", "Sustainability", "Circularity", "Compliance", "ESG", "Surpluses", "Environmental Complaints", "ZeroWaste", "EU"]

@@ -1,7 +1,7 @@
 +++
 title = "ONG & Universités | P7CO® EcoResupply"
 intro = "Les ONG environnementales et les institutions académiques jouent un rôle essentiel dans la surveillance, la sensibilisation et l’innovation pour la durabilité. P7CO® EcoResupply offre une plateforme pour amplifier l’impact, collecter des données citoyennes et soutenir la recherche appliquée."
-image = "/images/orgs/ngos-academia-hero.jpg"
+image = "/images/ngos-academia-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["ONG", "Universités", "Citoyenneté", "Durabilité", "Économie Circulaire", "Signalements Environnementaux", "Science Ouverte", "ODD", "UE"]

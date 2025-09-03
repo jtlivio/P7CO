@@ -1,7 +1,7 @@
 +++
 title = "Logistics & Recyclers | P7CO® EcoResupply"
 intro = "Logistics and recyclers are the backbone of the circular economy. P7CO® EcoResupply connects operators, companies and municipalities to optimize flows, reduce costs and ensure full traceability of materials."
-image = "/images/orgs/logistics-recyclers-hero.jpg"
+image = "/images/logistics-recyclers-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Logistics", "Recyclers", "Circular Economy", "Sustainability", "Compliance", "Transport", "Waste", "EU"]

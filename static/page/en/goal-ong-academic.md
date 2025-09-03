@@ -1,7 +1,7 @@
 +++
 title = "NGOs & University | P7CO® EcoResupply"
 intro = "Environmental NGOs and academic institutions play a vital role in monitoring, awareness and innovation for sustainability. P7CO® EcoResupply provides a platform to amplify impact, collect citizen data and support applied research."
-image = "/images/orgs/ngos-academia-hero.jpg"
+image = "/images/ngos-academia-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["NGOs", "University", "Citizenship", "Sustainability", "Circular Economy", "Environmental Complaints", "Open Science", "SDGs", "EU"]

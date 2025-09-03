@@ -1,7 +1,7 @@
 +++
 title = "Logística & Recicladores | P7CO® EcoResupply"
 intro = "A logística e os recicladores são a espinha dorsal da economia circular. O P7CO® EcoResupply conecta operadores, empresas e municípios para otimizar fluxos, reduzir custos e garantir rastreabilidade total dos materiais."
-image = "/images/orgs/logistics-recyclers-hero.jpg"
+image = "/images/logistics-recyclers-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Logística", "Recicladores", "Circularidade", "Sustentabilidade", "Compliance", "Transporte", "Resíduos", "UE"]

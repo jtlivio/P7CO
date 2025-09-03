@@ -1,7 +1,7 @@
 +++
 title = "Municípios | P7CO® EcoResupply"
 intro = "Os municípios europeus estão na linha da frente da transição para a neutralidade carbónica e a economia circular. O P7CO® EcoResupply oferece ferramentas digitais para reduzir custos, cumprir regulamentos e envolver os cidadãos na sustentabilidade local."
-image = "/images/orgs/municipalities-hero.jpg"
+image = "/images/municipalities-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Municípios", "Sustentabilidade", "Circularidade", "Compliance", "ESG", "Excedentes", "Denúncias Ambientais", "ZeroWaste", "UE", "ERP", "API"]

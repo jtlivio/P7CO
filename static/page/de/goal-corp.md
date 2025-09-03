@@ -1,7 +1,7 @@
 +++
 title = "Unternehmen | P7CO® EcoResupply"
 intro = "In der Europäischen Union ist Nachhaltigkeit nicht mehr freiwillig, sondern verpflichtend. Erfahre, wie P7CO® EcoResupply Unternehmen dabei unterstützt, sich am Europäischen Grünen Deal auszurichten, Kosten zu senken und die gesetzlichen Anforderungen an Kreislaufwirtschaft und Transparenz zu erfüllen."
-image = "/images/orgs/companies-hero.jpg"
+image = "/images/companies-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Unternehmen", "Nachhaltigkeit", "Kreislaufwirtschaft", "Compliance", "ESG", "Überschüsse", "Umweltmeldungen", "ZeroWaste", "EU"]

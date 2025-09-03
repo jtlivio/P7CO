@@ -1,7 +1,7 @@
 +++
 title = "Programme & Veranstaltungen | P7CO® EcoResupply"
 intro = "Der Übergang zur Kreislaufwirtschaft entsteht im Netzwerk. P7CO® EcoResupply versteht sich als Treffpunkt für Programme, Projekte und Veranstaltungen, die bereits heute unsere Art zu produzieren, zu konsumieren und Ressourcen wiederzuverwenden verändern."
-image = "/images/orgs/programs-events-hero.jpg"
+image = "/images/programs-events-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Programme", "Veranstaltungen", "Nachhaltigkeit", "Kreislaufwirtschaft", "Gemeinschaft", "EU", "SDGs", "Innovation"]

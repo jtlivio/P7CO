@@ -1,7 +1,7 @@
 +++
 title = "ONGs & Academia | P7CO® EcoResupply"
 intro = "As ONGs ambientais e as instituições académicas desempenham um papel vital na monitorização, sensibilização e inovação para a sustentabilidade. O P7CO® EcoResupply oferece uma plataforma para amplificar impacto, recolher dados de cidadãos e apoiar a investigação aplicada."
-image = "/images/orgs/ngos-academia-hero.jpg"
+image = "/images/ngos-academia-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["ONGs", "Academia", "Cidadania", "Sustentabilidade", "Circularidade", "Denúncias Ambientais", "Ciência Aberta", "ODS", "UE"]

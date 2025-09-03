@@ -1,7 +1,7 @@
 +++
 title = "Logistique & Recycleurs | P7CO® EcoResupply"
 intro = "La logistique et les recycleurs sont la colonne vertébrale de l’économie circulaire. P7CO® EcoResupply connecte opérateurs, entreprises et municipalités afin d’optimiser les flux, réduire les coûts et garantir une traçabilité complète des matériaux."
-image = "/images/orgs/logistics-recyclers-hero.jpg"
+image = "/images/logistics-recyclers-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Logistique", "Recycleurs", "Économie Circulaire", "Durabilité", "Conformité", "Transport", "Déchets", "UE"]

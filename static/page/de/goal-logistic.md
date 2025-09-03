@@ -1,7 +1,7 @@
 +++
 title = "Logistik & Recycler | P7CO® EcoResupply"
 intro = "Logistik und Recycler sind das Rückgrat der Kreislaufwirtschaft. P7CO® EcoResupply verbindet Betreiber, Unternehmen und Kommunen, um Materialflüsse zu optimieren, Kosten zu senken und die vollständige Rückverfolgbarkeit sicherzustellen."
-image = "/images/orgs/logistics-recyclers-hero.jpg"
+image = "/images/logistics-recyclers-hero.jpg"
 date = 2025-09-03
 category = "orgs"
 tags = ["Logistik", "Recycler", "Kreislaufwirtschaft", "Nachhaltigkeit", "Compliance", "Transport", "Abfälle", "EU"]
