@@ -167,7 +167,6 @@ Please read our **Contributing Guide** and follow our **Code of Conduct**.
 You can support **P7CO® EcoResupply** via:
 
 * Patreon: [https://www.patreon.com/p7co](https://www.patreon.com/p7co)
-* OpenCollective: [https://opencollective.com/p7co](https://opencollective.com/p7co)
 
 ## 📖 Citation
 

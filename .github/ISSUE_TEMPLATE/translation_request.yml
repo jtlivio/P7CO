@@ -1,0 +1,31 @@
+name: "🌍 Translation Request"
+description: "Request or propose a translation of an existing blog post"
+labels: ["translation", "content"]
+body:
+  - type: input
+    id: original
+    attributes:
+      label: Original Blog Post URL
+      placeholder: "https://github.com/jtlivio/P7CO/content/blog/en/example.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: target_language
+    attributes:
+      label: Target Language
+      options:
+        - English (en)
+        - Portuguese (pt)
+        - Spanish (es)
+        - French (fr)
+        - German (de)
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / Terminology
+      description: "Any specific terminology or context to be considered"
+      placeholder: "Use 'circular economy' instead of 'green economy'..."

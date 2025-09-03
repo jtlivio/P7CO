@@ -1,0 +1,19 @@
+name: "❓ Question / Support"
+description: "Ask a question or request clarification about the project"
+labels: ["question", "support"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: "What would you like to know?"
+      placeholder: "How can I run the project locally?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: "Add context to your question (logs, screenshots, use case)"
+      placeholder: "I tried X, but Y happened..."

@@ -1,0 +1,40 @@
+name: "📰 Blog Post Proposal"
+description: "Suggest a new blog post idea for the P7CO® EcoResupply Blog"
+labels: ["blog", "content"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Proposed Title
+      placeholder: "Example: Circular Economy Trends in 2025"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary / Angle
+      description: "What is the main idea of the article and why is it relevant?"
+      placeholder: "This article will explore..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Initial Language
+      options:
+        - English (en)
+        - Portuguese (pt)
+        - Spanish (es)
+        - French (fr)
+        - German (de)
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: References / Sources
+      description: "Links, reports, papers, or inspiration material"
+      placeholder: "https://ec.europa.eu/..."
