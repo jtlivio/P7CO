@@ -1,0 +1,43 @@
+{
+  "seo.title": "Denuncias Ambientales Recibidas",
+  "seo.desc": "Consulta las denuncias ambientales enviadas en la plataforma.",
+  "seo.keywords": "denuncias ambientales, medio ambiente, municipio, categoría",
+
+  "breadcrumb.home": "Inicio",
+  "breadcrumb.current": "Denuncias Ambientales",
+
+  "header.title": "Denuncias Ambientales",
+  "header.subtitle": "Consulta, filtra y sigue las denuncias enviadas por la comunidad. Este mural da visibilidad a incidencias ambientales y acelera su resolución.",
+
+  "cta.report": "Denunciar Infracción",
+  "cta.ecochampions": "Eco Campeones",
+
+  "list.no_results": "No se encontraron denuncias con los filtros aplicados.",
+  "card.alt_image_n": "Imagen {n} de la denuncia",
+
+  "pagination.prev": "Anterior",
+  "pagination.next": "Siguiente",
+
+  "filters.ribbon": "FILTROS",
+  "filters.title": "Refinar Resultados",
+  "filters.help": "Usa los filtros para encontrar denuncias por país, municipio o texto.",
+  "filters.country.label": "País",
+  "filters.country.PT": "Portugal",
+  "filters.country.ES": "España",
+  "filters.country.FR": "Francia",
+  "filters.country.DE": "Alemania",
+  "filters.county.label": "Municipio",
+  "filters.county.all": "Todos",
+  "filters.search.label": "Buscar",
+  "filters.search.placeholder": "Título o descripción…",
+  "filters.actions.filter": "Filtrar",
+  "filters.actions.clear": "Limpiar",
+
+  "results.count_template": "{n} resultado(s) en esta página.",
+
+  "lb.prev": "Anterior",
+  "lb.next": "Siguiente",
+  "lb.zoom": "Zoom",
+  "lb.open_original": "Abrir original",
+  "lb.close": "Cerrar"
+}

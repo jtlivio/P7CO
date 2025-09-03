@@ -1,0 +1,43 @@
+{
+  "seo.title": "Denúncias Ambientais Recebidas",
+  "seo.desc": "Consulta as denúncias ambientais submetidas na plataforma.",
+  "seo.keywords": "denúncias ambientais, ambiente, concelho, categoria",
+
+  "breadcrumb.home": "Início",
+  "breadcrumb.current": "Denúncias Ambientais",
+
+  "header.title": "Denúncias Ambientais",
+  "header.subtitle": "Consulta, filtra e acompanha as denúncias submetidas pela comunidade. Este mural ajuda a dar visibilidade a ocorrências ambientais e a acelerar a sua resolução.",
+
+  "cta.report": "Denunciar Infração",
+  "cta.ecochampions": "Eco Campeões",
+
+  "list.no_results": "Nenhuma denúncia encontrada com os filtros aplicados.",
+  "card.alt_image_n": "Imagem {n} da denúncia",
+
+  "pagination.prev": "Anterior",
+  "pagination.next": "Seguinte",
+
+  "filters.ribbon": "FILTROS",
+  "filters.title": "Refinar Resultados",
+  "filters.help": "Usa os filtros para encontrar denúncias por país, concelho ou texto.",
+  "filters.country.label": "País",
+  "filters.country.PT": "Portugal",
+  "filters.country.ES": "Espanha",
+  "filters.country.FR": "França",
+  "filters.country.DE": "Alemanha",
+  "filters.county.label": "Concelho",
+  "filters.county.all": "Todos",
+  "filters.search.label": "Pesquisar",
+  "filters.search.placeholder": "Título ou descrição…",
+  "filters.actions.filter": "Filtrar",
+  "filters.actions.clear": "Limpar",
+
+  "results.count_template": "{n} resultado(s) nesta página.",
+
+  "lb.prev": "Anterior",
+  "lb.next": "Seguinte",
+  "lb.zoom": "Zoom",
+  "lb.open_original": "Abrir original",
+  "lb.close": "Fechar"
+}

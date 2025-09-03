@@ -2,8 +2,8 @@
 
 # When GitHub Sponsors is active for your user/org,
 # uncomment the lines below and keep only valid accounts.
-# github:
-#   - jtlivio
+github:
+  - jtlivio
 
 # Other platforms (do not require GitHub validation)
 patreon: p7co
@@ -12,4 +12,4 @@ patreon: p7co
 
 # Custom links
 custom:
-#  - https://p7co.org
+  - https://p7co.org

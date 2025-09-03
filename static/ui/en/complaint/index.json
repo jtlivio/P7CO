@@ -1,0 +1,43 @@
+{
+  "seo.title": "Environmental Complaints Received",
+  "seo.desc": "Browse environmental complaints submitted on the platform.",
+  "seo.keywords": "environmental complaints, environment, county, category",
+
+  "breadcrumb.home": "Home",
+  "breadcrumb.current": "Environmental Complaints",
+
+  "header.title": "Environmental Complaints",
+  "header.subtitle": "Browse, filter, and follow complaints submitted by the community. This wall helps give visibility to environmental occurrences and speed up their resolution.",
+
+  "cta.report": "Report Offence",
+  "cta.ecochampions": "Eco Champions",
+
+  "list.no_results": "No complaints found with the applied filters.",
+  "card.alt_image_n": "Image {n} of the complaint",
+
+  "pagination.prev": "Previous",
+  "pagination.next": "Next",
+
+  "filters.ribbon": "FILTERS",
+  "filters.title": "Refine Results",
+  "filters.help": "Use filters to find complaints by country, county, or text.",
+  "filters.country.label": "Country",
+  "filters.country.PT": "Portugal",
+  "filters.country.ES": "Spain",
+  "filters.country.FR": "France",
+  "filters.country.DE": "Germany",
+  "filters.county.label": "County",
+  "filters.county.all": "All",
+  "filters.search.label": "Search",
+  "filters.search.placeholder": "Title or description…",
+  "filters.actions.filter": "Filter",
+  "filters.actions.clear": "Clear",
+
+  "results.count_template": "{n} result(s) on this page.",
+
+  "lb.prev": "Previous",
+  "lb.next": "Next",
+  "lb.zoom": "Zoom",
+  "lb.open_original": "Open original",
+  "lb.close": "Close"
+}

@@ -1,0 +1,43 @@
+{
+  "seo.title": "Signalements Environnementaux Reçus",
+  "seo.desc": "Consultez les signalements environnementaux soumis sur la plateforme.",
+  "seo.keywords": "signalements environnementaux, environnement, commune, catégorie",
+
+  "breadcrumb.home": "Accueil",
+  "breadcrumb.current": "Signalements Environnementaux",
+
+  "header.title": "Signalements Environnementaux",
+  "header.subtitle": "Consultez, filtrez et suivez les signalements soumis par la communauté. Ce mur donne de la visibilité aux incidents environnementaux et accélère leur résolution.",
+
+  "cta.report": "Signaler une Infraction",
+  "cta.ecochampions": "Éco Champions",
+
+  "list.no_results": "Aucun signalement trouvé avec les filtres appliqués.",
+  "card.alt_image_n": "Image {n} du signalement",
+
+  "pagination.prev": "Précédent",
+  "pagination.next": "Suivant",
+
+  "filters.ribbon": "FILTRES",
+  "filters.title": "Affiner les Résultats",
+  "filters.help": "Utilisez les filtres pour trouver des signalements par pays, commune ou texte.",
+  "filters.country.label": "Pays",
+  "filters.country.PT": "Portugal",
+  "filters.country.ES": "Espagne",
+  "filters.country.FR": "France",
+  "filters.country.DE": "Allemagne",
+  "filters.county.label": "Commune",
+  "filters.county.all": "Toutes",
+  "filters.search.label": "Rechercher",
+  "filters.search.placeholder": "Titre ou description…",
+  "filters.actions.filter": "Filtrer",
+  "filters.actions.clear": "Effacer",
+
+  "results.count_template": "{n} résultat(s) sur cette page.",
+
+  "lb.prev": "Précédent",
+  "lb.next": "Suivant",
+  "lb.zoom": "Zoom",
+  "lb.open_original": "Ouvrir l’original",
+  "lb.close": "Fermer"
+}

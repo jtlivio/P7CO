@@ -1,0 +1,43 @@
+{
+  "seo.title": "Eingegangene Umwelthinweise",
+  "seo.desc": "Sieh dir auf der Plattform eingereichte Umwelthinweise an.",
+  "seo.keywords": "Umwelthinweise, Umwelt, Landkreis, Kategorie",
+
+  "breadcrumb.home": "Startseite",
+  "breadcrumb.current": "Umwelthinweise",
+
+  "header.title": "Umwelthinweise",
+  "header.subtitle": "Durchsuche, filtere und verfolge Hinweise der Community. Diese Übersicht schafft Sichtbarkeit für Umweltvorfälle und beschleunigt deren Lösung.",
+
+  "cta.report": "Verstoß melden",
+  "cta.ecochampions": "Eco Champions",
+
+  "list.no_results": "Keine Hinweise mit den angewendeten Filtern gefunden.",
+  "card.alt_image_n": "Bild {n} des Hinweises",
+
+  "pagination.prev": "Zurück",
+  "pagination.next": "Weiter",
+
+  "filters.ribbon": "FILTER",
+  "filters.title": "Ergebnisse verfeinern",
+  "filters.help": "Nutze die Filter, um Hinweise nach Land, Landkreis oder Text zu finden.",
+  "filters.country.label": "Land",
+  "filters.country.PT": "Portugal",
+  "filters.country.ES": "Spanien",
+  "filters.country.FR": "Frankreich",
+  "filters.country.DE": "Deutschland",
+  "filters.county.label": "Landkreis",
+  "filters.county.all": "Alle",
+  "filters.search.label": "Suche",
+  "filters.search.placeholder": "Titel oder Beschreibung…",
+  "filters.actions.filter": "Filtern",
+  "filters.actions.clear": "Zurücksetzen",
+
+  "results.count_template": "{n} Ergebnis(se) auf dieser Seite.",
+
+  "lb.prev": "Zurück",
+  "lb.next": "Weiter",
+  "lb.zoom": "Zoom",
+  "lb.open_original": "Original öffnen",
+  "lb.close": "Schließen"
+}
