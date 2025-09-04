@@ -46,7 +46,7 @@ In the EU, regulatory pressure and operational costs demand **more transparent, 
 
 ## European example
 A logistics company in France integrates P7CO® EcoResupply to optimize its industrial waste transport routes.  
-➡ The system generates automatic digital proof for environmental audits.  
+The system generates automatic digital proof for environmental audits.  
 Result: **lower costs, compliance with regulations and new business opportunities**.  
 
 ## Next steps

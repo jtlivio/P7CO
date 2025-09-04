@@ -47,7 +47,7 @@ P7CO® EcoResupply crée un pont entre société civile, science et secteur publ
 
 ## Exemple européen
 Une ONG environnementale en Espagne utilise P7CO® EcoResupply pour collecter des signalements de pollution des rivières.  
-➡ Les données sont intégrées dans des rapports académiques d’une université partenaire et présentées à la Commission européenne.  
+Les données sont intégrées dans des rapports académiques d’une université partenaire et présentées à la Commission européenne.  
 Résultat : **politiques locales renforcées, projets financés et meilleure visibilité pour les causes environnementales**.  
 
 ## Prochaines étapes

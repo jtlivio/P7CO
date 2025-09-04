@@ -46,7 +46,7 @@ In der EU erfordern regulatorischer Druck und Betriebskosten **transparentere, d
 
 ## Europäisches Beispiel
 Ein Logistikunternehmen in Frankreich integriert P7CO® EcoResupply zur Optimierung seiner Routen für den Transport von Industrieabfällen.  
-➡ Das System erstellt automatische digitale Nachweise für Umweltprüfungen.  
+Das System erstellt automatische digitale Nachweise für Umweltprüfungen.  
 Ergebnis: **geringere Kosten, Einhaltung der Vorschriften und neue Geschäftsmöglichkeiten**.  
 
 ## Nächste Schritte

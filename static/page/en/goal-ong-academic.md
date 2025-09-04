@@ -47,7 +47,7 @@ P7CO® EcoResupply bridges civil society, science and the public sector:
 
 ## European example
 An environmental NGO in Spain uses P7CO® EcoResupply to collect complaints about river pollution.  
-➡ The data is integrated into academic reports by a partner university and presented to the European Commission.  
+The data is integrated into academic reports by a partner university and presented to the European Commission.  
 Result: **reinforced local policies, funded projects and greater visibility for environmental causes**.  
 
 ## Next steps

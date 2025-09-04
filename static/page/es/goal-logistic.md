@@ -46,7 +46,7 @@ En la UE, la presión regulatoria y los costes operativos exigen soluciones **m�
 
 ## Ejemplo europeo
 Una empresa logística en Francia integra P7CO® EcoResupply para optimizar sus rutas de transporte de residuos industriales.  
-➡ El sistema genera comprobantes digitales automáticos para auditorías ambientales.  
+El sistema genera comprobantes digitales automáticos para auditorías ambientales.  
 Resultado: **menos costes, cumplimiento normativo y nuevas oportunidades de negocio**.  
 
 ## Próximos pasos

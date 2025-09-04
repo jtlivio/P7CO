@@ -48,7 +48,7 @@ O **P7CO® EcoResupply** oferece ferramentas para integrar logística e reciclag
 
 ## Exemplo europeu
 Uma empresa logística em França integra o P7CO® EcoResupply para otimizar as suas rotas de transporte de resíduos industriais.  
-➡ O sistema gera comprovativos digitais automáticos para auditorias ambientais.  
+O sistema gera comprovativos digitais automáticos para auditorias ambientais.  
 Resultado: **menos custos, conformidade com a legislação e novas oportunidades de negócio**.  
 
 ## Próximos passos

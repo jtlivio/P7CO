@@ -51,7 +51,7 @@ O **P7CO® EcoResupply** disponibiliza uma plataforma integrada para municípios
 
 ## Exemplo europeu
 Uma câmara municipal em Lisboa enfrenta auditorias sobre gestão de resíduos urbanos.  
-➡ O P7CO® EcoResupply conecta-se ao ERP municipal e gera relatórios automáticos para a agência ambiental francesa.  
+O P7CO® EcoResupply conecta-se ao ERP municipal e gera relatórios automáticos para a agência ambiental francesa.  
 Resultado: **conformidade legal, eficiência administrativa e maior confiança dos cidadãos**.  
 
 ## Próximos passos

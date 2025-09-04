@@ -45,7 +45,7 @@ Adoptar prácticas circulares alineadas con la UE significa:
 
 ## Ejemplo europeo
 Una empresa química en Alemania recibe denuncias por vertidos ilegales.  
-➡ En P7CO® EcoResupply puede registrar el incidente, demostrar medidas correctivas y comunicar resultados en un formato compatible con la **CSRD**.  
+En P7CO® EcoResupply puede registrar el incidente, demostrar medidas correctivas y comunicar resultados en un formato compatible con la **CSRD**.  
 Resultado: **cumplimiento legal, reputación preservada y acceso a financiación verde**.
 
 ## Próximos pasos

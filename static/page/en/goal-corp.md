@@ -45,7 +45,7 @@ Adopting EU-aligned circular practices means:
 
 ## European example
 A chemical company in Germany faces complaints of illegal discharges.  
-➡ On P7CO® EcoResupply, it can register the incident, demonstrate corrective measures, and communicate results in a **CSRD-compliant** format.  
+On P7CO® EcoResupply, it can register the incident, demonstrate corrective measures, and communicate results in a **CSRD-compliant** format.  
 The outcome: **legal compliance, reputation preserved, and access to green financing**.
 
 ## Next steps

@@ -45,7 +45,7 @@ Die Einführung von EU-konformen Kreislaufpraktiken bedeutet:
 
 ## Europäisches Beispiel
 Ein Chemieunternehmen in Deutschland wird wegen illegaler Einleitungen angezeigt.  
-➡ Mit P7CO® EcoResupply kann es den Vorfall registrieren, Korrekturmaßnahmen nachweisen und Ergebnisse in einem **CSRD-kompatiblen Format** kommunizieren.  
+Mit P7CO® EcoResupply kann es den Vorfall registrieren, Korrekturmaßnahmen nachweisen und Ergebnisse in einem **CSRD-kompatiblen Format** kommunizieren.  
 Ergebnis: **Rechtssicherheit, gewahrter Ruf und Zugang zu grüner Finanzierung**.
 
 ## Nächste Schritte

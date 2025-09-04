@@ -46,7 +46,7 @@ Dans l’UE, la pression réglementaire et les coûts opérationnels imposent de
 
 ## Exemple européen
 Une entreprise logistique en France intègre P7CO® EcoResupply pour optimiser ses trajets de transport de déchets industriels.  
-➡ Le système génère automatiquement des preuves numériques pour les audits environnementaux.  
+Le système génère automatiquement des preuves numériques pour les audits environnementaux.  
 Résultat : **coûts réduits, conformité réglementaire et nouvelles opportunités commerciales**.  
 
 ## Prochaines étapes
