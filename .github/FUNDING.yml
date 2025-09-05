@@ -1,15 +1,12 @@
-# Configure the "Sponsor" button on GitHub.
+# FUNDING.yml
 
-# When GitHub Sponsors is active for your user/org,
-# uncomment the lines below and keep only valid accounts.
-github:
-  - jtlivio
+# GitHub Sponsors (requer ativação na conta GitHub)
+github: [jtlivio]
 
-# Other platforms (do not require GitHub validation)
+# Outras plataformas de financiamento (não requerem validação do GitHub)
 patreon: p7co
-#open_collective: p7co
+# open_collective: p7co
 # ko_fi: p7co
 
-# Custom links
-#custom:
-#  - https://p7co.org
+# Links personalizados (opcional)
+custom: ['https://p7co.org']
