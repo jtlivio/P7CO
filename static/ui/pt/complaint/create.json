@@ -26,5 +26,8 @@
   "images.preview_alt": "pré-visualização",
   "login.redirecting": "A redirecionar para login…",
   "map.geofallback": "Sem geolocalização; a posicionar em Setúbal.",
-  "map.geodenied": "Geolocalização indisponível; a posicionar em Setúbal."
+  "map.geodenied": "Geolocalização indisponível; a posicionar em Setúbal.",
+  "field.images.reorder_help": "A primeira imagem é a capa. Arrasta para ordenar.",
+  "images.add.strong": "Adicionar imagem",
+  "images.add.small": "Clica ou arrasta aqui"
 }
