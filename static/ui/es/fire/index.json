@@ -1,0 +1,80 @@
+{
+  "seo.title": "Mapa de Incendios | P7CO® EcoResupply",
+  "seo.desc": "Mapa en tiempo real de incendios activos y recursos movilizados en Portugal.",
+  "seo.keywords": "incendios, mapa, Portugal, fuegos, recursos movilizados, ANEPC, Fogos.pt, densidad, calor, mapa de calor",
+
+  "aria.topbar": "Barra de información",
+  "aria.live_region": "Estado de los incendios",
+  "aria.map": "Mapa",
+  "aria.loading_map": "Cargando mapa",
+
+  "badge.tip.ongoing": "En curso",
+  "badge.title.ongoing": "Incendios en curso",
+
+  "title.main": "Mapa de Incendios",
+  "title.active.tip": "Activos (todos los estados)",
+  "title.active.suffix": "activos",
+
+  "filters.aria": "Filtros de estado",
+
+  "state.curso.title": "En curso",
+  "state.curso.label": "Curso",
+  "state.res.title": "En resolución",
+  "state.res.label": "Resolución",
+  "state.conc.title": "Concluido",
+  "state.conc.label": "Conclusión",
+  "state.vig.title": "En vigilancia",
+  "state.vig.label": "Vigilancia",
+  "state.desp.title": "Despacho/Llegada",
+  "state.desp.label": "Despacho",
+
+  "btn.pins.title": "Mostrar/ocultar pines",
+  "btn.pins": "Pines",
+  "btn.clear.title": "Limpiar filtros",
+  "btn.clear": "Limpiar",
+  "btn.info": "Info",
+
+  "info.aria": "Información",
+
+  "chip.source.anepc": "Fuente: ANEPC",
+  "chip.source.fogos": "Fuente: Fogos.pt",
+  "chip.license": "Licencia: CC BY 4.0",
+  "chip.last_update": "Última actualización: —",
+  "chip.last_update.prefix": "Última actualización:",
+  "chip.delay": "Desfase —",
+  "chip.delay.prefix": "Desfase:",
+  "chip.credits.title": "Créditos y metodología",
+  "chip.credits": "Créditos y metodología",
+
+  "legend.status.aria": "Leyenda de estados",
+  "legend.desp": "Despacho — Recursos en camino al lugar de operaciones",
+  "legend.curso": "En curso — Incidente en evolución sin limitación de área",
+  "legend.res": "En resolución — Incidente sin riesgo de propagación",
+  "legend.conc": "Concluido — Incidente extinguido, en observación",
+  "legend.vig": "En vigilancia — Incidente estabilizado, bajo vigilancia",
+
+  "legend.heat.title": "Calor (densidad/intensidad)",
+  "legend.btn": "Capas",
+  "legend.low": "Baja",
+  "legend.high": "Alta",
+
+  "popup.estado": "Estado",
+  "popup.fire": "Incendio",
+  "popup.indicators": "Indicadores",
+  "popup.start": "Inicio",
+  "popup.men": "Hombres",
+  "popup.terrain": "Terrestres",
+  "popup.air": "Aéreos",
+  "popup.data_source": "Datos: Fogos.pt / ANEPC. CC BY 4.0.",
+  "popup.notes": "Nota: valores sujetos a actualización; confirmar localmente.",
+
+  "area.source": "Fuente",
+  "area.aoi": "Área de interés (AOI)",
+  "area.delineation": "Delineación",
+  "area.area": "Área",
+  "area.perimeter": "Perímetro",
+  "area.eq_radius": "Radio eq.",
+  "area.date": "Fecha",
+  "area.footer1": "Valores aproximados. Productos {fonte}. Licencia: CC BY 4.0.",
+  "area.footer2": "Notas: delimitaciones ilustrativas; confirmar con la fuente oficial."
+}

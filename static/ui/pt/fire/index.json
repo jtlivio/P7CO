@@ -1,0 +1,80 @@
+{
+  "seo.title": "Mapa de Incêndios | P7CO® EcoResupply",
+  "seo.desc": "Mapa em tempo real de incêndios activos e meios mobilizados em Portugal.",
+  "seo.keywords": "incêndios, mapa, Portugal, fogos, meios mobilizados, ANEPC, Fogos.pt, densidade, calor, heatmap",
+
+  "aria.topbar": "Barra de informação",
+  "aria.live_region": "Estado dos incêndios",
+  "aria.map": "Mapa",
+  "aria.loading_map": "A carregar mapa",
+
+  "badge.tip.ongoing": "Em curso",
+  "badge.title.ongoing": "Incêndios em curso",
+
+  "title.main": "Mapa de Incêndios",
+  "title.active.tip": "Ativos (todos os estados)",
+  "title.active.suffix": "activos",
+
+  "filters.aria": "Filtros de estado",
+
+  "state.curso.title": "Em Curso",
+  "state.curso.label": "Curso",
+  "state.res.title": "Em Resolução",
+  "state.res.label": "Resolução",
+  "state.conc.title": "Em Conclusão",
+  "state.conc.label": "Conclusão",
+  "state.vig.title": "Em Vigilância",
+  "state.vig.label": "Vigilância",
+  "state.desp.title": "Em Despacho/Chegada",
+  "state.desp.label": "Despacho",
+
+  "btn.pins.title": "Mostrar/ocultar pinos",
+  "btn.pins": "Pinos",
+  "btn.clear.title": "Limpar filtros",
+  "btn.clear": "Limpar",
+  "btn.info": "Info",
+
+  "info.aria": "Informação",
+
+  "chip.source.anepc": "Fonte: ANEPC",
+  "chip.source.fogos": "Fonte: Fogos.pt",
+  "chip.license": "Licença: CC BY 4.0",
+  "chip.last_update": "Última actualização: —",
+  "chip.last_update.prefix": "Última actualização:",
+  "chip.delay": "Desfasamento —",
+  "chip.delay.prefix": "Desfasamento:",
+  "chip.credits.title": "Créditos & metodologia",
+  "chip.credits": "Créditos & metodologia",
+
+  "legend.status.aria": "Legenda de estados",
+  "legend.desp": "Em Despacho — Meios em trânsito para o teatro de operações",
+  "legend.curso": "Em Curso — Ocorrência em evolução sem limitação de área",
+  "legend.res": "Em Resolução — Ocorrência sem perigo de propagação",
+  "legend.conc": "Em Conclusão — Ocorrência extinta, em observação",
+  "legend.vig": "Em Vigilância — Ocorrência estabilizada, em vigilância",
+
+  "legend.heat.title": "Calor (densidade/intensidade)",
+  "legend.btn": "Camadas",
+  "legend.low": "Baixa",
+  "legend.high": "Alta",
+
+  "popup.estado": "Estado",
+  "popup.fire": "Incêndio",
+  "popup.indicators": "Indicadores",
+  "popup.start": "Início",
+  "popup.men": "Homens",
+  "popup.terrain": "Terrestres",
+  "popup.air": "Aéreos",
+  "popup.data_source": "Dados: Fogos.pt / ANEPC. CC BY 4.0.",
+  "popup.notes": "Notas: valores sujeitos a atualização; confirme localmente.",
+
+  "area.source": "Fonte",
+  "area.aoi": "Área de Interesse (AOI)",
+  "area.delineation": "Delineation",
+  "area.area": "Área",
+  "area.perimeter": "Perímetro",
+  "area.eq_radius": "Raio eq.",
+  "area.date": "Data",
+  "area.footer1": "Valores aproximados. Produtos {fonte}. Licença: CC BY 4.0.",
+  "area.footer2": "Notas: delimitações ilustrativas; confirme com fonte oficial."
+}

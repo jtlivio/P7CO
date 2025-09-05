@@ -1,0 +1,80 @@
+{
+  "seo.title": "Karte der Brände | P7CO® EcoResupply",
+  "seo.desc": "Echtzeitkarte aktiver Brände und eingesetzter Mittel in Portugal.",
+  "seo.keywords": "Brände, Karte, Portugal, Feuer, Einsatzkräfte, ANEPC, Fogos.pt, Dichte, Hitze, Heatmap",
+
+  "aria.topbar": "Informationsleiste",
+  "aria.live_region": "Status der Brände",
+  "aria.map": "Karte",
+  "aria.loading_map": "Karte wird geladen",
+
+  "badge.tip.ongoing": "Im Gange",
+  "badge.title.ongoing": "Laufende Brände",
+
+  "title.main": "Karte der Brände",
+  "title.active.tip": "Aktiv (alle Zustände)",
+  "title.active.suffix": "aktiv",
+
+  "filters.aria": "Status-Filter",
+
+  "state.curso.title": "Im Gange",
+  "state.curso.label": "Laufend",
+  "state.res.title": "In Auflösung",
+  "state.res.label": "Auflösung",
+  "state.conc.title": "Abgeschlossen",
+  "state.conc.label": "Abschluss",
+  "state.vig.title": "Unter Beobachtung",
+  "state.vig.label": "Beobachtung",
+  "state.desp.title": "In Anfahrt/Ankunft",
+  "state.desp.label": "Anfahrt",
+
+  "btn.pins.title": "Pins ein-/ausblenden",
+  "btn.pins": "Pins",
+  "btn.clear.title": "Filter zurücksetzen",
+  "btn.clear": "Zurücksetzen",
+  "btn.info": "Info",
+
+  "info.aria": "Information",
+
+  "chip.source.anepc": "Quelle: ANEPC",
+  "chip.source.fogos": "Quelle: Fogos.pt",
+  "chip.license": "Lizenz: CC BY 4.0",
+  "chip.last_update": "Letzte Aktualisierung: —",
+  "chip.last_update.prefix": "Letzte Aktualisierung:",
+  "chip.delay": "Verzögerung —",
+  "chip.delay.prefix": "Verzögerung:",
+  "chip.credits.title": "Credits & Methodik",
+  "chip.credits": "Credits & Methodik",
+
+  "legend.status.aria": "Statuslegende",
+  "legend.desp": "In Anfahrt — Einsatzkräfte auf dem Weg zum Einsatzort",
+  "legend.curso": "Im Gange — Ereignis in Entwicklung ohne Flächenbegrenzung",
+  "legend.res": "In Auflösung — Ereignis ohne Ausbreitungsgefahr",
+  "legend.conc": "Abgeschlossen — Ereignis gelöscht, unter Beobachtung",
+  "legend.vig": "Unter Beobachtung — Ereignis stabilisiert, in Beobachtung",
+
+  "legend.heat.title": "Hitze (Dichte/Intensität)",
+  "legend.btn": "Ebenen",
+  "legend.low": "Niedrig",
+  "legend.high": "Hoch",
+
+  "popup.estado": "Status",
+  "popup.fire": "Brand",
+  "popup.indicators": "Indikatoren",
+  "popup.start": "Beginn",
+  "popup.men": "Männer",
+  "popup.terrain": "Bodeneinheiten",
+  "popup.air": "Lufteinheiten",
+  "popup.data_source": "Daten: Fogos.pt / ANEPC. CC BY 4.0.",
+  "popup.notes": "Hinweis: Werte können aktualisiert werden; bitte vor Ort bestätigen.",
+
+  "area.source": "Quelle",
+  "area.aoi": "Interessensgebiet (AOI)",
+  "area.delineation": "Abgrenzung",
+  "area.area": "Fläche",
+  "area.perimeter": "Umfang",
+  "area.eq_radius": "Äquivalenter Radius",
+  "area.date": "Datum",
+  "area.footer1": "Ungefähre Werte. Produkte {fonte}. Lizenz: CC BY 4.0.",
+  "area.footer2": "Hinweise: Illustrative Abgrenzungen; bitte mit offizieller Quelle bestätigen."
+}

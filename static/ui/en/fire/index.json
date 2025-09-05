@@ -1,0 +1,80 @@
+{
+  "seo.title": "Wildfire Map | P7CO® EcoResupply",
+  "seo.desc": "Real-time map of active wildfires and deployed resources in Portugal.",
+  "seo.keywords": "wildfires, map, Portugal, fires, deployed resources, ANEPC, Fogos.pt, density, heat, heatmap",
+
+  "aria.topbar": "Information bar",
+  "aria.live_region": "Wildfire status",
+  "aria.map": "Map",
+  "aria.loading_map": "Loading map",
+
+  "badge.tip.ongoing": "Ongoing",
+  "badge.title.ongoing": "Ongoing wildfires",
+
+  "title.main": "Wildfire Map",
+  "title.active.tip": "Active (all statuses)",
+  "title.active.suffix": "active",
+
+  "filters.aria": "Status filters",
+
+  "state.curso.title": "Ongoing",
+  "state.curso.label": "Ongoing",
+  "state.res.title": "In Resolution",
+  "state.res.label": "Resolution",
+  "state.conc.title": "Concluded",
+  "state.conc.label": "Conclusion",
+  "state.vig.title": "Under Surveillance",
+  "state.vig.label": "Surveillance",
+  "state.desp.title": "Dispatch/Arrival",
+  "state.desp.label": "Dispatch",
+
+  "btn.pins.title": "Show/hide pins",
+  "btn.pins": "Pins",
+  "btn.clear.title": "Clear filters",
+  "btn.clear": "Clear",
+  "btn.info": "Info",
+
+  "info.aria": "Information",
+
+  "chip.source.anepc": "Source: ANEPC",
+  "chip.source.fogos": "Source: Fogos.pt",
+  "chip.license": "License: CC BY 4.0",
+  "chip.last_update": "Last update: —",
+  "chip.last_update.prefix": "Last update:",
+  "chip.delay": "Delay —",
+  "chip.delay.prefix": "Delay:",
+  "chip.credits.title": "Credits & methodology",
+  "chip.credits": "Credits & methodology",
+
+  "legend.status.aria": "Status legend",
+  "legend.desp": "Dispatch — Resources en route to the operation site",
+  "legend.curso": "Ongoing — Event evolving without area limitation",
+  "legend.res": "In Resolution — Event with no risk of spreading",
+  "legend.conc": "Concluded — Event extinguished, under observation",
+  "legend.vig": "Under Surveillance — Event stabilized, under monitoring",
+
+  "legend.heat.title": "Heat (density/intensity)",
+  "legend.btn": "Layers",
+  "legend.low": "Low",
+  "legend.high": "High",
+
+  "popup.estado": "Status",
+  "popup.fire": "Wildfire",
+  "popup.indicators": "Indicators",
+  "popup.start": "Start",
+  "popup.men": "Men",
+  "popup.terrain": "Ground units",
+  "popup.air": "Aerial units",
+  "popup.data_source": "Data: Fogos.pt / ANEPC. CC BY 4.0.",
+  "popup.notes": "Note: values subject to updates; confirm locally.",
+
+  "area.source": "Source",
+  "area.aoi": "Area of Interest (AOI)",
+  "area.delineation": "Delineation",
+  "area.area": "Area",
+  "area.perimeter": "Perimeter",
+  "area.eq_radius": "Eq. radius",
+  "area.date": "Date",
+  "area.footer1": "Approximate values. Products {fonte}. License: CC BY 4.0.",
+  "area.footer2": "Notes: illustrative boundaries; confirm with official source."
+}

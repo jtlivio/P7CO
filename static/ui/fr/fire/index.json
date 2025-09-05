@@ -1,0 +1,80 @@
+{
+  "seo.title": "Carte des Incendies | P7CO® EcoResupply",
+  "seo.desc": "Carte en temps réel des incendies actifs et des moyens mobilisés au Portugal.",
+  "seo.keywords": "incendies, carte, Portugal, feux, moyens mobilisés, ANEPC, Fogos.pt, densité, chaleur, carte thermique",
+
+  "aria.topbar": "Barre d'information",
+  "aria.live_region": "État des incendies",
+  "aria.map": "Carte",
+  "aria.loading_map": "Chargement de la carte",
+
+  "badge.tip.ongoing": "En cours",
+  "badge.title.ongoing": "Incendies en cours",
+
+  "title.main": "Carte des Incendies",
+  "title.active.tip": "Actifs (tous les états)",
+  "title.active.suffix": "actifs",
+
+  "filters.aria": "Filtres d'état",
+
+  "state.curso.title": "En cours",
+  "state.curso.label": "Cours",
+  "state.res.title": "En résolution",
+  "state.res.label": "Résolution",
+  "state.conc.title": "Conclu",
+  "state.conc.label": "Conclusion",
+  "state.vig.title": "En surveillance",
+  "state.vig.label": "Surveillance",
+  "state.desp.title": "Départ/Arrivée",
+  "state.desp.label": "Départ",
+
+  "btn.pins.title": "Afficher/masquer les pins",
+  "btn.pins": "Pins",
+  "btn.clear.title": "Réinitialiser les filtres",
+  "btn.clear": "Réinitialiser",
+  "btn.info": "Info",
+
+  "info.aria": "Information",
+
+  "chip.source.anepc": "Source : ANEPC",
+  "chip.source.fogos": "Source : Fogos.pt",
+  "chip.license": "Licence : CC BY 4.0",
+  "chip.last_update": "Dernière mise à jour : —",
+  "chip.last_update.prefix": "Dernière mise à jour :",
+  "chip.delay": "Décalage —",
+  "chip.delay.prefix": "Décalage :",
+  "chip.credits.title": "Crédits & méthodologie",
+  "chip.credits": "Crédits & méthodologie",
+
+  "legend.status.aria": "Légende des états",
+  "legend.desp": "Départ — Moyens en route vers le site d'opération",
+  "legend.curso": "En cours — Événement en évolution sans limitation de zone",
+  "legend.res": "En résolution — Événement sans risque de propagation",
+  "legend.conc": "Conclu — Événement éteint, en observation",
+  "legend.vig": "En surveillance — Événement stabilisé, sous surveillance",
+
+  "legend.heat.title": "Chaleur (densité/intensité)",
+  "legend.btn": "Couches",
+  "legend.low": "Faible",
+  "legend.high": "Élevée",
+
+  "popup.estado": "État",
+  "popup.fire": "Incendie",
+  "popup.indicators": "Indicateurs",
+  "popup.start": "Début",
+  "popup.men": "Hommes",
+  "popup.terrain": "Unités terrestres",
+  "popup.air": "Unités aériennes",
+  "popup.data_source": "Données : Fogos.pt / ANEPC. CC BY 4.0.",
+  "popup.notes": "Remarque : valeurs sujettes à mise à jour ; confirmer localement.",
+
+  "area.source": "Source",
+  "area.aoi": "Zone d'intérêt (AOI)",
+  "area.delineation": "Délimitation",
+  "area.area": "Surface",
+  "area.perimeter": "Périmètre",
+  "area.eq_radius": "Rayon équiv.",
+  "area.date": "Date",
+  "area.footer1": "Valeurs approximatives. Produits {fonte}. Licence : CC BY 4.0.",
+  "area.footer2": "Remarques : délimitations illustratives ; confirmer avec la source officielle."
+}
