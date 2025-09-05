@@ -1,0 +1,16 @@
+{
+  "seo.title": "Restablecer contraseña",
+  "ribbon": "RECUPERAR ACCESO",
+  "header.title": "Nueva contraseña",
+  "header.subtitle": "Establece una nueva contraseña para acceder a la plataforma.",
+  "field.email.label": "Correo electrónico",
+  "field.email.placeholder": "tu@correo.com",
+  "field.password.label": "Nueva contraseña",
+  "field.password.placeholder": "Mínimo 6 caracteres",
+  "field.confirm.label": "Confirmar contraseña",
+  "field.confirm.placeholder": "Repite la nueva contraseña",
+  "cta.submit": "Restablecer contraseña",
+  "footer.remember": "¿Recordaste tu contraseña?",
+  "footer.login": "Iniciar sesión",
+  "aria.close": "Cerrar"
+}

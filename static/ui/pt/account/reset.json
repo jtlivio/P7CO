@@ -1,0 +1,16 @@
+{
+  "seo.title": "Redefinir Palavra-Passe",
+  "ribbon": "RECUPERAR ACESSO",
+  "header.title": "Nova Palavra-Passe",
+  "header.subtitle": "Define uma nova palavra-passe para acederes à plataforma.",
+  "field.email.label": "Email",
+  "field.email.placeholder": "o.teu@email.com",
+  "field.password.label": "Nova palavra-passe",
+  "field.password.placeholder": "Mínimo 6 caracteres",
+  "field.confirm.label": "Confirmar palavra-passe",
+  "field.confirm.placeholder": "Repete a nova palavra-passe",
+  "cta.submit": "Redefinir Palavra-Passe",
+  "footer.remember": "Lembraste-te da password?",
+  "footer.login": "Entrar",
+  "aria.close": "Fechar"
+}

@@ -1,0 +1,19 @@
+{
+  "seo.title": "Réinitialiser le mot de passe",
+  "breadcrumb.home": "Accueil",
+  "breadcrumb.current": "Réinitialiser le mot de passe",
+
+  "header.title": "Réinitialiser le mot de passe",
+
+  "lead.ribbon": "VOUS AVEZ OUBLIÉ VOTRE MOT DE PASSE ?",
+  "lead.subtitle": "Récupérer l’accès",
+
+  "field.email.label": "Adresse e-mail",
+  "field.email.placeholder": "votre@email.com",
+  "field.email.help": "Saisissez l’adresse e-mail associée à votre compte.",
+
+  "cta.submit": "Envoyer le lien de réinitialisation",
+
+  "footer.remember": "Vous vous souvenez de votre mot de passe ?",
+  "footer.back_login": "Retour à la connexion"
+}

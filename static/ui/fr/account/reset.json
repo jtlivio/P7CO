@@ -1,0 +1,16 @@
+{
+  "seo.title": "Réinitialiser le mot de passe",
+  "ribbon": "RÉCUPÉRATION D’ACCÈS",
+  "header.title": "Nouveau mot de passe",
+  "header.subtitle": "Définissez un nouveau mot de passe pour accéder à la plateforme.",
+  "field.email.label": "E-mail",
+  "field.email.placeholder": "votre@email.com",
+  "field.password.label": "Nouveau mot de passe",
+  "field.password.placeholder": "Minimum 6 caractères",
+  "field.confirm.label": "Confirmer le mot de passe",
+  "field.confirm.placeholder": "Répétez le nouveau mot de passe",
+  "cta.submit": "Réinitialiser le mot de passe",
+  "footer.remember": "Vous vous souvenez de votre mot de passe ?",
+  "footer.login": "Se connecter",
+  "aria.close": "Fermer"
+}

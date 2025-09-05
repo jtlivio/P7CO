@@ -1,0 +1,19 @@
+{
+  "seo.title": "Reset Password",
+  "breadcrumb.home": "Home",
+  "breadcrumb.current": "Reset Password",
+
+  "header.title": "Reset Password",
+
+  "lead.ribbon": "FORGOT YOUR PASSWORD?",
+  "lead.subtitle": "Recover access",
+
+  "field.email.label": "Email",
+  "field.email.placeholder": "your@email.com",
+  "field.email.help": "Please enter the email address associated with your account.",
+
+  "cta.submit": "Send Reset Link",
+
+  "footer.remember": "Remembered your password?",
+  "footer.back_login": "Back to login"
+}

@@ -1,0 +1,7 @@
+{
+  "seo.title": "Récupération de mot de passe",
+  "header.title": "Vérifiez votre e-mail !",
+  "msg.body": "Si un compte existe avec l’adresse e-mail que vous avez saisie, vous recevrez un lien pour réinitialiser votre mot de passe.",
+  "msg.spam": "Veuillez également vérifier le dossier spam/courrier indésirable si vous ne trouvez pas l’e-mail dans les prochaines minutes.",
+  "cta.home": "Retour à la page d’accueil"
+}

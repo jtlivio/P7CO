@@ -1,0 +1,19 @@
+{
+  "seo.title": "Passwort zurücksetzen",
+  "breadcrumb.home": "Startseite",
+  "breadcrumb.current": "Passwort zurücksetzen",
+
+  "header.title": "Passwort zurücksetzen",
+
+  "lead.ribbon": "PASSWORT VERGESSEN?",
+  "lead.subtitle": "Zugang wiederherstellen",
+
+  "field.email.label": "E-Mail",
+  "field.email.placeholder": "ihre@email.de",
+  "field.email.help": "Bitte geben Sie die E-Mail-Adresse ein, die mit Ihrem Konto verknüpft ist.",
+
+  "cta.submit": "Link zum Zurücksetzen senden",
+
+  "footer.remember": "Passwort wieder eingefallen?",
+  "footer.back_login": "Zurück zur Anmeldung"
+}

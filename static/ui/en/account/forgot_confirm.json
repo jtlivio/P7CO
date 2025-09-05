@@ -1,0 +1,7 @@
+{
+  "seo.title": "Password Recovery",
+  "header.title": "Check your email!",
+  "msg.body": "If an account with the email you entered exists, you will receive a link to reset your password.",
+  "msg.spam": "Please also check your spam/junk folder if you don’t see the email in the next few minutes.",
+  "cta.home": "Back to Home"
+}

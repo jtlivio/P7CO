@@ -1,0 +1,7 @@
+{
+  "seo.title": "Recuperación de Contraseña",
+  "header.title": "¡Revisa tu correo!",
+  "msg.body": "Si existe una cuenta con el correo que introdujiste, recibirás un enlace para restablecer tu contraseña.",
+  "msg.spam": "Por favor revisa también la carpeta de spam/correo no deseado si no encuentras el correo en los próximos minutos.",
+  "cta.home": "Volver a la página de inicio"
+}

@@ -1,0 +1,19 @@
+{
+  "seo.title": "Restablecer Contraseña",
+  "breadcrumb.home": "Inicio",
+  "breadcrumb.current": "Restablecer Contraseña",
+
+  "header.title": "Restablecer Contraseña",
+
+  "lead.ribbon": "¿OLVIDASTE TU CONTRASEÑA?",
+  "lead.subtitle": "Recuperar acceso",
+
+  "field.email.label": "Correo electrónico",
+  "field.email.placeholder": "tu@email.com",
+  "field.email.help": "Introduce el correo electrónico asociado a tu cuenta.",
+
+  "cta.submit": "Enviar enlace de recuperación",
+
+  "footer.remember": "¿Recordaste tu contraseña?",
+  "footer.back_login": "Volver al inicio de sesión"
+}

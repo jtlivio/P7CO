@@ -1,0 +1,16 @@
+{
+  "seo.title": "Reset Password",
+  "ribbon": "ACCOUNT RECOVERY",
+  "header.title": "New Password",
+  "header.subtitle": "Set a new password to access the platform.",
+  "field.email.label": "Email",
+  "field.email.placeholder": "your@email.com",
+  "field.password.label": "New password",
+  "field.password.placeholder": "Minimum 6 characters",
+  "field.confirm.label": "Confirm password",
+  "field.confirm.placeholder": "Repeat the new password",
+  "cta.submit": "Reset Password",
+  "footer.remember": "Remembered your password?",
+  "footer.login": "Sign in",
+  "aria.close": "Close"
+}

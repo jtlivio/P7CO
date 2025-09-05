@@ -1,0 +1,19 @@
+{
+  "seo.title": "Recuperar Palavra-Passe",
+  "breadcrumb.home": "Início",
+  "breadcrumb.current": "Recuperar Palavra-Passe",
+
+  "header.title": "Recuperar Palavra-Passe",
+
+  "lead.ribbon": "ESQUECEU-SE DA SUA PALAVRA-PASSE?",
+  "lead.subtitle": "Recuperar acesso",
+
+  "field.email.label": "E-mail",
+  "field.email.placeholder": "o.seu@email.com",
+  "field.email.help": "Introduza o e-mail associado à sua conta.",
+
+  "cta.submit": "Enviar link de recuperação",
+
+  "footer.remember": "Lembrou-se da palavra-passe?",
+  "footer.back_login": "Voltar ao login"
+}
