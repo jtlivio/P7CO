@@ -1,0 +1,30 @@
+{
+  "seo.title": "Détails de la Plainte Environnementale",
+  "header.fallback_title": "Détails de la Plainte",
+
+  "images.cover": "COUVERTURE",
+  "images.preview_alt": "aperçu",
+
+  "gallery.open_aria": "Voir l’image en détail",
+  "gallery.no_images": "Aucune image",
+
+  "info.category": "Catégorie",
+  "info.date": "Date",
+  "info.status": "Statut",
+  "info.entity": "Entité",
+  "info.location": "Localisation",
+  "info.location_dash": "-",
+  "info.coords": "Coordonnées",
+
+  "desc.title": "Description",
+  "desc.allegedly": "Présumément,",
+  "desc.none": "-",
+
+  "cta.back": "Retour à la liste",
+
+  "lb.aria": "Visionneuse d’images",
+  "lb.prev": "Précédent",
+  "lb.next": "Suivant",
+  "lb.close": "Fermer",
+  "lb.img_alt": "Image de la plainte"
+}

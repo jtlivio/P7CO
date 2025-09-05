@@ -1,0 +1,30 @@
+{
+  "seo.title": "Detalhe da Denúncia",
+  "header.fallback_title": "Detalhe da Denúncia",
+
+  "images.cover": "CAPA",
+  "images.preview_alt": "pré-visualização",
+
+  "gallery.open_aria": "Ver imagem em detalhe",
+  "gallery.no_images": "Sem imagens",
+
+  "info.category": "Categoria",
+  "info.date": "Data",
+  "info.status": "Estado",
+  "info.entity": "Entidade",
+  "info.location": "Localização",
+  "info.location_dash": "-",
+  "info.coords": "Coordenadas",
+
+  "desc.title": "Descrição",
+  "desc.allegedly": "Alegadamente,",
+  "desc.none": "-",
+
+  "cta.back": "Voltar à listagem",
+
+  "lb.aria": "Visualização de imagem",
+  "lb.prev": "Anterior",
+  "lb.next": "Seguinte",
+  "lb.close": "Fechar",
+  "lb.img_alt": "Imagem da denúncia"
+}

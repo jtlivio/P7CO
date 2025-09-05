@@ -1,0 +1,30 @@
+{
+  "seo.title": "Details des Umwelthinweises",
+  "header.fallback_title": "Details des Umwelthinweises",
+
+  "images.cover": "TITELBILD",
+  "images.preview_alt": "Vorschau",
+
+  "gallery.open_aria": "Bild im Detail anzeigen",
+  "gallery.no_images": "Keine Bilder",
+
+  "info.category": "Kategorie",
+  "info.date": "Datum",
+  "info.status": "Status",
+  "info.entity": "Organisation",
+  "info.location": "Standort",
+  "info.location_dash": "-",
+  "info.coords": "Koordinaten",
+
+  "desc.title": "Beschreibung",
+  "desc.allegedly": "Mutmaßlich,",
+  "desc.none": "-",
+
+  "cta.back": "Zurück zur Übersicht",
+
+  "lb.aria": "Bildanzeige",
+  "lb.prev": "Zurück",
+  "lb.next": "Weiter",
+  "lb.close": "Schließen",
+  "lb.img_alt": "Bild des Hinweises"
+}

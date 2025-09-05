@@ -1,0 +1,30 @@
+{
+  "seo.title": "Detalles de la Denuncia Ambiental",
+  "header.fallback_title": "Detalles de la Denuncia",
+
+  "images.cover": "PORTADA",
+  "images.preview_alt": "vista previa",
+
+  "gallery.open_aria": "Ver imagen en detalle",
+  "gallery.no_images": "Sin imágenes",
+
+  "info.category": "Categoría",
+  "info.date": "Fecha",
+  "info.status": "Estado",
+  "info.entity": "Entidad",
+  "info.location": "Ubicación",
+  "info.location_dash": "-",
+  "info.coords": "Coordenadas",
+
+  "desc.title": "Descripción",
+  "desc.allegedly": "Presuntamente,",
+  "desc.none": "-",
+
+  "cta.back": "Volver al listado",
+
+  "lb.aria": "Visor de imágenes",
+  "lb.prev": "Anterior",
+  "lb.next": "Siguiente",
+  "lb.close": "Cerrar",
+  "lb.img_alt": "Imagen de la denuncia"
+}

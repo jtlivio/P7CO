@@ -1,0 +1,30 @@
+{
+  "seo.title": "Environmental Complaint Details",
+  "header.fallback_title": "Complaint Details",
+
+  "images.cover": "COVER",
+  "images.preview_alt": "preview",
+
+  "gallery.open_aria": "View image in detail",
+  "gallery.no_images": "No images",
+
+  "info.category": "Category",
+  "info.date": "Date",
+  "info.status": "Status",
+  "info.entity": "Entity",
+  "info.location": "Location",
+  "info.location_dash": "-",
+  "info.coords": "Coordinates",
+
+  "desc.title": "Description",
+  "desc.allegedly": "Allegedly,",
+  "desc.none": "-",
+
+  "cta.back": "Back to list",
+
+  "lb.aria": "Image viewer",
+  "lb.prev": "Previous",
+  "lb.next": "Next",
+  "lb.close": "Close",
+  "lb.img_alt": "Complaint image"
+}
