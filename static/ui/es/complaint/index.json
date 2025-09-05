@@ -13,8 +13,18 @@
   "cta.ecochampions": "Eco Campeones",
 
   "list.no_results": "No se encontraron denuncias con los filtros aplicados.",
+
+  "card.default_title": "Denuncia",
+  "card.alt_cover": "Imagen de la denuncia",
+  "card.view_detail": "Ver detalle",
+  "card.like": "Me gusta",
+  "card.report": "Reportar",
+  "card.edit": "Editar",
+  "card.delete": "Eliminar",
+  "card.react_error": "No se pudo registrar la acción en este momento.",
   "card.alt_image_n": "Imagen {n} de la denuncia",
 
+  "pagination.label": "Paginación",
   "pagination.prev": "Anterior",
   "pagination.next": "Siguiente",
 
@@ -33,11 +43,19 @@
   "filters.actions.filter": "Filtrar",
   "filters.actions.clear": "Limpiar",
 
+  "results.shown_of_total": "{shown} de {total}",
   "results.count_template": "{n} resultado(s) en esta página.",
+
+  "reply_right.title": "Derecho de réplica:",
+  "reply_right.text": "Las instituciones mencionadas pueden solicitar el ejercicio del derecho de réplica. Para ello, utilice la página de {link} después del registro, adjuntando prueba de representación institucional.",
+  "reply_right.link_text": "Contactos",
 
   "lb.prev": "Anterior",
   "lb.next": "Siguiente",
   "lb.zoom": "Zoom",
   "lb.open_original": "Abrir original",
-  "lb.close": "Cerrar"
+  "lb.close": "Cerrar",
+
+  "auth.modal.title": "Inicia sesión para interactuar",
+  "auth.modal.msg": "Para dar me gusta, no me gusta o reportar, inicia sesión en tu cuenta."
 }

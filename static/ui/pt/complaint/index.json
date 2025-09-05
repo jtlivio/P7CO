@@ -13,8 +13,18 @@
   "cta.ecochampions": "Eco Campeões",
 
   "list.no_results": "Nenhuma denúncia encontrada com os filtros aplicados.",
+
+  "card.default_title": "Denúncia",
+  "card.alt_cover": "Imagem da denúncia",
+  "card.view_detail": "Ver detalhe",
+  "card.like": "Gosto",
+  "card.report": "Reportar",
+  "card.edit": "Editar",
+  "card.delete": "Apagar",
+  "card.react_error": "Não foi possível registar a ação agora.",
   "card.alt_image_n": "Imagem {n} da denúncia",
 
+  "pagination.label": "Paginação",
   "pagination.prev": "Anterior",
   "pagination.next": "Seguinte",
 
@@ -33,11 +43,19 @@
   "filters.actions.filter": "Filtrar",
   "filters.actions.clear": "Limpar",
 
-  "results.count_template": "{n} resultado(s) nesta página.",
+  "results.shown_of_total": "{shown} de {total}",
+  "results.count_template": "{n} resultado(s) nesta página.)",
+
+  "reply_right.title": "Direito de resposta:",
+  "reply_right.text": "Instituições referidas podem solicitar o exercício do direito de resposta. Para tal, utilize a página de {link} após registo, anexando evidência de representação institucional.",
+  "reply_right.link_text": "Contactos",
 
   "lb.prev": "Anterior",
   "lb.next": "Seguinte",
   "lb.zoom": "Zoom",
   "lb.open_original": "Abrir original",
-  "lb.close": "Fechar"
+  "lb.close": "Fechar",
+
+  "auth.modal.title": "Inicia sessão para interagir",
+  "auth.modal.msg": "Para gostares, não gostares ou reportares, entra na tua conta."
 }

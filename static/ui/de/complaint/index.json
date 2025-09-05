@@ -13,8 +13,18 @@
   "cta.ecochampions": "Eco Champions",
 
   "list.no_results": "Keine Hinweise mit den angewendeten Filtern gefunden.",
+
+  "card.default_title": "Hinweis",
+  "card.alt_cover": "Bild des Hinweises",
+  "card.view_detail": "Details ansehen",
+  "card.like": "Gefällt mir",
+  "card.report": "Melden",
+  "card.edit": "Bearbeiten",
+  "card.delete": "Löschen",
+  "card.react_error": "Die Aktion konnte gerade nicht ausgeführt werden.",
   "card.alt_image_n": "Bild {n} des Hinweises",
 
+  "pagination.label": "Seitennummerierung",
   "pagination.prev": "Zurück",
   "pagination.next": "Weiter",
 
@@ -33,11 +43,19 @@
   "filters.actions.filter": "Filtern",
   "filters.actions.clear": "Zurücksetzen",
 
+  "results.shown_of_total": "{shown} von {total}",
   "results.count_template": "{n} Ergebnis(se) auf dieser Seite.",
+
+  "reply_right.title": "Recht auf Gegendarstellung:",
+  "reply_right.text": "Erwähnte Institutionen können das Recht auf Gegendarstellung beantragen. Verwenden Sie dazu die Seite {link} nach der Registrierung und fügen Sie einen Nachweis der institutionellen Vertretung bei.",
+  "reply_right.link_text": "Kontakt",
 
   "lb.prev": "Zurück",
   "lb.next": "Weiter",
   "lb.zoom": "Zoom",
   "lb.open_original": "Original öffnen",
-  "lb.close": "Schließen"
+  "lb.close": "Schließen",
+
+  "auth.modal.title": "Zum Interagieren anmelden",
+  "auth.modal.msg": "Um zu liken, nicht zu liken oder zu melden, melden Sie sich bitte in Ihrem Konto an."
 }

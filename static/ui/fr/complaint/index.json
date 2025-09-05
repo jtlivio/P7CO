@@ -13,8 +13,18 @@
   "cta.ecochampions": "Éco Champions",
 
   "list.no_results": "Aucun signalement trouvé avec les filtres appliqués.",
+
+  "card.default_title": "Signalement",
+  "card.alt_cover": "Image du signalement",
+  "card.view_detail": "Voir le détail",
+  "card.like": "J’aime",
+  "card.report": "Signaler",
+  "card.edit": "Modifier",
+  "card.delete": "Supprimer",
+  "card.react_error": "Impossible d’enregistrer l’action pour le moment.",
   "card.alt_image_n": "Image {n} du signalement",
 
+  "pagination.label": "Pagination",
   "pagination.prev": "Précédent",
   "pagination.next": "Suivant",
 
@@ -33,11 +43,19 @@
   "filters.actions.filter": "Filtrer",
   "filters.actions.clear": "Effacer",
 
+  "results.shown_of_total": "{shown} sur {total}",
   "results.count_template": "{n} résultat(s) sur cette page.",
+
+  "reply_right.title": "Droit de réponse :",
+  "reply_right.text": "Les institutions mentionnées peuvent demander l’exercice du droit de réponse. Pour cela, utilisez la page {link} après enregistrement, en joignant une preuve de représentation institutionnelle.",
+  "reply_right.link_text": "Contacts",
 
   "lb.prev": "Précédent",
   "lb.next": "Suivant",
   "lb.zoom": "Zoom",
   "lb.open_original": "Ouvrir l’original",
-  "lb.close": "Fermer"
+  "lb.close": "Fermer",
+
+  "auth.modal.title": "Connectez-vous pour interagir",
+  "auth.modal.msg": "Pour aimer, ne pas aimer ou signaler, veuillez vous connecter."
 }
