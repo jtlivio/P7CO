@@ -4,8 +4,8 @@ message: "If you use this project or any of its materials (blog, UI, articles, d
 type: generic
 
 authors:
-  - family-names: "Sousa"
-    given-names: "João Pedro de Viegas Tito Livio"
+  - family-names: "LIVIO"
+    given-names: "João Pedro de Sousa Viegas Tito Livio"
     affiliation: "pH7x Systems®"
 
 repository-code: "https://github.com/jtlivio/P7CO"
