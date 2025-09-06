@@ -1,0 +1,41 @@
+{
+  "seo.title": "Contactar | P7CO® EcoResupply",
+  "seo.description": "Entra em contacto com a equipa P7CO® EcoResupply para dúvidas, sugestões ou denúncias ambientais. Resposta rápida e confidencialidade garantida.",
+  "seo.keywords": "contacto, P7CO, EcoResupply, dúvidas, sugestões, denúncias ambientais, RGPD, privacidade, formulário",
+
+  "breadcrumb.home": "Início",
+  "breadcrumb.current": "Contacto",
+
+  "header.title": "Contacto | P7CO",
+  "header.ribbon": "CONTACTO RÁPIDO",
+  "header.subtitle": "Envia-nos uma mensagem",
+
+  "alert.close": "Fechar",
+
+  "form.aria": "Formulário de contacto",
+
+  "fields.name.label": "Nome",
+  "fields.name.placeholder": "Nome",
+
+  "fields.email.label": "E-mail",
+  "fields.email.placeholder": "E-mail",
+
+  "fields.subject.label": "Assunto",
+  "fields.subject.placeholder": "Escolha o assunto",
+  "fields.subject.select": "Selecionar...",
+
+  "fields.message.label": "Mensagem",
+  "fields.message.placeholder": "Mensagem",
+
+  "dsr.title": "Direitos dos Titulares (DSR):",
+  "dsr.text": "Se pretendes exercer os teus direitos {link}, solicita-o neste formulário. Tratamos segundo o <strong>RGPD</strong> e a <strong>Lei n.º 58/2019</strong>.",
+  "dsr.link": "ver",
+
+  "complaints.title": "Denúncias Ambientais:",
+  "complaints.text": "Podes submeter {link} com confidencialidade (Lei n.º 93/2021 e Lei n.º 58/2019).",
+  "complaints.link": "denúncias ambientais",
+
+  "actions.submit": "ENVIAR MENSAGEM",
+
+  "noscript": "O JavaScript está desativado. Podes submeter, mas a proteção reCAPTCHA poderá falhar."
+}

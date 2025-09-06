@@ -1,0 +1,41 @@
+{
+  "seo.title": "Contact | P7CO® EcoResupply",
+  "seo.description": "Get in touch with the P7CO® EcoResupply team for questions, suggestions, or environmental complaints. Quick response and guaranteed confidentiality.",
+  "seo.keywords": "contact, P7CO, EcoResupply, questions, suggestions, environmental complaints, GDPR, privacy, form",
+
+  "breadcrumb.home": "Home",
+  "breadcrumb.current": "Contact",
+
+  "header.title": "Contact | P7CO",
+  "header.ribbon": "QUICK CONTACT",
+  "header.subtitle": "Send us a message",
+
+  "alert.close": "Close",
+
+  "form.aria": "Contact form",
+
+  "fields.name.label": "Name",
+  "fields.name.placeholder": "Name",
+
+  "fields.email.label": "E-mail",
+  "fields.email.placeholder": "E-mail",
+
+  "fields.subject.label": "Subject",
+  "fields.subject.placeholder": "Choose a subject",
+  "fields.subject.select": "Select...",
+
+  "fields.message.label": "Message",
+  "fields.message.placeholder": "Message",
+
+  "dsr.title": "Data Subject Rights (DSR):",
+  "dsr.text": "If you wish to exercise your rights {link}, please request it using this form. We process data in accordance with the <strong>GDPR</strong> and <strong>Law No. 58/2019</strong>.",
+  "dsr.link": "see",
+
+  "complaints.title": "Environmental Complaints:",
+  "complaints.text": "You can submit {link} confidentially (Law No. 93/2021 and Law No. 58/2019).",
+  "complaints.link": "environmental complaints",
+
+  "actions.submit": "SEND MESSAGE",
+
+  "noscript": "JavaScript is disabled. You can still submit, but reCAPTCHA protection may fail."
+}

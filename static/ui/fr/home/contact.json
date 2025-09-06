@@ -1,0 +1,41 @@
+{
+  "seo.title": "Contact | P7CO® EcoResupply",
+  "seo.description": "Contactez l’équipe P7CO® EcoResupply pour des questions, suggestions ou signalements environnementaux. Réponse rapide et confidentialité garanties.",
+  "seo.keywords": "contact, P7CO, EcoResupply, questions, suggestions, signalements environnementaux, RGPD, confidentialité, formulaire",
+
+  "breadcrumb.home": "Accueil",
+  "breadcrumb.current": "Contact",
+
+  "header.title": "Contact | P7CO",
+  "header.ribbon": "CONTACT RAPIDE",
+  "header.subtitle": "Envoyez-nous un message",
+
+  "alert.close": "Fermer",
+
+  "form.aria": "Formulaire de contact",
+
+  "fields.name.label": "Nom",
+  "fields.name.placeholder": "Nom",
+
+  "fields.email.label": "E-mail",
+  "fields.email.placeholder": "E-mail",
+
+  "fields.subject.label": "Objet",
+  "fields.subject.placeholder": "Choisissez l’objet",
+  "fields.subject.select": "Sélectionner...",
+
+  "fields.message.label": "Message",
+  "fields.message.placeholder": "Message",
+
+  "dsr.title": "Droits des Personnes Concernées (DSR) :",
+  "dsr.text": "Si vous souhaitez exercer vos droits {link}, veuillez en faire la demande via ce formulaire. Nous traitons les données conformément au <strong>RGPD</strong> et à la <strong>Loi n° 58/2019</strong>.",
+  "dsr.link": "voir",
+
+  "complaints.title": "Signalements Environnementaux :",
+  "complaints.text": "Vous pouvez soumettre {link} de manière confidentielle (Loi n° 93/2021 et Loi n° 58/2019).",
+  "complaints.link": "signalements environnementaux",
+
+  "actions.submit": "ENVOYER LE MESSAGE",
+
+  "noscript": "JavaScript est désactivé. Vous pouvez tout de même envoyer, mais la protection reCAPTCHA peut échouer."
+}

@@ -1,0 +1,41 @@
+{
+  "seo.title": "Kontakt | P7CO® EcoResupply",
+  "seo.description": "Kontaktieren Sie das P7CO® EcoResupply-Team für Fragen, Vorschläge oder Umwelthinweise. Schnelle Antwort und garantierte Vertraulichkeit.",
+  "seo.keywords": "Kontakt, P7CO, EcoResupply, Fragen, Vorschläge, Umwelthinweise, DSGVO, Datenschutz, Formular",
+
+  "breadcrumb.home": "Startseite",
+  "breadcrumb.current": "Kontakt",
+
+  "header.title": "Kontakt | P7CO",
+  "header.ribbon": "SCHNELLKONTAKT",
+  "header.subtitle": "Schicken Sie uns eine Nachricht",
+
+  "alert.close": "Schließen",
+
+  "form.aria": "Kontaktformular",
+
+  "fields.name.label": "Name",
+  "fields.name.placeholder": "Name",
+
+  "fields.email.label": "E-Mail",
+  "fields.email.placeholder": "E-Mail",
+
+  "fields.subject.label": "Betreff",
+  "fields.subject.placeholder": "Betreff auswählen",
+  "fields.subject.select": "Auswählen...",
+
+  "fields.message.label": "Nachricht",
+  "fields.message.placeholder": "Nachricht",
+
+  "dsr.title": "Rechte der betroffenen Personen (DSR):",
+  "dsr.text": "Wenn Sie Ihre Rechte {link} ausüben möchten, fordern Sie dies bitte über dieses Formular an. Wir verarbeiten gemäß der <strong>DSGVO</strong> und dem <strong>Gesetz Nr. 58/2019</strong>.",
+  "dsr.link": "anzeigen",
+
+  "complaints.title": "Umwelthinweise:",
+  "complaints.text": "Sie können {link} vertraulich einreichen (Gesetz Nr. 93/2021 und Gesetz Nr. 58/2019).",
+  "complaints.link": "Umwelthinweise",
+
+  "actions.submit": "NACHRICHT SENDEN",
+
+  "noscript": "JavaScript ist deaktiviert. Sie können das Formular absenden, aber der reCAPTCHA-Schutz könnte fehlschlagen."
+}
