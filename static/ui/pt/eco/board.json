@@ -1,0 +1,33 @@
+{
+  "seo.title": "Top EcoLeaders – Ranking de Denunciantes",
+  "seo.description": "Veja o ranking dos cidadãos que mais contribuem para a proteção ambiental através de denúncias. Descubra os EcoLeaders e inspire-se a participar!",
+  "seo.keywords": "EcoLeaders, ranking, denúncias ambientais, proteção ambiental, cidadãos, leaderboard, ambiente, nickname",
+
+  "breadcrumb.home": "Início",
+  "breadcrumb.complaints": "Denúncias Ambientais",
+  "breadcrumb.current": "Eco Campeões",
+
+  "header.title": "Leaderboard Eco Campeões de Denúncias Ambientais",
+  "header.subtitle": "Os cidadãos que mais contribuem para a proteção do ambiente através de denúncias!",
+
+  "title.top": "Top EcoLeaders",
+
+  "empty.no_leaders": "Ainda não existem EcoLeaders suficientes para formar o ranking.",
+
+  "nick.anonymous": "Anónimo",
+
+  "count.denuncia.one": "denúncia",
+  "count.denuncia.other": "denúncias",
+
+  "aria.rank": "Posição no ranking",
+  "aria.nickname": "Apelido do utilizador",
+  "aria.count": "Total de denúncias",
+
+  "footer.autoupdate": "Classificação atualizada automaticamente.",
+
+  "cta.nick.text.1": "Queres aparecer no ranking com o teu",
+  "cta.nick.highlight": "nickname",
+  "cta.nick.link": "Edita o teu perfil",
+  "cta.nick.text.2": "e preenche o campo Nickname.",
+  "cta.nick.note": "Só o nickname é público. Podes mudar ou remover quando quiseres."
+}

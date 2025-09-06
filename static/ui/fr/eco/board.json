@@ -1,0 +1,33 @@
+{
+  "seo.title": "Top EcoLeaders – Classement des Lanceurs d’alerte",
+  "seo.description": "Découvrez le classement des citoyens qui contribuent le plus à la protection de l’environnement par leurs signalements. Découvrez les EcoLeaders et laissez-vous inspirer à participer !",
+  "seo.keywords": "EcoLeaders, classement, signalements environnementaux, protection de l’environnement, citoyens, leaderboard, environnement, pseudo",
+
+  "breadcrumb.home": "Accueil",
+  "breadcrumb.complaints": "Signalements Environnementaux",
+  "breadcrumb.current": "Eco Champions",
+
+  "header.title": "Leaderboard Eco Champions des Signalements Environnementaux",
+  "header.subtitle": "Les citoyens qui contribuent le plus à protéger l’environnement grâce à leurs signalements !",
+
+  "title.top": "Top EcoLeaders",
+
+  "empty.no_leaders": "Il n’y a pas encore assez d’EcoLeaders pour établir le classement.",
+
+  "nick.anonymous": "Anonyme",
+
+  "count.denuncia.one": "signalement",
+  "count.denuncia.other": "signalements",
+
+  "aria.rank": "Position dans le classement",
+  "aria.nickname": "Pseudo de l’utilisateur",
+  "aria.count": "Nombre total de signalements",
+
+  "footer.autoupdate": "Classement mis à jour automatiquement.",
+
+  "cta.nick.text.1": "Vous voulez apparaître dans le classement avec votre",
+  "cta.nick.highlight": "pseudo",
+  "cta.nick.link": "Modifier votre profil",
+  "cta.nick.text.2": "et remplir le champ Pseudo.",
+  "cta.nick.note": "Seul le pseudo est public. Vous pouvez le modifier ou le supprimer à tout moment."
+}

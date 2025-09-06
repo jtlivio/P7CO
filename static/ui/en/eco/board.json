@@ -1,0 +1,33 @@
+{
+  "seo.title": "Top EcoLeaders – Whistleblower Ranking",
+  "seo.description": "See the ranking of citizens who contribute most to environmental protection through reports. Discover the EcoLeaders and get inspired to participate!",
+  "seo.keywords": "EcoLeaders, ranking, environmental reports, environmental protection, citizens, leaderboard, environment, nickname",
+
+  "breadcrumb.home": "Home",
+  "breadcrumb.complaints": "Environmental Reports",
+  "breadcrumb.current": "Eco Champions",
+
+  "header.title": "Leaderboard Eco Champions of Environmental Reports",
+  "header.subtitle": "The citizens who contribute the most to protecting the environment through reports!",
+
+  "title.top": "Top EcoLeaders",
+
+  "empty.no_leaders": "There are not enough EcoLeaders yet to form the ranking.",
+
+  "nick.anonymous": "Anonymous",
+
+  "count.denuncia.one": "report",
+  "count.denuncia.other": "reports",
+
+  "aria.rank": "Ranking position",
+  "aria.nickname": "User nickname",
+  "aria.count": "Total number of reports",
+
+  "footer.autoupdate": "Ranking updated automatically.",
+
+  "cta.nick.text.1": "Do you want to appear in the ranking with your",
+  "cta.nick.highlight": "nickname",
+  "cta.nick.link": "Edit your profile",
+  "cta.nick.text.2": "and fill in the Nickname field.",
+  "cta.nick.note": "Only the nickname is public. You can change or remove it whenever you want."
+}

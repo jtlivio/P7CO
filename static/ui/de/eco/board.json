@@ -1,0 +1,33 @@
+{
+  "seo.title": "Top EcoLeaders – Ranking der Hinweisgeber",
+  "seo.description": "Sehen Sie das Ranking der Bürger, die am meisten zum Umweltschutz durch Meldungen beitragen. Entdecken Sie die EcoLeaders und lassen Sie sich inspirieren!",
+  "seo.keywords": "EcoLeaders, Ranking, Umwelthinweise, Umweltschutz, Bürger, Bestenliste, Umwelt, Spitzname",
+
+  "breadcrumb.home": "Startseite",
+  "breadcrumb.complaints": "Umweltmeldungen",
+  "breadcrumb.current": "Eco Champions",
+
+  "header.title": "Leaderboard Eco Champions für Umweltmeldungen",
+  "header.subtitle": "Die Bürger, die am meisten zum Schutz der Umwelt durch Meldungen beitragen!",
+
+  "title.top": "Top EcoLeaders",
+
+  "empty.no_leaders": "Es gibt noch nicht genügend EcoLeaders, um ein Ranking zu bilden.",
+
+  "nick.anonymous": "Anonym",
+
+  "count.denuncia.one": "Meldung",
+  "count.denuncia.other": "Meldungen",
+
+  "aria.rank": "Rangposition",
+  "aria.nickname": "Benutzername",
+  "aria.count": "Gesamtzahl der Meldungen",
+
+  "footer.autoupdate": "Das Ranking wird automatisch aktualisiert.",
+
+  "cta.nick.text.1": "Möchten Sie im Ranking mit Ihrem",
+  "cta.nick.highlight": "Spitznamen",
+  "cta.nick.link": "Profil bearbeiten",
+  "cta.nick.text.2": "und das Feld Spitzname ausfüllen?",
+  "cta.nick.note": "Nur der Spitzname ist öffentlich. Sie können ihn jederzeit ändern oder entfernen."
+}
