@@ -1,0 +1,51 @@
+{
+  "seo.title": "EcoMap – POC",
+
+  "heading.title": "RecycleMap",
+  "heading.subtitle": "Opérateurs agréés",
+
+  "btn.export.full": "Exporter CSV (jusqu'à 2 000 enregistrements)",
+  "btn.export.full.title": "Télécharger jusqu'à 2 000 enregistrements visibles",
+  "btn.export.sample": "Exporter CSV (50 enregistrements – créer un compte pour plus)",
+  "btn.export.sample.title": "Télécharger un échantillon de 50 enregistrements visibles",
+
+  "filters.toggle": "Filtres",
+  "filters.panel.aria": "Filtres et recherche",
+  "filters.title": "Filtres :",
+  "filters.cat.operadores": "Opérateurs",
+  "filters.cat.pilhas": "Piles",
+  "filters.cat.reee": "DEEE",
+  "filters.cat.embalagens": "Emballages",
+  "filters.cat.oleos": "Huiles",
+  "filters.count.shown": "affichés : {shown} sur {total}",
+
+  "search.title": "Recherche :",
+  "search.placeholder": "commune / entreprise / activité…",
+  "search.aria": "Rechercher par commune, entreprise ou activité",
+  "search.clear": "Réinitialiser",
+  "search.clear.title": "Réinitialiser les filtres et la recherche",
+
+  "map.aria": "Carte des opérateurs",
+  "loading.aria": "Chargement…",
+
+  "popup.badge": "Catégorie",
+  "popup.activity": "Activité",
+  "popup.source": "Source",
+  "popup.source.name": "Agence Portugaise de l'Environnement – SILOGR",
+  "popup.source.license": "Licence",
+  "popup.source.updated": "Mise à jour",
+  "popup.link.dataset": "jeu de données",
+
+  "gate.title": "Créez votre compte gratuit",
+  "gate.desc": "En créant un compte, vous pourrez consulter des informations détaillées sur tous les opérateurs agréés et exporter les données visibles en CSV (y compris les données traitées à partir de la source officielle APA/SILOGR – CC BY 4.0).",
+  "gate.close": "Pas maintenant",
+  "gate.cta": "Créer un compte",
+
+  "attr.map": "Carte © OpenStreetMap ; Données officielles :",
+  "attr.dataset": "Agence Portugaise de l'Environnement – SILOGR",
+  "attr.license": "CC BY 4.0",
+  "attr.credit": "Traitement et visualisation par",
+  "attr.brand": "P7CO®",
+
+  "errors.load": "erreur lors du chargement des données"
+}

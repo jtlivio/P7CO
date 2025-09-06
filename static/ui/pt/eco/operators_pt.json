@@ -1,0 +1,51 @@
+{
+  "seo.title": "EcoMap – POC",
+
+  "heading.title": "RecycleMap",
+  "heading.subtitle": "Operadores Licenciados",
+
+  "btn.export.full": "Exportar CSV (até 2 000 registos)",
+  "btn.export.full.title": "Descarregar até 2 000 registos visíveis",
+  "btn.export.sample": "Exportar CSV (50 registos – criar conta para mais)",
+  "btn.export.sample.title": "Descarregar amostra de 50 registos visíveis",
+
+  "filters.toggle": "Filtros",
+  "filters.panel.aria": "Filtros e pesquisa",
+  "filters.title": "Filtros:",
+  "filters.cat.operadores": "Operadores",
+  "filters.cat.pilhas": "Pilhas",
+  "filters.cat.reee": "REEE",
+  "filters.cat.embalagens": "Embalagens",
+  "filters.cat.oleos": "Óleos",
+  "filters.count.shown": "mostrados: {shown} de {total}",
+
+  "search.title": "Pesquisa:",
+  "search.placeholder": "concelho / empresa / actividade…",
+  "search.aria": "Pesquisar por concelho, empresa ou actividade",
+  "search.clear": "Limpar",
+  "search.clear.title": "Limpar filtros e pesquisa",
+
+  "map.aria": "Mapa de Operadores",
+  "loading.aria": "A carregar…",
+
+  "popup.badge": "Categoria",
+  "popup.activity": "Atividade",
+  "popup.source": "Fonte",
+  "popup.source.name": "Agência Portuguesa do Ambiente – SILOGR",
+  "popup.source.license": "Licença",
+  "popup.source.updated": "Atual.",
+  "popup.link.dataset": "dataset",
+
+  "gate.title": "Crie a sua conta gratuita",
+  "gate.desc": "Ao criar conta, poderá visualizar informação detalhada sobre todos os operadores licenciados e exportar os dados visíveis para CSV (incluindo dados tratados a partir da fonte oficial APA/SILOGR – CC BY 4.0).",
+  "gate.close": "Agora não",
+  "gate.cta": "Criar conta",
+
+  "attr.map": "Mapa © OpenStreetMap; Dados oficiais:",
+  "attr.dataset": "Agência Portuguesa do Ambiente – SILOGR",
+  "attr.license": "CC BY 4.0",
+  "attr.credit": "Tratamento e visualização por",
+  "attr.brand": "P7CO®",
+
+  "errors.load": "erro a carregar dados"
+}

@@ -1,0 +1,51 @@
+{
+  "seo.title": "EcoMap – POC",
+
+  "heading.title": "RecycleMap",
+  "heading.subtitle": "Lizenzierte Betreiber",
+
+  "btn.export.full": "CSV exportieren (bis zu 2.000 Einträge)",
+  "btn.export.full.title": "Bis zu 2.000 sichtbare Einträge herunterladen",
+  "btn.export.sample": "CSV exportieren (50 Einträge – Konto erstellen für mehr)",
+  "btn.export.sample.title": "Beispiel mit 50 sichtbaren Einträgen herunterladen",
+
+  "filters.toggle": "Filter",
+  "filters.panel.aria": "Filter und Suche",
+  "filters.title": "Filter:",
+  "filters.cat.operadores": "Betreiber",
+  "filters.cat.pilhas": "Batterien",
+  "filters.cat.reee": "EEE-Abfälle",
+  "filters.cat.embalagens": "Verpackungen",
+  "filters.cat.oleos": "Öle",
+  "filters.count.shown": "angezeigt: {shown} von {total}",
+
+  "search.title": "Suche:",
+  "search.placeholder": "Gemeinde / Unternehmen / Tätigkeit…",
+  "search.aria": "Nach Gemeinde, Unternehmen oder Tätigkeit suchen",
+  "search.clear": "Zurücksetzen",
+  "search.clear.title": "Filter und Suche zurücksetzen",
+
+  "map.aria": "Karte der Betreiber",
+  "loading.aria": "Wird geladen…",
+
+  "popup.badge": "Kategorie",
+  "popup.activity": "Tätigkeit",
+  "popup.source": "Quelle",
+  "popup.source.name": "Portugiesische Umweltagentur – SILOGR",
+  "popup.source.license": "Lizenz",
+  "popup.source.updated": "Aktual.",
+  "popup.link.dataset": "Datensatz",
+
+  "gate.title": "Erstellen Sie Ihr kostenloses Konto",
+  "gate.desc": "Mit einem Konto können Sie detaillierte Informationen über alle lizenzierten Betreiber anzeigen und die sichtbaren Daten als CSV exportieren (einschließlich aufbereiteter Daten aus der offiziellen Quelle APA/SILOGR – CC BY 4.0).",
+  "gate.close": "Jetzt nicht",
+  "gate.cta": "Konto erstellen",
+
+  "attr.map": "Karte © OpenStreetMap; Offizielle Daten:",
+  "attr.dataset": "Portugiesische Umweltagentur – SILOGR",
+  "attr.license": "CC BY 4.0",
+  "attr.credit": "Aufbereitung und Visualisierung durch",
+  "attr.brand": "P7CO®",
+
+  "errors.load": "Fehler beim Laden der Daten"
+}
