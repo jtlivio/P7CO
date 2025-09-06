@@ -1,0 +1,25 @@
+{
+  "seo.title": "Mapa Circular | P7CO® EcoResupply",
+  "seo.description": "Explora el Mapa Circular de Portugal continental, Azores, Madeira y Europa",
+  "seo.keywords": "mapa, circular, Portugal, Azores, Madeira, Europa",
+
+  "header.title": "MAPA CIRCULAR DE EUROPA P7CO® EcoResupply",
+
+  "cta.bar_aria": "Acciones principales del Mapa Circular",
+  "cta.denuncia.aria": "Enviar una denuncia ambiental",
+  "cta.denuncia.text": "Denuncia Ambiental",
+  "cta.excedente.aria": "Publicar excedente para reutilización",
+  "cta.excedente.text": "Publicar Excedente",
+
+  "map.aria": "Mapa Circular",
+
+  "popup.view": "Ver detalle",
+
+  "tipo.excedente": "Excedente",
+  "tipo.denuncia": "Denuncia",
+
+  "estado.recolhido": "Recogido",
+  "estado.resolvida": "Resuelto por la Entidad Municipal",
+  "estado.submitted": "En curso",
+  "estado.reportada": "Reportada"
+}

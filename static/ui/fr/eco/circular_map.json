@@ -1,0 +1,25 @@
+{
+  "seo.title": "Carte Circulaire | P7CO® EcoResupply",
+  "seo.description": "Explorez la Carte Circulaire du Portugal continental, des Açores, de Madère et de l’Europe",
+  "seo.keywords": "carte, circulaire, Portugal, Açores, Madère, Europe",
+
+  "header.title": "CARTE CIRCULAIRE DE L’EUROPE P7CO® EcoResupply",
+
+  "cta.bar_aria": "Actions principales de la Carte Circulaire",
+  "cta.denuncia.aria": "Soumettre un signalement environnemental",
+  "cta.denuncia.text": "Signalement Environnemental",
+  "cta.excedente.aria": "Publier un surplus pour réutilisation",
+  "cta.excedente.text": "Publier un Surplus",
+
+  "map.aria": "Carte Circulaire",
+
+  "popup.view": "Voir le détail",
+
+  "tipo.excedente": "Surplus",
+  "tipo.denuncia": "Signalement",
+
+  "estado.recolhido": "Collecté",
+  "estado.resolvida": "Résolu par l’Autorité Municipale",
+  "estado.submitted": "En cours",
+  "estado.reportada": "Signalé"
+}
