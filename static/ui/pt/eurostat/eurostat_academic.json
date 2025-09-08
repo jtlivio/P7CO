@@ -149,7 +149,7 @@
   "nar.0.title": "Contexto, amostra e filtros activos.",
   "nar.0.body": "Este relatório caracteriza a circularidade dos resíduos urbanos na UE27 no ano-base",
   "nar.0.body2": "com",
-  "nar.0.body3": "países no subset actual.",
+  "nar.0.body3": "países no subset actual",
   "nar.0.filters": "Filtros: operação",
   "nar.0.metric": "métrica mostrada",
   "nar.0.agg": "agregação",
