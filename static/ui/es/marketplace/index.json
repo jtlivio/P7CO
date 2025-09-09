@@ -1,0 +1,27 @@
+{
+  "title.category": "Excedentes de {0}",
+  "title.default": "Materiales y Equipos",
+
+  "breadcrumb.home": "Inicio",
+  "breadcrumb.market": "Mercado",
+
+  "sidebar.categories": "Categorías",
+  "sidebar.all": "Todas",
+  "sidebar.subcategories": "Subcategorías",
+
+  "top.showing": "Mostrando",
+  "top.of": "de",
+  "top.results": "resultados",
+
+  "toggle.grid": "Cuadrícula",
+  "toggle.list": "Lista",
+
+  "btn.add": "Añadir Excedente",
+
+  "pager.showingPage": "Página",
+  "pager.of": "de",
+  "pager.prev.aria": "Anterior",
+  "pager.next.aria": "Siguiente",
+
+  "empty.title": "Todavía no hay excedentes en esta categoría."
+}

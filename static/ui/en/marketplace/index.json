@@ -1,0 +1,27 @@
+{
+  "title.category": "Surpluses of {0}",
+  "title.default": "Materials & Equipment",
+
+  "breadcrumb.home": "Home",
+  "breadcrumb.market": "Marketplace",
+
+  "sidebar.categories": "Categories",
+  "sidebar.all": "All",
+  "sidebar.subcategories": "Subcategories",
+
+  "top.showing": "Showing",
+  "top.of": "of",
+  "top.results": "results",
+
+  "toggle.grid": "Grid",
+  "toggle.list": "List",
+
+  "btn.add": "Add Surplus",
+
+  "pager.showingPage": "Page",
+  "pager.of": "of",
+  "pager.prev.aria": "Previous",
+  "pager.next.aria": "Next",
+
+  "empty.title": "There are no surpluses in this category yet."
+}

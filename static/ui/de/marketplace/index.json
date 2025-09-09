@@ -1,0 +1,27 @@
+{
+  "title.category": "Überschüsse von {0}",
+  "title.default": "Materialien & Ausrüstung",
+
+  "breadcrumb.home": "Startseite",
+  "breadcrumb.market": "Marktplatz",
+
+  "sidebar.categories": "Kategorien",
+  "sidebar.all": "Alle",
+  "sidebar.subcategories": "Unterkategorien",
+
+  "top.showing": "Angezeigt",
+  "top.of": "von",
+  "top.results": "Ergebnisse",
+
+  "toggle.grid": "Raster",
+  "toggle.list": "Liste",
+
+  "btn.add": "Überschuss hinzufügen",
+
+  "pager.showingPage": "Seite",
+  "pager.of": "von",
+  "pager.prev.aria": "Zurück",
+  "pager.next.aria": "Weiter",
+
+  "empty.title": "In dieser Kategorie gibt es noch keine Überschüsse."
+}
