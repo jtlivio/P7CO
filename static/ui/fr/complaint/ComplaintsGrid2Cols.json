@@ -1,0 +1,25 @@
+{
+  "time.now": "maintenant",
+  "time.ago": "il y a {0} {1}",
+  "time.min.one": "min",
+  "time.min.many": "mins",
+  "time.hour.one": "heure",
+  "time.hour.many": "heures",
+  "time.day.one": "jour",
+  "time.day.many": "jours",
+  "time.week.one": "semaine",
+  "time.week.many": "semaines",
+  "time.month.one": "mois",
+  "time.month.many": "mois",
+  "time.year.one": "an",
+  "time.year.many": "ans",
+
+  "aria.gallery_open": "Ouvrir la galerie",
+
+  "card.view_detail": "Voir le détail",
+  "card.like": "J’aime",
+  "card.flag": "Signaler pour révision",
+  "card.edit": "Modifier",
+  "card.delete": "Supprimer",
+  "card.untitled": "Plainte"
+}

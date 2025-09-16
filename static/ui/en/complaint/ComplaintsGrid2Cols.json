@@ -1,0 +1,25 @@
+{
+  "time.now": "now",
+  "time.ago": "{0} {1} ago",
+  "time.min.one": "min",
+  "time.min.many": "mins",
+  "time.hour.one": "hour",
+  "time.hour.many": "hours",
+  "time.day.one": "day",
+  "time.day.many": "days",
+  "time.week.one": "week",
+  "time.week.many": "weeks",
+  "time.month.one": "month",
+  "time.month.many": "months",
+  "time.year.one": "year",
+  "time.year.many": "years",
+
+  "aria.gallery_open": "Open gallery",
+
+  "card.view_detail": "View detail",
+  "card.like": "Like",
+  "card.flag": "Flag for review",
+  "card.edit": "Edit",
+  "card.delete": "Delete",
+  "card.untitled": "Complaint"
+}

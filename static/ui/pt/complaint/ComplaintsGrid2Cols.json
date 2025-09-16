@@ -1,0 +1,25 @@
+{
+  "time.now": "agora",
+  "time.ago": "há {0} {1}",
+  "time.min.one": "min",
+  "time.min.many": "mins",
+  "time.hour.one": "hora",
+  "time.hour.many": "horas",
+  "time.day.one": "dia",
+  "time.day.many": "dias",
+  "time.week.one": "semana",
+  "time.week.many": "semanas",
+  "time.month.one": "mês",
+  "time.month.many": "meses",
+  "time.year.one": "ano",
+  "time.year.many": "anos",
+
+  "aria.gallery_open": "Abrir galeria",
+
+  "card.view_detail": "Ver detalhe",
+  "card.like": "Gosto",
+  "card.flag": "Sinalizar para revisão",
+  "card.edit": "Editar",
+  "card.delete": "Apagar",
+  "card.untitled": "Denúncia"
+}
