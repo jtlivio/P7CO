@@ -18,7 +18,7 @@ Aqui partilhamos duas histórias emblemáticas — **Maré Alta** e **Sibertex**
 
 **Setor:** Economia Azul / Náutica  
 **Localização:** Setúbal  
-**Website:** [mare-alta.pt](https://www.mare-alta.pt)
+**Website:** [mare-alta.pt](https://mare-alta.pt)
 
 A Maré Alta atua no coração do setor náutico, um dos mais exigentes em termos de manutenção e substituição de equipamentos. Antes da parceria, muitos materiais acabavam descartados sem aproveitamento.  
 Com o P7CO® EcoResupply, foi possível criar um circuito de recolha e reutilização que transformou excedentes em novos recursos.
@@ -37,7 +37,7 @@ Com o P7CO® EcoResupply, foi possível criar um circuito de recolha e reutiliza
 
 **Setor:** Logística / Armazenagem  
 **Localização:** Palmela  
-**Website:** [www.sibertex.pr](https://www.sibertex.pt)
+**Website:** [www.sibertex.pr](https://www.sibertex.pr)
 
 A Sibertex enfrenta diariamente o desafio da gestão de espaço para bens em transição. A parceria com o P7CO® EcoResupply permitiu integrar os seus armazéns e parques no circuito da economia circular, servindo como ponto estratégico para recolha, triagem e redistribuição.
 
