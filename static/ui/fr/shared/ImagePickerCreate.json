@@ -1,0 +1,17 @@
+{
+  "img.cap": "Sélectionnez ou faites glisser des images",
+  "img.limit": "Limite : {n} fichiers",
+  "img.drop_aria": "Zone de dépôt pour les images",
+  "img.hint": "Cliquez pour choisir ou faites glisser ici (JPEG/PNG, jusqu’à 10Mo chacun).",
+
+  "img.tag.cover": "COUVERTURE",
+  "img.tag.order": "#{n}",
+
+  "img.btn.up": "Monter",
+  "img.btn.down": "Descendre",
+  "img.btn.del": "Supprimer",
+
+  "img.err.only_images": "Seules les images sont autorisées.",
+  "img.err.too_large": "Fichier trop volumineux ({size}Mo). Max : {max}Mo.",
+  "img.err.max": "Maximum {max} images. Seulement {space} ajoutées."
+}

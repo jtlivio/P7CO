@@ -1,0 +1,22 @@
+{
+  "title": "Standort festlegen",
+  "close.aria": "Schließen",
+
+  "help.denied": "Der Standort ist im Browser für diese Website blockiert. Um ihn zu aktivieren, verwende das Schloss-Symbol neben der URL und erlaube „Standort“. Alternativ wähle manuell unten.",
+
+  "label.country": "Land (EU)",
+  "option.country.loading": "(Wird geladen…)",
+
+  "label.zone": "Zone",
+  "option.zone.auto": "(Auto)",
+  "option.zone.north": "Norden",
+  "option.zone.west": "Westen",
+  "option.zone.south": "Süden",
+  "option.zone.centraleast": "Zentral-Ost",
+  "option.zone.islands": "Inseln",
+
+  "note": "Du kannst dies später ändern.",
+
+  "btn.cancel": "Abbrechen",
+  "btn.save": "Speichern"
+}

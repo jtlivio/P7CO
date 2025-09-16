@@ -1,0 +1,22 @@
+{
+  "title": "Definir localização",
+  "close.aria": "Fechar",
+
+  "help.denied": "A localização está bloqueada no navegador para este site. Para ativar, usa o ícone de cadeado junto ao URL e permite “Localização”. Em alternativa, escolhe manualmente abaixo.",
+
+  "label.country": "País (UE)",
+  "option.country.loading": "(A carregar…)",
+
+  "label.zone": "Zona",
+  "option.zone.auto": "(Auto)",
+  "option.zone.north": "Norte",
+  "option.zone.west": "Oeste",
+  "option.zone.south": "Sul",
+  "option.zone.centraleast": "Centro Este",
+  "option.zone.islands": "Ilhas",
+
+  "note": "Podes alterar isto mais tarde.",
+
+  "btn.cancel": "Cancelar",
+  "btn.save": "Guardar"
+}

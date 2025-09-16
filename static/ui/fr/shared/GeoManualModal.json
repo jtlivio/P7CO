@@ -1,0 +1,22 @@
+{
+  "title": "Définir la localisation",
+  "close.aria": "Fermer",
+
+  "help.denied": "La localisation est bloquée dans le navigateur pour ce site. Pour l’activer, utilise l’icône de cadenas à côté de l’URL et autorise « Localisation ». Sinon, choisis manuellement ci-dessous.",
+
+  "label.country": "Pays (UE)",
+  "option.country.loading": "(Chargement…)",
+
+  "label.zone": "Zone",
+  "option.zone.auto": "(Auto)",
+  "option.zone.north": "Nord",
+  "option.zone.west": "Ouest",
+  "option.zone.south": "Sud",
+  "option.zone.centraleast": "Centre-Est",
+  "option.zone.islands": "Îles",
+
+  "note": "Tu pourras modifier cela plus tard.",
+
+  "btn.cancel": "Annuler",
+  "btn.save": "Enregistrer"
+}

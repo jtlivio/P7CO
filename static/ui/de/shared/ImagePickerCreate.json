@@ -1,0 +1,17 @@
+{
+  "img.cap": "Bilder auswählen oder ziehen",
+  "img.limit": "Limit: {n} Dateien",
+  "img.drop_aria": "Bereich zum Ablegen von Bildern",
+  "img.hint": "Klicke zum Auswählen oder ziehe hierher (JPEG/PNG, bis 10MB pro Datei).",
+
+  "img.tag.cover": "TITELBILD",
+  "img.tag.order": "#{n}",
+
+  "img.btn.up": "Nach oben",
+  "img.btn.down": "Nach unten",
+  "img.btn.del": "Entfernen",
+
+  "img.err.only_images": "Nur Bilder sind erlaubt.",
+  "img.err.too_large": "Datei zu groß ({size}MB). Max: {max}MB.",
+  "img.err.max": "Maximal {max} Bilder. Nur {space} hinzugefügt."
+}

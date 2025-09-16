@@ -1,0 +1,17 @@
+{
+  "img.cap": "Select or drag images",
+  "img.limit": "Limit: {n} files",
+  "img.drop_aria": "Drop zone for images",
+  "img.hint": "Click to choose or drag here (JPEG/PNG, up to 10MB each).",
+
+  "img.tag.cover": "COVER",
+  "img.tag.order": "#{n}",
+
+  "img.btn.up": "Move up",
+  "img.btn.down": "Move down",
+  "img.btn.del": "Remove",
+
+  "img.err.only_images": "Only images are allowed.",
+  "img.err.too_large": "File too large ({size}MB). Max: {max}MB.",
+  "img.err.max": "Maximum {max} images. Only {space} added."
+}

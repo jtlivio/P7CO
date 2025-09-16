@@ -1,0 +1,22 @@
+{
+  "title": "Set location",
+  "close.aria": "Close",
+
+  "help.denied": "Location is blocked in the browser for this site. To enable it, use the padlock icon next to the URL and allow “Location”. Alternatively, choose manually below.",
+
+  "label.country": "Country (EU)",
+  "option.country.loading": "(Loading…)",
+
+  "label.zone": "Zone",
+  "option.zone.auto": "(Auto)",
+  "option.zone.north": "North",
+  "option.zone.west": "West",
+  "option.zone.south": "South",
+  "option.zone.centraleast": "Central East",
+  "option.zone.islands": "Islands",
+
+  "note": "You can change this later.",
+
+  "btn.cancel": "Cancel",
+  "btn.save": "Save"
+}
