@@ -1,33 +1,44 @@
 {
   "seo.title": "Soumettre une Plainte Environnementale | P7CO® EcoResupply",
+
   "header.title": "Soumettre une Plainte Environnementale",
-  "header.subtitle": "L'identité n'est pas divulguée. Connexion requise uniquement pour éviter les abus.",
+  "header.subtitle": "Ton identité ne sera pas divulguée. La connexion sert uniquement à éviter les abus.",
+  "header.moderation": "La soumission sera examinée par un modérateur avant publication.",
+
   "field.title.label": "Titre *",
-  "field.title.placeholder": "Ex. : Dépôt illégal de déchets dans une zone protégée",
+  "field.title.placeholder": "Ex.: Dépôt illégal de déchets dans une zone protégée",
+  "field.title.aria": "Titre de la plainte",
+
   "field.category.label": "Catégorie *",
   "field.category.placeholder": "Sélectionner…",
-  "field.entity.label": "Nom de l'entité (optionnel)",
-  "field.entity.placeholder": "Ex. : Entreprise XYZ",
-  "field.images.label": "Images (max. 6)",
-  "field.images.help": "Vous pouvez supprimer chaque image avant de soumettre.",
-  "field.images.reorder_help": "La première image est la couverture. Faites glisser pour réorganiser.",
+  "field.category.aria": "Sélectionner la catégorie",
+
+  "field.entity.label": "Nom de l’Entité (optionnel)",
+  "field.entity.placeholder": "Ex.: Entreprise XYZ",
+  "field.entity.aria": "Nom de l’entité (optionnel)",
+
   "field.description.label": "Description *",
-  "field.description.placeholder": "Expliquez l'incident, le lieu, les dates et les risques.",
+  "field.description.placeholder": "Explique l’incident, le lieu, les dates et les risques (min. 30 caractères).",
+  "field.description.aria": "Description de l’incident",
+  "field.description.help": "Astuce : indique quand cela a commencé, l’impact observé et, le cas échéant, l’entité responsable.",
+
   "field.map.label": "Localisation sur la carte",
-  "field.map.help": "Cliquez sur la carte ou faites glisser le marqueur pour ajuster. L'adresse sera remplie automatiquement.",
+  "field.map.near": "Près de moi",
+  "field.map.near.aria": "Obtenir ma position",
+  "field.map.canvas_aria": "Carte de l’emplacement de la plainte",
+  "field.map.help": "Clique sur la carte ou déplace le marqueur pour ajuster. Nous essaierons de remplir l’adresse automatiquement.",
+  "field.map.denied": "L’accès à la localisation est bloqué pour ce site. Utilise l’icône de cadenas à côté de l’URL pour l’autoriser, ou indique-la manuellement.",
+
   "addr.country": "Pays",
   "addr.district": "Région",
-  "addr.county": "Commune",
+  "addr.county": "Département",
+  "addr.parish": "Commune",
   "addr.street": "Rue",
   "addr.zip": "Code Postal",
-  "cta.submit": "Soumettre la plainte",
-  "images.remove": "Supprimer",
-  "images.make_cover": "Définir comme couverture",
-  "images.cover": "COUVERTURE",
-  "images.add.strong": "Ajouter une image",
-  "images.add.small": "Cliquez ou glissez ici",
-  "images.preview_alt": "aperçu",
-  "login.redirecting": "Redirection vers la connexion…",
-  "map.geofallback": "Pas de géolocalisation ; positionnement à Setúbal.",
-  "map.geodenied": "Géolocalisation indisponible ; positionnement à Setúbal."
+
+  "mod.title": "Modération",
+  "mod.body": "Après soumission, ta plainte sera examinée par un modérateur. Tu recevras des mises à jour par email.",
+
+  "cta.submit": "Soumettre plainte",
+  "cta.submit.aria": "Soumettre plainte"
 }

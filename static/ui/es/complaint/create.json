@@ -1,33 +1,44 @@
 {
   "seo.title": "Enviar Denuncia Ambiental | P7CO® EcoResupply",
+
   "header.title": "Enviar Denuncia Ambiental",
-  "header.subtitle": "La identidad no se revela. El inicio de sesión solo es necesario para evitar abusos.",
+  "header.subtitle": "Tu identidad no será divulgada. El inicio de sesión solo sirve para evitar abusos.",
+  "header.moderation": "La denuncia será revisada por un moderador antes de hacerse pública.",
+
   "field.title.label": "Título *",
   "field.title.placeholder": "Ej.: Vertido ilegal de residuos en zona protegida",
+  "field.title.aria": "Título de la denuncia",
+
   "field.category.label": "Categoría *",
   "field.category.placeholder": "Seleccionar…",
+  "field.category.aria": "Seleccionar categoría",
+
   "field.entity.label": "Nombre de la Entidad (opcional)",
   "field.entity.placeholder": "Ej.: Empresa XYZ",
-  "field.images.label": "Imágenes (máx. 6)",
-  "field.images.help": "Puedes eliminar cada imagen antes de enviarla.",
-  "field.images.reorder_help": "La primera imagen es la portada. Arrastra para reordenar.",
+  "field.entity.aria": "Nombre de la entidad (opcional)",
+
   "field.description.label": "Descripción *",
-  "field.description.placeholder": "Explica el hecho, lugar, fechas y riesgos.",
+  "field.description.placeholder": "Explica el suceso, lugar, fechas y riesgos (mín. 30 caracteres).",
+  "field.description.aria": "Descripción del suceso",
+  "field.description.help": "Consejo: indica cuándo empezó, el impacto observado y, si existe, la entidad responsable.",
+
   "field.map.label": "Ubicación en el mapa",
-  "field.map.help": "Haz clic en el mapa o arrastra el marcador para ajustar. La dirección se rellenará automáticamente.",
+  "field.map.near": "Cerca de mí",
+  "field.map.near.aria": "Obtener mi ubicación",
+  "field.map.canvas_aria": "Mapa de la ubicación de la denuncia",
+  "field.map.help": "Haz clic en el mapa o arrastra el marcador para ajustar. Intentaremos rellenar la dirección automáticamente.",
+  "field.map.denied": "El acceso a la ubicación está bloqueado para este sitio. Usa el icono del candado junto a la URL para permitirlo o indícalo manualmente.",
+
   "addr.country": "País",
   "addr.district": "Provincia",
   "addr.county": "Municipio",
+  "addr.parish": "Distrito/Parroquia",
   "addr.street": "Calle",
   "addr.zip": "Código Postal",
+
+  "mod.title": "Moderación",
+  "mod.body": "Tras el envío, tu denuncia será revisada por un moderador. Recibirás actualizaciones de estado por correo electrónico.",
+
   "cta.submit": "Enviar denuncia",
-  "images.remove": "Eliminar",
-  "images.make_cover": "Definir portada",
-  "images.cover": "PORTADA",
-  "images.add.strong": "Añadir imagen",
-  "images.add.small": "Haz clic o arrastra aquí",
-  "images.preview_alt": "vista previa",
-  "login.redirecting": "Redirigiendo al inicio de sesión…",
-  "map.geofallback": "Sin geolocalización; posicionando en Setúbal.",
-  "map.geodenied": "Geolocalización no disponible; posicionando en Setúbal."
+  "cta.submit.aria": "Enviar denuncia"
 }

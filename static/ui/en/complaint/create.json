@@ -1,33 +1,44 @@
 {
   "seo.title": "Submit Environmental Complaint | P7CO® EcoResupply",
+
   "header.title": "Submit Environmental Complaint",
-  "header.subtitle": "Identity is not disclosed. Login is required only to prevent abuse.",
+  "header.subtitle": "Your identity will not be disclosed. Login is only required to prevent abuse.",
+  "header.moderation": "Your submission will be reviewed by a moderator before being published.",
+
   "field.title.label": "Title *",
-  "field.title.placeholder": "E.g.: Illegal waste dumping in protected area",
+  "field.title.placeholder": "Ex.: Illegal waste dumping in protected area",
+  "field.title.aria": "Complaint title",
+
   "field.category.label": "Category *",
   "field.category.placeholder": "Select…",
+  "field.category.aria": "Select category",
+
   "field.entity.label": "Entity Name (optional)",
-  "field.entity.placeholder": "E.g.: Company XYZ",
-  "field.images.label": "Images (max. 6)",
-  "field.images.help": "You can remove each image before submitting.",
-  "field.images.reorder_help": "The first image is the cover. Drag to reorder.",
+  "field.entity.placeholder": "Ex.: Company XYZ",
+  "field.entity.aria": "Entity name (optional)",
+
   "field.description.label": "Description *",
-  "field.description.placeholder": "Explain the occurrence, location, dates and risks.",
-  "field.map.label": "Map location",
-  "field.map.help": "Click on the map or drag the marker to adjust. Address will be filled automatically.",
+  "field.description.placeholder": "Explain the occurrence, location, dates and risks (min. 30 characters).",
+  "field.description.aria": "Occurrence description",
+  "field.description.help": "Tip: indicate when it started, the observed impact and, if applicable, the responsible entity.",
+
+  "field.map.label": "Location on map",
+  "field.map.near": "Near me",
+  "field.map.near.aria": "Get my location",
+  "field.map.canvas_aria": "Map of complaint location",
+  "field.map.help": "Click on the map or drag the marker to adjust. We will try to fill in the address automatically.",
+  "field.map.denied": "Location access is blocked for this site. Use the padlock icon next to the URL to allow it, or indicate manually.",
+
   "addr.country": "Country",
   "addr.district": "District",
   "addr.county": "County",
+  "addr.parish": "Parish",
   "addr.street": "Street",
   "addr.zip": "Postal Code",
+
+  "mod.title": "Moderation",
+  "mod.body": "After submission, your complaint will be reviewed by a moderator. You will receive status updates by email.",
+
   "cta.submit": "Submit complaint",
-  "images.remove": "Remove",
-  "images.make_cover": "Set as cover",
-  "images.cover": "COVER",
-  "images.add.strong": "Add image",
-  "images.add.small": "Click or drag here",
-  "images.preview_alt": "preview",
-  "login.redirecting": "Redirecting to login…",
-  "map.geofallback": "No geolocation; falling back to Setúbal.",
-  "map.geodenied": "Geolocation unavailable; falling back to Setúbal."
+  "cta.submit.aria": "Submit complaint"
 }

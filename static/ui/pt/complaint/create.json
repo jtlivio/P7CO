@@ -1,33 +1,44 @@
 {
   "seo.title": "Submeter Denúncia Ambiental | P7CO® EcoResupply",
+
   "header.title": "Submeter Denúncia Ambiental",
-  "header.subtitle": "A identidade não é divulgada. Login é necessário apenas para evitar abuso.",
+  "header.subtitle": "A tua identidade não é divulgada. Início de sessão serve apenas para evitar abuso.",
+  "header.moderation": "A submissão será revista por um moderador antes de ficar visível.",
+
   "field.title.label": "Título *",
   "field.title.placeholder": "Ex.: Deposição ilegal de resíduos em zona protegida",
+  "field.title.aria": "Título da denúncia",
+
   "field.category.label": "Categoria *",
   "field.category.placeholder": "Selecionar…",
+  "field.category.aria": "Selecionar categoria",
+
   "field.entity.label": "Nome da Entidade (opcional)",
   "field.entity.placeholder": "Ex.: Empresa XYZ",
-  "field.images.label": "Imagens (máx. 6)",
-  "field.images.help": "Podes remover cada imagem antes de submeter.",
+  "field.entity.aria": "Nome da entidade (opcional)",
+
   "field.description.label": "Descrição *",
-  "field.description.placeholder": "Explica a ocorrência, local, datas e riscos.",
+  "field.description.placeholder": "Explica a ocorrência, local, datas e riscos (mín. 30 caracteres).",
+  "field.description.aria": "Descrição da ocorrência",
+  "field.description.help": "Dica: indica quando começou, o impacto observado e, se existir, entidade responsável.",
+
   "field.map.label": "Localização no mapa",
-  "field.map.help": "Clica no mapa ou arrasta o marcador para ajustar. Fazemos preenchimento automático da morada.",
+  "field.map.near": "Perto de mim",
+  "field.map.near.aria": "Obter a minha localização",
+  "field.map.canvas_aria": "Mapa da localização da denúncia",
+  "field.map.help": "Clica no mapa ou arrasta o marcador para ajustar. Tentaremos preencher a morada automaticamente.",
+  "field.map.denied": "A localização está bloqueada para este site. Usa o botão no cadeado junto ao URL para permitir, ou indica manualmente.",
+
   "addr.country": "País",
   "addr.district": "Distrito",
   "addr.county": "Concelho",
+  "addr.parish": "Freguesia",
   "addr.street": "Rua",
   "addr.zip": "Código Postal",
+
+  "mod.title": "Moderação",
+  "mod.body": "Após submeter, a tua denúncia ficará em revisão por um moderador. Receberás atualização do estado por email.",
+
   "cta.submit": "Submeter denúncia",
-  "images.remove": "Remover",
-  "images.make_cover": "Definir capa",
-  "images.cover": "CAPA",
-  "images.preview_alt": "pré-visualização",
-  "login.redirecting": "A redirecionar para login…",
-  "map.geofallback": "Sem geolocalização; a posicionar em Setúbal.",
-  "map.geodenied": "Geolocalização indisponível; a posicionar em Setúbal.",
-  "field.images.reorder_help": "A primeira imagem é a capa. Arrasta para ordenar.",
-  "images.add.strong": "Adicionar imagem",
-  "images.add.small": "Clica ou arrasta aqui"
+  "cta.submit.aria": "Submeter denúncia"
 }
