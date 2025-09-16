@@ -1,6 +1,6 @@
 +++
 title = "Success Stories"
-intro = "Discover real stories of collaboration with strategic partners that strengthen the mission of P7CO® EcoResupply: circularity, trust and innovation. Maré Alta and Sibertex are two examples of positive impact in the territory."
+intro = "Discover real examples of collaboration with strategic partners that strengthen the mission of P7CO® EcoResupply: circularity, trust and innovation. Maré Alta and Sibertex are two examples of positive impact in the territory."
 image = "/images/casos-hero.jpg"
 date = 2025-09-06
 tags = ["Success Stories", "Partnerships", "Maré Alta", "Sibertex", "Circular Economy"]
@@ -10,39 +10,59 @@ slug = "success-stories"
 
 # P7CO® Success Stories
 
-The P7CO® EcoResupply platform only makes sense as a network.  
-Here we highlight two success stories with national partners.
+P7CO® EcoResupply was created to connect surpluses with those who need them, promoting a fairer and more sustainable economy.  
+No journey is made alone: the platform relies on **strong local partnerships** capable of turning challenges into opportunities.  
+Here we share two emblematic stories — **Maré Alta** and **Sibertex** — that show how different sectors can benefit from a circular network.
 
 ## Maré Alta — Circularity in the Nautical Sector
 
 **Sector:** Blue Economy / Nautical  
-**Location:** Setúbal
+**Location:** Setúbal  
+**Website:** [mare-alta.pt](https://www.mare-alta.pt)
 
-Maré Alta is a strategic partner in the nautical sector, responsible for collecting, reusing and making available surplus materials related to boats, shipyards and port activities.
+Maré Alta operates at the heart of the nautical sector, one of the most demanding when it comes to maintenance and equipment replacement. Before the partnership, many materials were discarded without reuse.  
+With P7CO® EcoResupply, it was possible to create a collection and reuse circuit that turned surpluses into new resources.
 
-- **Reuse of materials:** wood, ropes, nautical equipment  
-- **Environmental impact:** less waste in landfills, more local reuse  
-- **Social benefits:** involvement of local associations and sailing schools in collection and reuse  
+**Key achievements:**
 
-> _"With P7CO®, we managed to give a second life to materials that were previously wasted."_  
+- **Reuse of nautical materials**: ropes, sails, treated wood and boat parts.  
+- **Waste reduction**: tons of material that would otherwise have gone to landfill are now part of local projects.  
+- **Community involvement**: youth associations and sailing schools received and reused materials, strengthening social and educational bonds.  
+- **Sector valorisation**: reuse builds trust in more sustainable practices among clients and partners.
+
+> _"With P7CO®, we managed to give a second life to materials that were previously wasted. Today our shipyards and partners already rely on more economical and sustainable solutions."_  
 — Maré Alta Team
 
 ## Sibertex — Efficiency in Storage and Parking
 
 **Sector:** Logistics / Storage  
-**Location:** Palmela
+**Location:** Palmela  
+**Website:** [www.sibertex.pr](https://www.sibertex.pt)
 
-Sibertex provides **warehouse and parking solutions** that support the P7CO® EcoResupply network, allowing surpluses to be collected, stored securely and redistributed quickly.
+Sibertex faces the daily challenge of managing space for goods in transition. The partnership with P7CO® EcoResupply made it possible to integrate its warehouses and parking areas into the circular economy process, serving as a strategic point for collection, sorting and redistribution.
 
-- **Smart storage:** lot management and digital contracts  
-- **Dedicated parking:** space for vehicles and containers supporting logistics  
-- **Technological integration:** direct connection to the P7CO® system for traceability  
+**Key achievements:**
 
-> _"EcoResupply is more than a marketplace — it is a trusted infrastructure."_  
+- **Smart storage**: digital solutions for lot registration and management, flexible contracts and real-time monitoring.  
+- **Specialised parking**: dedicated space for containers and transport vehicles, ensuring safety and speed in logistics.  
+- **Technological integration**: systems directly connected to P7CO® EcoResupply, ensuring traceability and transparency in every operation.  
+- **Economic efficiency**: optimised storage costs and faster processes for companies using the network.
+
+> _"EcoResupply is more than a marketplace — it is a trusted infrastructure that allows us to play an active role in the transition to a more efficient economy."_  
 — Sibertex Management
+
+## Joint Impact
+
+These two cases show how different sectors — nautical and logistics — find common benefits:
+
+- **More circularity**, with surpluses gaining new uses.  
+- **Less waste**, reducing environmental and economic costs.  
+- **More innovation**, with technological processes that ensure traceability and trust.  
+- **More proximity**, building stronger links between companies, communities and public institutions.
 
 ## Next Steps
 
-These two cases demonstrate how **local infrastructures** and **sectoral partnerships** turn P7CO® EcoResupply into a real driver of circular economy in Portugal.
+P7CO® EcoResupply will continue to expand this collaborative network, inviting new entities to join the movement.  
+The experience with Maré Alta and Sibertex is only the beginning of a journey where **every partner counts** to achieve common goals: sustainability, trust and positive impact in the territory.
 
 Do you want to be the next success story? [Contact us](/en/home/contact).
