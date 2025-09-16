@@ -1,6 +1,13 @@
 {
-  "hero.kicker": "ZIRKULÄRE NACHHALTIGKEIT",
-  "hero.title": "P7CO® RESUPPLY",
-  "hero.subtitle": "Sorgen, transformieren, es anders machen.",
-  "hero.cta": "ANDERS MACHEN"
+  "products.title": "Hervorgehobene Überschüsse",
+  "products.item_fallback": "Überschuss",
+
+  "complaints.title": "Neueste Meldungen",
+  "complaints.item_fallback": "Meldung",
+
+  "cta.see_more": "Mehr sehen",
+  "cta.see_details": "Details anzeigen",
+
+  "empty.products": "Derzeit keine hervorgehobenen Produkte.",
+  "empty.complaints": "Keine aktuellen Meldungen."
 }

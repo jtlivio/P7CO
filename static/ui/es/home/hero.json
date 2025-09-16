@@ -1,6 +1,13 @@
 {
-  "hero.kicker": "SOSTENIBILIDAD CIRCULAR",
-  "hero.title": "P7CO® RESUPPLY",
-  "hero.subtitle": "Cuidar, transformar, hacerlo diferente.",
-  "hero.cta": "HACERLO DIFERENTE"
+  "products.title": "Excedentes Destacados",
+  "products.item_fallback": "Excedente",
+
+  "complaints.title": "Denuncias Recientes",
+  "complaints.item_fallback": "Denuncia",
+
+  "cta.see_more": "Ver más",
+  "cta.see_details": "Ver detalles",
+
+  "empty.products": "No hay productos destacados en este momento.",
+  "empty.complaints": "No hay denuncias recientes."
 }

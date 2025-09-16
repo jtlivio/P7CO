@@ -1,6 +1,13 @@
 {
-  "hero.kicker": "DURABILITÉ CIRCULAIRE",
-  "hero.title": "P7CO® RESUPPLY",
-  "hero.subtitle": "Prendre soin, transformer, faire autrement.",
-  "hero.cta": "FAIRE AUTREMENT"
+  "products.title": "Excédents en Vedette",
+  "products.item_fallback": "Excédent",
+
+  "complaints.title": "Signalements Récents",
+  "complaints.item_fallback": "Signalement",
+
+  "cta.see_more": "Voir plus",
+  "cta.see_details": "Voir les détails",
+
+  "empty.products": "Aucun produit en vedette pour le moment.",
+  "empty.complaints": "Aucun signalement récent."
 }
