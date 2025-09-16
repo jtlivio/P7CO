@@ -1,30 +1,39 @@
 {
   "seo.title": "Modifier une Plainte Environnementale | P7CO® EcoResupply",
+
   "header.title": "Modifier une Plainte Environnementale",
   "header.only_owner": "Vous pouvez uniquement modifier vos propres plaintes.",
-  "header.you_can_update": "Vous pouvez mettre à jour la description, la localisation et joindre de nouvelles images.",
-  "field.title.label": "Titre",
+  "header.you_can_update": "Vous pouvez mettre à jour la description, la localisation et ajouter de nouvelles images (max. 6 au total).",
+
+  "alert.review_title": "Révision nécessaire",
+  "alert.review_body": "Lors de l’enregistrement, la plainte revient à l’état de révision (UnderReview) jusqu’à modération.",
+
+  "field.title.label": "Titre *",
   "field.title.placeholder": "Ex. : Dépôt illégal de déchets dans une zone protégée",
-  "field.entity.label": "Nom de l'entité (optionnel)",
+
+  "field.entity.label": "Nom de l’entité (optionnel)",
   "field.entity.placeholder": "Ex. : Entreprise XYZ, ONG ABC",
-  "field.category.label": "Catégorie",
+
+  "field.category.label": "Catégorie *",
   "field.category.placeholder": "Sélectionner…",
+
   "field.images.label": "Images (max. 6 au total)",
-  "field.images.help": "La première est l’image de couverture. Faites glisser (existantes et nouvelles) pour réorganiser.",
-  "images.remove": "Supprimer",
-  "images.make_cover": "Définir comme couverture",
-  "images.cover": "COUVERTURE",
-  "images.add.strong": "Ajouter une image",
-  "images.add.small": "Glissez ici ou cliquez",
-  "field.description.label": "Description",
-  "field.description.placeholder": "Décrivez l’incident : type d’infraction, localisation exacte, date/heure, personnes impliquées, risques…",
-  "field.map.label": "Sélectionnez l’emplacement sur la carte",
+  "field.images.help": "La première image est la couverture. Vous pouvez faire glisser pour réorganiser. Les images existantes peuvent être supprimées.",
+
+  "field.description.label": "Description *",
+  "field.description.placeholder": "Mettez à jour l’incident : type d’infraction, localisation exacte, date/heure, personnes impliquées, risques…",
+
+  "field.map.label": "Sélectionnez/ajustez l’emplacement sur la carte",
+  "field.map.near": "Près de moi",
+  "field.map.help": "Cliquez sur la carte ou faites glisser le marqueur ; nous mettrons à jour l’adresse automatiquement.",
+  "field.map.denied": "La localisation est bloquée pour ce site. Autorisez-la dans le cadenas à côté de l’URL ou choisissez manuellement.",
+
   "addr.country": "Pays",
-  "addr.district": "Région/Département",
-  "addr.county": "Commune",
-  "addr.parish": "Quartier/Paroisse",
+  "addr.district": "Région",
+  "addr.county": "Département",
+  "addr.parish": "Commune",
   "addr.street": "Rue",
   "addr.zip": "Code Postal",
-  "alert.only_you_edit": "Seul vous (utilisateur connecté) pouvez modifier cette plainte.",
+
   "cta.save": "Enregistrer les modifications"
 }

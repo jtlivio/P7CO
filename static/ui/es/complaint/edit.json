@@ -1,30 +1,39 @@
 {
   "seo.title": "Editar Denuncia Ambiental | P7CO® EcoResupply",
+
   "header.title": "Editar Denuncia Ambiental",
   "header.only_owner": "Solo puedes editar tus propias denuncias.",
-  "header.you_can_update": "Puedes actualizar la descripción, la ubicación y adjuntar nuevas imágenes.",
-  "field.title.label": "Título",
+  "header.you_can_update": "Puedes actualizar la descripción, la ubicación y adjuntar nuevas imágenes (máx. 6 en total).",
+
+  "alert.review_title": "Revisión necesaria",
+  "alert.review_body": "Al guardar, la denuncia vuelve al estado de revisión (UnderReview) hasta ser moderada.",
+
+  "field.title.label": "Título *",
   "field.title.placeholder": "Ej.: Vertido ilegal de residuos en zona protegida",
+
   "field.entity.label": "Nombre de la Entidad (opcional)",
   "field.entity.placeholder": "Ej.: Empresa XYZ, ONG ABC",
-  "field.category.label": "Categoría",
+
+  "field.category.label": "Categoría *",
   "field.category.placeholder": "Seleccionar…",
+
   "field.images.label": "Imágenes (máx. 6 en total)",
-  "field.images.help": "La primera es la portada. Arrastra (existentes y nuevas) para ordenar.",
-  "images.remove": "Eliminar",
-  "images.make_cover": "Definir portada",
-  "images.cover": "PORTADA",
-  "images.add.strong": "Añadir imagen",
-  "images.add.small": "Arrastra aquí o haz clic",
-  "field.description.label": "Descripción",
-  "field.description.placeholder": "Describe lo ocurrido: tipo de infracción, ubicación exacta, fecha/hora, implicados, riesgos…",
-  "field.map.label": "Selecciona la ubicación en el mapa",
+  "field.images.help": "La primera imagen es la portada. Puedes arrastrar para reordenar. Se pueden eliminar imágenes existentes.",
+
+  "field.description.label": "Descripción *",
+  "field.description.placeholder": "Actualiza el suceso: tipo de infracción, ubicación exacta, fecha/hora, implicados, riesgos…",
+
+  "field.map.label": "Selecciona/ajusta la ubicación en el mapa",
+  "field.map.near": "Cerca de mí",
+  "field.map.help": "Haz clic en el mapa o arrastra el marcador; actualizaremos la dirección automáticamente.",
+  "field.map.denied": "La ubicación está bloqueada para este sitio. Permítela en el candado junto a la URL o elige manualmente.",
+
   "addr.country": "País",
-  "addr.district": "Provincia/Región",
-  "addr.county": "Municipio",
-  "addr.parish": "Barrio/Parroquia",
+  "addr.district": "Distrito",
+  "addr.county": "Provincia",
+  "addr.parish": "Municipio",
   "addr.street": "Calle",
   "addr.zip": "Código Postal",
-  "alert.only_you_edit": "Solo tú (usuario autenticado) puedes editar esta denuncia.",
+
   "cta.save": "Guardar cambios"
 }

@@ -1,30 +1,39 @@
 {
   "seo.title": "Umweltbeschwerde bearbeiten | P7CO® EcoResupply",
+
   "header.title": "Umweltbeschwerde bearbeiten",
-  "header.only_owner": "Du kannst nur deine eigenen Meldungen bearbeiten.",
-  "header.you_can_update": "Du kannst die Beschreibung und den Standort aktualisieren und neue Bilder anhängen.",
-  "field.title.label": "Titel",
-  "field.title.placeholder": "Z. B.: Illegale Abfallablagerung im Schutzgebiet",
-  "field.entity.label": "Name der Organisation (optional)",
-  "field.entity.placeholder": "Z. B.: Firma XYZ, NGO ABC",
-  "field.category.label": "Kategorie",
+  "header.only_owner": "Du kannst nur deine eigenen Beschwerden bearbeiten.",
+  "header.you_can_update": "Du kannst die Beschreibung, den Standort aktualisieren und neue Bilder anhängen (max. 6 insgesamt).",
+
+  "alert.review_title": "Überprüfung erforderlich",
+  "alert.review_body": "Beim Speichern geht die Beschwerde zurück in den Überprüfungsstatus (UnderReview), bis sie moderiert wird.",
+
+  "field.title.label": "Titel *",
+  "field.title.placeholder": "z. B.: Illegale Ablagerung von Abfällen in einem Schutzgebiet",
+
+  "field.entity.label": "Name der Einrichtung (optional)",
+  "field.entity.placeholder": "z. B.: Firma XYZ, NGO ABC",
+
+  "field.category.label": "Kategorie *",
   "field.category.placeholder": "Auswählen…",
-  "field.images.label": "Bilder (insgesamt max. 6)",
-  "field.images.help": "Das erste Bild ist das Titelbild. Ziehe (vorhandene und neue), um die Reihenfolge zu ändern.",
-  "images.remove": "Entfernen",
-  "images.make_cover": "Als Titelbild festlegen",
-  "images.cover": "TITELBILD",
-  "images.add.strong": "Bild hinzufügen",
-  "images.add.small": "Hierher ziehen oder klicken",
-  "field.description.label": "Beschreibung",
-  "field.description.placeholder": "Beschreibe den Vorfall: Art des Verstoßes, genauer Standort, Datum/Uhrzeit, Beteiligte, Risiken…",
-  "field.map.label": "Standort auf der Karte wählen",
+
+  "field.images.label": "Bilder (max. 6 insgesamt)",
+  "field.images.help": "Das erste Bild ist das Titelbild. Du kannst ziehen, um die Reihenfolge zu ändern. Vorhandene Bilder können gelöscht werden.",
+
+  "field.description.label": "Beschreibung *",
+  "field.description.placeholder": "Aktualisiere den Vorfall: Art des Verstoßes, genauer Standort, Datum/Uhrzeit, Beteiligte, Risiken…",
+
+  "field.map.label": "Standort auf der Karte auswählen/anpassen",
+  "field.map.near": "In meiner Nähe",
+  "field.map.help": "Klicke auf die Karte oder ziehe die Markierung; wir aktualisieren die Adresse automatisch.",
+  "field.map.denied": "Der Standort ist für diese Website blockiert. Erlaube ihn im Schloss-Symbol neben der URL oder wähle manuell.",
+
   "addr.country": "Land",
-  "addr.district": "Bezirk/Region",
-  "addr.county": "Gemeinde/Landkreis",
-  "addr.parish": "Ortsteil/Pfarrei",
+  "addr.district": "Bezirk",
+  "addr.county": "Kreis",
+  "addr.parish": "Gemeinde",
   "addr.street": "Straße",
   "addr.zip": "Postleitzahl",
-  "alert.only_you_edit": "Nur du (angemeldeter Benutzer) kannst diese Meldung bearbeiten.",
+
   "cta.save": "Änderungen speichern"
 }
