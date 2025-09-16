@@ -1,30 +1,43 @@
 {
   "seo.title": "Detalhe da Denúncia",
-  "header.fallback_title": "Detalhe da Denúncia",
 
-  "images.cover": "CAPA",
-  "images.preview_alt": "pré-visualização",
+  "auth.modal.title": "Inicia sessão para interagir",
+  "auth.modal.msg": "Para reportar, entra na tua conta.",
+
+  "header.fallback_title": "Detalhe da Denúncia",
 
   "gallery.open_aria": "Ver imagem em detalhe",
   "gallery.no_images": "Sem imagens",
 
+  "images.cover": "CAPA",
+  "images.preview_alt": "pré-visualização",
+
   "info.category": "Categoria",
   "info.date": "Data",
   "info.status": "Estado",
+  "info.region": "Região",
   "info.entity": "Entidade",
   "info.location": "Localização",
   "info.location_dash": "-",
   "info.coords": "Coordenadas",
 
+  "map.aria": "Mapa com localização da ocorrência",
+
   "desc.title": "Descrição",
   "desc.allegedly": "Alegadamente,",
   "desc.none": "-",
 
+  "detail.likes": "Gostos",
+  "detail.reports": "Sinalizações",
+
+  "cta.report": "Reportar",
   "cta.back": "Voltar à listagem",
 
   "lb.aria": "Visualização de imagem",
+  "lb.close": "Fechar",
   "lb.prev": "Anterior",
   "lb.next": "Seguinte",
-  "lb.close": "Fechar",
-  "lb.img_alt": "Imagem da denúncia"
+  "lb.img_alt": "Imagem da denúncia",
+
+  "report.confirm": "Queres reportar esta denúncia para revisão?"
 }

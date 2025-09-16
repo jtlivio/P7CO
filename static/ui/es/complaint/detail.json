@@ -1,30 +1,43 @@
 {
-  "seo.title": "Detalles de la Denuncia Ambiental",
-  "header.fallback_title": "Detalles de la Denuncia",
+  "seo.title": "Detalle de la Denuncia",
 
-  "images.cover": "PORTADA",
-  "images.preview_alt": "vista previa",
+  "auth.modal.title": "Inicia sesión para interactuar",
+  "auth.modal.msg": "Para denunciar, entra en tu cuenta.",
+
+  "header.fallback_title": "Detalle de la Denuncia",
 
   "gallery.open_aria": "Ver imagen en detalle",
   "gallery.no_images": "Sin imágenes",
 
+  "images.cover": "PORTADA",
+  "images.preview_alt": "vista previa",
+
   "info.category": "Categoría",
   "info.date": "Fecha",
   "info.status": "Estado",
+  "info.region": "Región",
   "info.entity": "Entidad",
   "info.location": "Ubicación",
   "info.location_dash": "-",
   "info.coords": "Coordenadas",
 
+  "map.aria": "Mapa con ubicación del incidente",
+
   "desc.title": "Descripción",
-  "desc.allegedly": "Presuntamente,",
+  "desc.allegedly": "Supuestamente,",
   "desc.none": "-",
 
-  "cta.back": "Volver al listado",
+  "detail.likes": "Me gusta",
+  "detail.reports": "Reportes",
+
+  "cta.report": "Denunciar",
+  "cta.back": "Volver a la lista",
 
   "lb.aria": "Visor de imágenes",
+  "lb.close": "Cerrar",
   "lb.prev": "Anterior",
   "lb.next": "Siguiente",
-  "lb.close": "Cerrar",
-  "lb.img_alt": "Imagen de la denuncia"
+  "lb.img_alt": "Imagen de la denuncia",
+
+  "report.confirm": "¿Quieres denunciar esta queja para revisión?"
 }

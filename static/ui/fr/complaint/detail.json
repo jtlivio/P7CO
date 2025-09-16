@@ -1,30 +1,43 @@
 {
-  "seo.title": "Détails de la Plainte Environnementale",
-  "header.fallback_title": "Détails de la Plainte",
+  "seo.title": "Détail de la Plainte",
 
-  "images.cover": "COUVERTURE",
-  "images.preview_alt": "aperçu",
+  "auth.modal.title": "Connectez-vous pour interagir",
+  "auth.modal.msg": "Pour signaler, connectez-vous à votre compte.",
+
+  "header.fallback_title": "Détail de la Plainte",
 
   "gallery.open_aria": "Voir l’image en détail",
   "gallery.no_images": "Aucune image",
 
+  "images.cover": "COUVERTURE",
+  "images.preview_alt": "aperçu",
+
   "info.category": "Catégorie",
   "info.date": "Date",
   "info.status": "Statut",
+  "info.region": "Région",
   "info.entity": "Entité",
   "info.location": "Localisation",
   "info.location_dash": "-",
   "info.coords": "Coordonnées",
 
+  "map.aria": "Carte avec localisation de l’incident",
+
   "desc.title": "Description",
-  "desc.allegedly": "Présumément,",
+  "desc.allegedly": "Prétendument,",
   "desc.none": "-",
 
+  "detail.likes": "J’aime",
+  "detail.reports": "Signalements",
+
+  "cta.report": "Signaler",
   "cta.back": "Retour à la liste",
 
-  "lb.aria": "Visionneuse d’images",
+  "lb.aria": "Visionneuse d’image",
+  "lb.close": "Fermer",
   "lb.prev": "Précédent",
   "lb.next": "Suivant",
-  "lb.close": "Fermer",
-  "lb.img_alt": "Image de la plainte"
+  "lb.img_alt": "Image de la plainte",
+
+  "report.confirm": "Voulez-vous signaler cette plainte pour révision ?"
 }

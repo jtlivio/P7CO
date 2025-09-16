@@ -1,30 +1,43 @@
 {
-  "seo.title": "Environmental Complaint Details",
-  "header.fallback_title": "Complaint Details",
+  "seo.title": "Complaint Detail",
 
-  "images.cover": "COVER",
-  "images.preview_alt": "preview",
+  "auth.modal.title": "Sign in to interact",
+  "auth.modal.msg": "To report, log into your account.",
+
+  "header.fallback_title": "Complaint Detail",
 
   "gallery.open_aria": "View image in detail",
   "gallery.no_images": "No images",
 
+  "images.cover": "COVER",
+  "images.preview_alt": "preview",
+
   "info.category": "Category",
   "info.date": "Date",
   "info.status": "Status",
+  "info.region": "Region",
   "info.entity": "Entity",
   "info.location": "Location",
   "info.location_dash": "-",
   "info.coords": "Coordinates",
 
+  "map.aria": "Map with occurrence location",
+
   "desc.title": "Description",
   "desc.allegedly": "Allegedly,",
   "desc.none": "-",
 
+  "detail.likes": "Likes",
+  "detail.reports": "Reports",
+
+  "cta.report": "Report",
   "cta.back": "Back to list",
 
   "lb.aria": "Image viewer",
+  "lb.close": "Close",
   "lb.prev": "Previous",
   "lb.next": "Next",
-  "lb.close": "Close",
-  "lb.img_alt": "Complaint image"
+  "lb.img_alt": "Complaint image",
+
+  "report.confirm": "Do you want to report this complaint for review?"
 }

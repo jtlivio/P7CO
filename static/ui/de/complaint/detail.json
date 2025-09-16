@@ -1,30 +1,43 @@
 {
-  "seo.title": "Details des Umwelthinweises",
-  "header.fallback_title": "Details des Umwelthinweises",
+  "seo.title": "Details der Beschwerde",
+
+  "auth.modal.title": "Melde dich an, um zu interagieren",
+  "auth.modal.msg": "Um zu melden, melde dich in deinem Konto an.",
+
+  "header.fallback_title": "Details der Beschwerde",
+
+  "gallery.open_aria": "Bild im Detail ansehen",
+  "gallery.no_images": "Keine Bilder",
 
   "images.cover": "TITELBILD",
   "images.preview_alt": "Vorschau",
 
-  "gallery.open_aria": "Bild im Detail anzeigen",
-  "gallery.no_images": "Keine Bilder",
-
   "info.category": "Kategorie",
   "info.date": "Datum",
   "info.status": "Status",
-  "info.entity": "Organisation",
+  "info.region": "Region",
+  "info.entity": "Einrichtung",
   "info.location": "Standort",
   "info.location_dash": "-",
   "info.coords": "Koordinaten",
 
+  "map.aria": "Karte mit Standort des Vorfalls",
+
   "desc.title": "Beschreibung",
-  "desc.allegedly": "Mutmaßlich,",
+  "desc.allegedly": "Angeblich,",
   "desc.none": "-",
 
-  "cta.back": "Zurück zur Übersicht",
+  "detail.likes": "Likes",
+  "detail.reports": "Meldungen",
 
-  "lb.aria": "Bildanzeige",
+  "cta.report": "Melden",
+  "cta.back": "Zurück zur Liste",
+
+  "lb.aria": "Bildansicht",
+  "lb.close": "Schließen",
   "lb.prev": "Zurück",
   "lb.next": "Weiter",
-  "lb.close": "Schließen",
-  "lb.img_alt": "Bild des Hinweises"
+  "lb.img_alt": "Beschwerdebild",
+
+  "report.confirm": "Möchtest du diese Beschwerde zur Überprüfung melden?"
 }
