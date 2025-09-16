@@ -1,11 +1,19 @@
 {
+  "auth.title": "Inicia sesión para interactuar",
+  "auth.msg": "Para dar me gusta, reportar o eliminar, entra en tu cuenta.",
+
   "label.unit": "Unidad:",
   "label.qty": "Cant.:",
   "placeholder.na": "—",
 
   "tip.like": "Me gusta",
-  "tip.dislike": "No me gusta",
   "tip.report": "Reportar",
+
+  "menu.more": "Más opciones",
+  "menu.edit.title": "Editar publicación",
+  "menu.edit.desc": "Cambia título, descripción o imágenes.",
+  "menu.delete.title": "Eliminar",
+  "menu.delete.desc": "Marca este anuncio como eliminado (soft delete).",
 
   "btn.details": "Ver detalles"
 }

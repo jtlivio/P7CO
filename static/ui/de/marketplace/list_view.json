@@ -1,11 +1,19 @@
 {
+  "auth.title": "Melde dich an, um zu interagieren",
+  "auth.msg": "Um zu liken, zu melden oder deine Anzeige zu löschen, melde dich in deinem Konto an.",
+
   "label.unit": "Einheit:",
   "label.qty": "Menge:",
   "placeholder.na": "—",
 
   "tip.like": "Gefällt mir",
-  "tip.dislike": "Gefällt mir nicht",
   "tip.report": "Melden",
+
+  "menu.more": "Weitere Optionen",
+  "menu.edit.title": "Anzeige bearbeiten",
+  "menu.edit.desc": "Titel, Beschreibung oder Bilder ändern.",
+  "menu.delete.title": "Löschen",
+  "menu.delete.desc": "Diese Anzeige als entfernt markieren (Soft Delete).",
 
   "btn.details": "Details anzeigen"
 }

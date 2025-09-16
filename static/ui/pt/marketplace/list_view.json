@@ -1,11 +1,19 @@
 {
+  "auth.title": "Inicia sessão para interagir",
+  "auth.msg": "Para gostares, reportares ou apagar, entra na tua conta.",
+
   "label.unit": "Unidade:",
   "label.qty": "Qtd:",
   "placeholder.na": "—",
 
   "tip.like": "Gostei",
-  "tip.dislike": "Não gostei",
   "tip.report": "Reportar",
+
+  "menu.more": "Mais opções",
+  "menu.edit.title": "Editar publicação",
+  "menu.edit.desc": "Altera título, descrição ou imagens.",
+  "menu.delete.title": "Apagar",
+  "menu.delete.desc": "Marca este anúncio como removido (soft delete).",
 
   "btn.details": "Ver detalhes"
 }

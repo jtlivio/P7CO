@@ -1,11 +1,19 @@
 {
+  "auth.title": "Connecte-toi pour interagir",
+  "auth.msg": "Pour aimer, signaler ou supprimer, connecte-toi à ton compte.",
+
   "label.unit": "Unité :",
   "label.qty": "Qté :",
   "placeholder.na": "—",
 
   "tip.like": "J’aime",
-  "tip.dislike": "Je n’aime pas",
   "tip.report": "Signaler",
+
+  "menu.more": "Plus d’options",
+  "menu.edit.title": "Modifier l’annonce",
+  "menu.edit.desc": "Modifier le titre, la description ou les images.",
+  "menu.delete.title": "Supprimer",
+  "menu.delete.desc": "Marquer cette annonce comme supprimée (soft delete).",
 
   "btn.details": "Voir les détails"
 }

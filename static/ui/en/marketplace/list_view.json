@@ -1,11 +1,19 @@
 {
+  "auth.title": "Sign in to interact",
+  "auth.msg": "To like, report or delete, sign in to your account.",
+
   "label.unit": "Unit:",
   "label.qty": "Qty:",
   "placeholder.na": "—",
 
   "tip.like": "Like",
-  "tip.dislike": "Dislike",
   "tip.report": "Report",
+
+  "menu.more": "More options",
+  "menu.edit.title": "Edit post",
+  "menu.edit.desc": "Change title, description or images.",
+  "menu.delete.title": "Delete",
+  "menu.delete.desc": "Mark this ad as removed (soft delete).",
 
   "btn.details": "View details"
 }
