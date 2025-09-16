@@ -1,9 +1,15 @@
 {
-  "btn.details": "Ver detalles",
-  "label.unit": "Unidad:",
-  "label.qty": "Cant.:",
-  "placeholder.na": "—",
+  "auth.title": "Inicia sesión para interactuar",
+  "auth.msg": "Para dar me gusta, reportar o gestionar tu anuncio, entra en tu cuenta.",
+
+  "btn.view": "VER",
+
   "tip.like": "Me gusta",
-  "tip.dislike": "No me gusta",
-  "tip.report": "Denunciar"
+  "tip.report": "Reportar",
+
+  "menu.more": "Más opciones",
+  "menu.edit.title": "Editar publicación",
+  "menu.edit.desc": "Cambia título, descripción o imágenes.",
+  "menu.delete.title": "Eliminar",
+  "menu.delete.desc": "Eliminar este anuncio permanentemente."
 }

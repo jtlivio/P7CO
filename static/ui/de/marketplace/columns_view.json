@@ -1,9 +1,15 @@
 {
-  "btn.details": "Details ansehen",
-  "label.unit": "Einheit:",
-  "label.qty": "Menge:",
-  "placeholder.na": "—",
+  "auth.title": "Melde dich an, um zu interagieren",
+  "auth.msg": "Um zu liken, zu melden oder deine Anzeige zu verwalten, melde dich in deinem Konto an.",
+
+  "btn.view": "ANZEIGEN",
+
   "tip.like": "Gefällt mir",
-  "tip.dislike": "Gefällt mir nicht",
-  "tip.report": "Melden"
+  "tip.report": "Melden",
+
+  "menu.more": "Weitere Optionen",
+  "menu.edit.title": "Anzeige bearbeiten",
+  "menu.edit.desc": "Titel, Beschreibung oder Bilder ändern.",
+  "menu.delete.title": "Löschen",
+  "menu.delete.desc": "Diese Anzeige dauerhaft entfernen."
 }

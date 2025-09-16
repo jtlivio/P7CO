@@ -1,9 +1,15 @@
 {
-  "btn.details": "Voir les détails",
-  "label.unit": "Unité :",
-  "label.qty": "Qté :",
-  "placeholder.na": "—",
+  "auth.title": "Connecte-toi pour interagir",
+  "auth.msg": "Pour aimer, signaler ou gérer ton annonce, connecte-toi à ton compte.",
+
+  "btn.view": "VOIR",
+
   "tip.like": "J’aime",
-  "tip.dislike": "Je n’aime pas",
-  "tip.report": "Signaler"
+  "tip.report": "Signaler",
+
+  "menu.more": "Plus d’options",
+  "menu.edit.title": "Modifier l’annonce",
+  "menu.edit.desc": "Modifier le titre, la description ou les images.",
+  "menu.delete.title": "Supprimer",
+  "menu.delete.desc": "Supprimer cette annonce définitivement."
 }

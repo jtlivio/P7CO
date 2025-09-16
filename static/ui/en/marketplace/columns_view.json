@@ -1,9 +1,15 @@
 {
-  "btn.details": "View details",
-  "label.unit": "Unit:",
-  "label.qty": "Qty:",
-  "placeholder.na": "—",
+  "auth.title": "Sign in to interact",
+  "auth.msg": "To like, report or manage your ad, sign in to your account.",
+
+  "btn.view": "VIEW",
+
   "tip.like": "Like",
-  "tip.dislike": "Dislike",
-  "tip.report": "Report"
+  "tip.report": "Report",
+
+  "menu.more": "More options",
+  "menu.edit.title": "Edit post",
+  "menu.edit.desc": "Change title, description or images.",
+  "menu.delete.title": "Delete",
+  "menu.delete.desc": "Remove this ad permanently."
 }
