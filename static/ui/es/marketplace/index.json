@@ -5,6 +5,22 @@
   "breadcrumb.home": "Inicio",
   "breadcrumb.market": "Mercado",
 
+  "sidebar.region": "Región",
+  "filter.country": "País (ISO-2)",
+  "filter.zone": "Zona UE",
+  "filter.zone.all": "(Todas)",
+  "filter.apply": "Aplicar",
+  "filter.clear": "Limpiar",
+
+  "zone.north": "Norte",
+  "zone.west": "Oeste",
+  "zone.south": "Sur",
+  "zone.centraleast": "Centro-Este",
+  "zone.islands": "Islas",
+
+  "badge.iso": "ISO:",
+  "badge.zone": "Zona:",
+
   "sidebar.categories": "Categorías",
   "sidebar.all": "Todas",
   "sidebar.subcategories": "Subcategorías",
@@ -23,5 +39,14 @@
   "pager.prev.aria": "Anterior",
   "pager.next.aria": "Siguiente",
 
-  "empty.title": "Todavía no hay excedentes en esta categoría."
+  "empty.title": "Todavía no existen excedentes en esta categoría.",
+
+  "modal.delete.title": "Eliminar anuncio",
+  "modal.close": "Cerrar",
+  "modal.delete.body": "¿Estás seguro de que quieres <strong>eliminar</strong> este anuncio?<br /><small class=\"text-muted\">Esta acción es un <em>soft delete</em> (se marcará como eliminado).</small>",
+  "modal.cancel": "Cancelar",
+  "modal.delete.btn": "Eliminar",
+
+  "js.err.action": "No se pudo registrar la acción ahora.",
+  "js.err.delete": "No se pudo eliminar el anuncio ahora."
 }

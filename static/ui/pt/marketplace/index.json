@@ -5,6 +5,22 @@
   "breadcrumb.home": "Home",
   "breadcrumb.market": "Marketplace",
 
+  "sidebar.region": "Região",
+  "filter.country": "País (ISO-2)",
+  "filter.zone": "Zona UE",
+  "filter.zone.all": "(Todas)",
+  "filter.apply": "Aplicar",
+  "filter.clear": "Limpar",
+
+  "zone.north": "Norte",
+  "zone.west": "Oeste",
+  "zone.south": "Sul",
+  "zone.centraleast": "Centro Este",
+  "zone.islands": "Ilhas",
+
+  "badge.iso": "ISO:",
+  "badge.zone": "Zona:",
+
   "sidebar.categories": "Categorias",
   "sidebar.all": "Todas",
   "sidebar.subcategories": "Subcategorias",
@@ -23,5 +39,14 @@
   "pager.prev.aria": "Anterior",
   "pager.next.aria": "Seguinte",
 
-  "empty.title": "Ainda não existem excedentes nesta categoria."
+  "empty.title": "Ainda não existem excedentes nesta categoria.",
+
+  "modal.delete.title": "Apagar anúncio",
+  "modal.close": "Fechar",
+  "modal.delete.body": "Tens a certeza que queres <strong>apagar</strong> este anúncio?<br /><small class=\"text-muted\">Esta ação é <em>soft delete</em> (fica marcado como removido).</small>",
+  "modal.cancel": "Cancelar",
+  "modal.delete.btn": "Apagar",
+
+  "js.err.action": "Não foi possível registar a ação agora.",
+  "js.err.delete": "Não foi possível apagar o anúncio agora."
 }

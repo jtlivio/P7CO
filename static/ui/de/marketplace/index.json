@@ -5,11 +5,27 @@
   "breadcrumb.home": "Startseite",
   "breadcrumb.market": "Marktplatz",
 
+  "sidebar.region": "Region",
+  "filter.country": "Land (ISO-2)",
+  "filter.zone": "EU-Zone",
+  "filter.zone.all": "(Alle)",
+  "filter.apply": "Anwenden",
+  "filter.clear": "Zurücksetzen",
+
+  "zone.north": "Norden",
+  "zone.west": "Westen",
+  "zone.south": "Süden",
+  "zone.centraleast": "Zentralost",
+  "zone.islands": "Inseln",
+
+  "badge.iso": "ISO:",
+  "badge.zone": "Zone:",
+
   "sidebar.categories": "Kategorien",
   "sidebar.all": "Alle",
   "sidebar.subcategories": "Unterkategorien",
 
-  "top.showing": "Angezeigt",
+  "top.showing": "Anzeigen",
   "top.of": "von",
   "top.results": "Ergebnisse",
 
@@ -23,5 +39,14 @@
   "pager.prev.aria": "Zurück",
   "pager.next.aria": "Weiter",
 
-  "empty.title": "In dieser Kategorie gibt es noch keine Überschüsse."
+  "empty.title": "Es gibt noch keine Überschüsse in dieser Kategorie.",
+
+  "modal.delete.title": "Anzeige löschen",
+  "modal.close": "Schließen",
+  "modal.delete.body": "Bist du sicher, dass du diese Anzeige <strong>löschen</strong> möchtest?<br /><small class=\"text-muted\">Dies ist ein <em>Soft Delete</em> (wird als entfernt markiert).</small>",
+  "modal.cancel": "Abbrechen",
+  "modal.delete.btn": "Löschen",
+
+  "js.err.action": "Die Aktion konnte jetzt nicht registriert werden.",
+  "js.err.delete": "Die Anzeige konnte jetzt nicht gelöscht werden."
 }

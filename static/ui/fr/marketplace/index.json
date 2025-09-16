@@ -5,6 +5,22 @@
   "breadcrumb.home": "Accueil",
   "breadcrumb.market": "Marketplace",
 
+  "sidebar.region": "Région",
+  "filter.country": "Pays (ISO-2)",
+  "filter.zone": "Zone UE",
+  "filter.zone.all": "(Toutes)",
+  "filter.apply": "Appliquer",
+  "filter.clear": "Réinitialiser",
+
+  "zone.north": "Nord",
+  "zone.west": "Ouest",
+  "zone.south": "Sud",
+  "zone.centraleast": "Centre-Est",
+  "zone.islands": "Îles",
+
+  "badge.iso": "ISO :",
+  "badge.zone": "Zone :",
+
   "sidebar.categories": "Catégories",
   "sidebar.all": "Toutes",
   "sidebar.subcategories": "Sous-catégories",
@@ -16,12 +32,21 @@
   "toggle.grid": "Grille",
   "toggle.list": "Liste",
 
-  "btn.add": "Ajouter un Excédent",
+  "btn.add": "Ajouter un excédent",
 
   "pager.showingPage": "Page",
   "pager.of": "sur",
   "pager.prev.aria": "Précédent",
   "pager.next.aria": "Suivant",
 
-  "empty.title": "Il n’y a pas encore d’excédents dans cette catégorie."
+  "empty.title": "Il n’y a pas encore d’excédents dans cette catégorie.",
+
+  "modal.delete.title": "Supprimer l’annonce",
+  "modal.close": "Fermer",
+  "modal.delete.body": "Es-tu sûr de vouloir <strong>supprimer</strong> cette annonce ?<br /><small class=\"text-muted\">Cette action est un <em>soft delete</em> (elle sera marquée comme supprimée).</small>",
+  "modal.cancel": "Annuler",
+  "modal.delete.btn": "Supprimer",
+
+  "js.err.action": "Impossible d’enregistrer l’action pour le moment.",
+  "js.err.delete": "Impossible de supprimer l’annonce pour le moment."
 }

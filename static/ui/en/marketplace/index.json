@@ -5,6 +5,22 @@
   "breadcrumb.home": "Home",
   "breadcrumb.market": "Marketplace",
 
+  "sidebar.region": "Region",
+  "filter.country": "Country (ISO-2)",
+  "filter.zone": "EU Zone",
+  "filter.zone.all": "(All)",
+  "filter.apply": "Apply",
+  "filter.clear": "Clear",
+
+  "zone.north": "North",
+  "zone.west": "West",
+  "zone.south": "South",
+  "zone.centraleast": "Central East",
+  "zone.islands": "Islands",
+
+  "badge.iso": "ISO:",
+  "badge.zone": "Zone:",
+
   "sidebar.categories": "Categories",
   "sidebar.all": "All",
   "sidebar.subcategories": "Subcategories",
@@ -23,5 +39,14 @@
   "pager.prev.aria": "Previous",
   "pager.next.aria": "Next",
 
-  "empty.title": "There are no surpluses in this category yet."
+  "empty.title": "There are no surpluses in this category yet.",
+
+  "modal.delete.title": "Delete Ad",
+  "modal.close": "Close",
+  "modal.delete.body": "Are you sure you want to <strong>delete</strong> this ad?<br /><small class=\"text-muted\">This action is a <em>soft delete</em> (it will be marked as removed).</small>",
+  "modal.cancel": "Cancel",
+  "modal.delete.btn": "Delete",
+
+  "js.err.action": "The action could not be registered right now.",
+  "js.err.delete": "The ad could not be deleted right now."
 }
