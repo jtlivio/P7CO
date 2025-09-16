@@ -3,59 +3,35 @@
   "seo.desc": "Consulta las denuncias ambientales enviadas en la plataforma.",
   "seo.keywords": "denuncias ambientales, medio ambiente, municipio, categoría",
 
+  "header.title": "Denuncias Ambientales",
+  "header.subtitle": "Consulta, filtra y sigue las denuncias enviadas por la comunidad.",
+
   "breadcrumb.home": "Inicio",
   "breadcrumb.current": "Denuncias Ambientales",
 
-  "header.title": "Denuncias Ambientales",
-  "header.subtitle": "Consulta, filtra y sigue las denuncias enviadas por la comunidad. Este mural da visibilidad a incidencias ambientales y acelera su resolución.",
+  "auth.modal.title": "Inicia sesión para interactuar",
+  "auth.modal.msg": "Para dar me gusta o denunciar, entra en tu cuenta.",
 
   "cta.report": "Denunciar Infracción",
-  "cta.ecochampions": "Eco Campeones",
+
+  "toggle.aria": "Modo de vista",
+  "toggle.grid": "Cuadrícula",
+  "toggle.list": "Lista",
 
   "list.no_results": "No se encontraron denuncias con los filtros aplicados.",
 
-  "card.default_title": "Denuncia",
-  "card.alt_cover": "Imagen de la denuncia",
-  "card.view_detail": "Ver detalle",
-  "card.like": "Me gusta",
-  "card.report": "Reportar",
-  "card.edit": "Editar",
-  "card.delete": "Eliminar",
-  "card.react_error": "No se pudo registrar la acción en este momento.",
-  "card.alt_image_n": "Imagen {n} de la denuncia",
-
-  "pagination.label": "Paginación",
-  "pagination.prev": "Anterior",
-  "pagination.next": "Siguiente",
-
   "filters.ribbon": "FILTROS",
   "filters.title": "Refinar Resultados",
-  "filters.help": "Usa los filtros para encontrar denuncias por país, municipio o texto.",
   "filters.country.label": "País",
-  "filters.country.PT": "Portugal",
-  "filters.country.ES": "España",
-  "filters.country.FR": "Francia",
-  "filters.country.DE": "Alemania",
-  "filters.county.label": "Municipio",
-  "filters.county.all": "Todos",
+  "filters.zone.label": "Zona UE",
+  "filters.zone.all": "(Todas)",
   "filters.search.label": "Buscar",
   "filters.search.placeholder": "Título o descripción…",
   "filters.actions.filter": "Filtrar",
   "filters.actions.clear": "Limpiar",
 
   "results.shown_of_total": "{shown} de {total}",
-  "results.count_template": "{n} resultado(s) en esta página.",
 
-  "reply_right.title": "Derecho de réplica:",
-  "reply_right.text": "Las instituciones mencionadas pueden solicitar el ejercicio del derecho de réplica. Para ello, utilice la página de {link} después del registro, adjuntando prueba de representación institucional.",
-  "reply_right.link_text": "Contactos",
-
-  "lb.prev": "Anterior",
-  "lb.next": "Siguiente",
-  "lb.zoom": "Zoom",
-  "lb.open_original": "Abrir original",
-  "lb.close": "Cerrar",
-
-  "auth.modal.title": "Inicia sesión para interactuar",
-  "auth.modal.msg": "Para dar me gusta, no me gusta o reportar, inicia sesión en tu cuenta."
+  "card.delete_confirm": "¿Seguro que quieres eliminar esta denuncia?",
+  "card.react_error": "No se pudo registrar la acción en este momento."
 }

@@ -3,59 +3,35 @@
   "seo.desc": "Browse environmental complaints submitted on the platform.",
   "seo.keywords": "environmental complaints, environment, county, category",
 
+  "header.title": "Environmental Complaints",
+  "header.subtitle": "Browse, filter and follow complaints submitted by the community.",
+
   "breadcrumb.home": "Home",
   "breadcrumb.current": "Environmental Complaints",
 
-  "header.title": "Environmental Complaints",
-  "header.subtitle": "Browse, filter, and follow complaints submitted by the community. This wall helps give visibility to environmental occurrences and speed up their resolution.",
+  "auth.modal.title": "Sign in to interact",
+  "auth.modal.msg": "To like or report, sign in to your account.",
 
-  "cta.report": "Report Offence",
-  "cta.ecochampions": "Eco Champions",
+  "cta.report": "Report Infraction",
+
+  "toggle.aria": "View mode",
+  "toggle.grid": "Grid",
+  "toggle.list": "List",
 
   "list.no_results": "No complaints found with the applied filters.",
 
-  "card.default_title": "Complaint",
-  "card.alt_cover": "Complaint image",
-  "card.view_detail": "View detail",
-  "card.like": "Like",
-  "card.report": "Report",
-  "card.edit": "Edit",
-  "card.delete": "Delete",
-  "card.react_error": "Unable to register the action right now.",
-  "card.alt_image_n": "Image {n} of the complaint",
-
-  "pagination.label": "Pagination",
-  "pagination.prev": "Previous",
-  "pagination.next": "Next",
-
   "filters.ribbon": "FILTERS",
   "filters.title": "Refine Results",
-  "filters.help": "Use filters to find complaints by country, county, or text.",
   "filters.country.label": "Country",
-  "filters.country.PT": "Portugal",
-  "filters.country.ES": "Spain",
-  "filters.country.FR": "France",
-  "filters.country.DE": "Germany",
-  "filters.county.label": "County",
-  "filters.county.all": "All",
+  "filters.zone.label": "EU Zone",
+  "filters.zone.all": "(All)",
   "filters.search.label": "Search",
   "filters.search.placeholder": "Title or description…",
   "filters.actions.filter": "Filter",
   "filters.actions.clear": "Clear",
 
   "results.shown_of_total": "{shown} of {total}",
-  "results.count_template": "{n} result(s) on this page.",
 
-  "reply_right.title": "Right of reply:",
-  "reply_right.text": "Institutions mentioned can request the right of reply. To do so, use the {link} page after registration, attaching proof of institutional representation.",
-  "reply_right.link_text": "Contacts",
-
-  "lb.prev": "Previous",
-  "lb.next": "Next",
-  "lb.zoom": "Zoom",
-  "lb.open_original": "Open original",
-  "lb.close": "Close",
-
-  "auth.modal.title": "Log in to interact",
-  "auth.modal.msg": "To like, dislike or report, please log in to your account."
+  "card.delete_confirm": "Do you really want to delete this complaint?",
+  "card.react_error": "Could not register the action right now."
 }

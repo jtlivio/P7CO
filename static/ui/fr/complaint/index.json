@@ -3,59 +3,35 @@
   "seo.desc": "Consultez les signalements environnementaux soumis sur la plateforme.",
   "seo.keywords": "signalements environnementaux, environnement, commune, catégorie",
 
+  "header.title": "Signalements Environnementaux",
+  "header.subtitle": "Consultez, filtrez et suivez les signalements soumis par la communauté.",
+
   "breadcrumb.home": "Accueil",
   "breadcrumb.current": "Signalements Environnementaux",
 
-  "header.title": "Signalements Environnementaux",
-  "header.subtitle": "Consultez, filtrez et suivez les signalements soumis par la communauté. Ce mur donne de la visibilité aux incidents environnementaux et accélère leur résolution.",
+  "auth.modal.title": "Connectez-vous pour interagir",
+  "auth.modal.msg": "Pour aimer ou signaler, connectez-vous à votre compte.",
 
   "cta.report": "Signaler une Infraction",
-  "cta.ecochampions": "Éco Champions",
+
+  "toggle.aria": "Mode d’affichage",
+  "toggle.grid": "Grille",
+  "toggle.list": "Liste",
 
   "list.no_results": "Aucun signalement trouvé avec les filtres appliqués.",
 
-  "card.default_title": "Signalement",
-  "card.alt_cover": "Image du signalement",
-  "card.view_detail": "Voir le détail",
-  "card.like": "J’aime",
-  "card.report": "Signaler",
-  "card.edit": "Modifier",
-  "card.delete": "Supprimer",
-  "card.react_error": "Impossible d’enregistrer l’action pour le moment.",
-  "card.alt_image_n": "Image {n} du signalement",
-
-  "pagination.label": "Pagination",
-  "pagination.prev": "Précédent",
-  "pagination.next": "Suivant",
-
   "filters.ribbon": "FILTRES",
   "filters.title": "Affiner les Résultats",
-  "filters.help": "Utilisez les filtres pour trouver des signalements par pays, commune ou texte.",
   "filters.country.label": "Pays",
-  "filters.country.PT": "Portugal",
-  "filters.country.ES": "Espagne",
-  "filters.country.FR": "France",
-  "filters.country.DE": "Allemagne",
-  "filters.county.label": "Commune",
-  "filters.county.all": "Toutes",
+  "filters.zone.label": "Zone UE",
+  "filters.zone.all": "(Toutes)",
   "filters.search.label": "Rechercher",
   "filters.search.placeholder": "Titre ou description…",
   "filters.actions.filter": "Filtrer",
-  "filters.actions.clear": "Effacer",
+  "filters.actions.clear": "Réinitialiser",
 
   "results.shown_of_total": "{shown} sur {total}",
-  "results.count_template": "{n} résultat(s) sur cette page.",
 
-  "reply_right.title": "Droit de réponse :",
-  "reply_right.text": "Les institutions mentionnées peuvent demander l’exercice du droit de réponse. Pour cela, utilisez la page {link} après enregistrement, en joignant une preuve de représentation institutionnelle.",
-  "reply_right.link_text": "Contacts",
-
-  "lb.prev": "Précédent",
-  "lb.next": "Suivant",
-  "lb.zoom": "Zoom",
-  "lb.open_original": "Ouvrir l’original",
-  "lb.close": "Fermer",
-
-  "auth.modal.title": "Connectez-vous pour interagir",
-  "auth.modal.msg": "Pour aimer, ne pas aimer ou signaler, veuillez vous connecter."
+  "card.delete_confirm": "Voulez-vous vraiment supprimer ce signalement ?",
+  "card.react_error": "Impossible d’enregistrer l’action pour le moment."
 }

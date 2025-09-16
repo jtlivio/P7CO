@@ -1,61 +1,37 @@
 {
-  "seo.title": "Eingegangene Umwelthinweise",
-  "seo.desc": "Sieh dir auf der Plattform eingereichte Umwelthinweise an.",
-  "seo.keywords": "Umwelthinweise, Umwelt, Landkreis, Kategorie",
+  "seo.title": "Erhaltene Umweltmeldungen",
+  "seo.desc": "Durchsuche die auf der Plattform eingereichten Umweltmeldungen.",
+  "seo.keywords": "Umweltmeldungen, Umwelt, Gemeinde, Kategorie",
+
+  "header.title": "Umweltmeldungen",
+  "header.subtitle": "Durchsuche, filtere und verfolge die von der Gemeinschaft eingereichten Meldungen.",
 
   "breadcrumb.home": "Startseite",
-  "breadcrumb.current": "Umwelthinweise",
+  "breadcrumb.current": "Umweltmeldungen",
 
-  "header.title": "Umwelthinweise",
-  "header.subtitle": "Durchsuche, filtere und verfolge Hinweise der Community. Diese Übersicht schafft Sichtbarkeit für Umweltvorfälle und beschleunigt deren Lösung.",
+  "auth.modal.title": "Bitte anmelden, um zu interagieren",
+  "auth.modal.msg": "Zum Liken oder Melden melde dich in deinem Konto an.",
 
   "cta.report": "Verstoß melden",
-  "cta.ecochampions": "Eco Champions",
 
-  "list.no_results": "Keine Hinweise mit den angewendeten Filtern gefunden.",
+  "toggle.aria": "Ansichtsmodus",
+  "toggle.grid": "Raster",
+  "toggle.list": "Liste",
 
-  "card.default_title": "Hinweis",
-  "card.alt_cover": "Bild des Hinweises",
-  "card.view_detail": "Details ansehen",
-  "card.like": "Gefällt mir",
-  "card.report": "Melden",
-  "card.edit": "Bearbeiten",
-  "card.delete": "Löschen",
-  "card.react_error": "Die Aktion konnte gerade nicht ausgeführt werden.",
-  "card.alt_image_n": "Bild {n} des Hinweises",
-
-  "pagination.label": "Seitennummerierung",
-  "pagination.prev": "Zurück",
-  "pagination.next": "Weiter",
+  "list.no_results": "Keine Meldungen mit den angewendeten Filtern gefunden.",
 
   "filters.ribbon": "FILTER",
   "filters.title": "Ergebnisse verfeinern",
-  "filters.help": "Nutze die Filter, um Hinweise nach Land, Landkreis oder Text zu finden.",
   "filters.country.label": "Land",
-  "filters.country.PT": "Portugal",
-  "filters.country.ES": "Spanien",
-  "filters.country.FR": "Frankreich",
-  "filters.country.DE": "Deutschland",
-  "filters.county.label": "Landkreis",
-  "filters.county.all": "Alle",
-  "filters.search.label": "Suche",
+  "filters.zone.label": "EU-Zone",
+  "filters.zone.all": "(Alle)",
+  "filters.search.label": "Suchen",
   "filters.search.placeholder": "Titel oder Beschreibung…",
   "filters.actions.filter": "Filtern",
   "filters.actions.clear": "Zurücksetzen",
 
   "results.shown_of_total": "{shown} von {total}",
-  "results.count_template": "{n} Ergebnis(se) auf dieser Seite.",
 
-  "reply_right.title": "Recht auf Gegendarstellung:",
-  "reply_right.text": "Erwähnte Institutionen können das Recht auf Gegendarstellung beantragen. Verwenden Sie dazu die Seite {link} nach der Registrierung und fügen Sie einen Nachweis der institutionellen Vertretung bei.",
-  "reply_right.link_text": "Kontakt",
-
-  "lb.prev": "Zurück",
-  "lb.next": "Weiter",
-  "lb.zoom": "Zoom",
-  "lb.open_original": "Original öffnen",
-  "lb.close": "Schließen",
-
-  "auth.modal.title": "Zum Interagieren anmelden",
-  "auth.modal.msg": "Um zu liken, nicht zu liken oder zu melden, melden Sie sich bitte in Ihrem Konto an."
+  "card.delete_confirm": "Möchtest du diese Meldung wirklich löschen?",
+  "card.react_error": "Aktion konnte gerade nicht registriert werden."
 }

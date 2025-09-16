@@ -3,59 +3,35 @@
   "seo.desc": "Consulta as denúncias ambientais submetidas na plataforma.",
   "seo.keywords": "denúncias ambientais, ambiente, concelho, categoria",
 
+  "header.title": "Denúncias Ambientais",
+  "header.subtitle": "Consulta, filtra e acompanha as denúncias submetidas pela comunidade.",
+
   "breadcrumb.home": "Início",
   "breadcrumb.current": "Denúncias Ambientais",
 
-  "header.title": "Denúncias Ambientais",
-  "header.subtitle": "Consulta, filtra e acompanha as denúncias submetidas pela comunidade. Este mural ajuda a dar visibilidade a ocorrências ambientais e a acelerar a sua resolução.",
+  "auth.modal.title": "Inicia sessão para interagir",
+  "auth.modal.msg": "Para gostares ou reportares, entra na tua conta.",
 
   "cta.report": "Denunciar Infração",
-  "cta.ecochampions": "Eco Campeões",
+
+  "toggle.aria": "Modo de visualização",
+  "toggle.grid": "Grelha",
+  "toggle.list": "Lista",
 
   "list.no_results": "Nenhuma denúncia encontrada com os filtros aplicados.",
 
-  "card.default_title": "Denúncia",
-  "card.alt_cover": "Imagem da denúncia",
-  "card.view_detail": "Ver detalhe",
-  "card.like": "Gosto",
-  "card.report": "Reportar",
-  "card.edit": "Editar",
-  "card.delete": "Apagar",
-  "card.react_error": "Não foi possível registar a ação agora.",
-  "card.alt_image_n": "Imagem {n} da denúncia",
-
-  "pagination.label": "Paginação",
-  "pagination.prev": "Anterior",
-  "pagination.next": "Seguinte",
-
   "filters.ribbon": "FILTROS",
   "filters.title": "Refinar Resultados",
-  "filters.help": "Usa os filtros para encontrar denúncias por país, concelho ou texto.",
   "filters.country.label": "País",
-  "filters.country.PT": "Portugal",
-  "filters.country.ES": "Espanha",
-  "filters.country.FR": "França",
-  "filters.country.DE": "Alemanha",
-  "filters.county.label": "Concelho",
-  "filters.county.all": "Todos",
+  "filters.zone.label": "Zona UE",
+  "filters.zone.all": "(Todas)",
   "filters.search.label": "Pesquisar",
   "filters.search.placeholder": "Título ou descrição…",
   "filters.actions.filter": "Filtrar",
   "filters.actions.clear": "Limpar",
 
   "results.shown_of_total": "{shown} de {total}",
-  "results.count_template": "{n} resultado(s) nesta página.)",
 
-  "reply_right.title": "Direito de resposta:",
-  "reply_right.text": "Instituições referidas podem solicitar o exercício do direito de resposta. Para tal, utilize a página de {link} após registo, anexando evidência de representação institucional.",
-  "reply_right.link_text": "Contactos",
-
-  "lb.prev": "Anterior",
-  "lb.next": "Seguinte",
-  "lb.zoom": "Zoom",
-  "lb.open_original": "Abrir original",
-  "lb.close": "Fechar",
-
-  "auth.modal.title": "Inicia sessão para interagir",
-  "auth.modal.msg": "Para gostares, não gostares ou reportares, entra na tua conta."
+  "card.delete_confirm": "Queres mesmo apagar esta denúncia?",
+  "card.react_error": "Não foi possível registar a ação agora."
 }
