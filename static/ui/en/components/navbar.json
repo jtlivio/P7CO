@@ -1,56 +1,72 @@
 {
   "header.top.tagline": "For nature, for the future",
-  "header.top.contact_us": "Contact Us",
+  "header.top.contact_us": "Contacts",
+
+  "header.top.github.aria": "Open GitHub repository",
+  "header.top.github.cta": "Contribute — make a difference",
+
+  "header.top.languages_menu_aria": "Select language",
   "header.top.languages.pt": "Portuguese",
   "header.top.languages.en": "English",
   "header.top.languages.es": "Spanish",
   "header.top.languages.fr": "French",
   "header.top.languages.de": "German",
+
   "header.top.social_titles.facebook": "Facebook",
   "header.top.social_titles.twitter": "Twitter",
   "header.top.social_titles.instagram": "Instagram",
 
+  "header.top.links.about": "About",
+  "header.top.links.circular_partnerships": "Circular Partnerships",
+  "header.top.links.blog": "Blog",
+  "header.top.links.contact": "Contact",
+  "header.top.links.faq": "FAQ",
+  "header.top.links.newsletter": "Newsletter",
+
   "header.logo_alt": "P7CO™ EcoResupply",
+
+  "header.search.placeholder": "Search…",
+  "header.search.aria": "Search the site",
+  "header.search.input_aria": "Search term",
+  "header.search.submit": "Search",
+
+  "header.messages.label": "Messages:",
+  "header.messages.aria_icon": "Messages",
+  "header.messages.icon_alt": "Messages",
+  "header.messages.loading": "Loading…",
+  "header.messages.view_all": "View all",
+  "header.messages.empty": "No new messages",
+  "header.messages.error": "Unable to load.",
+  "header.messages.new": "New",
+  "header.messages.open": "Open",
+
+  "header.nav.toggle": "Toggle navigation",
 
   "header.nav.home.label": "Home",
   "header.nav.home.cta_panel.badge": "GITHUB",
   "header.nav.home.cta_panel.title": "CONTRIBUTE",
   "header.nav.home.cta_panel.description": "Articles, translations, publications.",
   "header.nav.home.cta_panel.button": "REPOSITORY",
-
+  "header.nav.home.cta_panel.aria": "Open repository",
   "header.nav.home.about.title": "ABOUT THE PROJECT",
   "header.nav.home.about.items.about_us": "About us",
   "header.nav.home.about.items.how_it_works": "How it works",
   "header.nav.home.about.items.mission_vision": "Mission & Vision",
   "header.nav.home.about.items.circular_partnerships": "Circular Partnerships",
   "header.nav.home.about.items.mobile_app": "Mobile App",
-
   "header.nav.home.get_started.title": "GET STARTED",
   "header.nav.home.get_started.items.create_account": "Create account",
   "header.nav.home.get_started.items.quick_guides": "View quick guides",
-
   "header.nav.home.resources.title": "RESOURCES",
   "header.nav.home.resources.items.circular_map": "Circularity Map",
   "header.nav.home.resources.items.licensed_operators": "Licensed Operators",
-  "header.nav.home.resources.items.environmental_reports": "Environmental Complaints",
-  "header.nav.home.resources.items.fires_map": "Fire Map (PT)",
+  "header.nav.home.resources.items.environmental_reports": "Environmental Reports",
+  "header.nav.home.resources.items.fires_map": "Fires Map (PT)",
   "header.nav.home.resources.items.indicators_data": "Indicators & Data",
-
   "header.nav.home.community.title": "COMMUNITY",
   "header.nav.home.community.items.blog": "Blog",
   "header.nav.home.community.items.translations": "Translations",
   "header.nav.home.community.items.contribute": "Contribute",
-
-  "header.nav.home.orgs.title": "FOR ORGANIZATIONS",
-  "header.nav.home.orgs.items.companies": "Companies",
-  "header.nav.home.orgs.items.municipalities": "Municipalities",
-  "header.nav.home.orgs.items.ngos_academia": "NGOs & Academia",
-  "header.nav.home.orgs.items.logistics_recyclers": "Logistics & Recyclers",
-  "header.nav.home.orgs.items.programs_events": "Programs & Events",
-
-  "header.nav.home.support.title": "SUPPORT",
-  "header.nav.home.support.items.faq": "FAQ",
-  "header.nav.home.support.items.contacts": "Contacts",
 
   "header.nav.taxonomy.label": "Change",
   "header.nav.taxonomy.circularity.title": "CIRCULARITY",
@@ -58,38 +74,34 @@
   "header.nav.taxonomy.circularity.items.reuse_cases": "Reuse Cases",
   "header.nav.taxonomy.circularity.items.featured_materials": "Featured Materials",
   "header.nav.taxonomy.circularity.items.impact_indicators": "Impact Indicators",
-
-  "header.nav.taxonomy.reports.title": "COMPLAINTS",
-  "header.nav.taxonomy.reports.items.reports_map": "Complaints Map",
+  "header.nav.taxonomy.reports.title": "REPORTS",
+  "header.nav.taxonomy.reports.items.reports_map": "Reports Map",
   "header.nav.taxonomy.reports.items.categories": "Categories",
   "header.nav.taxonomy.reports.items.official_guidelines": "Official Guidelines",
   "header.nav.taxonomy.reports.items.regional_stats": "Regional Statistics",
-
   "header.nav.taxonomy.esg.title": "ESG & COMPANIES",
   "header.nav.taxonomy.esg.items.mirr_reports": "MIRR Reports",
   "header.nav.taxonomy.esg.items.green_certs": "Green Certifications",
   "header.nav.taxonomy.esg.items.success_cases": "Success Stories",
   "header.nav.taxonomy.esg.items.circular_partnerships": "Circular Partnerships",
-
   "header.nav.taxonomy.cta_block.badge": "START",
   "header.nav.taxonomy.cta_block.title": "NOW",
   "header.nav.taxonomy.cta_block.description": "Explore, report, share and reuse.",
   "header.nav.taxonomy.cta_block.button": "JOIN",
+  "header.nav.taxonomy.cta_block.alt": "P7CO CTA",
 
   "header.nav.blog.label": "Blog",
   "header.nav.blog.explore.title": "Explore",
-  "header.nav.blog.explore.items.all_posts": "All articles",
+  "header.nav.blog.explore.items.all_posts": "All posts",
   "header.nav.blog.explore.items.featured": "Featured",
   "header.nav.blog.explore.items.most_read": "Most read",
   "header.nav.blog.explore.items.authors": "Authors",
-
   "header.nav.blog.categories.title": "Categories",
   "header.nav.blog.categories.items.guides": "Guides",
   "header.nav.blog.categories.items.news": "News",
   "header.nav.blog.categories.items.case_studies": "Case Studies",
   "header.nav.blog.categories.items.esg": "ESG",
-  "header.nav.blog.categories.items.tech": "Tech",
-
+  "header.nav.blog.categories.items.tech": "Technology",
   "header.nav.blog.languages.title": "Languages",
   "header.nav.blog.languages.items.pt": "Portuguese",
   "header.nav.blog.languages.items.en": "English",
@@ -102,11 +114,9 @@
   "header.nav.pages.about.items.about_us": "About Us",
   "header.nav.pages.about.items.team": "Team",
   "header.nav.pages.about.items.careers": "Careers",
-
   "header.nav.pages.contacts.title": "Contacts",
   "header.nav.pages.contacts.items.contacts": "Contacts",
   "header.nav.pages.contacts.items.support": "Support",
-
   "header.nav.pages.faq.title": "FAQ",
   "header.nav.pages.faq.items.general_faq": "General FAQ",
   "header.nav.pages.faq.items.terms": "Terms of Use",
@@ -114,8 +124,12 @@
   "header.nav.pages.faq.items.cookies": "Cookies",
   "header.nav.pages.faq.items.acknowledgements": "Acknowledgements",
 
-  "header.auth.guest_menu_label": "Sign In",
+  "header.nav.right.complaints": "Environmental Reports",
+  "header.nav.right.surpluses": "Surpluses",
+
+  "header.auth.guest_menu_label": "Sign in",
   "header.auth.login": "Login",
+  "header.auth.login_aria": "Sign in",
   "header.auth.create_account": "Create Account",
   "header.auth.user_menu_label": "Hello, {name}",
   "header.auth.dashboard": "Dashboard",
@@ -124,7 +138,9 @@
   "header.auth.logout": "Logout",
   "header.auth.profile": "View Profile",
   "header.auth.change_password": "Change Password",
+  "header.auth.account_menu_aria": "Account",
+  "header.auth.account_fallback": "Account",
 
   "header.cta_primary.text": "GET STARTED",
-  "header.cta_primary.icon": "fas fa-seedling"
+  "header.cta_primary.icon": "fa-seedling"
 }
