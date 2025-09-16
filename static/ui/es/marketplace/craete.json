@@ -1,0 +1,45 @@
+{
+  "seo.title": "Publicar Excedente | P7CO® EcoResupply",
+
+  "header.title": "Publicar Excedente",
+  "header.subtitle": "¡Cuanto más detallado, mejor!",
+
+  "field.title.label": "Título del material *",
+  "field.title.placeholder": "p. ej. Bobinas de acero inoxidable certificadas, excedente de producción",
+  "field.title.help": "Ejemplo: “Acero inoxidable 316L — chapas cortadas, certificación incluida”.",
+
+  "field.category.label": "Categoría *",
+  "field.category.choose": "Elegir categoría",
+
+  "field.unit.label": "Unidad *",
+  "field.unit.placeholder": "Seleccionar…",
+
+  "field.quantity.label": "Cantidad *",
+
+  "field.valuetype.label": "Tipo de valor *",
+  "field.valuetype.placeholder": "Seleccionar…",
+
+  "field.images.label": "Imágenes (máx. 6)",
+  "field.images.reorder_help": "La primera imagen es la PORTADA. Sigue el flujo para ordenar.",
+
+  "field.tags.label": "Etiquetas (opcional)",
+  "field.tags.placeholder": "Generadas automáticamente a partir del título y la categoría",
+
+  "field.description.label": "Descripción *",
+  "field.description.placeholder": "Describe estado, pureza, embalaje, logística, ubicación…",
+
+  "field.map.label": "Ubicación en el mapa",
+  "field.map.near": "Cerca de mí",
+  "field.map.denied": "La ubicación está bloqueada para este sitio. Permítela en el candado junto a la URL o elige manualmente.",
+
+  "field.location.label": "Dirección/Localidad",
+  "field.location.placeholder": "Rellenado automáticamente al seleccionar en el mapa (editable)",
+  "field.country.detected": "País detectado",
+
+  "cta.submit": "Publicar Excedente",
+
+  "img.cap": "Selecciona o arrastra imágenes",
+  "img.limit": "Límite: {n} archivos",
+  "img.drop_aria": "Zona para soltar imágenes",
+  "img.hint": "Haz clic para elegir o arrastra aquí (JPEG/PNG, hasta 10MB cada uno)."
+}

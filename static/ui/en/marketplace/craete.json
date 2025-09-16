@@ -1,0 +1,45 @@
+{
+  "seo.title": "Publish Surplus | P7CO® EcoResupply",
+
+  "header.title": "Publish Surplus",
+  "header.subtitle": "The more detail, the better!",
+
+  "field.title.label": "Material Title *",
+  "field.title.placeholder": "e.g. Stainless steel coils with certificate, production surplus",
+  "field.title.help": "Example: “Stainless steel 316L — cut sheets, certification included”.",
+
+  "field.category.label": "Category *",
+  "field.category.choose": "Choose category",
+
+  "field.unit.label": "Unit *",
+  "field.unit.placeholder": "Select…",
+
+  "field.quantity.label": "Quantity *",
+
+  "field.valuetype.label": "Value Type *",
+  "field.valuetype.placeholder": "Select…",
+
+  "field.images.label": "Images (max. 6)",
+  "field.images.reorder_help": "The first image is the COVER. Follow the flow to reorder.",
+
+  "field.tags.label": "Tags (optional)",
+  "field.tags.placeholder": "Automatically generated from title and category",
+
+  "field.description.label": "Description *",
+  "field.description.placeholder": "Describe condition, purity, packaging, logistics, location…",
+
+  "field.map.label": "Map location",
+  "field.map.near": "Near me",
+  "field.map.denied": "Location is blocked for this site. Allow it via the padlock next to the URL, or choose manually.",
+
+  "field.location.label": "Address/Location",
+  "field.location.placeholder": "Automatically filled when selecting on the map (you can edit)",
+  "field.country.detected": "Detected country",
+
+  "cta.submit": "Publish Surplus",
+
+  "img.cap": "Select or drag images",
+  "img.limit": "Limit: {n} files",
+  "img.drop_aria": "Drop zone for images",
+  "img.hint": "Click to choose or drag here (JPEG/PNG, up to 10MB each)."
+}

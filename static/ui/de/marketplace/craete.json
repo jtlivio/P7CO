@@ -1,0 +1,45 @@
+{
+  "seo.title": "Anzeige veröffentlichen | P7CO® EcoResupply",
+
+  "header.title": "Anzeige veröffentlichen",
+  "header.subtitle": "Je detaillierter, desto besser!",
+
+  "field.title.label": "Materialtitel *",
+  "field.title.placeholder": "z. B. Edelstahlrollen mit Zertifikat, Produktionsüberschuss",
+  "field.title.help": "Beispiel: „Edelstahl 316L — geschnittene Platten, Zertifizierung enthalten“.",
+
+  "field.category.label": "Kategorie *",
+  "field.category.choose": "Kategorie wählen",
+
+  "field.unit.label": "Einheit *",
+  "field.unit.placeholder": "Auswählen…",
+
+  "field.quantity.label": "Menge *",
+
+  "field.valuetype.label": "Wertart *",
+  "field.valuetype.placeholder": "Auswählen…",
+
+  "field.images.label": "Bilder (max. 6)",
+  "field.images.reorder_help": "Das erste Bild ist das TITELBILD. Folge dem Ablauf, um die Reihenfolge zu ändern.",
+
+  "field.tags.label": "Stichwörter (optional)",
+  "field.tags.placeholder": "Automatisch aus Titel und Kategorie generiert",
+
+  "field.description.label": "Beschreibung *",
+  "field.description.placeholder": "Beschreibe Zustand, Reinheit, Verpackung, Logistik, Standort…",
+
+  "field.map.label": "Standort auf der Karte",
+  "field.map.near": "In meiner Nähe",
+  "field.map.denied": "Der Standort ist für diese Website blockiert. Erlaube ihn im Schloss-Symbol neben der URL oder wähle manuell.",
+
+  "field.location.label": "Adresse/Ort",
+  "field.location.placeholder": "Automatisch ausgefüllt beim Klicken auf die Karte (bearbeitbar)",
+  "field.country.detected": "Erkanntes Land",
+
+  "cta.submit": "Anzeige veröffentlichen",
+
+  "img.cap": "Bilder auswählen oder ziehen",
+  "img.limit": "Limit: {n} Dateien",
+  "img.drop_aria": "Bereich zum Ablegen von Bildern",
+  "img.hint": "Klicke, um auszuwählen, oder hierher ziehen (JPEG/PNG, bis 10MB pro Datei)."
+}
