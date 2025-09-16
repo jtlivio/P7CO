@@ -1,0 +1,12 @@
+{
+  "title": "Elegir Categoría",
+  "close.aria": "Cerrar",
+
+  "error.categories_load": "No se pudieron cargar las categorías. Inténtalo de nuevo.",
+
+  "sub.title": "Elige la Subcategoría",
+  "sub.title.in_cat": "Elige la Subcategoría en \"{name}\"",
+  "sub.search.placeholder": "Buscar subcategoría…",
+
+  "btn.close": "Cerrar"
+}
