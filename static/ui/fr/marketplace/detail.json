@@ -1,0 +1,36 @@
+{
+  "seo.title": "Détails du Surplus | P7CO® EcoResupply",
+
+  "breadcrumb.home": "Accueil",
+  "breadcrumb.market": "Marché",
+
+  "gallery.main.alt": "Image du produit",
+  "gallery.thumb.alt": "Miniature {i}",
+  "gallery.badge.primary": "Principal",
+  "gallery.modal.close.aria": "Fermer",
+
+  "tabs.desc": "DESCRIPTION",
+  "tabs.loc": "LOCALISATION",
+
+  "meta.unit.fallback": "—",
+
+  "text.country.label": "Pays",
+
+  "map.rev.attribution": "© OpenStreetMap contributors, © CARTO",
+
+  "actions.like": "J’aime",
+  "actions.report": "Signaler",
+  "actions.unavailable": "Action actuellement indisponible.",
+
+  "contact.title": "Laissez votre message",
+  "contact.placeholder": "Saisissez votre message...",
+  "contact.warning.title": "Avis :",
+  "contact.warning.body": "Évitez de partager des données personnelles inutiles. En soumettant, vous confirmez que vous comprenez les risques associés.",
+  "contact.send": "Envoyer le message",
+  "contact.alert.success": "Message envoyé avec succès !",
+  "contact.alert.error": "Le message n’a pas pu être envoyé.",
+  "contact.alert.warning_empty": "Veuillez écrire votre message.",
+  "contact.alert.network_error": "Erreur réseau. Veuillez réessayer.",
+
+  "back.cta": "Retour aux annonces"
+}

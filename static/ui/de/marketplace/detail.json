@@ -1,0 +1,36 @@
+{
+  "seo.title": "Details zum Überschuss | P7CO® EcoResupply",
+
+  "breadcrumb.home": "Startseite",
+  "breadcrumb.market": "Marktplatz",
+
+  "gallery.main.alt": "Produktbild",
+  "gallery.thumb.alt": "Miniatur {i}",
+  "gallery.badge.primary": "Hauptbild",
+  "gallery.modal.close.aria": "Schließen",
+
+  "tabs.desc": "BESCHREIBUNG",
+  "tabs.loc": "STANDORT",
+
+  "meta.unit.fallback": "—",
+
+  "text.country.label": "Land",
+
+  "map.rev.attribution": "© OpenStreetMap contributors, © CARTO",
+
+  "actions.like": "Gefällt mir",
+  "actions.report": "Melden",
+  "actions.unavailable": "Aktion momentan nicht verfügbar.",
+
+  "contact.title": "Hinterlassen Sie Ihre Nachricht",
+  "contact.placeholder": "Geben Sie Ihre Nachricht ein...",
+  "contact.warning.title": "Hinweis:",
+  "contact.warning.body": "Vermeiden Sie es, unnötige persönliche Daten weiterzugeben. Mit dem Absenden bestätigen Sie, dass Sie die verbundenen Risiken verstehen.",
+  "contact.send": "Nachricht senden",
+  "contact.alert.success": "Nachricht erfolgreich gesendet!",
+  "contact.alert.error": "Nachricht konnte nicht gesendet werden.",
+  "contact.alert.warning_empty": "Bitte schreiben Sie Ihre Nachricht.",
+  "contact.alert.network_error": "Netzwerkfehler. Bitte versuchen Sie es erneut.",
+
+  "back.cta": "Zurück zu den Anzeigen"
+}

@@ -1,0 +1,36 @@
+{
+  "seo.title": "Detalhes do Excedente | P7CO® EcoResupply",
+
+  "breadcrumb.home": "Home",
+  "breadcrumb.market": "Marketplace",
+
+  "gallery.main.alt": "Imagem do produto",
+  "gallery.thumb.alt": "Miniatura {i}",
+  "gallery.badge.primary": "Principal",
+  "gallery.modal.close.aria": "Fechar",
+
+  "tabs.desc": "DESCRIÇÃO",
+  "tabs.loc": "LOCALIZAÇÃO",
+
+  "meta.unit.fallback": "—",
+
+  "text.country.label": "País",
+
+  "map.rev.attribution": "© OpenStreetMap, contributors, © CARTO",
+
+  "actions.like": "Gostei",
+  "actions.report": "Reportar",
+  "actions.unavailable": "Ação indisponível de momento.",
+
+  "contact.title": "Deixe a sua mensagem",
+  "contact.placeholder": "Digite a sua mensagem...",
+  "contact.warning.title": "Aviso:",
+  "contact.warning.body": "Evite partilhar dados pessoais desnecessários. Ao submeter, confirma que compreende os riscos associados.",
+  "contact.send": "Enviar Mensagem",
+  "contact.alert.success": "Mensagem enviada com sucesso!",
+  "contact.alert.error": "Não foi possível enviar a mensagem.",
+  "contact.alert.warning_empty": "Escreva a sua mensagem.",
+  "contact.alert.network_error": "Erro de rede. Tente novamente.",
+
+  "back.cta": "Voltar aos anúncios"
+}
