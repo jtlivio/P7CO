@@ -1,0 +1,40 @@
+{
+  "seo.title": "Modifier Excédent | P7CO® EcoResupply",
+
+  "header.title": "Modifier Excédent",
+  "header.subtitle": "Vérifiez et mettez à jour votre excédent !",
+
+  "field.title.label": "Titre du Matériel *",
+  "field.title.placeholder": "ex. Bobines d’acier inox certifiées, excédent de production",
+  "field.title.help": "Exemple : « Acier inox 316L — plaques découpées, certification incluse ».",
+
+  "field.category.label": "Catégorie *",
+  "field.category.choose": "Choisir une catégorie",
+
+  "field.unit.label": "Unité *",
+  "field.unit.placeholder": "Sélectionner…",
+
+  "field.quantity.label": "Quantité *",
+
+  "field.valuetype.label": "Type de Valeur *",
+  "field.valuetype.placeholder": "Sélectionner…",
+
+  "field.images.label": "Images (max. 6 au total)",
+
+  "field.tags.label": "Étiquettes (optionnel)",
+  "field.tags.placeholder": "Générées automatiquement à partir du titre et de la catégorie",
+  "field.tags.help": "Les étiquettes sont générées automatiquement (multilingue).",
+
+  "field.description.label": "Description *",
+  "field.description.placeholder": "Décrivez état, pureté, emballage, logistique, localisation…",
+
+  "field.map.label": "Sélectionnez/ajustez la localisation sur la carte",
+  "field.map.near": "Près de moi",
+  "field.map.denied": "La localisation est bloquée pour ce site. Autorisez-la dans le cadenas près de l’URL ou choisissez manuellement.",
+
+  "field.location.label": "Adresse/Localisation",
+  "field.location.placeholder": "Rempli automatiquement lors du choix sur la carte (modifiable)",
+  "field.country.current": "Pays actuel",
+
+  "cta.save": "Enregistrer les Modifications"
+}

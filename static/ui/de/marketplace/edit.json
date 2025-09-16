@@ -1,0 +1,40 @@
+{
+  "seo.title": "Überschuss bearbeiten | P7CO® EcoResupply",
+
+  "header.title": "Überschuss bearbeiten",
+  "header.subtitle": "Überprüfe und aktualisiere deinen Überschuss!",
+
+  "field.title.label": "Materialtitel *",
+  "field.title.placeholder": "z. B. Edelstahlrollen zertifiziert, Produktionsüberschuss",
+  "field.title.help": "Beispiel: „Edelstahl 316L — geschnittene Platten, inklusive Zertifizierung“.",
+
+  "field.category.label": "Kategorie *",
+  "field.category.choose": "Kategorie auswählen",
+
+  "field.unit.label": "Einheit *",
+  "field.unit.placeholder": "Auswählen…",
+
+  "field.quantity.label": "Menge *",
+
+  "field.valuetype.label": "Wertart *",
+  "field.valuetype.placeholder": "Auswählen…",
+
+  "field.images.label": "Bilder (max. 6 insgesamt)",
+
+  "field.tags.label": "Stichwörter (optional)",
+  "field.tags.placeholder": "Automatisch aus Titel und Kategorie generiert",
+  "field.tags.help": "Die Stichwörter werden automatisch (mehrsprachig) generiert.",
+
+  "field.description.label": "Beschreibung *",
+  "field.description.placeholder": "Beschreibe Zustand, Reinheit, Verpackung, Logistik, Standort…",
+
+  "field.map.label": "Standort auf der Karte auswählen/anpassen",
+  "field.map.near": "In meiner Nähe",
+  "field.map.denied": "Der Standort ist für diese Seite blockiert. Bitte im Schloss-Symbol neben der URL freigeben oder manuell wählen.",
+
+  "field.location.label": "Adresse/Ort",
+  "field.location.placeholder": "Automatisch ausgefüllt beim Kartenauswahl (kann bearbeitet werden)",
+  "field.country.current": "Aktuelles Land",
+
+  "cta.save": "Änderungen speichern"
+}

@@ -1,0 +1,40 @@
+{
+  "seo.title": "Edit Surplus | P7CO® EcoResupply",
+
+  "header.title": "Edit Surplus",
+  "header.subtitle": "Review and update your surplus!",
+
+  "field.title.label": "Material Title *",
+  "field.title.placeholder": "e.g. Certified stainless steel coils, production surplus",
+  "field.title.help": "Example: “Stainless steel 316L — cut plates, certification included”.",
+
+  "field.category.label": "Category *",
+  "field.category.choose": "Choose category",
+
+  "field.unit.label": "Unit *",
+  "field.unit.placeholder": "Select…",
+
+  "field.quantity.label": "Quantity *",
+
+  "field.valuetype.label": "Value Type *",
+  "field.valuetype.placeholder": "Select…",
+
+  "field.images.label": "Images (max. 6 total)",
+
+  "field.tags.label": "Tags (optional)",
+  "field.tags.placeholder": "Automatically generated from title and category",
+  "field.tags.help": "Tags are automatically generated (multi-language).",
+
+  "field.description.label": "Description *",
+  "field.description.placeholder": "Describe condition, purity, packaging, logistics, location…",
+
+  "field.map.label": "Select/adjust location on map",
+  "field.map.near": "Near me",
+  "field.map.denied": "Location is blocked for this site. Allow it in the lock icon near the URL, or choose manually.",
+
+  "field.location.label": "Address/Location",
+  "field.location.placeholder": "Automatically filled when selecting on the map (you can edit)",
+  "field.country.current": "Current country",
+
+  "cta.save": "Save Changes"
+}
