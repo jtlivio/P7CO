@@ -1,0 +1,18 @@
+{
+  "img.cap.edit": "Manage images",
+  "img.limit.total": "Total maximum: {n}",
+
+  "img.drop_aria.edit": "Drop zone for new images",
+  "img.hint.edit": "Click to choose or drag here (JPEG/PNG, up to 10MB).",
+
+  "img.tag.cover": "COVER",
+  "img.tag.order": "#{n}",
+
+  "img.btn.remove": "Remove",
+  "img.btn.up": "Move up",
+  "img.btn.down": "Move down",
+
+  "img.err.only_images": "Only images are allowed.",
+  "img.err.too_large": "File too large ({size}MB). Max: {max}MB.",
+  "img.err.cap_hit": "Limit reached ({max}). Only {space} added."
+}

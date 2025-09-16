@@ -1,0 +1,18 @@
+{
+  "img.cap.edit": "Bilder verwalten",
+  "img.limit.total": "Maximal: {n}",
+
+  "img.drop_aria.edit": "Bereich zum Ablegen neuer Bilder",
+  "img.hint.edit": "Klicken, um auszuwählen, oder hierher ziehen (JPEG/PNG, bis 10MB).",
+
+  "img.tag.cover": "TITELBILD",
+  "img.tag.order": "#{n}",
+
+  "img.btn.remove": "Entfernen",
+  "img.btn.up": "Nach oben",
+  "img.btn.down": "Nach unten",
+
+  "img.err.only_images": "Nur Bilder sind erlaubt.",
+  "img.err.too_large": "Datei zu groß ({size}MB). Max: {max}MB.",
+  "img.err.cap_hit": "Limit erreicht ({max}). Nur {space} hinzugefügt."
+}

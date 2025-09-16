@@ -1,0 +1,18 @@
+{
+  "img.cap.edit": "Gerir imagens",
+  "img.limit.total": "Total máximo: {n}",
+
+  "img.drop_aria.edit": "Zona para largar novas imagens",
+  "img.hint.edit": "Clica para escolher ou arrasta aqui (JPEG/PNG, até 10MB).",
+
+  "img.tag.cover": "CAPA",
+  "img.tag.order": "#{n}",
+
+  "img.btn.remove": "Remover",
+  "img.btn.up": "Subir",
+  "img.btn.down": "Descer",
+
+  "img.err.only_images": "Apenas imagens são permitidas.",
+  "img.err.too_large": "Ficheiro demasiado grande ({size}MB). Máx: {max}MB.",
+  "img.err.cap_hit": "Limite atingido ({max}). Apenas {space} adicionada(s)."
+}
