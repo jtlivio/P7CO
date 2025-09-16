@@ -63,4 +63,4 @@ Os dois casos demonstram como setores distintos — náutico e logístico — en
 O P7CO® EcoResupply continuará a expandir esta rede de colaboração, convidando novas entidades a juntarem-se ao movimento.  
 A experiência com Maré Alta e Sibertex é apenas o início de uma trajetória onde **cada parceiro conta** para alcançar objetivos comuns: sustentabilidade, confiança e impacto positivo no território.
 
-Quer ser o próximo caso de sucesso? [Fale connosco](/pt/contact).
+Quer ser o próximo caso de sucesso? [Fale connosco](/pt/home/contact).
