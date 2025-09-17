@@ -1,0 +1,27 @@
+{
+  "seo.title": "Search Results | P7CO® EcoResupply",
+
+  "title": "Search Results",
+
+  "searched.term": "Search term:",
+  "results.label": "result(s)",
+  "page.of": "Page",
+  "of": "of",
+
+  "empty": "No results found for the searched term.",
+
+  "list.aria": "List of results",
+
+  "type.product": "Product",
+  "type.complaint": "Complaint",
+  "type.blog": "Blog",
+  "type.page": "Page",
+  "type.other": "Other",
+
+  "badge.type.aria": "Result type",
+  "date.aria": "Date:",
+
+  "pager.aria": "Search results pagination",
+  "pager.prev": "Previous",
+  "pager.next": "Next"
+}
