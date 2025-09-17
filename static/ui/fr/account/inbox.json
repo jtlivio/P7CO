@@ -1,0 +1,32 @@
+{
+  "seo.title": "Boîte de réception | P7CO® EcoResupply",
+
+  "breadcrumb.aria": "Fil d’Ariane",
+  "breadcrumb.home": "Accueil",
+  "breadcrumb.current": "Boîte de réception",
+
+  "title": "Messages",
+  "subtitle": "Communiquez en toute sécurité. Bloquez les abus. Archivez, supprimez et conservez l’historique.",
+
+  "tabs.aria": "Onglets de messages",
+  "tab.received": "Reçus",
+  "tab.sent": "Envoyés",
+  "tab.archived": "Archivés",
+
+  "badge.new": "Nouveau",
+  "badge.archived": "Archivé",
+
+  "btn.view_reply": "Voir/Répondre",
+  "btn.archive": "Archiver",
+  "btn.unarchive": "Désarchiver",
+  "btn.delete": "Supprimer",
+  "btn.block": "Bloquer",
+  "btn.unblock": "Débloquer",
+
+  "empty.received": "Aucun message reçu.",
+  "empty.sent": "Aucun message envoyé.",
+  "empty.archived": "Rien ici.",
+
+  "confirm.delete": "Voulez-vous vraiment supprimer ce message de votre boîte de réception ?",
+  "error.action": "L’action n’a pas pu être effectuée. Veuillez réessayer."
+}

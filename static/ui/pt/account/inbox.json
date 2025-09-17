@@ -1,0 +1,32 @@
+{
+  "seo.title": "Inbox | P7CO® EcoResupply",
+
+  "breadcrumb.aria": "Trilho de navegação",
+  "breadcrumb.home": "Início",
+  "breadcrumb.current": "Inbox",
+
+  "title": "Mensagens",
+  "subtitle": "Converse com segurança. Bloqueie abuso. Arquive, apague e mantenha o histórico.",
+
+  "tabs.aria": "Separadores de mensagens",
+  "tab.received": "Recebidas",
+  "tab.sent": "Enviadas",
+  "tab.archived": "Arquivadas",
+
+  "badge.new": "Nova",
+  "badge.archived": "Arquivada",
+
+  "btn.view_reply": "Ver/Responder",
+  "btn.archive": "Arquivar",
+  "btn.unarchive": "Desarquivar",
+  "btn.delete": "Apagar",
+  "btn.block": "Bloquear",
+  "btn.unblock": "Desbloquear",
+
+  "empty.received": "Sem mensagens recebidas.",
+  "empty.sent": "Sem mensagens enviadas.",
+  "empty.archived": "Nada por aqui.",
+
+  "confirm.delete": "Tem a certeza que pretende remover esta mensagem da sua caixa?",
+  "error.action": "Não foi possível concluir a ação. Tenta novamente."
+}

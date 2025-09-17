@@ -1,0 +1,32 @@
+{
+  "seo.title": "Posteingang | P7CO® EcoResupply",
+
+  "breadcrumb.aria": "Brotkrümel-Navigation",
+  "breadcrumb.home": "Startseite",
+  "breadcrumb.current": "Posteingang",
+
+  "title": "Nachrichten",
+  "subtitle": "Kommunizieren Sie sicher. Blockieren Sie Missbrauch. Archivieren, löschen und Verlauf behalten.",
+
+  "tabs.aria": "Nachrichten-Tabs",
+  "tab.received": "Empfangen",
+  "tab.sent": "Gesendet",
+  "tab.archived": "Archiviert",
+
+  "badge.new": "Neu",
+  "badge.archived": "Archiviert",
+
+  "btn.view_reply": "Ansehen/Antworten",
+  "btn.archive": "Archivieren",
+  "btn.unarchive": "Wiederherstellen",
+  "btn.delete": "Löschen",
+  "btn.block": "Blockieren",
+  "btn.unblock": "Entsperren",
+
+  "empty.received": "Keine empfangenen Nachrichten.",
+  "empty.sent": "Keine gesendeten Nachrichten.",
+  "empty.archived": "Hier gibt es nichts.",
+
+  "confirm.delete": "Sind Sie sicher, dass Sie diese Nachricht aus Ihrem Postfach entfernen möchten?",
+  "error.action": "Die Aktion konnte nicht abgeschlossen werden. Bitte versuchen Sie es erneut."
+}

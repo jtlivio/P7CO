@@ -1,0 +1,32 @@
+{
+  "seo.title": "Bandeja de entrada | P7CO® EcoResupply",
+
+  "breadcrumb.aria": "Ruta de navegación",
+  "breadcrumb.home": "Inicio",
+  "breadcrumb.current": "Bandeja de entrada",
+
+  "title": "Mensajes",
+  "subtitle": "Comunícate con seguridad. Bloquea abusos. Archiva, elimina y guarda el historial.",
+
+  "tabs.aria": "Pestañas de mensajes",
+  "tab.received": "Recibidos",
+  "tab.sent": "Enviados",
+  "tab.archived": "Archivados",
+
+  "badge.new": "Nuevo",
+  "badge.archived": "Archivado",
+
+  "btn.view_reply": "Ver/Responder",
+  "btn.archive": "Archivar",
+  "btn.unarchive": "Desarchivar",
+  "btn.delete": "Eliminar",
+  "btn.block": "Bloquear",
+  "btn.unblock": "Desbloquear",
+
+  "empty.received": "No hay mensajes recibidos.",
+  "empty.sent": "No hay mensajes enviados.",
+  "empty.archived": "Nada por aquí.",
+
+  "confirm.delete": "¿Seguro que quieres eliminar este mensaje de tu bandeja?",
+  "error.action": "No se pudo completar la acción. Inténtalo de nuevo."
+}
