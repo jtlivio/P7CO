@@ -23,6 +23,7 @@
   "actions.unavailable": "Acción no disponible por el momento.",
 
   "contact.title": "Deja tu mensaje",
+  "contact.login.required": "Es necesario iniciar sesión para enviar mensajes.",
   "contact.placeholder": "Escribe tu mensaje...",
   "contact.warning.title": "Aviso:",
   "contact.warning.body": "Evita compartir datos personales innecesarios. Al enviar, confirmas que comprendes los riesgos asociados.",

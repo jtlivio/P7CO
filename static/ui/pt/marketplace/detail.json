@@ -23,6 +23,7 @@
   "actions.unavailable": "Ação indisponível de momento.",
 
   "contact.title": "Deixe a sua mensagem",
+  "contact.login.required": "É necessário estar logado para enviar mensagens.",
   "contact.placeholder": "Digite a sua mensagem...",
   "contact.warning.title": "Aviso:",
   "contact.warning.body": "Evite partilhar dados pessoais desnecessários. Ao submeter, confirma que compreende os riscos associados.",

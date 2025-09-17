@@ -23,6 +23,7 @@
   "actions.unavailable": "Action currently unavailable.",
 
   "contact.title": "Leave your message",
+  "contact.login.required": "You need to be logged in to send messages.",
   "contact.placeholder": "Type your message...",
   "contact.warning.title": "Notice:",
   "contact.warning.body": "Avoid sharing unnecessary personal data. By submitting, you confirm that you understand the associated risks.",

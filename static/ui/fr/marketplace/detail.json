@@ -19,6 +19,7 @@
   "map.rev.attribution": "© OpenStreetMap contributors, © CARTO",
 
   "actions.like": "J’aime",
+  "contact.login.required": "Vous devez être connecté pour envoyer des messages.",
   "actions.report": "Signaler",
   "actions.unavailable": "Action actuellement indisponible.",
 
