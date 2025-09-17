@@ -8,15 +8,15 @@ active = true
 slug = "certifications-rapports-iso"
 +++
 
-# Certifications et Rapports ISO
+## Certifications et Rapports ISO
 
-Les normes de l’**Organisation Internationale de Normalisation (ISO)** sont des standards reconnus à l’échelle mondiale pour la qualité, l’environnement, la sécurité et la responsabilité sociale. Elles fournissent un cadre commun permettant aux organisations de démontrer de bonnes pratiques, d’assurer leur conformité et de renforcer la confiance des clients, partenaires et autorités.
+Les normes de l’**Organisation Internationale de Normalisation (ISO)** sont des standards reconnus mondialement pour la qualité, l’environnement, la sécurité et la responsabilité sociétale. Elles établissent un cadre commun qui aide les organisations à démontrer de bonnes pratiques, à garantir la conformité et à renforcer la confiance auprès des clients, partenaires et autorités.
 
 P7CO® EcoResupply reconnaît l’importance de ces normes et prépare de nouvelles fonctionnalités pour aider entreprises et collectivités à gérer leurs certifications et rapports ISO. Très bientôt, des outils de collecte de données, de génération de rapports et d’intégration aux audits numériques seront disponibles.
 
-# Qu’est-ce qu’une certification ISO
+### Qu’est-ce qu’une certification ISO
 
-Les certifications ISO sont des attestations officielles, délivrées par des organismes accrédités, confirmant qu’une organisation respecte les exigences d’une norme donnée. Parmi les plus pertinentes :
+Les certifications ISO sont des attestations officielles délivrées par des organismes accrédités qui confirment qu’une organisation respecte les exigences d’une norme donnée. Parmi les plus pertinentes :
 
 - **ISO 9001 — Management de la qualité**  
 - **ISO 14001 — Management environnemental**  
@@ -24,30 +24,30 @@ Les certifications ISO sont des attestations officielles, délivrées par des or
 - **ISO 50001 — Management de l’énergie**  
 - **ISO 26000 — Responsabilité sociétale**
 
-Ces standards renforcent les processus internes, garantissent la cohérence et augmentent la crédibilité des organisations.
+Chacune de ces normes favorise des pratiques structurées, améliore les processus internes et renforce la crédibilité des organisations auprès des parties prenantes nationales et internationales.
 
-# Qu’est-ce qu’un rapport ISO
+### Qu’est-ce qu’un rapport ISO
 
-Les rapports ISO sont des documents produits par les organisations pour démontrer leur conformité aux normes. Ils incluent politiques, procédures, indicateurs et preuves de suivi. Ils constituent la base des audits internes et externes et sont essentiels pour obtenir, maintenir ou renouveler les certifications.
+Les rapports ISO sont des documents produits par les entreprises pour démontrer la conformité aux normes. Ils incluent politiques, procédures, indicateurs et preuves de suivi. Ils constituent la base des audits internes et externes et sont essentiels pour obtenir, maintenir ou renouveler les certifications.
 
-Pour les normes environnementales, ils représentent aussi des outils de **transparence et communication**, montrant les efforts en matière de durabilité et d’efficacité des ressources.
+Dans le cas des normes environnementales, ils représentent aussi des outils de **transparence et de communication**, permettant de démontrer des résultats en matière de durabilité, d’efficacité des ressources et de réduction des impacts.
 
-# Pourquoi sont-ils importants
+### Pourquoi sont-ils importants
 
-- **Renforcent la confiance** grâce à une reconnaissance mondiale.  
-- **Facilitent les audits** en structurant l’information et en validant les processus.  
-- **Ouvrent l’accès aux marchés** car de nombreux appels d’offres publics exigent une certification ISO.  
-- **Soutiennent la durabilité** par l’amélioration continue et la réduction des risques.
+- **Renforcent la confiance** : les clients et partenaires savent que l’organisation respecte des standards reconnus mondialement.  
+- **Facilitent les audits** : structuration des données et validation cohérente des processus.  
+- **Ouvrent l’accès aux marchés** : dans de nombreux appels d’offres publics, la certification ISO est obligatoire.  
+- **Soutiennent la durabilité** : favorisent l’amélioration continue et la réduction des risques.
 
-# Bientôt dans P7CO®
+### Bientôt dans P7CO®
 
-P7CO® EcoResupply proposera bientôt des modules de soutien aux certifications et rapports ISO. Ces fonctionnalités permettront :
+P7CO® EcoResupply proposera bientôt des modules pour soutenir certifications et rapports ISO. Ces fonctionnalités permettront de :
 
-- D’enregistrer et d’organiser les preuves de conformité.  
-- D’automatiser les indicateurs de performance environnementale et sociale.  
-- De générer des rapports annuels ou périodiques prêts pour l’audit.  
-- De se connecter aux données existantes du système (MIRR, e-GAR, circularité, ESG).  
+- Enregistrer et organiser les preuves de conformité.  
+- Automatiser les indicateurs de performance environnementale et sociale.  
+- Générer des rapports annuels ou périodiques prêts pour audit.  
+- Se connecter aux données existantes du système (MIRR, e-GAR, Circularité, ESG).  
 
-Ces nouveautés réduiront le temps et les efforts liés aux certifications ISO et amélioreront la fiabilité et la transparence des informations.
+Ces nouveautés permettront de réduire le temps et l’effort liés aux certifications ISO tout en augmentant la fiabilité et la transparence des informations.
 
-Voulez-vous être informé dès que cette fonctionnalité sera disponible ? [Contactez-nous](/fr/home/contact).
+Vous souhaitez être informé dès que cette fonctionnalité sera disponible ? [Contactez-nous](/fr/home/contact).

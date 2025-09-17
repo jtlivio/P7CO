@@ -8,25 +8,25 @@ active = true
 slug = "partenaires"
 +++
 
-# Partenaires P7CO®
+## Partenaires P7CO®
 
 La force de P7CO® EcoResupply réside dans la collaboration.  
-Nous travaillons main dans la main avec des entités nationales et locales qui partagent la vision d’une économie plus circulaire, transparente et durable.
+Nous travaillons aux côtés d’entités nationales et locales partageant notre vision d’une économie plus circulaire, transparente et durable.
 
-## Maré Alta
+### Maré Alta
 
-**Secteur :** Économie bleue / Nautisme  
-**Localisation :** Setúbal  
-**Site web :** [mare-alta.pt](https://www.mare-alta.pt)
+**Secteur:** Économie bleue / Nautique  
+**Localisation:** Setúbal  
+**Website:** [mare-alta.pt](https://www.mare-alta.pt)
 
-**Maré Alta** agit dans le secteur nautique, en favorisant la collecte et la réutilisation des matériaux excédentaires provenant des bateaux, des chantiers navals et des activités portuaires. Le partenariat avec P7CO® EcoResupply renforce l’engagement en faveur de la durabilité maritime et de la réduction des déchets.  
+**Maré Alta** opère dans le secteur nautique, en promouvant la collecte et la réutilisation de matériaux excédentaires provenant de bateaux, chantiers navals et activités portuaires. Le partenariat avec P7CO® EcoResupply renforce l’engagement en faveur de la durabilité maritime et de la réduction des déchets.  
 Vous souhaitez en savoir plus ou collaborer ? [Contactez-nous](/fr/home/contact)
 
-## Sibertex
+### Sibertex
 
-**Secteur :** Logistique / Stockage  
-**Localisation :** Palmela  
-**Site web :** [sibertex.pt](https://www.sibertex.pt)
+**Secteur:** Logistique / Stockage  
+**Localisation:** Palmela  
+**Website:** [sibertex.pt](https://www.sibertex.pt)
 
-**Sibertex** est un partenaire stratégique qui fournit des solutions de stockage et de stationnement intégrées à P7CO® EcoResupply. Grâce à cette collaboration, les excédents peuvent être collectés, stockés en toute sécurité et redistribués efficacement.  
+**Sibertex** est un partenaire stratégique qui soutient le réseau circulaire en proposant des solutions de stockage et de stationnement intégrées à P7CO® EcoResupply. Grâce à cette collaboration, les excédents peuvent être collectés, stockés en toute sécurité et redistribués efficacement.  
 Vous souhaitez en savoir plus ou collaborer ? [Contactez-nous](/fr/home/contact)

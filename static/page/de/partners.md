@@ -8,25 +8,25 @@ active = true
 slug = "partner"
 +++
 
-# Partner P7CO®
+## P7CO®-Partner
 
 Die Stärke von P7CO® EcoResupply liegt in der Zusammenarbeit.  
-Wir arbeiten Seite an Seite mit nationalen und lokalen Organisationen, die unsere Vision einer transparenteren und nachhaltigeren Kreislaufwirtschaft teilen.
+Wir arbeiten Seite an Seite mit nationalen und lokalen Akteuren, die unsere Vision einer transparenteren, nachhaltigeren Kreislaufwirtschaft teilen.
 
-## Maré Alta
+### Maré Alta
 
 **Sektor:** Blaue Wirtschaft / Nautik  
 **Standort:** Setúbal  
 **Website:** [mare-alta.pt](https://www.mare-alta.pt)
 
-**Maré Alta** ist im nautischen Sektor tätig und fördert die Sammlung und Wiederverwendung überschüssiger Materialien aus Schiffen, Werften und Hafenaktivitäten. Die Partnerschaft mit P7CO® EcoResupply stärkt das Engagement für maritime Nachhaltigkeit und Abfallreduzierung.  
+**Maré Alta** ist im nautischen Sektor tätig und fördert die Sammlung und Wiederverwendung von Überschussmaterialien aus Booten, Werften und Hafenaktivitäten. Die Partnerschaft mit P7CO® EcoResupply stärkt das Engagement für maritime Nachhaltigkeit und Abfallreduzierung.  
 Möchten Sie mehr erfahren oder zusammenarbeiten? [Kontaktieren Sie uns](/de/home/contacts)
 
-## Sibertex
+### Sibertex
 
 **Sektor:** Logistik / Lagerung  
 **Standort:** Palmela  
 **Website:** [sibertex.pt](https://www.sibertex.pt)
 
-**Sibertex** ist ein strategischer Partner, der Lager- und Parklösungen bereitstellt, die direkt mit P7CO® EcoResupply integriert sind. Durch diese Zusammenarbeit können Überschüsse gesammelt, sicher gelagert und effizient weiterverteilt werden.  
+**Sibertex** ist ein strategischer Partner, der das Kreislaufnetzwerk unterstützt, indem er Lager- und Parklösungen bereitstellt, die in P7CO® EcoResupply integriert sind. Dadurch können Überschüsse sicher gesammelt, gelagert und effizient verteilt werden.  
 Möchten Sie mehr erfahren oder zusammenarbeiten? [Kontaktieren Sie uns](/de/home/contacts)

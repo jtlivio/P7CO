@@ -8,12 +8,12 @@ active = true
 slug = "parceiros"
 +++
 
-# Parceiros P7CO®
+## Parceiros P7CO®
 
 A força do P7CO® EcoResupply está na colaboração.  
 Trabalhamos lado a lado com entidades nacionais e locais que partilham a visão de uma economia mais circular, transparente e sustentável.
 
-## Maré Alta
+### Maré Alta
 
 **Setor:** Economia Azul / Náutica  
 **Localização:** Setúbal  
@@ -22,7 +22,7 @@ Trabalhamos lado a lado com entidades nacionais e locais que partilham a visão 
 A **Maré Alta** atua no setor náutico, promovendo a recolha e reutilização de materiais excedentes de embarcações, estaleiros e atividades portuárias. A parceria com o P7CO® EcoResupply reforça o compromisso com a sustentabilidade marítima e a redução de resíduos.  
 Quer saber mais ou colaborar? [Fale connosco](/pt/home/contact)
 
-## Sibertex
+### Sibertex
 
 **Setor:** Logística / Armazenagem  
 **Localização:** Palmela  
