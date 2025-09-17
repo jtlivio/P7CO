@@ -1,0 +1,41 @@
+{
+  "seo.title": "Umwelt-Impact-Dashboard | P7CO® EcoResupply",
+  "seo.description": "Verfolgen Sie den Umweltimpact Ihrer Überschüsse: vermiedenes CO₂, umgeleitetes Material und weitere Nachhaltigkeits-KPIs.",
+  "seo.keywords": "Dashboard, Umwelt, CO2 vermieden, Deponie, Nachhaltigkeit, Kreislaufwirtschaft, KPIs",
+
+  "hero.title": "P7CO® EcoResupply – Der neue Weg, Überschüsse zu verwerten.",
+  "hero.subtitle": "Mach bei der Kreislaufwirtschaft mit: veröffentlichen, finden und Materialien wiederverwenden. Offen für Bürger, Unternehmen und Institutionen.",
+  "hero.cta": "ÜBERSCHUSS HINZUFÜGEN",
+
+  "kpi.co2": "Vermiedenes CO₂ (kg)",
+  "kpi.material": "Von der Deponie umgeleitet (kg)",
+  "kpi.ngos": "Begünstigte Organisationen/NGOs",
+  "kpi.reused": "Verwertete / Wiederverwendete Überschüsse",
+  "kpi.users": "Nutzer/Mitglieder",
+  "kpi.partners": "Partner-Gemeinden/Institutionen",
+  "kpi.complaints": "Gelöste Umweltmeldungen",
+  "kpi.value": "Geschätzter wirtschaftlicher Wert",
+
+  "callout.register": "<strong>Jetzt registrieren</strong> und Teil der Kreislaufwirtschaft werden. P7CO® EcoResupply hilft dir, Materialien nachhaltig zu veröffentlichen und wiederzuverwenden.",
+
+  "chart.co2.title": "Vermiedenes CO₂ – Letzte 30 Tage",
+  "chart.material.title": "Umgeleitetes Material – Letzte 30 Tage",
+  "chart.social.title": "Verteilung des sozialen Impacts",
+  "chart.radar.title": "Vergleich der KPIs",
+
+  "chart.week1": "Woche 1",
+  "chart.week2": "Woche 2",
+  "chart.week3": "Woche 3",
+  "chart.week4": "Woche 4",
+  "chart.co2.dataset": "Vermiedenes CO₂ (kg)",
+  "chart.material.dataset": "Umgeleitetes Material (kg)",
+  "chart.social.reuse": "Wiederverwendung",
+  "chart.social.donation": "Spende",
+  "chart.social.recycle": "Recycling",
+
+  "radar.co2": "Vermiedenes CO₂",
+  "radar.material": "Umgeleitetes Material",
+  "radar.social": "Sozialer Impact",
+  "radar.distance": "Zurückgelegte Entfernung",
+  "radar.label": "Impact-KPIs"
+}

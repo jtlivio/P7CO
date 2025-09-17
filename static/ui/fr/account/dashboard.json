@@ -1,0 +1,41 @@
+{
+  "seo.title": "Tableau de Bord d’Impact Environnemental | P7CO® EcoResupply",
+  "seo.description": "Suivez l’impact environnemental de vos surplus : CO₂ évité, matières détournées et autres indicateurs de durabilité.",
+  "seo.keywords": "tableau de bord, impact environnemental, CO2 évité, matières détournées, durabilité, économie circulaire, KPIs",
+
+  "hero.title": "P7CO® EcoResupply – La nouvelle façon de valoriser les surplus.",
+  "hero.subtitle": "Rejoignez l’économie circulaire : publiez, trouvez et réutilisez des matériaux. Ouvert aux citoyens, entreprises et institutions.",
+  "hero.cta": "AJOUTER UN SURPLUS",
+
+  "kpi.co2": "CO₂ Évité (kg)",
+  "kpi.material": "Matières Détournées de Décharge (kg)",
+  "kpi.ngos": "Institutions/ONG Bénéficiaires",
+  "kpi.reused": "Surplus Valorisés / Réutilisés",
+  "kpi.users": "Utilisateurs/Adhérents",
+  "kpi.partners": "Collectivités/Partenaires",
+  "kpi.complaints": "Signalements Environnementaux Résolus",
+  "kpi.value": "Valeur Économique Estimée",
+
+  "callout.register": "<strong>Inscrivez-vous maintenant</strong> et participez à l’économie circulaire avec P7CO® EcoResupply. La plateforme vous aide à publier et réutiliser des matériaux de manière durable.",
+
+  "chart.co2.title": "CO₂ Évité – 30 Derniers Jours",
+  "chart.material.title": "Matières Détournées – 30 Derniers Jours",
+  "chart.social.title": "Répartition de l’Impact Social",
+  "chart.radar.title": "Comparaison des KPIs",
+
+  "chart.week1": "Semaine 1",
+  "chart.week2": "Semaine 2",
+  "chart.week3": "Semaine 3",
+  "chart.week4": "Semaine 4",
+  "chart.co2.dataset": "CO₂ Évité (kg)",
+  "chart.material.dataset": "Matières Détournées (kg)",
+  "chart.social.reuse": "Réutilisation",
+  "chart.social.donation": "Don",
+  "chart.social.recycle": "Recyclage",
+
+  "radar.co2": "CO₂ Évité",
+  "radar.material": "Matières Détournées",
+  "radar.social": "Impact Social",
+  "radar.distance": "Distance Parcourue",
+  "radar.label": "KPIs d’Impact"
+}

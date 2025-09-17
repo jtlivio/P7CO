@@ -1,0 +1,41 @@
+{
+  "seo.title": "Panel de Impacto Ambiental | P7CO® EcoResupply",
+  "seo.description": "Sigue el impacto ambiental de tus excedentes: CO₂ evitado, material desviado y otros KPIs de sostenibilidad.",
+  "seo.keywords": "panel, impacto ambiental, CO2 evitado, material desviado, sostenibilidad, economía circular, KPIs",
+
+  "hero.title": "P7CO® EcoResupply – La nueva forma de dar valor a lo que sobra.",
+  "hero.subtitle": "Únete a la economía circular: publica, encuentra y reutiliza materiales. Abierto a ciudadanía, empresas y entidades.",
+  "hero.cta": "AÑADIR EXCEDENTE",
+
+  "kpi.co2": "CO₂ Evitado (kg)",
+  "kpi.material": "Material Desviado del Vertedero (kg)",
+  "kpi.ngos": "Instituciones/ONGs Beneficiadas",
+  "kpi.reused": "Excedentes Valorizados / Reutilizados",
+  "kpi.users": "Usuarios/Adheridos",
+  "kpi.partners": "Municipios/Entidades Asociadas",
+  "kpi.complaints": "Denuncias Ambientales Resueltas",
+  "kpi.value": "Valor Económico Estimado",
+
+  "callout.register": "<strong>Regístrate ahora</strong> y empieza a formar parte de la economía circular con P7CO® EcoResupply. La plataforma te ayuda a publicar y reutilizar materiales de forma sostenible.",
+
+  "chart.co2.title": "CO₂ Evitado – Últimos 30 Días",
+  "chart.material.title": "Material Desviado – Últimos 30 Días",
+  "chart.social.title": "Distribución del Impacto Social",
+  "chart.radar.title": "Comparación de KPIs",
+
+  "chart.week1": "Semana 1",
+  "chart.week2": "Semana 2",
+  "chart.week3": "Semana 3",
+  "chart.week4": "Semana 4",
+  "chart.co2.dataset": "CO₂ Evitado (kg)",
+  "chart.material.dataset": "Material Desviado (kg)",
+  "chart.social.reuse": "Reutilización",
+  "chart.social.donation": "Donación",
+  "chart.social.recycle": "Reciclaje",
+
+  "radar.co2": "CO₂ Evitado",
+  "radar.material": "Material Desviado",
+  "radar.social": "Impacto Social",
+  "radar.distance": "Distancia Recorrida",
+  "radar.label": "KPIs de Impacto"
+}
