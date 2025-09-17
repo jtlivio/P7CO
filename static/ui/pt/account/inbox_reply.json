@@ -1,0 +1,13 @@
+{
+  "seo.title": "Responder | P7CO® EcoResupply",
+
+  "header.title": "Responder a {name}",
+
+  "cta.back_inbox": "Voltar à inbox",
+  "cta.send": "Enviar Resposta",
+  "cta.cancel": "Cancelar",
+
+  "form.message.label": "Mensagem",
+  "form.message.placeholder": "Escreva aqui a sua resposta...",
+  "form.hint.ctrlenter": "Sugestão: Ctrl + Enter para enviar"
+}
