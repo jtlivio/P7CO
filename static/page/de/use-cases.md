@@ -37,7 +37,7 @@ Mit P7CO® EcoResupply konnte ein Kreislauf für Sammlung und Wiederverwendung g
 
 **Sektor:** Logistik / Lagerung  
 **Standort:** Palmela  
-**Website:** [www.sibertex.pr](https://www.sibertex.pt)
+**Website:** [www.sibertex.pt](https://www.sibertex.pt)
 
 Sibertex steht täglich vor der Herausforderung, Raum für Güter in Übergangslagerungen zu verwalten. Die Partnerschaft mit P7CO® EcoResupply ermöglichte es, ihre Lager und Parkflächen in den Kreislaufwirtschaftsprozess einzubinden und sie zu einem strategischen Punkt für Sammlung, Sortierung und Weiterverteilung zu machen.
 

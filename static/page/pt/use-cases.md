@@ -37,7 +37,7 @@ Com o P7CO® EcoResupply, foi possível criar um circuito de recolha e reutiliza
 
 **Setor:** Logística / Armazenagem  
 **Localização:** Palmela  
-**Website:** [www.sibertex.pr](https://www.sibertex.pr)
+**Website:** [www.sibertex.pt](https://www.sibertex.pt)
 
 A Sibertex enfrenta diariamente o desafio da gestão de espaço para bens em transição. A parceria com o P7CO® EcoResupply permitiu integrar os seus armazéns e parques no circuito da economia circular, servindo como ponto estratégico para recolha, triagem e redistribuição.
 

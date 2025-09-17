@@ -37,7 +37,7 @@ Avec P7CO® EcoResupply, il a été possible de créer un circuit de collecte et
 
 **Secteur :** Logistique / Stockage  
 **Localisation :** Palmela  
-**Site web :** [www.sibertex.pr](https://www.sibertex.pt)
+**Site web :** [www.sibertex.pt](https://www.sibertex.pt)
 
 Sibertex est confronté quotidiennement au défi de gérer l’espace pour des biens en transit. Le partenariat avec P7CO® EcoResupply a permis d’intégrer ses entrepôts et parkings dans le processus de l’économie circulaire, en les transformant en point stratégique pour la collecte, le tri et la redistribution.
 
