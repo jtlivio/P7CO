@@ -14,7 +14,7 @@
 
   "cta.report": "Denunciar Infracción",
 
-  "toggle.aria": "Modo de vista",
+  "toggle.aria": "Modo de visualización",
   "toggle.grid": "Cuadrícula",
   "toggle.list": "Lista",
 
@@ -25,6 +25,11 @@
   "filters.country.label": "País",
   "filters.zone.label": "Zona UE",
   "filters.zone.all": "(Todas)",
+  "filters.zone.north": "Norte",
+  "filters.zone.west": "Oeste",
+  "filters.zone.south": "Sur",
+  "filters.zone.central_east": "Centro-Este",
+  "filters.zone.islands": "Islas",
   "filters.search.label": "Buscar",
   "filters.search.placeholder": "Título o descripción…",
   "filters.actions.filter": "Filtrar",
@@ -33,5 +38,5 @@
   "results.shown_of_total": "{shown} de {total}",
 
   "card.delete_confirm": "¿Seguro que quieres eliminar esta denuncia?",
-  "card.react_error": "No se pudo registrar la acción en este momento."
+  "card.react_error": "No fue posible registrar la acción ahora."
 }

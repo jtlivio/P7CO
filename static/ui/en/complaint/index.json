@@ -1,7 +1,7 @@
 {
   "seo.title": "Environmental Complaints Received",
   "seo.desc": "Browse environmental complaints submitted on the platform.",
-  "seo.keywords": "environmental complaints, environment, county, category",
+  "seo.keywords": "environmental complaints, environment, municipality, category",
 
   "header.title": "Environmental Complaints",
   "header.subtitle": "Browse, filter and follow complaints submitted by the community.",
@@ -25,6 +25,11 @@
   "filters.country.label": "Country",
   "filters.zone.label": "EU Zone",
   "filters.zone.all": "(All)",
+  "filters.zone.north": "North",
+  "filters.zone.west": "West",
+  "filters.zone.south": "South",
+  "filters.zone.central_east": "Central East",
+  "filters.zone.islands": "Islands",
   "filters.search.label": "Search",
   "filters.search.placeholder": "Title or description…",
   "filters.actions.filter": "Filter",
@@ -33,5 +38,5 @@
   "results.shown_of_total": "{shown} of {total}",
 
   "card.delete_confirm": "Do you really want to delete this complaint?",
-  "card.react_error": "Could not register the action right now."
+  "card.react_error": "It was not possible to register the action now."
 }

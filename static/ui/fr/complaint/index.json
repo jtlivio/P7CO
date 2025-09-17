@@ -1,13 +1,13 @@
 {
-  "seo.title": "Signalements Environnementaux Reçus",
-  "seo.desc": "Consultez les signalements environnementaux soumis sur la plateforme.",
-  "seo.keywords": "signalements environnementaux, environnement, commune, catégorie",
+  "seo.title": "Plaintes Environnementales Reçues",
+  "seo.desc": "Consultez les plaintes environnementales soumises sur la plateforme.",
+  "seo.keywords": "plaintes environnementales, environnement, commune, catégorie",
 
-  "header.title": "Signalements Environnementaux",
-  "header.subtitle": "Consultez, filtrez et suivez les signalements soumis par la communauté.",
+  "header.title": "Plaintes Environnementales",
+  "header.subtitle": "Consultez, filtrez et suivez les plaintes soumises par la communauté.",
 
   "breadcrumb.home": "Accueil",
-  "breadcrumb.current": "Signalements Environnementaux",
+  "breadcrumb.current": "Plaintes Environnementales",
 
   "auth.modal.title": "Connectez-vous pour interagir",
   "auth.modal.msg": "Pour aimer ou signaler, connectez-vous à votre compte.",
@@ -18,13 +18,18 @@
   "toggle.grid": "Grille",
   "toggle.list": "Liste",
 
-  "list.no_results": "Aucun signalement trouvé avec les filtres appliqués.",
+  "list.no_results": "Aucune plainte trouvée avec les filtres appliqués.",
 
   "filters.ribbon": "FILTRES",
   "filters.title": "Affiner les Résultats",
   "filters.country.label": "Pays",
   "filters.zone.label": "Zone UE",
   "filters.zone.all": "(Toutes)",
+  "filters.zone.north": "Nord",
+  "filters.zone.west": "Ouest",
+  "filters.zone.south": "Sud",
+  "filters.zone.central_east": "Centre-Est",
+  "filters.zone.islands": "Îles",
   "filters.search.label": "Rechercher",
   "filters.search.placeholder": "Titre ou description…",
   "filters.actions.filter": "Filtrer",
@@ -32,6 +37,6 @@
 
   "results.shown_of_total": "{shown} sur {total}",
 
-  "card.delete_confirm": "Voulez-vous vraiment supprimer ce signalement ?",
+  "card.delete_confirm": "Voulez-vous vraiment supprimer cette plainte ?",
   "card.react_error": "Impossible d’enregistrer l’action pour le moment."
 }

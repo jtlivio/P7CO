@@ -1,16 +1,16 @@
 {
-  "seo.title": "Erhaltene Umweltmeldungen",
-  "seo.desc": "Durchsuche die auf der Plattform eingereichten Umweltmeldungen.",
-  "seo.keywords": "Umweltmeldungen, Umwelt, Gemeinde, Kategorie",
+  "seo.title": "Erhaltene Umweltbeschwerden",
+  "seo.desc": "Sehen Sie sich die auf der Plattform eingereichten Umweltbeschwerden an.",
+  "seo.keywords": "Umweltbeschwerden, Umwelt, Gemeinde, Kategorie",
 
-  "header.title": "Umweltmeldungen",
-  "header.subtitle": "Durchsuche, filtere und verfolge die von der Gemeinschaft eingereichten Meldungen.",
+  "header.title": "Umweltbeschwerden",
+  "header.subtitle": "Sehen Sie sich Beschwerden an, filtern Sie und verfolgen Sie die von der Community eingereichten Meldungen.",
 
   "breadcrumb.home": "Startseite",
-  "breadcrumb.current": "Umweltmeldungen",
+  "breadcrumb.current": "Umweltbeschwerden",
 
-  "auth.modal.title": "Bitte anmelden, um zu interagieren",
-  "auth.modal.msg": "Zum Liken oder Melden melde dich in deinem Konto an.",
+  "auth.modal.title": "Melden Sie sich an, um zu interagieren",
+  "auth.modal.msg": "Zum Liken oder Melden melden Sie sich in Ihrem Konto an.",
 
   "cta.report": "Verstoß melden",
 
@@ -18,20 +18,25 @@
   "toggle.grid": "Raster",
   "toggle.list": "Liste",
 
-  "list.no_results": "Keine Meldungen mit den angewendeten Filtern gefunden.",
+  "list.no_results": "Keine Beschwerden mit den angewendeten Filtern gefunden.",
 
   "filters.ribbon": "FILTER",
   "filters.title": "Ergebnisse verfeinern",
   "filters.country.label": "Land",
   "filters.zone.label": "EU-Zone",
   "filters.zone.all": "(Alle)",
-  "filters.search.label": "Suchen",
+  "filters.zone.north": "Norden",
+  "filters.zone.west": "Westen",
+  "filters.zone.south": "Süden",
+  "filters.zone.central_east": "Zentral-Ost",
+  "filters.zone.islands": "Inseln",
+  "filters.search.label": "Suche",
   "filters.search.placeholder": "Titel oder Beschreibung…",
   "filters.actions.filter": "Filtern",
   "filters.actions.clear": "Zurücksetzen",
 
   "results.shown_of_total": "{shown} von {total}",
 
-  "card.delete_confirm": "Möchtest du diese Meldung wirklich löschen?",
-  "card.react_error": "Aktion konnte gerade nicht registriert werden."
+  "card.delete_confirm": "Möchten Sie diese Beschwerde wirklich löschen?",
+  "card.react_error": "Die Aktion konnte derzeit nicht registriert werden."
 }
