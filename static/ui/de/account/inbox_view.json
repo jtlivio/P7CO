@@ -1,0 +1,21 @@
+{
+  "seo.title": "Nachricht | P7CO® EcoResupply",
+
+  "header.other_user": "Benutzer",
+
+  "product.title.fallback": "Ohne Titel",
+  "message.empty": "(kein Inhalt)",
+
+  "actions.reply": "Antworten",
+  "actions.back_inbox": "Zurück zum Posteingang",
+  "actions.block": "Blockieren",
+  "actions.unblock": "Entsperren",
+
+  "confirm.block": "Sind Sie sicher, dass Sie diesen Benutzer blockieren möchten?",
+  "alert.block.ok": "Benutzer erfolgreich blockiert.",
+  "alert.block.err": "Fehler beim Blockieren.",
+
+  "confirm.unblock": "Sind Sie sicher, dass Sie diesen Benutzer entsperren möchten?",
+  "alert.unblock.ok": "Benutzer entsperrt.",
+  "alert.unblock.err": "Fehler beim Entsperren."
+}
