@@ -1,0 +1,141 @@
+{
+  "view.seo.title": "Circularity — Municipal Waste (EN)",
+  "view.seo.description": "Critical introduction, Development (graphs + metrics) and Conclusion with diagnosis and solutions — all dynamic and linked to P7CO® EcoResupply.",
+  "view.seo.robots": "index, follow",
+
+  "view.breadcrumb.home": "Home",
+  "view.breadcrumb.active": "Circularity",
+
+  "view.page.title": "Circularity, Municipal Waste (EN)",
+  "view.page.subtitle": "Dynamic article automatically updates when a new year is available",
+
+  "view.nav.intro": "Introduction",
+  "view.nav.dev": "Development",
+  "view.nav.conc": "Conclusion",
+
+  "view.intro.h2": "Introduction",
+  "view.intro.what.title": "What is circularity?",
+  "view.intro.what.text": "It is designing systems to <em>avoid waste</em>, <em>extend useful lives</em> and <em>close cycles</em>. In <b>municipal waste</b> the compass metric is the <b>recycling rate</b>, but the result depends on <i>capture</i> (collection), <i>quality</i> (contamination) and <i>destination</i> (landfill diversion).",
+
+  "view.intro.mission.title": "Our Mission.",
+  "view.intro.mission.text": "To promote a <em>real circular economy</em> in Portugal, simplifying the reuse of surplus and waste with technology, open data and clear metrics. We connect companies, public entities and citizens so that reuse is simple, transparent and measurable.",
+
+  "view.intro.vision.title": "Our Vision.",
+  "view.intro.vision.text": "To be the reference platform for sustainable resource management, driving the transition to a <em>regenerative and collaborative</em> economic model — where every material counts and every contribution creates proven positive impact for society and the planet.",
+
+  "view.intro.product.title": "How P7CO® EcoResupply fits in.",
+  "view.intro.product.text": "We work with data from <em>official sources</em> and provide a <strong>public API</strong> feeding dashboards, alerts and contracts with <strong>KPIs in pp/year</strong>. Whenever the data signals a deviation (e.g. increase in contamination), we trigger <em>operational playbooks</em> — adjusting collection, communication and awareness. It is not just measuring: it is <strong>intervening</strong> and proving results.",
+
+  "view.intro.why.h2": "Why does circularity matter?",
+  "view.intro.why.text.prefix": "<strong>It is not just about meeting targets.</strong> Circularity means reducing dependency on raw materials, cutting costs, lowering emissions and creating local jobs — <em>while at the same time</em> improving public service and reputation. In municipal waste, the compass is the <b>recycling rate</b>. Latest value: ",
+  "view.intro.why.text.metrics": "vs. previous year (<span id=\"yoy-pp\">—</span> pp).",
+  "view.intro.why.list.env": "<b>Environmental:</b> less landfill and methane, lower carbon footprint, water and energy savings in production.",
+  "view.intro.why.list.econ": "<b>Economic:</b> lower gate fees and transport, material value recovery, reduced exposure to volatile prices.",
+  "view.intro.why.list.soc": "<b>Social & territory:</b> local employment, urban cleanliness, public health and citizen trust.",
+  "view.intro.why.list.gov": "<b>Governance & risk:</b> continuous compliance, access to funding/ESG, readiness for reporting (e.g. CSRD).",
+  "view.intro.why.list.data": "<b>Innovation & data:</b> digitalised collection, transparency via API and near-real-time decisions.",
+
+  "view.intro.metrics.h2": "Metrics to act, not just measure",
+  "view.intro.metrics.text": "Circularity requires more than looking at the overall rate. We monitor <i>Δ in pp/year</i>, <i>contamination</i>, <i>capture by fraction</i> (glass, paper, packaging, biowaste), <i>landfill diversion</i> and <i>rejects</i> whenever data is available. The focus is <b>to reduce the gap</b> every year, with consistent progress and quick interventions.",
+  "view.intro.math.title": "Definitions (pp = percentage points)",
+  "view.intro.source.note": "Official data (<a href=\"https://dados.gov.pt/pt/datasets/r/2906b11c-3d77-466d-8b83-5ad93326ba58\" target=\"_blank\" rel=\"noopener\">dados.gov.pt</a>, CC BY 4.0) obtained via <a href=\"/eco/api/circularity/ru/history\">/eco/api/circularity/ru/history</a>.",
+
+  "view.dev.snapshot.h2": "Snapshot — where we stand and how far to go",
+  "view.dev.snapshot.note": "Dynamic values from the official series.",
+  "view.dev.kpi.last.label": "Latest value",
+  "view.dev.kpi.yoy.label": "Δ vs. previous year",
+  "view.dev.kpi.yoy.hint": "variation in pp",
+  "view.dev.kpi.gap25.label": "Gap → 2025 (55%)",
+  "view.dev.kpi.gap30.label": "Gap → 2030 (60%)",
+  "view.dev.kpi.pace25.label": "Slope → 2025",
+  "view.dev.kpi.pace25.hint": "minimum pp/year",
+  "view.dev.kpi.pace30.label": "Slope → 2030",
+  "view.dev.kpi.pace30.hint": "minimum pp/year",
+  "view.dev.kpi.slope.label": "Historical trend",
+  "view.dev.kpi.slope.hint": "pp/year",
+  "view.dev.kpi.vol.label": "Average volatility",
+  "view.dev.kpi.vol.hint": "mean |Δ| (pp/year)",
+
+  "view.dev.evo.h3": "Evolution and targets — how to read, impact and what to do",
+  "view.dev.evo.how": "<b>How to read:</b> the green curve is the real rate (%); dotted lines are the targets (55/60); the dashed line is the <b>minimum slope</b> (pp/year) from the last actual year.",
+  "view.dev.evo.impact": "<b>Impact:</b> below the slope the <i>gap</i> persists/increases; on it, compliance is tight; above it you gain margin.",
+  "view.dev.evo.do": "<b>Act now:</b> door-to-door/proximity biowaste; reinforcement of multimaterial (glass/paper/packaging); reduce <i>contamination</i>; divert landfill to organic/material recovery.",
+  "view.dev.evo.chart.h2": "Evolution and targets",
+  "view.dev.evo.chart.note": "Actual curve (%), targets (55/60) and minimum slope (pp/year).",
+  "view.dev.trend.math.title": "Average trend",
+
+  "view.dev.delta.h3": "Annual variation (Δ in pp) — how to read, impact and what to do",
+  "view.dev.delta.how": "<b>How to read:</b> green bars = increase; red = decrease; grey = Δ not calculated (year gaps).",
+  "view.dev.delta.impact": "<b>Impact:</b> sequence of positive, stable Δ shortens the gap; “sawtooth” (up-down) wastes effort.",
+  "view.dev.delta.do": "<b>Do:</b> operational targets in <i>pp/year</i> per municipality/system; contracts with KPIs on diversion/contamination; smart collection + education focused on <i>quality</i>.",
+  "view.dev.delta.chart.h2": "Annual variation (percentage points)",
+  "view.dev.delta.chart.note": "Δ(t)=Rate(t)−Rate(t−1).",
+
+  "view.dev.hist.h2": "Historical series",
+  "view.dev.hist.note": "Interval: ",
+  "view.dev.hist.note.obs": "observations. Δ is not calculated when year gaps exist.",
+  "view.dev.hist.th.year": "Year",
+  "view.dev.hist.th.rate": "Rate",
+  "view.dev.hist.th.delta": "Δ vs previous year",
+  "view.dev.hist.loading": "Loading…",
+
+  "view.conc.h2": "Conclusion",
+  "view.conc.dyn.h3": "Dynamic diagnosis",
+  "view.conc.dyn.placeholder": "—",
+  "view.conc.quick.h4": "Quick actions (0–90 days)",
+  "view.conc.quick.l1": "Scale up <b>biowaste</b> door-to-door/proximity with weekly capture monitoring.",
+  "view.conc.quick.l2": "Refine <b>multimaterial routes</b> (glass/paper/packaging) with telemetry where useful.",
+  "view.conc.quick.l3": "<b>Quality</b> in sorting: contamination audits + immediate feedback to citizens.",
+  "view.conc.quick.l4": "<b>Hyper-local campaigns</b> in areas with highest contamination (heat map).",
+
+  "view.conc.struct.h4": "Structural (12–24 months)",
+  "view.conc.struct.l1": "Contracts with <b>KPI in pp/year</b> and penalties for contamination/delays.",
+  "view.conc.struct.l2": "<b>PAYT</b>/incentives with social safeguards, to buy slope.",
+  "view.conc.struct.l3": "<b>Landfill diversion</b> to organic/material recovery with quarterly targets.",
+  "view.conc.struct.l4": "<b>Circular public procurement</b> (recycled/reused content) to pull demand.",
+
+  "view.conc.ops.h4": "How P7CO® EcoResupply operationalises",
+  "view.conc.ops.l1": "<b>Data → Action:</b> when Δ drops or contamination rises, we trigger <i>playbooks</i> (routes, messaging, enforcement).",
+  "view.conc.ops.l2": "<b>Smart contracts:</b> dashboards with <i>pp/year</i> per system/municipality; gap alerts; evidence for audit.",
+  "view.conc.ops.l3": "<b>Public API:</b> reuse by partners and transparency (same licence as the source).",
+
+  "view.conc.kpi.h4": "Recommended KPIs",
+  "view.conc.kpi.ramp25": "Minimum slope → 2025: ",
+  "view.conc.kpi.ramp30": "Minimum slope → 2030: ",
+  "view.conc.kpi.suggested": "Suggested operational target: ",
+  "view.conc.kpi.suggested.note": "(≥ slope + 20%)",
+  "view.common.pp_per_year": "pp/year",
+  "view.footer.source": "Source: <a href=\"/eco/api/circularity/ru/history\">Public API</a> · <a href=\"https://dados.gov.pt/pt/datasets/r/2906b11c-3d77-466d-8b83-5ad93326ba58\" target=\"_blank\" rel=\"noopener\">dados.gov.pt</a> (CC BY 4.0).",
+
+  "js.api.error_load": "Failed to load data (HTTP {status}). Check the /eco/api/circularity/ru/history gate in PROD.",
+  "js.api.warn_series": "Empty series. Check DB data or the controller fallback.",
+  "js.api.catch": "Failed to load data. If in PROD, check the /eco/* gate and if the endpoint is public.",
+
+  "js.kpis.trend.up": "increased",
+  "js.kpis.trend.down": "decreased",
+  "js.kpis.trend.flat": "remained stable",
+
+  "js.units.pp": "pp",
+  "js.units.pp_per_year": "pp/year",
+
+  "js.warn.missing_tpl": "Gap(s) in the series: {list}. Δ not calculated for those jumps (grey bars).",
+
+  "js.bar.delta_label": "Δ pp/year",
+  "js.bar.tooltip_gap": "Δ: — (gap)",
+
+  "js.line.label_real": "Actual rate",
+  "js.line.meta25": "Target 2025 (55%)",
+  "js.line.meta30": "Target 2030 (60%)",
+  "js.line.ramp25": "Slope → 2025",
+  "js.line.ramp30": "Slope → 2030",
+
+  "js.var.summary_tpl": "peak of +{best} pp in {bestY}; largest drop {worst} pp in {worstY}; average volatility {vol} pp/year.",
+
+  "js.conc.line1": "Latest value {rate}% in {year}.",
+  "js.conc.line2": "Recent Δ: {delta}.",
+  "js.conc.line3": "Slope → 2025: {pace25} pp/year; → 2030: {pace30} pp/year.",
+  "js.conc.line4": "Historical trend: {slope} pp/year; average volatility: {vol} pp/year.",
+  "js.conc.line5": "If the pace is maintained, 55%: {eta55}; 60%: {eta60}.",
+  "js.conc.eta.na": "not attainable at current pace",
+  "js.conc.eta.met": "already achieved"
+}

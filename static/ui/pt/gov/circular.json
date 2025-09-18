@@ -1,0 +1,141 @@
+{
+  "view.seo.title": "Circularidade — Resíduos Urbanos (PT)",
+  "view.seo.description": "Introdução crítica, Desenvolvimento (gráficos + métricas) e Conclusão com diagnóstico e soluções — tudo dinâmico e ligado à P7CO® EcoResupply.",
+  "view.seo.robots": "index, follow",
+
+  "view.breadcrumb.home": "Início",
+  "view.breadcrumb.active": "Circularidade",
+
+  "view.page.title": "Circularidade, Resíduos Urbanos (PT)",
+  "view.page.subtitle": "Artigo dinâmico atualiza automaticamente quando entra novo ano",
+
+  "view.nav.intro": "Introdução",
+  "view.nav.dev": "Desenvolvimento",
+  "view.nav.conc": "Conclusão",
+
+  "view.intro.h2": "Introdução",
+  "view.intro.what.title": "O que é circularidade?",
+  "view.intro.what.text": "É desenhar sistemas para <em>evitar desperdício</em>, <em>prolongar vidas úteis</em> e <em>fechar ciclos</em>. Em <b>resíduos urbanos</b> a métrica-bússola é a <b>taxa de reciclagem</b>, mas o resultado depende da <i>captação</i> (recolha), da <i>qualidade</i> (impropriedades) e do <i>encaminhamento</i> (desvio de aterro).",
+
+  "view.intro.mission.title": "A Nossa Missão.",
+  "view.intro.mission.text": "Promover uma <em>economia circular real</em> em Portugal, simplificando o reaproveitamento de excedentes e resíduos com tecnologia, dados abertos e métricas claras. Ligamos empresas, entidades públicas e cidadãos para que a reutilização seja simples, transparente e mensurável.",
+
+  "view.intro.vision.title": "A Nossa Visão.",
+  "view.intro.vision.text": "Ser a plataforma de referência na gestão sustentável de recursos, impulsionando a transição para um modelo económico <em>regenerativo e colaborativo</em> — onde cada material conta e cada contributo gera impacto positivo comprovado para a sociedade e para o planeta.",
+
+  "view.intro.product.title": "Como a P7CO® EcoResupply entra.",
+  "view.intro.product.text": "Operamos com dados de <em>fontes oficiais</em> e disponibilizamos uma <strong>API pública</strong> que alimenta dashboards, alertas e contratos com <strong>KPI em pp/ano</strong>. Sempre que os dados sinalizam desvio (ex.: aumento de impropriedades), acionamos <em>playbooks</em> operacionais — ajustamos recolha, comunicação e consciencialização. Não é só medir: é <strong>intervir</strong> e comprovar resultados.",
+
+  "view.intro.why.h2": "Porque a circularidade importa?",
+  "view.intro.why.text.prefix": "<strong>Não é só por cumprir metas.</strong> Circularidade é reduzir dependência de matérias-primas, cortar custos, diminuir emissões e criar emprego local — <em>ao mesmo tempo</em> que melhoramos serviço público e reputação. Em resíduos urbanos, a bússola é a <b>taxa de reciclagem</b>. Último valor: ",
+  "view.intro.why.text.metrics": "vs. ano anterior (<span id=\"yoy-pp\">—</span> pp).",
+  "view.intro.why.list.env": "<b>Ambiental:</b> menos aterro e metano, menor pegada de carbono, poupança de água e energia na produção.",
+  "view.intro.why.list.econ": "<b>Económica:</b> menos gate fees e transporte, recuperação de valor de materiais, menor exposição a preços voláteis.",
+  "view.intro.why.list.soc": "<b>Social & território:</b> emprego de proximidade, limpeza urbana, saúde pública e confiança dos munícipes.",
+  "view.intro.why.list.gov": "<b>Governação & risco:</b> compliance contínuo, acesso a financiamento/ESG, preparação para reporte (p.ex. CSRD).",
+  "view.intro.why.list.data": "<b>Inovação & dados:</b> digitalização da recolha, transparência via API e decisões em tempo quase real.",
+
+  "view.intro.metrics.h2": "Métricas para agir, não só medir",
+  "view.intro.metrics.text": "Circularidade exige mais do que olhar para a taxa global. Monitorizamos <i>Δ em pp/ano</i>, <i>impropriedades</i>, <i>captação por fracção</i> (vidro, papel, embalagens, biorresíduos), <i>desvio de aterro</i> e <i>rejeições</i> sempre que há dados. O foco é <b>reduzir o gap</b> todos os anos, com progresso consistente e intervenções rápidas.",
+  "view.intro.math.title": "Definições (pp = pontos percentuais)",
+  "view.intro.source.note": "Dados oficiais (<a href=\"https://dados.gov.pt/pt/datasets/r/2906b11c-3d77-466d-8b83-5ad93326ba58\" target=\"_blank\" rel=\"noopener\">dados.gov.pt</a>, CC BY 4.0) obtidos via <a href=\"/eco/api/circularity/ru/history\">/eco/api/circularity/ru/history</a>.",
+
+  "view.dev.snapshot.h2": "Snapshot — onde estamos e quanto falta",
+  "view.dev.snapshot.note": "Valores dinâmicos a partir da série oficial.",
+  "view.dev.kpi.last.label": "Último valor",
+  "view.dev.kpi.yoy.label": "Δ vs. ano anterior",
+  "view.dev.kpi.yoy.hint": "variação em pp",
+  "view.dev.kpi.gap25.label": "Gap → 2025 (55%)",
+  "view.dev.kpi.gap30.label": "Gap → 2030 (60%)",
+  "view.dev.kpi.pace25.label": "Rampa → 2025",
+  "view.dev.kpi.pace25.hint": "pp/ano mínimos",
+  "view.dev.kpi.pace30.label": "Rampa → 2030",
+  "view.dev.kpi.pace30.hint": "pp/ano mínimos",
+  "view.dev.kpi.slope.label": "Tendência histórica",
+  "view.dev.kpi.slope.hint": "pp/ano",
+  "view.dev.kpi.vol.label": "Volatilidade média",
+  "view.dev.kpi.vol.hint": "|Δ| médio (pp/ano)",
+
+  "view.dev.evo.h3": "Evolução e metas — como ler, impacto e o que fazer",
+  "view.dev.evo.how": "<b>Como ler:</b> a curva verde é a taxa real (%); linhas pontilhadas são as metas (55/60); o tracejado é a <b>rampa mínima</b> (pp/ano) desde o último ano real.",
+  "view.dev.evo.impact": "<b>Impacto:</b> abaixo da rampa o <i>gap</i> persiste/aumenta; em cima cumpre por pouco; acima ganhas margem.",
+  "view.dev.evo.do": "<b>Fazer já:</b> biorresíduos porta-a-porta/proximidade; reforço de multimaterial (vidro/papel/embalagens); reduzir <i>impropriedades</i>; desvio de aterro para valorização orgânica/material.",
+  "view.dev.evo.chart.h2": "Evolução e metas",
+  "view.dev.evo.chart.note": "Curva real (%), metas (55/60) e “rampa” mínima (pp/ano).",
+  "view.dev.trend.math.title": "Tendência média",
+
+  "view.dev.delta.h3": "Variação anual (Δ em pp) — como ler, impacto e o que fazer",
+  "view.dev.delta.how": "<b>Como ler:</b> barras verdes = subida; vermelhas = descida; cinza = Δ não calculado (lacunas de ano).",
+  "view.dev.delta.impact": "<b>Impacto:</b> sequência de Δ positivos e estáveis encurta o gap; “serrilha” (sobe-desce) desperdiça esforço.",
+  "view.dev.delta.do": "<b>Fazer:</b> metas operacionais em <i>pp/ano</i> por município/sistema; contratos com KPIs de desvio/impropriedades; recolha inteligente + educação focada em <i>qualidade</i>.",
+  "view.dev.delta.chart.h2": "Variação anual (pontos percentuais)",
+  "view.dev.delta.chart.note": "Δ(t)=Taxa(t)−Taxa(t−1).",
+
+  "view.dev.hist.h2": "Série histórica",
+  "view.dev.hist.note": "Intervalo: ",
+  "view.dev.hist.note.obs": "observações. Δ não é calculado quando há lacunas de ano.",
+  "view.dev.hist.th.year": "Ano",
+  "view.dev.hist.th.rate": "Taxa",
+  "view.dev.hist.th.delta": "Δ vs ano anterior",
+  "view.dev.hist.loading": "A carregar…",
+
+  "view.conc.h2": "Conclusão",
+  "view.conc.dyn.h3": "Diagnóstico dinâmico",
+  "view.conc.dyn.placeholder": "—",
+  "view.conc.quick.h4": "Ações rápidas (0–90 dias)",
+  "view.conc.quick.l1": "Escalar <b>biorresíduos</b> porta-a-porta/proximidade com leitura semanal de captura.",
+  "view.conc.quick.l2": "Refinar <b>rotas de multimaterial</b> (vidro/papel/embalagens) com telemetria onde faça sentido.",
+  "view.conc.quick.l3": "<b>Qualidade</b> na separação: auditorias de impropriedades + feedback imediato ao munícipe.",
+  "view.conc.quick.l4": "Campanhas <b>hiper-locais</b> em zonas com maior impropriedade (mapa de calor).",
+
+  "view.conc.struct.h4": "Estruturais (12–24 meses)",
+  "view.conc.struct.l1": "Contratos com <b>KPI de pp/ano</b> e penalizações por impropriedades/atrasos.",
+  "view.conc.struct.l2": "<b>PAYT</b>/incentivos com salvaguardas sociais, para comprar rampa.",
+  "view.conc.struct.l3": "<b>Desvio de aterro</b> para valorização orgânica/material com metas trimestrais.",
+  "view.conc.struct.l4": "<b>Compras públicas circulares</b> (conteúdo reciclado/reutilização) para puxar a procura.",
+
+  "view.conc.ops.h4": "Como a P7CO® EcoResupply operacionaliza",
+  "view.conc.ops.l1": "<b>Dados → Ação:</b> quando Δ cai ou impropriedades sobem, disparamos <i>playbooks</i> (rotas, messaging, fiscalização).",
+  "view.conc.ops.l2": "<b>Contratos inteligentes:</b> dashboards com <i>pp/ano</i> por sistema/município; alertas de <i>gap</i>; evidência para auditoria.",
+  "view.conc.ops.l3": "<b>API pública:</b> reuso por parceiros e transparência (mesma licença que a fonte).",
+
+  "view.conc.kpi.h4": "KPIs recomendados",
+  "view.conc.kpi.ramp25": "Ritmo mínimo → 2025: ",
+  "view.conc.kpi.ramp30": "Ritmo mínimo → 2030: ",
+  "view.conc.kpi.suggested": "Meta operacional sugerida: ",
+  "view.conc.kpi.suggested.note": "(≥ rampa + 20%)",
+  "view.common.pp_per_year": "pp/ano",
+  "view.footer.source": "Fonte: <a href=\"/eco/api/circularity/ru/history\">API pública</a> · <a href=\"https://dados.gov.pt/pt/datasets/r/2906b11c-3d77-466d-8b83-5ad93326ba58\" target=\"_blank\" rel=\"noopener\">dados.gov.pt</a> (CC BY 4.0).",
+
+  "js.api.error_load": "Não foi possível carregar dados (HTTP {status}). Verifica o gate de /eco/api/circularity/ru/history em PROD.",
+  "js.api.warn_series": "Série vazia. Confirma dados no DB ou o fallback do controller.",
+  "js.api.catch": "Falha a carregar dados. Se estás em PROD, confirma o gate /eco/* e se o endpoint está público.",
+
+  "js.kpis.trend.up": "subiu",
+  "js.kpis.trend.down": "desceu",
+  "js.kpis.trend.flat": "ficou estável",
+
+  "js.units.pp": "pp",
+  "js.units.pp_per_year": "pp/ano",
+
+  "js.warn.missing_tpl": "Lacuna(s) na série: {list}. Δ não é calculado nesses saltos (barras cinza).",
+
+  "js.bar.delta_label": "Δ pp/ano",
+  "js.bar.tooltip_gap": "Δ: — (lacuna)",
+
+  "js.line.label_real": "Taxa real",
+  "js.line.meta25": "Meta 2025 (55%)",
+  "js.line.meta30": "Meta 2030 (60%)",
+  "js.line.ramp25": "Rampa → 2025",
+  "js.line.ramp30": "Rampa → 2030",
+
+  "js.var.summary_tpl": "pico de +{best} pp em {bestY}; maior queda de {worst} pp em {worstY}; volatilidade média {vol} pp/ano.",
+
+  "js.conc.line1": "Último valor {rate}% em {year}.",
+  "js.conc.line2": "Δ recente: {delta}.",
+  "js.conc.line3": "Rampa → 2025: {pace25} pp/ano; → 2030: {pace30} pp/ano.",
+  "js.conc.line4": "Tendência histórica: {slope} pp/ano; volatilidade média: {vol} pp/ano.",
+  "js.conc.line5": "Se mantido o ritmo, 55%: {eta55}; 60%: {eta60}.",
+  "js.conc.eta.na": "não atingível no ritmo atual",
+  "js.conc.eta.met": "já cumprida"
+}

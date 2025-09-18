@@ -1,0 +1,141 @@
+{
+  "view.seo.title": "Zirkularität — Siedlungsabfälle (DE)",
+  "view.seo.description": "Kritische Einführung, Entwicklung (Grafiken + Kennzahlen) und Schlussfolgerung mit Diagnose und Lösungen — alles dynamisch und mit P7CO® EcoResupply verbunden.",
+  "view.seo.robots": "index, follow",
+
+  "view.breadcrumb.home": "Startseite",
+  "view.breadcrumb.active": "Zirkularität",
+
+  "view.page.title": "Zirkularität, Siedlungsabfälle (DE)",
+  "view.page.subtitle": "Dynamischer Artikel, der sich automatisch aktualisiert, wenn ein neues Jahr verfügbar ist",
+
+  "view.nav.intro": "Einleitung",
+  "view.nav.dev": "Entwicklung",
+  "view.nav.conc": "Fazit",
+
+  "view.intro.h2": "Einleitung",
+  "view.intro.what.title": "Was ist Zirkularität?",
+  "view.intro.what.text": "Es bedeutet, Systeme zu entwerfen, um <em>Abfall zu vermeiden</em>, <em>Nutzungsdauern zu verlängern</em> und <em>Kreisläufe zu schließen</em>. Bei <b>Siedlungsabfällen</b> ist die Leitkennzahl die <b>Recyclingquote</b>, aber das Ergebnis hängt von der <i>Erfassung</i> (Sammlung), der <i>Qualität</i> (Fehlwürfe) und der <i>Verwertung</i> (Deponieumlenkung) ab.",
+
+  "view.intro.mission.title": "Unsere Mission.",
+  "view.intro.mission.text": "Förderung einer <em>echten Kreislaufwirtschaft</em> in Portugal durch die Vereinfachung der Wiederverwendung von Überschüssen und Abfällen mit Technologie, offenen Daten und klaren Kennzahlen. Wir verbinden Unternehmen, öffentliche Einrichtungen und Bürger, damit Wiederverwendung einfach, transparent und messbar wird.",
+
+  "view.intro.vision.title": "Unsere Vision.",
+  "view.intro.vision.text": "Die Referenzplattform für nachhaltiges Ressourcenmanagement zu sein, die den Übergang zu einem <em>regenerativen und kollaborativen</em> Wirtschaftsmodell vorantreibt — wo jedes Material zählt und jeder Beitrag nachweislich positive Auswirkungen auf Gesellschaft und Planet hat.",
+
+  "view.intro.product.title": "Wie P7CO® EcoResupply eingreift.",
+  "view.intro.product.text": "Wir arbeiten mit Daten aus <em>offiziellen Quellen</em> und stellen eine <strong>öffentliche API</strong> bereit, die Dashboards, Warnungen und Verträge mit <strong>KPIs in pp/Jahr</strong> versorgt. Immer wenn die Daten Abweichungen anzeigen (z. B. Anstieg der Fehlwürfe), aktivieren wir <em>operative Playbooks</em> — Anpassung von Sammlung, Kommunikation und Sensibilisierung. Es geht nicht nur ums Messen: es geht ums <strong>Handeln</strong> und Nachweisen von Ergebnissen.",
+
+  "view.intro.why.h2": "Warum ist Zirkularität wichtig?",
+  "view.intro.why.text.prefix": "<strong>Es geht nicht nur um Zielerfüllung.</strong> Zirkularität bedeutet weniger Abhängigkeit von Rohstoffen, Kostensenkung, Emissionsreduzierung und Schaffung lokaler Arbeitsplätze — <em>gleichzeitig</em> wird der öffentliche Dienst und das Image verbessert. Bei Siedlungsabfällen ist die Leitkennzahl die <b>Recyclingquote</b>. Letzter Wert: ",
+  "view.intro.why.text.metrics": "gegenüber Vorjahr (<span id=\"yoy-pp\">—</span> pp).",
+  "view.intro.why.list.env": "<b>Umwelt:</b> weniger Deponie und Methan, geringerer CO₂-Fußabdruck, Wasser- und Energieeinsparungen in der Produktion.",
+  "view.intro.why.list.econ": "<b>Wirtschaftlich:</b> geringere Deponie- und Transportkosten, Rückgewinnung von Materialwert, weniger Abhängigkeit von volatilen Preisen.",
+  "view.intro.why.list.soc": "<b>Sozial & territorial:</b> lokale Arbeitsplätze, städtische Sauberkeit, öffentliche Gesundheit und Vertrauen der Bürger.",
+  "view.intro.why.list.gov": "<b>Governance & Risiko:</b> kontinuierliche Compliance, Zugang zu Finanzierung/ESG, Vorbereitung auf Berichterstattung (z. B. CSRD).",
+  "view.intro.why.list.data": "<b>Innovation & Daten:</b> digitalisierte Sammlung, Transparenz via API und Entscheidungen nahezu in Echtzeit.",
+
+  "view.intro.metrics.h2": "Kennzahlen zum Handeln, nicht nur zum Messen",
+  "view.intro.metrics.text": "Zirkularität erfordert mehr als die Betrachtung der Gesamtquote. Wir überwachen <i>Δ in pp/Jahr</i>, <i>Fehlwürfe</i>, <i>Erfassung nach Fraktion</i> (Glas, Papier, Verpackungen, Bioabfälle), <i>Deponieumlenkung</i> und <i>Aussortierungen</i>, wann immer Daten vorliegen. Ziel ist es, die <b>Lücke jedes Jahr zu verkleinern</b>, mit konstantem Fortschritt und schnellen Eingriffen.",
+  "view.intro.math.title": "Definitionen (pp = Prozentpunkte)",
+  "view.intro.source.note": "Offizielle Daten (<a href=\"https://dados.gov.pt/pt/datasets/r/2906b11c-3d77-466d-8b83-5ad93326ba58\" target=\"_blank\" rel=\"noopener\">dados.gov.pt</a>, CC BY 4.0) über <a href=\"/eco/api/circularity/ru/history\">/eco/api/circularity/ru/history</a>.",
+
+  "view.dev.snapshot.h2": "Momentaufnahme — wo wir stehen und was noch fehlt",
+  "view.dev.snapshot.note": "Dynamische Werte aus der offiziellen Zeitreihe.",
+  "view.dev.kpi.last.label": "Letzter Wert",
+  "view.dev.kpi.yoy.label": "Δ ggü. Vorjahr",
+  "view.dev.kpi.yoy.hint": "Veränderung in pp",
+  "view.dev.kpi.gap25.label": "Lücke → 2025 (55%)",
+  "view.dev.kpi.gap30.label": "Lücke → 2030 (60%)",
+  "view.dev.kpi.pace25.label": "Steigung → 2025",
+  "view.dev.kpi.pace25.hint": "min. pp/Jahr",
+  "view.dev.kpi.pace30.label": "Steigung → 2030",
+  "view.dev.kpi.pace30.hint": "min. pp/Jahr",
+  "view.dev.kpi.slope.label": "Historischer Trend",
+  "view.dev.kpi.slope.hint": "pp/Jahr",
+  "view.dev.kpi.vol.label": "Durchschnittliche Volatilität",
+  "view.dev.kpi.vol.hint": "mittleres |Δ| (pp/Jahr)",
+
+  "view.dev.evo.h3": "Entwicklung und Ziele — wie lesen, Wirkung und Maßnahmen",
+  "view.dev.evo.how": "<b>Wie lesen:</b> grüne Kurve = realer Wert (%); gepunktete Linien = Ziele (55/60); gestrichelte Linie = <b>min. Steigung</b> (pp/Jahr) seit dem letzten realen Jahr.",
+  "view.dev.evo.impact": "<b>Wirkung:</b> unter der Steigung bleibt die <i>Lücke</i> bestehen/vergrößert sich; auf ihr wird knapp erfüllt; darüber entsteht Spielraum.",
+  "view.dev.evo.do": "<b>Jetzt handeln:</b> Bioabfälle Tür-zu-Tür/Nähe; Verstärkung von Glas/Papier/Verpackungen; Reduzierung von <i>Fehlwürfen</i>; Umlenkung von Deponien zu organischer/materieller Verwertung.",
+  "view.dev.evo.chart.h2": "Entwicklung und Ziele",
+  "view.dev.evo.chart.note": "Realkurve (%), Ziele (55/60) und min. Steigung (pp/Jahr).",
+  "view.dev.trend.math.title": "Durchschnittlicher Trend",
+
+  "view.dev.delta.h3": "Jährliche Veränderung (Δ in pp) — wie lesen, Wirkung und Maßnahmen",
+  "view.dev.delta.how": "<b>Wie lesen:</b> grüne Balken = Anstieg; rote = Rückgang; graue = Δ nicht berechnet (Lücken).",
+  "view.dev.delta.impact": "<b>Wirkung:</b> Folge positiver, stabiler Δ verkleinert die Lücke; „Sägezahn“ (hoch-runter) vergeudet Mühe.",
+  "view.dev.delta.do": "<b>Tun:</b> operative Ziele in <i>pp/Jahr</i> je Gemeinde/System; Verträge mit KPIs zu Umlenkung/Fehlwürfen; smarte Sammlung + Aufklärung mit Fokus auf <i>Qualität</i>.",
+  "view.dev.delta.chart.h2": "Jährliche Veränderung (Prozentpunkte)",
+  "view.dev.delta.chart.note": "Δ(t)=Quote(t)−Quote(t−1).",
+
+  "view.dev.hist.h2": "Historische Reihe",
+  "view.dev.hist.note": "Zeitraum: ",
+  "view.dev.hist.note.obs": "Beobachtungen. Δ wird nicht berechnet, wenn Jahre fehlen.",
+  "view.dev.hist.th.year": "Jahr",
+  "view.dev.hist.th.rate": "Quote",
+  "view.dev.hist.th.delta": "Δ ggü. Vorjahr",
+  "view.dev.hist.loading": "Lade…",
+
+  "view.conc.h2": "Fazit",
+  "view.conc.dyn.h3": "Dynamische Diagnose",
+  "view.conc.dyn.placeholder": "—",
+  "view.conc.quick.h4": "Schnelle Maßnahmen (0–90 Tage)",
+  "view.conc.quick.l1": "Ausbau <b>Bioabfälle</b> Tür-zu-Tür/Nähe mit wöchentlichem Monitoring.",
+  "view.conc.quick.l2": "Optimierung der <b>Multimaterial-Routen</b> (Glas/Papier/Verpackungen) mit Telemetrie, wo sinnvoll.",
+  "view.conc.quick.l3": "<b>Qualität</b> der Trennung: Fehlwurf-Audits + sofortiges Feedback an Bürger.",
+  "view.conc.quick.l4": "<b>Hyperlokale Kampagnen</b> in Gebieten mit höchster Fehlwurfquote (Heatmap).",
+
+  "view.conc.struct.h4": "Strukturell (12–24 Monate)",
+  "view.conc.struct.l1": "Verträge mit <b>KPI in pp/Jahr</b> und Sanktionen für Fehlwürfe/Verzögerungen.",
+  "view.conc.struct.l2": "<b>PAYT</b>/Anreize mit sozialen Sicherungen, um Steigung zu „kaufen“.",
+  "view.conc.struct.l3": "<b>Umlenkung von Deponien</b> zu organischer/materieller Verwertung mit Quartalszielen.",
+  "view.conc.struct.l4": "<b>Zirkuläre öffentliche Beschaffung</b> (recycelt/wiederverwendet) zur Nachfragesteigerung.",
+
+  "view.conc.ops.h4": "Wie P7CO® EcoResupply operationalisiert",
+  "view.conc.ops.l1": "<b>Daten → Aktion:</b> wenn Δ fällt oder Fehlwürfe steigen, lösen wir <i>Playbooks</i> aus (Routen, Kommunikation, Kontrolle).",
+  "view.conc.ops.l2": "<b>Smarte Verträge:</b> Dashboards mit <i>pp/Jahr</i> je System/Gemeinde; Gap-Warnungen; Nachweise für Audits.",
+  "view.conc.ops.l3": "<b>Öffentliche API:</b> Wiederverwendung durch Partner und Transparenz (gleiche Lizenz wie Quelle).",
+
+  "view.conc.kpi.h4": "Empfohlene KPIs",
+  "view.conc.kpi.ramp25": "Mindesttempo → 2025: ",
+  "view.conc.kpi.ramp30": "Mindesttempo → 2030: ",
+  "view.conc.kpi.suggested": "Vorgeschlagenes operatives Ziel: ",
+  "view.conc.kpi.suggested.note": "(≥ Steigung + 20%)",
+  "view.common.pp_per_year": "pp/Jahr",
+  "view.footer.source": "Quelle: <a href=\"/eco/api/circularity/ru/history\">Öffentliche API</a> · <a href=\"https://dados.gov.pt/pt/datasets/r/2906b11c-3d77-466d-8b83-5ad93326ba58\" target=\"_blank\" rel=\"noopener\">dados.gov.pt</a> (CC BY 4.0).",
+
+  "js.api.error_load": "Daten konnten nicht geladen werden (HTTP {status}). Prüfe das Gate /eco/api/circularity/ru/history in PROD.",
+  "js.api.warn_series": "Leere Reihe. Prüfe die Daten in der DB oder das Controller-Fallback.",
+  "js.api.catch": "Fehler beim Laden der Daten. Falls PROD, prüfe Gate /eco/* und ob der Endpoint öffentlich ist.",
+
+  "js.kpis.trend.up": "gestiegen",
+  "js.kpis.trend.down": "gesunken",
+  "js.kpis.trend.flat": "stabil geblieben",
+
+  "js.units.pp": "pp",
+  "js.units.pp_per_year": "pp/Jahr",
+
+  "js.warn.missing_tpl": "Lücke(n) in der Reihe: {list}. Δ dort nicht berechnet (graue Balken).",
+
+  "js.bar.delta_label": "Δ pp/Jahr",
+  "js.bar.tooltip_gap": "Δ: — (Lücke)",
+
+  "js.line.label_real": "Reale Quote",
+  "js.line.meta25": "Ziel 2025 (55%)",
+  "js.line.meta30": "Ziel 2030 (60%)",
+  "js.line.ramp25": "Steigung → 2025",
+  "js.line.ramp30": "Steigung → 2030",
+
+  "js.var.summary_tpl": "Spitze von +{best} pp in {bestY}; größter Rückgang {worst} pp in {worstY}; mittlere Volatilität {vol} pp/Jahr.",
+
+  "js.conc.line1": "Letzter Wert {rate}% im Jahr {year}.",
+  "js.conc.line2": "Jüngstes Δ: {delta}.",
+  "js.conc.line3": "Steigung → 2025: {pace25} pp/Jahr; → 2030: {pace30} pp/Jahr.",
+  "js.conc.line4": "Historischer Trend: {slope} pp/Jahr; mittlere Volatilität: {vol} pp/Jahr.",
+  "js.conc.line5": "Wenn das Tempo beibehalten wird: 55%: {eta55}; 60%: {eta60}.",
+  "js.conc.eta.na": "im aktuellen Tempo nicht erreichbar",
+  "js.conc.eta.met": "bereits erreicht"
+}

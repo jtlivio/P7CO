@@ -1,0 +1,141 @@
+{
+  "view.seo.title": "Circularité — Déchets Municipaux (FR)",
+  "view.seo.description": "Introduction critique, Développement (graphiques + métriques) et Conclusion avec diagnostic et solutions — le tout dynamique et relié à P7CO® EcoResupply.",
+  "view.seo.robots": "index, follow",
+
+  "view.breadcrumb.home": "Accueil",
+  "view.breadcrumb.active": "Circularité",
+
+  "view.page.title": "Circularité, Déchets Municipaux (FR)",
+  "view.page.subtitle": "Article dynamique qui se met automatiquement à jour lorsqu'une nouvelle année est disponible",
+
+  "view.nav.intro": "Introduction",
+  "view.nav.dev": "Développement",
+  "view.nav.conc": "Conclusion",
+
+  "view.intro.h2": "Introduction",
+  "view.intro.what.title": "Qu’est-ce que la circularité ?",
+  "view.intro.what.text": "C’est concevoir des systèmes pour <em>éviter le gaspillage</em>, <em>prolonger la durée de vie</em> et <em>boucler les cycles</em>. Dans les <b>déchets municipaux</b>, l’indicateur de référence est le <b>taux de recyclage</b>, mais le résultat dépend de la <i>collecte</i>, de la <i>qualité</i> (contaminations) et de <i>l’orientation</i> (détournement de la décharge).",
+
+  "view.intro.mission.title": "Notre Mission.",
+  "view.intro.mission.text": "Promouvoir une <em>économie circulaire réelle</em> au Portugal, en simplifiant la réutilisation des surplus et des déchets grâce à la technologie, aux données ouvertes et à des métriques claires. Nous connectons entreprises, entités publiques et citoyens pour que la réutilisation soit simple, transparente et mesurable.",
+
+  "view.intro.vision.title": "Notre Vision.",
+  "view.intro.vision.text": "Être la plateforme de référence pour la gestion durable des ressources, en impulsant la transition vers un modèle économique <em>régénératif et collaboratif</em> — où chaque matériau compte et chaque contribution génère un impact positif démontré pour la société et la planète.",
+
+  "view.intro.product.title": "Comment P7CO® EcoResupply intervient.",
+  "view.intro.product.text": "Nous travaillons avec des données de <em>sources officielles</em> et fournissons une <strong>API publique</strong> alimentant tableaux de bord, alertes et contrats avec <strong>KPI en pp/an</strong>. Dès que les données signalent un écart (ex. augmentation des contaminations), nous déclenchons des <em>playbooks</em> opérationnels — ajustement de la collecte, de la communication et de la sensibilisation. Ce n’est pas seulement mesurer : c’est <strong>agir</strong> et prouver les résultats.",
+
+  "view.intro.why.h2": "Pourquoi la circularité est-elle importante ?",
+  "view.intro.why.text.prefix": "<strong>Ce n’est pas seulement pour atteindre des objectifs.</strong> La circularité permet de réduire la dépendance aux matières premières, de diminuer les coûts, de réduire les émissions et de créer de l’emploi local — <em>tout en</em> améliorant le service public et la réputation. Dans les déchets municipaux, la boussole est le <b>taux de recyclage</b>. Dernière valeur : ",
+  "view.intro.why.text.metrics": "vs. année précédente (<span id=\"yoy-pp\">—</span> pp).",
+  "view.intro.why.list.env": "<b>Environnemental :</b> moins de mise en décharge et de méthane, empreinte carbone réduite, économies d’eau et d’énergie dans la production.",
+  "view.intro.why.list.econ": "<b>Économique :</b> frais de décharge et de transport réduits, valorisation des matériaux, moindre exposition à la volatilité des prix.",
+  "view.intro.why.list.soc": "<b>Social & territorial :</b> emplois de proximité, propreté urbaine, santé publique et confiance citoyenne.",
+  "view.intro.why.list.gov": "<b>Gouvernance & risque :</b> conformité continue, accès au financement/ESG, préparation au reporting (ex. CSRD).",
+  "view.intro.why.list.data": "<b>Innovation & données :</b> collecte numérisée, transparence via API et décisions en quasi temps réel.",
+
+  "view.intro.metrics.h2": "Des métriques pour agir, pas seulement mesurer",
+  "view.intro.metrics.text": "La circularité exige plus que de regarder le taux global. Nous suivons <i>Δ en pp/an</i>, <i>contaminations</i>, <i>captation par fraction</i> (verre, papier, emballages, biodéchets), <i>détournement de la décharge</i> et <i>rejets</i> quand les données existent. L’objectif est <b>de réduire l’écart</b> chaque année, avec des progrès constants et des interventions rapides.",
+  "view.intro.math.title": "Définitions (pp = points de pourcentage)",
+  "view.intro.source.note": "Données officielles (<a href=\"https://dados.gov.pt/pt/datasets/r/2906b11c-3d77-466d-8b83-5ad93326ba58\" target=\"_blank\" rel=\"noopener\">dados.gov.pt</a>, CC BY 4.0) obtenues via <a href=\"/eco/api/circularity/ru/history\">/eco/api/circularity/ru/history</a>.",
+
+  "view.dev.snapshot.h2": "Instantané — où nous en sommes et combien il reste à faire",
+  "view.dev.snapshot.note": "Valeurs dynamiques issues de la série officielle.",
+  "view.dev.kpi.last.label": "Dernière valeur",
+  "view.dev.kpi.yoy.label": "Δ vs. année précédente",
+  "view.dev.kpi.yoy.hint": "variation en pp",
+  "view.dev.kpi.gap25.label": "Écart → 2025 (55%)",
+  "view.dev.kpi.gap30.label": "Écart → 2030 (60%)",
+  "view.dev.kpi.pace25.label": "Pente → 2025",
+  "view.dev.kpi.pace25.hint": "pp/an minimum",
+  "view.dev.kpi.pace30.label": "Pente → 2030",
+  "view.dev.kpi.pace30.hint": "pp/an minimum",
+  "view.dev.kpi.slope.label": "Tendance historique",
+  "view.dev.kpi.slope.hint": "pp/an",
+  "view.dev.kpi.vol.label": "Volatilité moyenne",
+  "view.dev.kpi.vol.hint": "|Δ| moyen (pp/an)",
+
+  "view.dev.evo.h3": "Évolution et objectifs — comment lire, impact et que faire",
+  "view.dev.evo.how": "<b>Comment lire :</b> la courbe verte est le taux réel (%); les pointillés sont les objectifs (55/60); la ligne en tirets est la <b>pente minimale</b> (pp/an) depuis la dernière année réelle.",
+  "view.dev.evo.impact": "<b>Impact :</b> en dessous de la pente l’<i>écart</i> persiste/augmente ; dessus, conformité stricte ; au-dessus, marge gagnée.",
+  "view.dev.evo.do": "<b>Agir dès maintenant :</b> biodéchets porte-à-porte/proximité ; renforcement du multimatériau (verre/papier/emballages) ; réduire <i>contaminations</i> ; détourner de la décharge vers valorisation organique/matérielle.",
+  "view.dev.evo.chart.h2": "Évolution et objectifs",
+  "view.dev.evo.chart.note": "Courbe réelle (%), objectifs (55/60) et pente minimale (pp/an).",
+  "view.dev.trend.math.title": "Tendance moyenne",
+
+  "view.dev.delta.h3": "Variation annuelle (Δ en pp) — comment lire, impact et que faire",
+  "view.dev.delta.how": "<b>Comment lire :</b> barres vertes = hausse ; rouges = baisse ; grises = Δ non calculé (années manquantes).",
+  "view.dev.delta.impact": "<b>Impact :</b> séquence de Δ positifs et stables réduit l’écart ; « dent de scie » (haut-bas) gaspille des efforts.",
+  "view.dev.delta.do": "<b>À faire :</b> objectifs opérationnels en <i>pp/an</i> par commune/système ; contrats avec KPIs sur détournement/contaminations ; collecte intelligente + sensibilisation axée sur la <i>qualité</i>.",
+  "view.dev.delta.chart.h2": "Variation annuelle (points de pourcentage)",
+  "view.dev.delta.chart.note": "Δ(t)=Taux(t)−Taux(t−1).",
+
+  "view.dev.hist.h2": "Série historique",
+  "view.dev.hist.note": "Intervalle : ",
+  "view.dev.hist.note.obs": "observations. Δ non calculé quand des années manquent.",
+  "view.dev.hist.th.year": "Année",
+  "view.dev.hist.th.rate": "Taux",
+  "view.dev.hist.th.delta": "Δ vs année précédente",
+  "view.dev.hist.loading": "Chargement…",
+
+  "view.conc.h2": "Conclusion",
+  "view.conc.dyn.h3": "Diagnostic dynamique",
+  "view.conc.dyn.placeholder": "—",
+  "view.conc.quick.h4": "Actions rapides (0–90 jours)",
+  "view.conc.quick.l1": "Déployer <b>biodéchets</b> porte-à-porte/proximité avec suivi hebdomadaire de la captation.",
+  "view.conc.quick.l2": "Affiner les <b>itinéraires multimatériaux</b> (verre/papier/emballages) avec télémétrie là où pertinent.",
+  "view.conc.quick.l3": "<b>Qualité</b> du tri : audits de contaminations + retour immédiat aux citoyens.",
+  "view.conc.quick.l4": "Campagnes <b>hyperlocales</b> dans les zones à forte contamination (carte thermique).",
+
+  "view.conc.struct.h4": "Structurelles (12–24 mois)",
+  "view.conc.struct.l1": "Contrats avec <b>KPI en pp/an</b> et pénalités pour contaminations/retards.",
+  "view.conc.struct.l2": "<b>PAYT</b>/incitations avec garanties sociales, pour « acheter » la pente.",
+  "view.conc.struct.l3": "<b>Détournement de la décharge</b> vers valorisation organique/matérielle avec objectifs trimestriels.",
+  "view.conc.struct.l4": "<b>Achat public circulaire</b> (contenu recyclé/réutilisation) pour stimuler la demande.",
+
+  "view.conc.ops.h4": "Comment P7CO® EcoResupply opérationnalise",
+  "view.conc.ops.l1": "<b>Données → Action :</b> quand Δ baisse ou que les contaminations augmentent, nous déclenchons des <i>playbooks</i> (itinéraires, messages, contrôle).",
+  "view.conc.ops.l2": "<b>Contrats intelligents :</b> tableaux de bord avec <i>pp/an</i> par système/commune ; alertes d’écart ; preuves pour audit.",
+  "view.conc.ops.l3": "<b>API publique :</b> réutilisation par les partenaires et transparence (même licence que la source).",
+
+  "view.conc.kpi.h4": "KPIs recommandés",
+  "view.conc.kpi.ramp25": "Rythme minimum → 2025 : ",
+  "view.conc.kpi.ramp30": "Rythme minimum → 2030 : ",
+  "view.conc.kpi.suggested": "Objectif opérationnel suggéré : ",
+  "view.conc.kpi.suggested.note": "(≥ pente + 20%)",
+  "view.common.pp_per_year": "pp/an",
+  "view.footer.source": "Source : <a href=\"/eco/api/circularity/ru/history\">API publique</a> · <a href=\"https://dados.gov.pt/pt/datasets/r/2906b11c-3d77-466d-8b83-5ad93326ba58\" target=\"_blank\" rel=\"noopener\">dados.gov.pt</a> (CC BY 4.0).",
+
+  "js.api.error_load": "Impossible de charger les données (HTTP {status}). Vérifie la passerelle /eco/api/circularity/ru/history en PROD.",
+  "js.api.warn_series": "Série vide. Vérifie les données en BD ou le fallback du contrôleur.",
+  "js.api.catch": "Échec de chargement des données. En PROD, vérifie la passerelle /eco/* et si l’endpoint est public.",
+
+  "js.kpis.trend.up": "a augmenté",
+  "js.kpis.trend.down": "a diminué",
+  "js.kpis.trend.flat": "est resté stable",
+
+  "js.units.pp": "pp",
+  "js.units.pp_per_year": "pp/an",
+
+  "js.warn.missing_tpl": "Lacune(s) dans la série : {list}. Δ non calculé pour ces sauts (barres grises).",
+
+  "js.bar.delta_label": "Δ pp/an",
+  "js.bar.tooltip_gap": "Δ : — (lacune)",
+
+  "js.line.label_real": "Taux réel",
+  "js.line.meta25": "Objectif 2025 (55%)",
+  "js.line.meta30": "Objectif 2030 (60%)",
+  "js.line.ramp25": "Pente → 2025",
+  "js.line.ramp30": "Pente → 2030",
+
+  "js.var.summary_tpl": "pic de +{best} pp en {bestY} ; plus forte baisse {worst} pp en {worstY} ; volatilité moyenne {vol} pp/an.",
+
+  "js.conc.line1": "Dernière valeur {rate}% en {year}.",
+  "js.conc.line2": "Δ récent : {delta}.",
+  "js.conc.line3": "Pente → 2025 : {pace25} pp/an ; → 2030 : {pace30} pp/an.",
+  "js.conc.line4": "Tendance historique : {slope} pp/an ; volatilité moyenne : {vol} pp/an.",
+  "js.conc.line5": "Si le rythme est maintenu : 55% : {eta55} ; 60% : {eta60}.",
+  "js.conc.eta.na": "non atteignable au rythme actuel",
+  "js.conc.eta.met": "déjà atteint"
+}
