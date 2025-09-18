@@ -85,5 +85,27 @@
 
   "modal.title": "Formulas & Methodology",
   "modal.close": "Close",
-  "...": "..."
+
+  "modal.1.title": "1) Shares by operation",
+  "modal.1.p1": "For each country g and year y, the share of operation o is the proportion between that operation’s volume and the total municipal waste treated:",
+  "modal.1.p2": "If s_{g,y}(o) is not provided by Eurostat, it is derived from absolute values V using the best common unit (priority: PRC > KG_HAB > THS_T > T). “Others” is the residual that completes 100%.",
+
+  "modal.2.title": "2) Simple mean (per country)",
+  "modal.2.p1": "Each country has the same weight, regardless of population size or waste volume:",
+
+  "modal.3.title": "3) Weighted mean (by annual total volume)",
+  "modal.3.p1": "Countries with higher waste volumes weigh more, ensuring the mean reflects the aggregate:",
+
+  "modal.4.title": "4) Derived indicators",
+  "modal.4.p1": "End-of-line (non-circular destination) and “Others” are computed as follows:",
+  "modal.4.p2": "Values are limited to the [0,100] interval to ensure visual consistency.",
+
+  "modal.5.title": "5) Correlation between operations",
+  "modal.5.p1": "The Pearson correlation matrix is computed across countries (subset G) for the base year:",
+
+  "modal.6.title": "6) Time series & fallback",
+  "modal.6.p1": "When the share is unavailable for the selected year, a time-series fallback is used to the closest available year. This is particularly relevant for the End-of-line indicator.",
+
+  "modal.note.title": "Methodological note:",
+  "modal.note.text": "Series may be revised by Eurostat (env_wasmun). Annual results should be read with caution: sharp breaks may reflect statistical revisions rather than real changes in the waste management system."
 }
