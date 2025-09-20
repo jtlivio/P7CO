@@ -142,5 +142,10 @@
   "header.auth.account_fallback": "Account",
 
   "header.cta_primary.text": "GET STARTED",
-  "header.cta_primary.icon": "fa-seedling"
+  "header.cta_primary.icon": "fa-seedling",
+
+  "header.nav.in.label": "Indicators",
+  "header.nav.in.explore.items.gee": "GHGEmissions",
+  "header.nav.in.categories.items.c27a": "CircularityEU27(currentYear)",
+  "header.nav.in.categories.items.c27": "CircularityEU27(technicalView)"
 }

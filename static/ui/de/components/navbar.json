@@ -142,5 +142,10 @@
   "header.auth.account_fallback": "Konto",
 
   "header.cta_primary.text": "STARTEN",
-  "header.cta_primary.icon": "fa-seedling"
+  "header.cta_primary.icon": "fa-seedling",
+
+  "header.nav.in.label": "Indikatoren",
+  "header.nav.in.explore.items.gee": "Treibhausgasemissionen",
+  "header.nav.in.categories.items.c27a": "KreislaufwirtschaftEU27(aktuellesJahr)",
+  "header.nav.in.categories.items.c27": "KreislaufwirtschaftEU27(technischeAnsicht)"
 }

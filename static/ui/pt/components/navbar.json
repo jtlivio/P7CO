@@ -142,5 +142,10 @@
   "header.auth.account_fallback": "Conta",
 
   "header.cta_primary.text": "COMEÇAR",
-  "header.cta_primary.icon": "fa-seedling"
+  "header.cta_primary.icon": "fa-seedling",
+
+  "header.nav.in.label": "Indicadores",
+  "header.nav.in.explore.items.gee": "EmissõesGEE",
+  "header.nav.in.categories.items.c27a": "CircularidadeUE27(anoCorrente)",
+  "header.nav.in.categories.items.c27": "CircularidadeUE27(vistaTécnica)"
 }

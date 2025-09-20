@@ -142,5 +142,10 @@
   "header.auth.account_fallback": "Compte",
 
   "header.cta_primary.text": "COMMENCER",
-  "header.cta_primary.icon": "fa-seedling"
+  "header.cta_primary.icon": "fa-seedling",
+
+  "header.nav.in.label": "Indicateurs",
+  "header.nav.in.explore.items.gee": "ÉmissionsGES",
+  "header.nav.in.categories.items.c27a": "CircularitéUE27(annéeEnCours)",
+  "header.nav.in.categories.items.c27": "CircularitéUE27(vueTechnique)"
 }
