@@ -145,3 +145,16 @@ Enviar solicitud a [privacy@ph7x.com](mailto:privacy@ph7x.com). Incluir:
 - Contexto (ej. ID de cuenta)  
 
 Podrá requerirse verificación de identidad. Responderemos dentro del plazo legal.
+
+## 20. Resolución alternativa de litigios (RAL)
+
+De acuerdo con la Ley portuguesa n.º 144/2015, en caso de litigio de consumo en Portugal,
+los usuarios pueden recurrir a una Entidad de Resolución Alternativa de Litigios (RAL).  
+Lista de centros RAL disponible en el Portal del Consumidor: [https://www.consumidor.gov.pt](https://www.consumidor.gov.pt)
+
+Centro de Arbitraje competente para nuestra sede (Setúbal):  
+- **CACCL — Centro de Arbitraje de Conflictos de Consumo de Lisboa**  
+
+Alternativamente, los usuarios también pueden recurrir a:  
+- **CNIACC — Centro Nacional de Información y Arbitraje de Conflictos de Consumo**
+

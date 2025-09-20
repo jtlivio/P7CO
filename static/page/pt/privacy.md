@@ -143,3 +143,21 @@ Mantemos registos nos termos do RGPD art. 30.º com finalidades, categorias de t
 
 ## 19. Como exercer os direitos
 Envie pedido para [privacy@ph7x.com](mailto:privacy@ph7x.com). Indique o direito que pretende exercer, elementos mínimos de identificação e contexto (por exemplo, ID de conta). Poderemos solicitar validação adicional para proteger a sua conta. Responderemos dentro do prazo legal.
+
+## 20. Resolução alternativa de litígios (RAL)
+
+Nos termos da Lei n.º 144/2015, informamos que, em caso de litígio de consumo em Portugal,
+os utilizadores podem recorrer a uma Entidade de Resolução Alternativa de Litígios (RAL).  
+Lista de centros RAL disponível no Portal do Consumidor: [https://www.consumidor.gov.pt](https://www.consumidor.gov.pt)
+
+Centro de Arbitragem territorialmente competente para a nossa sede (Setúbal):  
+- **CACCL — Centro de Arbitragem de Conflitos de Consumo de Lisboa**  
+  Rua dos Douradores, 116, 2.º — 1100-207 Lisboa  
+  Email: juridico@centroarbitragemlisboa.pt — Telefone: +351 218 807 030  
+
+Alternativamente, poderá ainda recorrer ao centro de competência nacional:  
+- **CNIACC — Centro Nacional de Informação e Arbitragem de Conflitos de Consumo**  
+  Faculdade de Direito da Universidade Nova de Lisboa, Campus de Campolide, 1099-032 Lisboa  
+  Email: cniacc@fd.unl.pt — Telefone: +351 213 847 484
+
+

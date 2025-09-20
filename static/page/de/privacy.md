@@ -139,3 +139,16 @@ Geführt nach Art. 30 DSGVO: Zwecke, Kategorien, Empfänger, internationale Übe
 Anfragen an [privacy@ph7x.com](mailto:privacy@ph7x.com).  
 Bitte angeben: Recht, Identifikationsdaten, Kontext (z. B. Konto-ID).  
 Bestätigung der Identität kann verlangt werden. Antwort innerhalb der gesetzlichen Frist.
+
+## 20. Alternative Streitbeilegung (ADR)
+
+Gemäß dem portugiesischen Gesetz Nr. 144/2015 können sich Nutzer im Falle eines Verbraucherstreits in Portugal
+an eine Stelle für alternative Streitbeilegung (ADR) wenden.  
+Liste der ADR-Stellen verfügbar im Verbraucherportal: [https://www.consumidor.gov.pt](https://www.consumidor.gov.pt)
+
+Zuständige Schlichtungsstelle für unseren Sitz (Setúbal):  
+- **CACCL — Zentrum für Verbraucherstreitbeilegung Lissabon**  
+
+Alternativ können Nutzer auch das folgende Zentrum kontaktieren:  
+- **CNIACC — Nationales Zentrum für Verbraucherstreitbeilegung**
+

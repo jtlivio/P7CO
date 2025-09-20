@@ -140,3 +140,16 @@ Envoyer demande à [privacy@ph7x.com](mailto:privacy@ph7x.com). Indiquer :
 - Contexte (ex. ID de compte)  
 
 Une vérification d’identité peut être demandée. Réponse dans les délais légaux.
+
+## 20. Règlement extrajudiciaire des litiges (ADR)
+
+Conformément à la loi portugaise n.º 144/2015, en cas de litige de consommation au Portugal,
+les utilisateurs peuvent recourir à une entité de Règlement Extrajudiciaire des Litiges (ADR).  
+Liste des centres ADR disponible sur le Portail du Consommateur : [https://www.consumidor.gov.pt](https://www.consumidor.gov.pt)
+
+Centre d’Arbitrage compétent pour notre siège (Setúbal) :  
+- **CACCL — Centre d’Arbitrage des Conflits de Consommation de Lisbonne**  
+
+À titre alternatif, les utilisateurs peuvent également recourir à :  
+- **CNIACC — Centre National d’Information et d’Arbitrage des Conflits de Consommation**
+

@@ -150,3 +150,17 @@ Send request to [privacy@ph7x.com](mailto:privacy@ph7x.com). Include:
 - Context (e.g., account ID)  
 
 Identity verification may be requested. Responses within legal deadlines.
+
+## 20. Alternative Dispute Resolution (ADR)
+
+In accordance with Portuguese Law no. 144/2015, in the event of a consumer dispute in Portugal,
+users may resort to an Alternative Dispute Resolution (ADR) entity.  
+List of ADR centers available at the Consumer Portal: [https://www.consumidor.gov.pt](https://www.consumidor.gov.pt)
+
+Competent Arbitration Center for our headquarters (Setúbal):  
+- **CACCL — Lisbon Consumer Conflict Arbitration Center**  
+
+Alternatively, users may also resort to:  
+- **CNIACC — National Center for Consumer Conflict Information and Arbitration**
+
+
