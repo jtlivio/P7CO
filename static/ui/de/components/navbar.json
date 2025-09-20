@@ -145,7 +145,7 @@
   "header.cta_primary.icon": "fa-seedling",
 
   "header.nav.in.label": "Indikatoren",
-  "header.nav.in.explore.items.gee": "Treibhausgasemissionen",
-  "header.nav.in.categories.items.c27a": "KreislaufwirtschaftEU27(aktuellesJahr)",
-  "header.nav.in.categories.items.c27": "KreislaufwirtschaftEU27(technischeAnsicht)"
+  "header.nav.in.explore.items.gee": "Treibhausgas emissionen (PT)",
+  "header.nav.in.categories.items.c27a": "KreislaufwirtschaftEU27 (aktuelles jahr)",
+  "header.nav.in.categories.items.c27": "KreislaufwirtschaftEU27 (technische ansicht)"
 }

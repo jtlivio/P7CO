@@ -145,7 +145,7 @@
   "header.cta_primary.icon": "fa-seedling",
 
   "header.nav.in.label": "Indicateurs",
-  "header.nav.in.explore.items.gee": "ÉmissionsGES",
-  "header.nav.in.categories.items.c27a": "CircularitéUE27(annéeEnCours)",
-  "header.nav.in.categories.items.c27": "CircularitéUE27(vueTechnique)"
+  "header.nav.in.explore.items.gee": "Émissions GES (PT)",
+  "header.nav.in.categories.items.c27a": "CircularitéUE27 (année eCours)",
+  "header.nav.in.categories.items.c27": "CircularitéUE27 (vue technique)"
 }

@@ -145,7 +145,7 @@
   "header.cta_primary.icon": "fa-seedling",
 
   "header.nav.in.label": "Indicadores",
-  "header.nav.in.explore.items.gee": "EmissõesGEE",
-  "header.nav.in.categories.items.c27a": "CircularidadeUE27(anoCorrente)",
-  "header.nav.in.categories.items.c27": "CircularidadeUE27(vistaTécnica)"
+  "header.nav.in.explore.items.gee": "Emissões GEE (PT)",
+  "header.nav.in.categories.items.c27a": "CircularidadeUE27 (ano corrente)",
+  "header.nav.in.categories.items.c27": "CircularidadeUE27 (vista técnica)"
 }

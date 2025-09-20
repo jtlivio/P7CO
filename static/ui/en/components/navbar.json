@@ -145,7 +145,7 @@
   "header.cta_primary.icon": "fa-seedling",
 
   "header.nav.in.label": "Indicators",
-  "header.nav.in.explore.items.gee": "GHGEmissions",
-  "header.nav.in.categories.items.c27a": "CircularityEU27(currentYear)",
-  "header.nav.in.categories.items.c27": "CircularityEU27(technicalView)"
+  "header.nav.in.explore.items.gee": "GHG Emissions (PT)",
+  "header.nav.in.categories.items.c27a": "CircularityEU27 (current year)",
+  "header.nav.in.categories.items.c27": "CircularityEU27 (technical view)"
 }
