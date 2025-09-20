@@ -1,31 +1,17 @@
 {
-  "promo": {
-    "kicker": "Données officielles · série dynamique",
-    "title": "Circularité, Déchets Municipaux (PT)",
-    "lead": "Évolution du <b>taux de recyclage</b>, objectifs <b>55% (2025)</b> et <b>60% (2030)</b>, lacunes et priorités — avec <b>graphiques se mettant à jour automatiquement</b> (entre <b>2h</b> et <b>24h</b>, selon la source/cache), formules KaTeX et <b>sources CC BY 4.0</b>.",
-    "badges": {
-      "target2025": "Objectif 2025 · 55%",
-      "target2030": "Objectif 2030 · 60%",
-      "ramp": "pp/an · rampe minimale"
-    },
-    "cta": {
-      "view_dynamic": "Voir la page dynamique",
-      "report": "Signaler des atteintes"
-    },
-    "sources": {
-      "label": "Sources:",
-      "dgov": "dados.gov.pt",
-      "license": "CC BY 4.0",
-      "api_label": "API P7CO® EcoResupply"
-    },
-    "image_alt": "Graphiques dynamiques de circularité",
-    "image_badge": "Graphiques dynamiques"
-  },
-  "complaints": {
-    "kicker": "Top 5 • Catégories de Plaintes Environnementales",
-    "title": "Catégories avec le Plus de Plaintes",
-    "subtitle": "Les thèmes environnementaux les plus signalés sur la plateforme. Disponible uniquement au Portugal, pour l’instant.",
-    "availability_note": "Disponible uniquement au Portugal, pour l’instant.",
-    "empty": "Aucune catégorie de plainte trouvée."
-  }
+  "bg_text": "SIGNALEMENTS",
+
+  "title": "Signalez des infractions environnementales en 1 minute",
+
+  "lead.line1": "Vous pouvez signaler des situations environnementales rapidement et en toute sécurité.",
+  "lead.line2": "L'inscription est simple et garantit <b>confidentialité et authenticité</b>.",
+
+  "buttons.open_complaint": "Je veux signaler maintenant",
+  "buttons.view_stats": "Voir la carte complète",
+
+  "meta.label": "Pour publier un signalement, il est nécessaire de",
+  "meta.requirement": "Créer un compte gratuit",
+  "meta.cta_register": "Inscrivez-vous ici",
+
+  "image.alt": "Carte et Signalements Environnementaux"
 }

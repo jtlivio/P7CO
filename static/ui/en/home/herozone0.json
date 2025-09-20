@@ -1,31 +1,17 @@
 {
-  "promo": {
-    "kicker": "Official data · dynamic series",
-    "title": "Circularity, Municipal Waste (PT)",
-    "lead": "Evolution of the <b>recycling rate</b>, targets <b>55% (2025)</b> and <b>60% (2030)</b>, gaps and priorities — with <b>automatically updating charts</b> (between <b>2h</b> and <b>24h</b>, depending on source/cache), KaTeX formulas and <b>CC BY 4.0 sources</b>.",
-    "badges": {
-      "target2025": "Target 2025 · 55%",
-      "target2030": "Target 2030 · 60%",
-      "ramp": "pp/year · minimum ramp"
-    },
-    "cta": {
-      "view_dynamic": "View dynamic page",
-      "report": "Report incidents"
-    },
-    "sources": {
-      "label": "Sources:",
-      "dgov": "dados.gov.pt",
-      "license": "CC BY 4.0",
-      "api_label": "P7CO® EcoResupply API"
-    },
-    "image_alt": "Dynamic circularity charts",
-    "image_badge": "Dynamic charts"
-  },
-  "complaints": {
-    "kicker": "Top 5 • Environmental Complaint Categories",
-    "title": "Categories with Most Complaints",
-    "subtitle": "The most reported environmental topics on the platform. Available only in Portugal, for now.",
-    "availability_note": "Available only in Portugal, for now.",
-    "empty": "No complaint categories were found."
-  }
+  "bg_text": "COMPLAINTS",
+
+  "title": "Report environmental violations in 1 minute",
+
+  "lead.line1": "You can report environmental situations quickly and securely.",
+  "lead.line2": "Registration is simple and ensures <b>privacy and authenticity</b>.",
+
+  "buttons.open_complaint": "Report now",
+  "buttons.view_stats": "View full map",
+
+  "meta.label": "To publish a complaint you need to",
+  "meta.requirement": "Create a free account",
+  "meta.cta_register": "Register here",
+
+  "image.alt": "Map and Environmental Complaints"
 }

@@ -5,9 +5,11 @@
   "complaints.title": "Neueste Meldungen",
   "complaints.item_fallback": "Meldung",
 
-  "cta.see_more": "Mehr sehen",
+  "cta.view_all": "Alle anzeigen",
+  "cta.see_more": "Mehr ansehen",
   "cta.see_details": "Details anzeigen",
+  "cta.join_marketplace": "Dem Marktplatz beitreten",
 
-  "empty.products": "Derzeit keine hervorgehobenen Produkte.",
+  "empty.products": "Zurzeit keine hervorgehobenen Überschüsse.",
   "empty.complaints": "Keine aktuellen Meldungen."
 }

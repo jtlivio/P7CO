@@ -1,13 +1,15 @@
 {
-  "products.title": "Excédents en Vedette",
+  "products.title": "Excédents à la Une",
   "products.item_fallback": "Excédent",
 
   "complaints.title": "Signalements Récents",
   "complaints.item_fallback": "Signalement",
 
+  "cta.view_all": "Voir tout",
   "cta.see_more": "Voir plus",
   "cta.see_details": "Voir les détails",
+  "cta.join_marketplace": "Rejoindre la place de marché",
 
-  "empty.products": "Aucun produit en vedette pour le moment.",
+  "empty.products": "Aucun excédent mis en avant pour le moment.",
   "empty.complaints": "Aucun signalement récent."
 }

@@ -5,9 +5,11 @@
   "complaints.title": "Recent Complaints",
   "complaints.item_fallback": "Complaint",
 
+  "cta.view_all": "View all",
   "cta.see_more": "See more",
   "cta.see_details": "See details",
+  "cta.join_marketplace": "Join the marketplace",
 
-  "empty.products": "No featured products at the moment.",
+  "empty.products": "No featured surpluses at the moment.",
   "empty.complaints": "No recent complaints."
 }

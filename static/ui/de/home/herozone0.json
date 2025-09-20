@@ -1,31 +1,17 @@
 {
-  "promo": {
-    "kicker": "Offizielle Daten · dynamische Reihe",
-    "title": "Zirkularität, Siedlungsabfälle (PT)",
-    "lead": "Entwicklung der <b>Recyclingquote</b>, Ziele <b>55% (2025)</b> und <b>60% (2030)</b>, Lücken und Prioritäten — mit <b>automatisch aktualisierten Diagrammen</b> (zwischen <b>2h</b> und <b>24h</b>, je nach Quelle/Cache), KaTeX-Formeln und <b>CC BY 4.0 Quellen</b>.",
-    "badges": {
-      "target2025": "Ziel 2025 · 55%",
-      "target2030": "Ziel 2030 · 60%",
-      "ramp": "pp/Jahr · Mindestanstieg"
-    },
-    "cta": {
-      "view_dynamic": "Dynamische Seite ansehen",
-      "report": "Umweltverstöße melden"
-    },
-    "sources": {
-      "label": "Quellen:",
-      "dgov": "dados.gov.pt",
-      "license": "CC BY 4.0",
-      "api_label": "P7CO® EcoResupply API"
-    },
-    "image_alt": "Dynamische Zirkularitätsdiagramme",
-    "image_badge": "Dynamische Diagramme"
-  },
-  "complaints": {
-    "kicker": "Top 5 • Umweltbeschwerde-Kategorien",
-    "title": "Kategorien mit den Meisten Beschwerden",
-    "subtitle": "Die am häufigsten gemeldeten Umweltthemen auf der Plattform. Vorerst nur in Portugal verfügbar.",
-    "availability_note": "Vorerst nur in Portugal verfügbar.",
-    "empty": "Keine Beschwerdekategorien gefunden."
-  }
+  "bg_text": "MELDUNGEN",
+
+  "title": "Umweltverstöße in 1 Minute melden",
+
+  "lead.line1": "Du kannst Umweltsituationen schnell und sicher melden.",
+  "lead.line2": "Die Registrierung ist einfach und garantiert <b>Privatsphäre und Authentizität</b>.",
+
+  "buttons.open_complaint": "Jetzt melden",
+  "buttons.view_stats": "Zur vollständigen Karte",
+
+  "meta.label": "Um eine Meldung zu veröffentlichen, ist es notwendig",
+  "meta.requirement": "Ein kostenloses Konto zu erstellen",
+  "meta.cta_register": "Hier registrieren",
+
+  "image.alt": "Karte und Umweltmeldungen"
 }

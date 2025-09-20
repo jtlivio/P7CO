@@ -5,8 +5,10 @@
   "complaints.title": "Denúncias Recentes",
   "complaints.item_fallback": "Denúncia",
 
+  "cta.view_all": "Ver todas",
   "cta.see_more": "Ver mais",
   "cta.see_details": "Ver detalhes",
+  "cta.join_marketplace": "Quero aderir ao marketplace",
 
   "empty.products": "Sem produtos em destaque neste momento.",
   "empty.complaints": "Sem denúncias recentes."

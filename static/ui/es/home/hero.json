@@ -5,9 +5,11 @@
   "complaints.title": "Denuncias Recientes",
   "complaints.item_fallback": "Denuncia",
 
+  "cta.view_all": "Ver todas",
   "cta.see_more": "Ver más",
   "cta.see_details": "Ver detalles",
+  "cta.join_marketplace": "Quiero unirme al mercado",
 
-  "empty.products": "No hay productos destacados en este momento.",
+  "empty.products": "No hay excedentes destacados en este momento.",
   "empty.complaints": "No hay denuncias recientes."
 }

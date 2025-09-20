@@ -1,31 +1,17 @@
 {
-  "promo": {
-    "kicker": "Datos oficiales · serie dinámica",
-    "title": "Circularidad, Residuos Urbanos (PT)",
-    "lead": "Evolución de la <b>tasa de reciclaje</b>, metas <b>55% (2025)</b> y <b>60% (2030)</b>, lagunas y prioridades — con <b>gráficos que se actualizan automáticamente</b> (entre <b>2h</b> y <b>24h</b>, según la fuente/cache), fórmulas KaTeX y <b>fuentes CC BY 4.0</b>.",
-    "badges": {
-      "target2025": "Meta 2025 · 55%",
-      "target2030": "Meta 2030 · 60%",
-      "ramp": "pp/año · rampa mínima"
-    },
-    "cta": {
-      "view_dynamic": "Ver página dinámica",
-      "report": "Denunciar agresiones"
-    },
-    "sources": {
-      "label": "Fuentes:",
-      "dgov": "dados.gov.pt",
-      "license": "CC BY 4.0",
-      "api_label": "API P7CO® EcoResupply"
-    },
-    "image_alt": "Gráficos dinámicos de circularidad",
-    "image_badge": "Gráficos dinámicos"
-  },
-  "complaints": {
-    "kicker": "Top 5 • Categorías de Denuncia Ambiental",
-    "title": "Categorías con Más Denuncias",
-    "subtitle": "Los temas medioambientales más reportados en la plataforma. Disponible solo en Portugal, por ahora.",
-    "availability_note": "Disponible solo en Portugal, por ahora.",
-    "empty": "No se encontraron categorías de denuncia."
-  }
+  "bg_text": "DENUNCIAS",
+
+  "title": "Denuncia ilegalidades ambientales en 1 minuto",
+
+  "lead.line1": "Puedes reportar situaciones ambientales de forma rápida y segura.",
+  "lead.line2": "El registro es sencillo y garantiza <b>privacidad y autenticidad</b>.",
+
+  "buttons.open_complaint": "Quiero denunciar ahora",
+  "buttons.view_stats": "Ver mapa completo",
+
+  "meta.label": "Para publicar una denuncia es necesario",
+  "meta.requirement": "Crear una cuenta gratuita",
+  "meta.cta_register": "Regístrate aquí",
+
+  "image.alt": "Mapa y Denuncias Ambientales"
 }
