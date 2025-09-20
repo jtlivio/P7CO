@@ -159,5 +159,5 @@
   "narrative.block6": "<b>6) Trade-off estrutural.</b> RCY vs. LND+INC mostra relação negativa esperada.",
   "narrative.block7": "<b>7) Distribuição estatística.</b> min <mark>{box_min}%</mark>, Q1 <mark>{box_q1}%</mark>, mediana <mark>{box_med}%</mark>, Q3 <mark>{box_q3}%</mark>, máx <mark>{box_max}%</mark>.",
   "narrative.block8": "<b>8) Associações entre operações.</b> Maior associação: <mark>{corr_pair}</mark>, ρ=<mark>{corr_val}%</mark>.",
-  "narrative.endNote_tpl": " Sempre que LND+INC não esteja disponível no ano seleccionado, é usado fallback das séries; neste subset, foi necessário recorrer ao ano <mark>{year}</mark> para completar o indicador."
+  "narrative.endNote_tpl": " Sempre que LND+INC não esteja disponível no ano seleccionado, é usado fallback das séries; neste subset, foi necessário recorrer ao ano <mark>{year}</mark> para completar o indicador"
 }
