@@ -1,18 +1,12 @@
 {
-  "promo": {
-    "title": "Treibhausgasemissionen nach Sektor (Portugal)",
-    "lead": "Offizielle Visualisierung basierend auf <b>SNIAMB / dados.gov.pt</b>, integriert in <b>P7CO® EcoResupply</b>. Erkunde das Diagramm und die sektorale Zusammenfassung.",
-    "cta": {
-      "view_chart": "Diagramm anzeigen",
-      "view_summary": "Sektorübersicht"
-    },
-    "sources": {
-      "label_source": "Quelle:",
-      "sniamb": "SNIAMB / dados.gov.pt",
-      "api_label": "P7CO® API",
-      "api_example": "/eco/api/gee/emissions?from=2005&group=series",
-      "licenses": "Lizenzen — dados.gov.pt: CC BY 4.0 • P7CO® API: CC BY 4.0"
-    },
-    "image_alt": "Treibhausgasemissionen nach Sektor — Visualisierung"
-  }
+  "promo.kicker": "STAKEHOLDER & PARTNER",
+  "promo.title": "Schließe dich dem P7CO®-Partnernetzwerk an und erziele positiven Impact",
+  "promo.lead1": "Wenn du eine <b>Gemeinde</b>, ein <b>Unternehmen</b> oder eine <b>Institution</b> bist, nimm als Partner teil, um die Wiederverwendung von Überschüssen zu fördern und Umweltmeldungen zu unterstützen.",
+  "promo.lead2": "Erhalte dedizierte Berichte, gemeinsame Dashboards und exklusive Vorteile für strategische Partner.",
+  "promo.buttons.view_partners": "Partnerprogramm kennenlernen",
+  "promo.buttons.view_partners.aria": "Partnerprogramm öffnen",
+  "promo.buttons.register_partner": "Ich möchte Partner werden",
+  "promo.buttons.register_partner.aria": "Als Partner registrieren",
+  "promo.note": "Das Stakeholder- und Partnerprogramm sichert Sichtbarkeit, dedizierte Berichte und die Integration in das P7CO®-Kreislaufnetzwerk.",
+  "promo.image_alt": "Strategische P7CO®-Partnerschaften"
 }

@@ -1,14 +1,11 @@
 {
-  "promo": {
-    "kicker": "P7CO® CIRCULAR MAP",
-    "title": "Where Surpluses and Environmental Reports gain national visibility",
-    "lead1": "Check on the map the surpluses of <b>Mainland Portugal, Azores and Madeira</b> available for reuse, and follow in real time the <b>environmental reports</b> submitted by citizens and companies.",
-    "lead2": "Quick login with <b>Google</b>, <b>Facebook</b> or <b>email</b>.",
-    "buttons": {
-      "view_map": "View Circular Map",
-      "register": "Create free account"
-    },
-    "note": "To see full details of surpluses or publish reports, registration is required — ensuring privacy, security and authenticity of contributions.",
-    "image_alt": "Portugal map – P7CO® Circular Map"
-  }
+  "kicker": "BUSINESS & MUNICIPAL IMPACT — EU27",
+  "rotator.0": "supports.",
+  "rotator.1": "connects.",
+  "rotator.2": "scales.",
+  "lead1": "P7CO® operates in the European context, helping municipalities and companies meet the European Union’s goals for circular economy and climate neutrality. We work aligned with EU environmental policies, strengthening competitiveness and access to European funding.",
+  "lead2": "By adopting practices common across the EU27, we promote solutions that are replicable, comparable and auditable. This ensures every partner—local or multinational—can meet EU requirements for environmental and ESG reporting, building credibility with citizens, regulators and investors.",
+  "cta.more_about": "Explore EU27 Impact",
+  "cta.more_about.aria": "Explore impact and zones across the EU27",
+  "img.partner.alt": "Partners and municipalities collaborating across the EU27"
 }

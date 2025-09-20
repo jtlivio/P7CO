@@ -1,22 +1,10 @@
 {
-  "bg_text": "BETREIBER",
-  "title": "Karte der Lizenzierten Betreiber",
-  "lead": {
-    "line1": "Finden Sie <b>lizenzierte Abfallwirtschaftsbetreiber</b> auf dem portugiesischen Festland und den Inseln.",
-    "line2": "Suche nach Gemeinde, Kategorie und Nähe. Offizielle Daten von <b>SILOGR/APA</b>."
-  },
-  "buttons": {
-    "open_map": "Karte öffnen",
-    "view_dataset": "Datensatz ansehen (dados.gov.pt)"
-  },
-  "meta": {
-    "label_source": "Daten",
-    "source": "SILOGR / APA",
-    "label_license": "Lizenz",
-    "license": "CC BY 4.0",
-    "label_updated": "Aktualisiert"
-  },
-  "image": {
-    "alt": "Karte der Lizenzierten Betreiber (SILOGR/APA)"
-  }
+  "title": "Erhalte deinen kostenlosen Emissionsbericht",
+  "lead": "Basierend auf offiziellen Methoden (SNIAMB / IPCC). Erste Schätzung und Reduzierungsvorschläge für deine Branche.",
+  "cta.waste_map": "Abfallkarte ansehen",
+  "cta.waste_map.aria": "Abfallkarte öffnen",
+  "cta.demo": "Demo anfordern",
+  "cta.demo.aria": "Demonstration des Emissionsberichts anfordern",
+  "note": "Lizenzen: dados.gov.pt/Eurostat <b>CC BY 4.0</b>. Hinweisender Bericht — ersetzt keine verifizierten Inventare.",
+  "img.hero.alt": "Emissionsschätzung – Beispiel"
 }

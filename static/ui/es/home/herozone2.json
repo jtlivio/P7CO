@@ -1,18 +1,12 @@
 {
-  "promo": {
-    "title": "Emisiones GEI por sector (Portugal)",
-    "lead": "Visualización oficial basada en <b>SNIAMB / dados.gov.pt</b>, integrada en <b>P7CO® EcoResupply</b>. Explora el gráfico y el resumen por sector.",
-    "cta": {
-      "view_chart": "Ver gráfico",
-      "view_summary": "Resumen por sector"
-    },
-    "sources": {
-      "label_source": "Fuente:",
-      "sniamb": "SNIAMB / dados.gov.pt",
-      "api_label": "P7CO® API",
-      "api_example": "/eco/api/gee/emissions?from=2005&group=series",
-      "licenses": "Licencias — dados.gov.pt: CC BY 4.0 • P7CO® API: CC BY 4.0"
-    },
-    "image_alt": "Emisiones GEI por sector — visualización"
-  }
+  "promo.kicker": "PARTES INTERESADAS Y SOCIOS",
+  "promo.title": "Únete a la red de socios de P7CO® y genera impacto positivo",
+  "promo.lead1": "Si eres <b>ayuntamiento</b>, <b>empresa</b> o <b>institución</b>, participa como socio para impulsar la reutilización de excedentes y apoyar las denuncias ambientales.",
+  "promo.lead2": "Accede a informes dedicados, paneles compartidos y beneficios exclusivos para socios estratégicos.",
+  "promo.buttons.view_partners": "Conocer el Programa de Socios",
+  "promo.buttons.view_partners.aria": "Abrir la página del Programa de Socios",
+  "promo.buttons.register_partner": "Quiero ser Socio",
+  "promo.buttons.register_partner.aria": "Registrarse como Socio",
+  "promo.note": "El programa de partes interesadas y socios garantiza visibilidad, informes dedicados e integración en la red circular P7CO®.",
+  "promo.image_alt": "Alianzas estratégicas P7CO®"
 }

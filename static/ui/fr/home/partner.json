@@ -1,8 +1,33 @@
 {
-  "kicker": "LE BON CHOIX",
-  "rotator": ["innove.", "transforme.", "progresse."],
-  "lead1": "Avec P7CO® RESUPPLY, nous rendons l’économie circulaire accessible et simple. Notre objectif est de connecter les entreprises, promouvoir des pratiques durables et réduire le gaspillage des ressources.",
-  "lead2": "Notre mission est de collaborer avec les entreprises pour encourager la réutilisation et la durabilité dans divers secteurs. Nous bâtissons un avenir plus vert et innovant fondé sur des solutions circulaires.",
-  "cta": { "more_about": "En Savoir Plus" },
-  "image": { "alt": "Partenariats P7CO® — entreprises et durabilité" }
+  "hero.kicker": "CE QUE L’ON DIT DE NOUS",
+  "hero.title": "Nous ne sommes pas seuls",
+  "hero.lead": "Des clients et partenaires de référence partagent leur confiance et leur expérience avec nous.",
+
+  "nav.left": "Témoignages <span>&</span>",
+  "nav.right": "Partenaires",
+  "carousel.prev.aria": "Précédent",
+  "carousel.next.aria": "Suivant",
+
+  "testimonials.0.text": "La collaboration avec Microsoft for Startups s’avère déterminante pour accélérer notre transition numérique durable.",
+  "testimonials.0.author": "P7CO® EcoResupply",
+
+  "testimonials.1.text": "L’engagement de toute l’équipe nous a permis d’innover rapidement et d’obtenir des résultats concrets dans notre mission environnementale.",
+  "testimonials.1.author": "pH7x Systems",
+
+  "testimonials.2.text": "La collaboration avec P7CO® EcoResupply constitue un pilier stratégique pour transformer les déchets en ressources.",
+  "testimonials.2.author": "Direction Maré Alta",
+
+  "testimonials.3.text": "La collaboration avec P7CO® EcoResupply a été essentielle pour garantir des solutions de stockage et de stationnement efficaces et durables.",
+  "testimonials.3.author": "Direction",
+
+  "partners.0.alt": "pH7x Systems",
+  "partners.1.alt": "Microsoft Startup Hub Founders",
+  "partners.2.alt": "Maré Alta",
+  "partners.3.alt": "CEO",
+
+  "early.kicker": "PARTENARIATS & TÉMOIGNAGES",
+  "early.title": "Les premières collaborations prennent forme",
+  "early.lead": "P7CO® RESUPPLY construit des ponts avec des entreprises, des collectivités et des associations qui croient à l’économie circulaire. Les premiers partenariats sont déjà en cours et les témoignages montrent des résultats.",
+  "early.cta_text": "Souhaitez-vous rejoindre ce réseau pionnier de partenaires ?",
+  "early.cta_link": "Contactez-nous !"
 }

@@ -1,18 +1,12 @@
 {
-  "promo": {
-    "title": "Emissões GEE por setor (Portugal)",
-    "lead": "Visualização oficial com base <b>SNIAMB / dados.gov.pt</b>, integrada no <b>P7CO® EcoResupply</b>. Explora o gráfico e o resumo por setor.",
-    "cta": {
-      "view_chart": "Ver gráfico",
-      "view_summary": "Resumo por setor"
-    },
-    "sources": {
-      "label_source": "Fonte:",
-      "sniamb": "SNIAMB / dados.gov.pt",
-      "api_label": "P7CO® API",
-      "api_example": "/eco/api/gee/emissions?from=2005&group=series",
-      "licenses": "Licenças — dados.gov.pt: CC BY 4.0 • P7CO® API: CC BY 4.0"
-    },
-    "image_alt": "Emissões GEE por setor — visualização"
-  }
+  "promo.kicker": "STAKEHOLDERS & PARCEIROS",
+  "promo.title": "Junta-te à rede de parceiros P7CO® e gera impacto positivo",
+  "promo.lead1": "Se és <b>município</b>, <b>empresa</b> ou <b>instituição</b>, participa como parceiro para potenciar a reutilização de excedentes e apoiar denúncias ambientais.",
+  "promo.lead2": "Acede a relatórios dedicados, dashboards partilhados e benefícios exclusivos para parceiros estratégicos.",
+  "promo.buttons.view_partners": "Conhecer Programa de Parceiros",
+  "promo.buttons.view_partners.aria": "Abrir página do Programa de Parceiros",
+  "promo.buttons.register_partner": "Quero ser Parceiro",
+  "promo.buttons.register_partner.aria": "Registar como Parceiro",
+  "promo.note": "O programa de stakeholders e parceiros garante visibilidade, relatórios dedicados e integração na rede circular P7CO®.",
+  "promo.image_alt": "Parcerias estratégicas P7CO®"
 }

@@ -1,14 +1,11 @@
 {
-  "promo": {
-    "kicker": "CARTE CIRCULAIRE P7CO®",
-    "title": "Où les Excédents et les Signalements Environnementaux gagnent en visibilité nationale",
-    "lead1": "Consultez sur la carte les excédents du <b>Portugal continental, Açores et Madère</b> disponibles pour réutilisation et suivez en temps réel les <b>signalements environnementaux</b> effectués par les citoyens et les entreprises.",
-    "lead2": "Connexion rapide avec <b>Google</b>, <b>Facebook</b> ou <b>email</b>.",
-    "buttons": {
-      "view_map": "Voir la Carte Circulaire",
-      "register": "Créer un compte gratuit"
-    },
-    "note": "Pour voir les détails complets des excédents ou publier des signalements, une inscription est nécessaire — elle garantit la confidentialité, la sécurité et l’authenticité des participations.",
-    "image_alt": "Carte du Portugal – Carte Circulaire P7CO®"
-  }
+  "kicker": "IMPACT ENTREPRISES & COLLECTIVITÉS — UE27",
+  "rotator.0": "soutient.",
+  "rotator.1": "connecte.",
+  "rotator.2": "met à l’échelle.",
+  "lead1": "P7CO® opère dans le contexte européen et aide les collectivités et les entreprises à atteindre les objectifs de l’Union européenne en matière d’économie circulaire et de neutralité carbone. Nous travaillons en cohérence avec les politiques environnementales européennes, renforçant la compétitivité et l’accès aux financements européens.",
+  "lead2": "En intégrant des pratiques communes à l’UE27, nous favorisons des solutions reproductibles, comparables et auditable. Cela permet à chaque partenaire — local ou multinational — de répondre aux exigences européennes en matière de reporting environnemental et ESG, et de gagner en crédibilité auprès des citoyens, régulateurs et investisseurs.",
+  "cta.more_about": "Explorer l’Impact UE27",
+  "cta.more_about.aria": "Explorer l’impact et les zones au sein de l’UE27",
+  "img.partner.alt": "Partenaires et collectivités collaborant dans l’UE27"
 }

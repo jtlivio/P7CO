@@ -1,22 +1,10 @@
 {
-  "bg_text": "OPÉRATEURS",
-  "title": "Carte des Opérateurs Agréés",
-  "lead": {
-    "line1": "Trouvez <b>des opérateurs agréés de gestion des déchets</b> au Portugal continental et dans les îles.",
-    "line2": "Recherche par commune, catégorie et proximité. Données officielles <b>SILOGR/APA</b>."
-  },
-  "buttons": {
-    "open_map": "Ouvrir la carte",
-    "view_dataset": "Voir dataset (dados.gov.pt)"
-  },
-  "meta": {
-    "label_source": "Données",
-    "source": "SILOGR / APA",
-    "label_license": "Licence",
-    "license": "CC BY 4.0",
-    "label_updated": "Mis à jour"
-  },
-  "image": {
-    "alt": "Carte des Opérateurs Agréés (SILOGR/APA)"
-  }
+  "title": "Recevez votre rapport d’émissions gratuit",
+  "lead": "Basé sur des méthodologies officielles (SNIAMB / IPCC). Estimation initiale et pistes de réduction pour votre secteur.",
+  "cta.waste_map": "Voir la Carte des Déchets",
+  "cta.waste_map.aria": "Ouvrir la carte des déchets",
+  "cta.demo": "Demander une Démonstration",
+  "cta.demo.aria": "Demander une démonstration du rapport d’émissions",
+  "note": "Licences : dados.gov.pt/Eurostat <b>CC BY 4.0</b>. Rapport indicatif — ne remplace pas des inventaires vérifiés.",
+  "img.hero.alt": "Estimation des émissions – exemple"
 }

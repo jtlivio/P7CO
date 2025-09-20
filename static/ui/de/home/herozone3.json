@@ -1,14 +1,11 @@
 {
-  "promo": {
-    "kicker": "KREISLAUF-KARTE P7CO®",
-    "title": "Wo Überschüsse und Umweltmeldungen nationale Sichtbarkeit erhalten",
-    "lead1": "Sieh dir auf der Karte die Überschüsse von <b>Festland Portugal, Azoren und Madeira</b> an, die zur Wiederverwendung verfügbar sind, und verfolge in Echtzeit die <b>Umweltmeldungen</b> von Bürgern und Unternehmen.",
-    "lead2": "Schnelle Anmeldung mit <b>Google</b>, <b>Facebook</b> oder <b>E-Mail</b>.",
-    "buttons": {
-      "view_map": "Kreislauf-Karte ansehen",
-      "register": "Kostenlos registrieren"
-    },
-    "note": "Um vollständige Überschussdetails zu sehen oder Meldungen zu veröffentlichen, ist eine Registrierung erforderlich – sie gewährleistet Privatsphäre, Sicherheit und Authentizität der Beiträge.",
-    "image_alt": "Karte von Portugal – P7CO® Kreislauf-Karte"
-  }
+  "kicker": "UNTERNEHMENS- & KOMMUNALER IMPACT — EU27",
+  "rotator.0": "unterstützt.",
+  "rotator.1": "vernetzt.",
+  "rotator.2": "skaliert.",
+  "lead1": "P7CO® agiert im europäischen Kontext und hilft Gemeinden und Unternehmen, die Ziele der Europäischen Union für Kreislaufwirtschaft und Klimaneutralität zu erfüllen. Wir arbeiten im Einklang mit den Umweltpolitiken des EU-Raums und stärken Wettbewerbsfähigkeit sowie Zugang zu EU-Finanzierungen.",
+  "lead2": "Durch die Integration EU-weit üblicher Praktiken fördern wir replizierbare, vergleichbare und auditierbare Lösungen. So können lokale wie multinationale Partner die EU-Anforderungen an Umwelt- und ESG-Berichte erfüllen und Glaubwürdigkeit bei Bürgern, Aufsichtsbehörden und Investoren gewinnen.",
+  "cta.more_about": "EU27-Impact erkunden",
+  "cta.more_about.aria": "Impact und Zonen in der EU27 erkunden",
+  "img.partner.alt": "Partner und Gemeinden, die in der EU27 zusammenarbeiten"
 }

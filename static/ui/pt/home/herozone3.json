@@ -1,14 +1,11 @@
 {
-  "promo": {
-    "kicker": "MAPA CIRCULAR P7CO®",
-    "title": "Onde Excedentes e Denúncias Ambientais ganham visibilidade nacional",
-    "lead1": "Vê no mapa os excedentes de <b>Portugal Continental, Açores e Madeira</b> disponíveis para reutilização e acompanha em tempo real as <b>denúncias ambientais</b> feitas por cidadãos e empresas.",
-    "lead2": "Autenticação rápida com <b>Google</b>, <b>Facebook</b> ou <b>email</b>.",
-    "buttons": {
-      "view_map": "Ver Mapa Circular",
-      "register": "Criar conta grátis"
-    },
-    "note": "Para ver detalhes completos de excedentes ou publicar denúncias é necessário registo — garante privacidade, segurança e autenticidade das participações.",
-    "image_alt": "Mapa de Portugal – Mapa Circular P7CO®"
-  }
+  "kicker": "IMPACTO EMPRESARIAL & MUNICIPAL — UE27",
+  "rotator.0": "apoia.",
+  "rotator.1": "conecta.",
+  "rotator.2": "escala.",
+  "lead1": "O P7CO® atua no contexto europeu, ajudando municípios e empresas a cumprir os objetivos da União Europeia para a economia circular e neutralidade carbónica. Operamos alinhados com as políticas ambientais do espaço comunitário, reforçando competitividade e acesso a financiamento europeu.",
+  "lead2": "Ao integrar práticas comuns ao espaço UE27, promovemos soluções replicáveis, comparáveis e auditáveis entre países. Isto garante que cada parceiro, seja local ou multinacional, consegue responder às exigências comunitárias de relatórios ambientais e ESG, ganhando credibilidade junto de cidadãos, reguladores e investidores.",
+  "cta.more_about": "Explorar Impacto UE27",
+  "cta.more_about.aria": "Explorar impacto e zonas na UE27",
+  "img.partner.alt": "Parceiros e municípios a colaborar na UE27"
 }

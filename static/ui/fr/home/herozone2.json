@@ -1,18 +1,12 @@
 {
-  "promo": {
-    "title": "Émissions de GES par secteur (Portugal)",
-    "lead": "Visualisation officielle basée sur <b>SNIAMB / dados.gov.pt</b>, intégrée à <b>P7CO® EcoResupply</b>. Explorez le graphique et le résumé par secteur.",
-    "cta": {
-      "view_chart": "Voir le graphique",
-      "view_summary": "Résumé par secteur"
-    },
-    "sources": {
-      "label_source": "Source:",
-      "sniamb": "SNIAMB / dados.gov.pt",
-      "api_label": "P7CO® API",
-      "api_example": "/eco/api/gee/emissions?from=2005&group=series",
-      "licenses": "Licences — dados.gov.pt: CC BY 4.0 • P7CO® API: CC BY 4.0"
-    },
-    "image_alt": "Émissions de GES par secteur — visualisation"
-  }
+  "promo.kicker": "PARTIES PRENANTES & PARTENAIRES",
+  "promo.title": "Rejoignez le réseau de partenaires P7CO® et créez un impact positif",
+  "promo.lead1": "Si vous êtes une <b>municipalité</b>, une <b>entreprise</b> ou une <b>institution</b>, devenez partenaire pour encourager la réutilisation des excédents et soutenir les signalements environnementaux.",
+  "promo.lead2": "Accédez à des rapports dédiés, des tableaux de bord partagés et des avantages exclusifs pour les partenaires stratégiques.",
+  "promo.buttons.view_partners": "Découvrir le Programme Partenaires",
+  "promo.buttons.view_partners.aria": "Ouvrir la page du Programme Partenaires",
+  "promo.buttons.register_partner": "Je veux devenir Partenaire",
+  "promo.buttons.register_partner.aria": "S’inscrire en tant que Partenaire",
+  "promo.note": "Le programme parties prenantes et partenaires garantit visibilité, rapports dédiés et intégration au réseau circulaire P7CO®.",
+  "promo.image_alt": "Partenariats stratégiques P7CO®"
 }

@@ -1,22 +1,10 @@
 {
-  "bg_text": "OPERADORES",
-  "title": "Mapa de Operadores Licenciados",
-  "lead": {
-    "line1": "Encontre <b>operadores de gestão de resíduos licenciados</b> em Portugal continental e ilhas.",
-    "line2": "Pesquisa por concelho, categoria e proximidade. Dados oficiais <b>SILOGR/APA</b>."
-  },
-  "buttons": {
-    "open_map": "Abrir mapa",
-    "view_dataset": "Ver dataset (dados.gov.pt)"
-  },
-  "meta": {
-    "label_source": "Dados",
-    "source": "SILOGR / APA",
-    "label_license": "Licença",
-    "license": "CC BY 4.0",
-    "label_updated": "Atualizado"
-  },
-  "image": {
-    "alt": "Mapa de Operadores Licenciados (SILOGR/APA)"
-  }
+  "title": "Recebe o teu relatório gratuito de emissões",
+  "lead": "Com base em metodologias oficiais (SNIAMB / IPCC). Estimativa inicial e sugestões de redução para o teu setor.",
+  "cta.waste_map": "Ver Mapa de Resíduos",
+  "cta.waste_map.aria": "Abrir o mapa de resíduos",
+  "cta.demo": "Pedir Demonstração",
+  "cta.demo.aria": "Pedir demonstração do relatório de emissões",
+  "note": "Licenças: dados.gov.pt/Eurostat <b>CC BY 4.0</b>. Relatório indicativo — não substitui inventários verificados.",
+  "img.hero.alt": "Estimativa de emissões – exemplo"
 }

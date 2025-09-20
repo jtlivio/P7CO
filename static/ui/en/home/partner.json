@@ -1,8 +1,33 @@
 {
-  "kicker": "THE RIGHT CHOICE",
-  "rotator": ["innovates.", "transforms.", "wins."],
-  "lead1": "With P7CO® RESUPPLY, we make the circular economy accessible and simple. Our goal is to connect companies, promote sustainable practices, and cut resource waste.",
-  "lead2": "Our mission is to partner with businesses to foster reuse and drive sustainability across industries. We aim to build a greener, more innovative future based on circular solutions.",
-  "cta": { "more_about": "Learn More About Us" },
-  "image": { "alt": "P7CO® partnerships — business and sustainability" }
+  "hero.kicker": "WHAT PEOPLE SAY ABOUT US",
+  "hero.title": "We’re Not Alone",
+  "hero.lead": "Reference customers and partners share their trust and experience with us.",
+
+  "nav.left": "Testimonials <span>&</span>",
+  "nav.right": "Partners",
+  "carousel.prev.aria": "Previous",
+  "carousel.next.aria": "Next",
+
+  "testimonials.0.text": "Our collaboration with Microsoft for Startups is proving crucial to accelerate our sustainable digital transition.",
+  "testimonials.0.author": "P7CO® EcoResupply",
+
+  "testimonials.1.text": "The team’s dedication allowed us to innovate quickly and deliver tangible results in our environmental mission.",
+  "testimonials.1.author": "pH7x Systems",
+
+  "testimonials.2.text": "Working with P7CO® EcoResupply has been a strategic pillar in turning waste into resources.",
+  "testimonials.2.author": "Maré Alta Administration",
+
+  "testimonials.3.text": "The collaboration with P7CO® EcoResupply has been essential to ensure efficient and sustainable storage and parking solutions.",
+  "testimonials.3.author": "PublicTendersAlerts Administration",
+
+  "partners.0.alt": "pH7x Systems",
+  "partners.1.alt": "Microsoft Startup Hub Founders",
+  "partners.2.alt": "Maré Alta",
+  "partners.3.alt": "PublicTendersAlerts",
+
+  "early.kicker": "PARTNERSHIPS & TESTIMONIALS",
+  "early.title": "Our first collaborations are taking shape",
+  "early.lead": "P7CO® RESUPPLY is building bridges with companies, municipalities and associations that believe in circularity. Early partnerships are already underway and testimonials are showing results.",
+  "early.cta_text": "Would you like to join this pioneering partner network?",
+  "early.cta_link": "Talk to us!"
 }

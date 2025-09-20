@@ -1,22 +1,10 @@
 {
-  "bg_text": "OPERADORES",
-  "title": "Mapa de Operadores Autorizados",
-  "lead": {
-    "line1": "Encuentra <b>operadores de gestión de residuos autorizados</b> en Portugal continental e islas.",
-    "line2": "Busca por municipio, categoría y proximidad. Datos oficiales de <b>SILOGR/APA</b>."
-  },
-  "buttons": {
-    "open_map": "Abrir mapa",
-    "view_dataset": "Ver dataset (dados.gov.pt)"
-  },
-  "meta": {
-    "label_source": "Datos",
-    "source": "SILOGR / APA",
-    "label_license": "Licencia",
-    "license": "CC BY 4.0",
-    "label_updated": "Actualizado"
-  },
-  "image": {
-    "alt": "Mapa de Operadores Autorizados (SILOGR/APA)"
-  }
+  "title": "Recibe tu informe gratuito de emisiones",
+  "lead": "Basado en metodologías oficiales (SNIAMB / IPCC). Estimación inicial y sugerencias de reducción para tu sector.",
+  "cta.waste_map": "Ver Mapa de Residuos",
+  "cta.waste_map.aria": "Abrir el mapa de residuos",
+  "cta.demo": "Solicitar Demostración",
+  "cta.demo.aria": "Solicitar una demostración del informe de emisiones",
+  "note": "Licencias: dados.gov.pt/Eurostat <b>CC BY 4.0</b>. Informe indicativo — no sustituye inventarios verificados.",
+  "img.hero.alt": "Estimación de emisiones – ejemplo"
 }
