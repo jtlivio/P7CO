@@ -78,6 +78,16 @@ These Terms are governed by Portuguese law and European Union law.
 The competent jurisdiction is Setúbal, without prejudice to the consumer’s mandatory rights regarding their domicile and national law.
 
 ## 14. Final Provisions
-Relevant communications may be sent to the email associated with the account.  
-The contractual position may be transferred in the context of corporate restructuring.  
-In case of conflict between language versions, the Portuguese version prevails, unless otherwise required by law.
+Relevant communications may be sent to the email address associated with the account.  
+The contractual position may be assigned in the context of a corporate restructuring.  
+In the event of conflict between language versions, the Portuguese version shall prevail unless otherwise required by law.
+
+## 15. Suspension and Termination of Account
+The Provider may suspend or terminate accounts in case of breach of these Terms, fraud, abuse of the Platform, or legal requirement.  
+The User will be notified of the reasons and may contest the decision via the support channel.
+
+## 16. Severability
+If any provision of these Terms is deemed invalid or unenforceable, this shall not affect the validity of the remaining provisions, which shall remain in full force.
+
+## 17. Entire Agreement
+These Terms constitute the entire agreement between the Provider and the User regarding the use of the Platform, superseding any prior understandings or agreements on the same subject.

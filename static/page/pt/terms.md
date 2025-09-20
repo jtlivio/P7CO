@@ -81,3 +81,14 @@ O foro competente é Setúbal, sem prejuízo dos direitos imperativos do consumi
 Comunicações relevantes podem ser feitas para o email associado à conta.  
 A posição contratual pode ser cedida em contexto de reestruturação societária.  
 Em caso de conflito entre versões linguísticas, prevalece a versão portuguesa salvo exigência legal em contrário.
+
+## 15. Suspensão e Encerramento de Conta
+O Prestador pode suspender ou encerrar contas em caso de incumprimento destes Termos, fraude, abuso da Plataforma ou por exigência legal.  
+O Utilizador será notificado com os fundamentos da decisão e poderá apresentar contestação através do canal de suporte.
+
+## 16. Nulidade Parcial
+Se alguma disposição destes Termos for considerada inválida ou inaplicável, tal não afetará a validade das restantes disposições, que permanecerão plenamente em vigor.
+
+## 17. Acordo Integral
+Estes Termos constituem o acordo integral entre o Prestador e o Utilizador no que respeita à utilização da Plataforma, substituindo quaisquer entendimentos ou acordos anteriores sobre a mesma matéria.
+

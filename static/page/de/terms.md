@@ -78,6 +78,17 @@ Diese Bedingungen unterliegen portugiesischem Recht und dem Recht der Europäisc
 Gerichtsstand ist Setúbal, unbeschadet der zwingenden Rechte des Verbrauchers in Bezug auf seinen Wohnsitz und das nationale Recht.
 
 ## 14. Schlussbestimmungen
-Wichtige Mitteilungen können an die mit dem Konto verbundene E-Mail-Adresse gesendet werden.  
-Die vertragliche Position kann im Rahmen einer gesellschaftsrechtlichen Umstrukturierung übertragen werden.  
-Im Falle von Konflikten zwischen Sprachfassungen hat die portugiesische Fassung Vorrang, sofern nicht gesetzlich anders vorgeschrieben.
+Wichtige Mitteilungen können an die mit dem Konto verknüpfte E-Mail-Adresse gesendet werden.  
+Die Vertragsposition kann im Rahmen einer gesellschaftlichen Umstrukturierung übertragen werden.  
+Bei Widersprüchen zwischen Sprachversionen hat die portugiesische Version Vorrang, sofern nicht gesetzlich anders vorgeschrieben.
+
+## 15. Kontosperrung und Kündigung
+Der Anbieter kann Konten bei Verstoß gegen diese Bedingungen, Betrug, Missbrauch der Plattform oder aus rechtlichen Gründen sperren oder kündigen.  
+Der Nutzer wird über die Gründe informiert und kann Einspruch über den Support einlegen.
+
+## 16. Teilnichtigkeit
+Sollte eine Bestimmung dieser Bedingungen ungültig oder undurchführbar sein, bleiben die übrigen Bestimmungen davon unberührt.
+
+## 17. Vollständige Vereinbarung
+Diese Bedingungen stellen die vollständige Vereinbarung zwischen dem Anbieter und dem Nutzer in Bezug auf die Nutzung der Plattform dar und ersetzen alle früheren Vereinbarungen.
+

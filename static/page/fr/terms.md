@@ -78,6 +78,17 @@ Les présentes Conditions sont régies par le droit portugais et le droit de l�
 La juridiction compétente est Setúbal, sans préjudice des droits impératifs du consommateur relatifs à son domicile et à sa loi nationale.
 
 ## 14. Dispositions Finales
-Les communications importantes peuvent être envoyées à l’adresse email associée au compte.  
-La position contractuelle peut être transférée dans le cadre d’une restructuration sociétaire.  
-En cas de conflit entre versions linguistiques, la version portugaise prévaut, sauf disposition légale contraire.
+Les communications pertinentes peuvent être envoyées à l’adresse e-mail associée au compte.  
+La position contractuelle peut être cédée dans le cadre d’une restructuration sociétaire.  
+En cas de conflit entre versions linguistiques, la version portugaise prévaut sauf obligation légale contraire.
+
+## 15. Suspension et Résiliation de Compte
+Le Prestataire peut suspendre ou résilier des comptes en cas de violation des présentes Conditions, fraude, abus de la Plateforme ou exigence légale.  
+L’Utilisateur sera informé des motifs et pourra contester la décision via le canal de support.
+
+## 16. Nullité Partielle
+Si une disposition des présentes Conditions est jugée invalide ou inapplicable, cela n’affectera pas la validité des autres dispositions, qui resteront pleinement en vigueur.
+
+## 17. Accord Intégral
+Les présentes Conditions constituent l’accord intégral entre le Prestataire et l’Utilisateur concernant l’utilisation de la Plateforme, remplaçant tout accord ou entente antérieur sur le même sujet.
+

@@ -79,5 +79,16 @@ El fuero competente es Setúbal, sin perjuicio de los derechos imperativos del c
 
 ## 14. Disposiciones Finales
 Las comunicaciones relevantes podrán enviarse al correo electrónico asociado a la cuenta.  
-La posición contractual podrá ser cedida en el contexto de una reestructuración societaria.  
-En caso de conflicto entre versiones lingüísticas, prevalecerá la versión portuguesa, salvo que la ley disponga lo contrario.
+La posición contractual podrá cederse en el contexto de una reestructuración societaria.  
+En caso de conflicto entre versiones lingüísticas, prevalecerá la versión portuguesa salvo exigencia legal en contrario.
+
+## 15. Suspensión y Cierre de Cuenta
+El Proveedor podrá suspender o cerrar cuentas en caso de incumplimiento de estos Términos, fraude, abuso de la Plataforma o por exigencia legal.  
+El Usuario será notificado de los motivos y podrá impugnar la decisión a través del canal de soporte.
+
+## 16. Nulidad Parcial
+Si alguna disposición de estos Términos se considera inválida o inaplicable, ello no afectará a la validez de las disposiciones restantes, que permanecerán plenamente vigentes.
+
+## 17. Acuerdo Íntegro
+Estos Términos constituyen el acuerdo íntegro entre el Proveedor y el Usuario en lo relativo al uso de la Plataforma, sustituyendo cualquier entendimiento o acuerdo anterior sobre la misma materia.
+
