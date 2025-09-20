@@ -1,53 +1,90 @@
 +++
-title = "Reports and Marketplace by European Zones"
-intro = "P7CO® EcoResupply organises environmental reports and marketplace surpluses by European zones, grouping countries into regional blocks for clarity and comparability."
+title = "Environmental Reports and Surpluses by EU Zones"
+intro = "P7CO® EcoResupply organizes environmental reports and marketplace surpluses by EU zones, grouping countries into regional blocks for clearer comparison."
 image = "/images/eu-zones-hero.jpg"
 date = 2025-09-17
-tags = ["Reports", "Marketplace", "Zones", "Europe", "Circular Economy"]
+tags = ["Reports", "Surpluses", "EU27", "Circularity", "Marketplace", "Zones"]
 active = true
-slug = "reports-marketplace-eu-zones"
+slug = "reports-surpluses-eu"
 +++
 
-## Reports and Marketplace by European Zones
+## Environmental Reports and Surpluses by EU Zones
 
-P7CO® EcoResupply adopts a regional division of the European Union to organise environmental reports and marketplace surpluses.  
-This model enables **comparisons between countries** and alignment with **official sources** (Eurostat, European Commission).
+**P7CO® EcoResupply** applies a regional division of the **European Union (EU27)** to structure **environmental reports** (illegal dumping, pollution, regulatory breaches) and **surpluses** (reusable materials, valuable waste, end-of-life products).  
+This model improves **comparability across countries**, ensures **statistical consistency**, and supports **Eurostat and EU reporting**.
 
 ## Defined Zones
 
-### North
-Green-oriented economies with high recycling performance.  
-Includes: **Sweden (SE), Denmark (DK), Finland (FI), Estonia (EE), Latvia (LV), Lithuania (LT)**.
+### Northern Zone
+**Profile:** High recycling rates, active civic participation, advanced environmental policies.  
+- **Reports:** marine pollution, cross-border waste transport, forestry issues.  
+- **Surpluses:** wood, plastics, recyclable metals.  
+- **Countries:**  
+  - 🇸🇪 Sweden (SE)  
+  - 🇩🇰 Denmark (DK)  
+  - 🇫🇮 Finland (FI)  
+  - 🇪🇪 Estonia (EE)  
+  - 🇱🇻 Latvia (LV)  
+  - 🇱🇹 Lithuania (LT)  
 
-### West
-Industrial powerhouses with advanced markets.  
-Includes: **Germany (DE), France (FR), Austria (AT), Belgium (BE), Luxembourg (LU), Netherlands (NL)**.
+### Western Zone
+**Profile:** Highly industrialized economies with strong innovation and large volumes of technological waste.  
+- **Reports:** industrial emissions, air pollution, non-compliance with regulations.  
+- **Surpluses:** chemicals, machinery, electronics.  
+- **Countries:**  
+  - 🇩🇪 Germany (DE)  
+  - 🇫🇷 France (FR)  
+  - 🇦🇹 Austria (AT)  
+  - 🇧🇪 Belgium (BE)  
+  - 🇱🇺 Luxembourg (LU)  
+  - 🇳🇱 Netherlands (NL)  
 
-### South
-Mediterranean countries facing urban and agricultural waste challenges.  
-Includes: **Portugal (PT), Spain (ES), Italy (IT), Greece (GR), Malta (MT), Cyprus (CY)**.
+### Southern Zone
+**Profile:** Mediterranean region with strong agriculture and seasonal tourism pressure.  
+- **Reports:** poorly managed urban waste, coastal pollution, illegal landfills.  
+- **Surpluses:** food, agricultural residues, construction materials.  
+- **Countries:**  
+  - 🇵🇹 Portugal (PT)  
+  - 🇪🇸 Spain (ES)  
+  - 🇮🇹 Italy (IT)  
+  - 🇬🇷 Greece (GR)  
+  - 🇲🇹 Malta (MT)  
+  - 🇨🇾 Cyprus (CY)  
 
-### Central / East
-Emerging economies with rapid progress in circularity.  
-Includes: **Poland (PL), Hungary (HU), Czechia (CZ), Slovakia (SK), Slovenia (SI), Croatia (HR), Bulgaria (BG), Romania (RO)**.
+### Central-Eastern Zone
+**Profile:** Transition economies with rapidly growing circularity policies.  
+- **Reports:** illegal discharges, water pollution, weak enforcement.  
+- **Surpluses:** textiles, untreated plastics, scrap metal.  
+- **Countries:**  
+  - 🇵🇱 Poland (PL)  
+  - 🇭🇺 Hungary (HU)  
+  - 🇨🇿 Czechia (CZ)  
+  - 🇸🇰 Slovakia (SK)  
+  - 🇸🇮 Slovenia (SI)  
+  - 🇭🇷 Croatia (HR)  
+  - 🇧🇬 Bulgaria (BG)  
+  - 🇷🇴 Romania (RO)  
 
-### Islands / Atlantic
-Insular territories focusing on maritime logistics and local waste management.  
-Includes: **Ireland (IE)**.
+### Insular / Atlantic Zone
+**Profile:** Island regions with logistical challenges and focus on self-sufficiency.  
+- **Reports:** illegal waste exports, coastal pollution.  
+- **Surpluses:** agricultural and technological residues.  
+- **Countries:**  
+  - 🇮🇪 Ireland (IE)  
 
-## Benefits of Zone Division
+## Benefits of the Classification
 
-- **Comparability** between European regions  
-- **Transparency** in data and trends  
-- **Consistency** with Eurostat and EU reports  
-- **Strategic planning** for companies and policymakers  
+- **Regional comparison:** detect trends in reports and surpluses.  
+- **Statistical alignment:** compatible with Eurostat methodologies.  
+- **Strategic planning:** support for governments, municipalities, and businesses.  
+- **Transparency:** data accessible to citizens, companies, and institutions.  
 
 ## Next Steps
 
-P7CO® EcoResupply will integrate these zones into **interactive maps** and **regional reports** to:
+P7CO® EcoResupply will:  
+- Provide **interactive maps** linking reports and surplus flows.  
+- Publish **regional comparison reports** for the EU27.  
+- Develop **dashboards** for citizens, companies, and policymakers.  
+- Issue **digital certificates** of circularity per zone.  
 
-- Identify hotspots for environmental reports  
-- Highlight circularity potential in each region  
-- Compare performance between European zones  
-
-Want to explore regional data? [Contact us](/en/home/contact).
+👉 Want to explore the data for your country or region? [Contact us](/en/home/contact).
