@@ -2,7 +2,7 @@
 title = "EWC Codes: What They Are, Their History and Stakeholder Impact"
 intro = "Learn what the European Waste Catalogue (EWC) codes are, how they apply to companies and municipalities, and their practical role in waste management, compliance and the circular economy."
 image = "/proxy/image?path=images/codigos-ler.jpg"
-date = 2025-07-23
+date = 2025-10-21
 category = "guides"
 tags = ["EWC", "Waste", "Sustainability", "SME", "EcoResupply"]
 reading_time = 11

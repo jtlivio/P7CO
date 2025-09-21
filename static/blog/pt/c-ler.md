@@ -2,7 +2,7 @@
 title = "Códigos LER: O Que São, Qual a Sua História e Impacto nos Stakeholders"
 intro = "Conheça a origem da Lista Europeia de Resíduos (LER), os seus códigos, a evolução histórica e o impacto prático que têm para empresas, municípios, operadores e cidadãos na gestão de resíduos e na economia circular."
 image = "/proxy/image?path=images/codigos-ler.jpg"
-date = 2025-07-23
+date = 2025-10-21
 category = "guides"
 tags = ["LER", "Resíduos", "História", "Stakeholders", "Sustentabilidade", "PME", "EcoResupply"]
 reading_time = 11

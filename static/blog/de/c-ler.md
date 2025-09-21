@@ -2,7 +2,7 @@
 title = "AVV-Codes: Was sie sind, ihre Geschichte und ihre Bedeutung für die Stakeholder"
 intro = "Erfahren Sie, was die AVV-Codes (Abfallverzeichnis-Verordnung) sind, wie sie in Unternehmen und Kommunen angewendet werden und welchen Einfluss sie auf die Abfallwirtschaft und die Kreislaufwirtschaft haben."
 image = "/proxy/image?path=images/codigos-ler.jpg"
-date = 2025-07-23
+date = 2025-10-21
 category = "guides"
 tags = ["AVV", "Abfall", "Nachhaltigkeit", "KMU", "EcoResupply"]
 reading_time = 11
