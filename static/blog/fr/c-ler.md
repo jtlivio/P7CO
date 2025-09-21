@@ -3,7 +3,7 @@ title = "Codes LED : Qu'est-ce que c'est, leur histoire et leur impact sur les p
 intro = "Découvrez ce que sont les Codes LED (Liste Européenne des Déchets), leur origine, leur application pour les entreprises et les communes, ainsi que leur rôle dans la gestion des déchets et l'économie circulaire."
 image = "/proxy/image?path=images/codigos-ler.jpg"
 date = 2025-10-21
-category = "guides"
+category = "faq"
 tags = ["LED", "Déchets", "Durabilité", "PME", "EcoResupply"]
 reading_time = 11
 active = true
