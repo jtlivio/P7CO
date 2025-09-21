@@ -97,4 +97,4 @@ Der **P7CO® EcoResupply** unterstützt Organisationen bei der praktischen Anwen
 
 Benötigt Ihr Unternehmen oder Ihre Kommune Hilfe bei der Anwendung der **AVV-Codes** oder bei der Erfüllung gesetzlicher Pflichten?  
 
-[Kontaktieren Sie uns](/de/contact) und erfahren Sie, wie **P7CO® EcoResupply** Ihre Organisation bei Rechtssicherheit, Nachhaltigkeit und Effizienz unterstützen kann.
+[Kontaktieren Sie uns](/de/home/contact) und erfahren Sie, wie **P7CO® EcoResupply** Ihre Organisation bei Rechtssicherheit, Nachhaltigkeit und Effizienz unterstützen kann.

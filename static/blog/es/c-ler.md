@@ -105,4 +105,4 @@ Su aplicación correcta es fundamental para empresas, municipios, gestores y ciu
 
 Si su **empresa o municipio** necesita apoyo para aplicar correctamente los Códigos LER, cumplir con el **MIRR/eSIR** o implementar prácticas de **economía circular**, póngase en contacto con nosotros.  
 
-[Contáctenos aquí](/es/contact) y descubra cómo **P7CO® EcoResupply** puede ayudar a su organización con cumplimiento, sostenibilidad y eficiencia operativa.
+[Contáctenos aquí](/es/home/contact) y descubra cómo **P7CO® EcoResupply** puede ayudar a su organización con cumplimiento, sostenibilidad y eficiencia operativa.

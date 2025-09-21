@@ -98,4 +98,4 @@ Leur application correcte est essentielle pour les entreprises, les collectivit�
 
 Si votre **entreprise ou collectivité** a besoin de soutien pour appliquer correctement les Codes LED, respecter les obligations légales ou mettre en place des pratiques d'économie circulaire, contactez-nous.  
 
-[Contactez-nous ici](/fr/contact) et découvrez comment **P7CO® EcoResupply** peut accompagner votre organisation en matière de conformité, durabilité et efficacité opérationnelle.
+[Contactez-nous ici](/fr/home/contact) et découvrez comment **P7CO® EcoResupply** peut accompagner votre organisation en matière de conformité, durabilité et efficacité opérationnelle.

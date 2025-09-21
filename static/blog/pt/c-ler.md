@@ -107,4 +107,4 @@ O **P7CO® EcoResupply** integra a lógica dos códigos LER e apoia os diversos 
 
 Se a sua **empresa ou município** precisa de ajuda a aplicar corretamente os códigos LER, cumprir obrigações como o **MIRR** ou implementar práticas de **economia circular**, fale connosco.  
 
-👉 [Contacte-nos aqui](/pt/contact) e descubra como os serviços do **P7CO® EcoResupply** podem apoiar a sua organização em conformidade legal, sustentabilidade e eficiência operacional.
+[Contacte-nos aqui](/pt/home/contact) e descubra como os serviços do **P7CO® EcoResupply** podem apoiar a sua organização em conformidade legal, sustentabilidade e eficiência operacional.

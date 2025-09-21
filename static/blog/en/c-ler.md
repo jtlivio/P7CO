@@ -98,4 +98,4 @@ Correct use is essential for companies, municipalities, operators and citizens t
 
 If your **company or municipality** needs assistance with the correct application of EWC codes, reporting (e.g., registers, transport permits) or circular economy practices, talk to us.  
 
-[Contact us here](/en/contact) and discover how **P7CO® EcoResupply** can support your organisation with compliance, sustainability and operational efficiency.
+[Contact us here](/en/home/contact) and discover how **P7CO® EcoResupply** can support your organisation with compliance, sustainability and operational efficiency.
