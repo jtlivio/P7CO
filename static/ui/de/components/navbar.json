@@ -30,7 +30,7 @@
   "header.search.input_aria": "Suchbegriff",
   "header.search.submit": "Suchen",
 
-  "header.messages.label": "Nachrichten:",
+  "header.messages.label": "# Nachr ",
   "header.messages.aria_icon": "Nachrichten",
   "header.messages.icon_alt": "Nachrichten",
   "header.messages.loading": "Wird geladen…",
