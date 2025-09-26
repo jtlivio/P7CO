@@ -4,7 +4,7 @@ intro = "Descubre cómo garantizamos la confianza, la privacidad de los datos y 
 image = "/proxy/image?path=images/fiabilidade-plataforma.jpg"
 date = 2025-07-23
 category = "guides"
-tags = "Fiabilidad", "Seguridad", "Privacidad", "Términos", "Cookies", "pH7x", "P7CO", "EcoResupply"]
+tags = ["Fiabilidad", "Seguridad", "Privacidad", "Términos", "Cookies", "pH7x", "P7CO", "EcoResupply"]
 reading_time = 6
 active = true
 +++

@@ -1,0 +1,83 @@
+name: "📑 Article Proposal"
+description: "Propose a new in-depth article, whitepaper, or technical guide for P7CO® EcoResupply"
+labels: ["article", "content/article"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Proposed Title
+      placeholder: "Example: GDPR Compliance in Circular Economy Platforms"
+    validations:
+      required: true
+
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract / Main Idea
+      description: "Summarize the core message and scope of the article"
+      placeholder: "This article will analyze..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Initial Language
+      options:
+        - English (en)
+        - Portuguese (pt)
+        - Spanish (es)
+        - French (fr)
+        - German (de)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - Whitepaper
+        - Technical Guide
+        - Case Study
+        - Report
+        - Policy/Compliance
+
+  - type: textarea
+    id: sections
+    attributes:
+      label: Proposed Sections / Structure
+      description: "Outline the key sections, headings, or flow of the article"
+      placeholder: |
+        1. Introduction
+        2. Background
+        3. Case Studies
+        4. Conclusion
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References / Sources
+      description: "List papers, reports, legislation, or datasets to be cited"
+      placeholder: "- https://eur-lex.europa.eu/...  \n- https://ec.europa.eu/environment/..."
+
+  - type: textarea
+    id: assets
+    attributes:
+      label: Assets Needed (optional)
+      description: "Images/figures/charts expected for the article"
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Target Audience (optional)
+      description: "Who is this for (municipalities, SMEs, policymakers, etc.)?"
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Compliance
+      description: "Confirm no personal data will be added; author identity comes from the site profile."
+      options:
+        - label: "I confirm no personal data will be added to Markdown; author identity comes from the site profile."
+          required: true

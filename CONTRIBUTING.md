@@ -34,16 +34,16 @@ We welcome contributions that improve translations, fix mistakes, or add new **B
 
 Each content type (`blog`, `page`, `article`) must include **frontmatter** at the top using `+++` delimiters:
 
-```yaml
+```toml
 +++
-title: "Sample Title"
-intro: "A short introduction for the P7CO EcoResupply platform."
-image: /proxy/image?path=images/example.jpg
-date: 2025-04-01
-category: "guides"
-tags: ["Sustainability", "Circular Economy"]
-reading_time: 3
-active: true
+title = "Sample Title"
+intro = "A short introduction for the P7CO EcoResupply platform."
+image = "/proxy/image?path=images/example.jpg"
+date = 2025-04-01
+category = "guides"
+tags = ["Sustainability", "Circular Economy"]
+reading_time = 3
+active = true
 +++
 ```
 
@@ -59,8 +59,10 @@ active: true
 ### Recommended Fields
 
 * **category** → Must be one of the [allowed categories](#-categories).
-* **reading\_time** → Estimated reading time in minutes.
-* **author**, **author\_bio**, **author\_image\_url** (optional, for articles and blogs).
+* **reading_time** → Estimated reading time in minutes.
+* **author**, **author_bio**, **author_image_url** (optional, for articles and blogs).
+
+> 🔒 **GDPR Note:** Personal author information is optional and should only be provided if the contributor explicitly agrees to make it public. By default, posts and articles can remain anonymous or credit only the GitHub username.
 
 ## 🖼️ Image Requirements
 
@@ -84,7 +86,7 @@ Allowed `category` values:
 * **p7co** → Internal / brand-specific
 * **policy** → Legislation, regulations
 * **community** → Contributions, stories
-* **innovation** → Startups, R\&D, new methods
+* **innovation** → Startups, R&D, new methods
 * **circularity** → Circular economy practices
 * **events** → Conferences, webinars
 * **opinion** → Editorials, opinion pieces
@@ -125,3 +127,4 @@ By participating in this project, you agree to abide by its terms.
 * [ ] Category is one of the allowed values.
 * [ ] File size ≤ 100 KB and contains no invalid characters.
 * [ ] Changes follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+* [ ] If author information is included, contributor has consented (GDPR compliance).

@@ -2,32 +2,28 @@
   "name": "p7co",
   "private": true,
   "version": "1.0.0",
-  "description": "**P7CO® EcoResupply Blog** Official blog content repository managed by **pH7x Systems®**.",
+  "description": "P7CO® EcoResupply — official content repository (blog, articles, pages, UI translations)",
   "main": "index.js",
   "scripts": {
-    "lint:content": "node tools/content-lint.js",
-    "devDependencies": {
-      "gray-matter": "^4.0.3",
-      "sharp": "^0.33.4"
-    }
-  },
-  "devDependencies": {
-    "@iarna/toml": "^2.2.5",
-    "gray-matter": "^4.0.3",
-    "sharp": "^0.33.0"
+    "lint:content": "node tools/content-lint.js"
   },
   "dependencies": {
-    "argparse": "^1.0.10",
-    "esprima": "^4.0.1",
-    "extend-shallow": "^2.0.1",
-    "is-extendable": "^0.1.1",
-    "js-yaml": "^3.14.1",
-    "kind-of": "^6.0.3",
-    "section-matter": "^1.0.0",
-    "sprintf-js": "^1.0.3",
-    "strip-bom-string": "^1.0.0"
+    "@iarna/toml": "^3.0.0",
+    "gray-matter": "^4.0.3",
+    "sharp": "^0.34.4"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {},
+  "keywords": [
+    "p7co",
+    "circular-economy",
+    "blog",
+    "articles",
+    "sustainability",
+    "content-lint"
+  ],
+  "author": "pH7x Systems®",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=20"
+  }
 }

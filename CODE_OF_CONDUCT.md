@@ -35,7 +35,7 @@ Contact: [hello@p7co.org](mailto:hello@p7co.org)
 
 Contacto: [hello@p7co.org](mailto:hello@p7co.org)
 
-## 🇵🇹 Código de Conducta (Español)
+## 🇪🇸 Código de Conducta (Español)
 
 * Trate a todos con **respeto y empatía**.
 * Evite el lenguaje discriminatorio, ofensivo o político.

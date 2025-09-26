@@ -1,11 +1,12 @@
 name: "🌍 Translation Request"
-description: "Request or propose a translation of an existing blog post"
+description: "Request or propose a translation of an existing content file (Blog, Page, or Article)"
 labels: ["translation", "content"]
 body:
   - type: input
     id: original
     attributes:
-      label: Original Blog Post URL
+      label: Original File URL or Path
+      description: "Provide the link or repository path to the original Markdown file"
       placeholder: "https://github.com/jtlivio/P7CO/content/blog/en/example.md"
     validations:
       required: true
@@ -27,5 +28,5 @@ body:
     id: notes
     attributes:
       label: Notes / Terminology
-      description: "Any specific terminology or context to be considered"
+      description: "Add specific terminology, tone, or cultural notes for translators"
       placeholder: "Use 'circular economy' instead of 'green economy'..."

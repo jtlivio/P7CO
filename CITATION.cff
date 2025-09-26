@@ -1,15 +1,16 @@
 cff-version: 1.2.0
 title: "P7CO® EcoResupply"
 message: "If you use this project or any of its materials (blog, UI, articles, documentation), please cite it as follows."
-type: generic
+type: software
 
 authors:
-  - family-names: "LIVIO"
-    given-names: "João Pedro de Sousa Viegas Tito Livio"
+  - family-names: "Livio"
+    given-names: "João Pedro de Sousa Viegas Tito"
     affiliation: "pH7x Systems®"
 
 repository-code: "https://github.com/jtlivio/P7CO"
 url: "https://p7co.org"
+
 abstract: >
   The P7CO® EcoResupply repository combines multiple components:
   - Blog: multilingual open articles on sustainability and circular economy.
@@ -34,3 +35,14 @@ keywords:
 license: "Creative Commons Attribution 4.0 International (CC BY 4.0)"
 date-released: 2025-04-01
 version: "1.0.0"
+
+preferred-citation:
+  type: software
+  title: "P7CO® EcoResupply"
+  version: "1.0.0"
+  date-released: 2025-04-01
+  authors:
+    - family-names: "Livio"
+      given-names: "João Pedro de Sousa Viegas Tito"
+  institution: "pH7x Systems®"
+  url: "https://p7co.org"

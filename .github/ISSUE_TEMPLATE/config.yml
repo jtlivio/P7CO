@@ -1,5 +1,6 @@
-blank_issues_enabled: false
-contact_links:
-  - name: 📖 Contribution Guide
-    url: https://github.com/jtlivio/P7CO/blob/main/CONTRIBUTING.md
-    about: Please read the contributing guidelines before opening an issue.
+  - name: "🔐 Security Issues"
+    url: https://github.com/jtlivio/P7CO/security/policy
+    about: "Report vulnerabilities or security concerns privately."
+  - name: "🌍 Translations"
+    url: https://github.com/jtlivio/P7CO/blob/main/TRANSLATIONS.md
+    about: "See how to contribute or request translations."

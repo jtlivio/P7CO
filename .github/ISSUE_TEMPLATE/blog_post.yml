@@ -1,6 +1,6 @@
 name: "📰 Blog Post Proposal"
 description: "Suggest a new blog post idea for the P7CO® EcoResupply Blog"
-labels: ["blog", "content"]
+labels: ["blog", "content/blog"]
 body:
   - type: input
     id: title

@@ -1,10 +1,11 @@
 ---
+
 name: "🐞 Bug Report"
 about: Report a problem in the blog content, images, translations, or repository scripts
-title: "\[BUG] Short description"
+title: "[BUG] Short description"
 labels: bug
 assignees: ''
----
+-------------
 
 ## 🐛 Describe the Bug
 
@@ -12,9 +13,9 @@ A clear and concise description of the problem.
 
 ## 📍 Location
 
-* File/Path: `static/{type}/{lang}/...` (e.g. `static/blog/en/post.md`)
-* Section (if applicable): …
-* Related Image (if any): `/images/...`
+* **File/Path:** `static/{type}/{lang}/...` (e.g., `static/blog/en/post.md`)
+* **Section (if applicable):** …
+* **Related Image (if any):** `/images/...`
 
 ## 🔁 Steps to Reproduce
 
@@ -45,6 +46,10 @@ If applicable, add screenshots to help explain your problem.
 * [ ] Translation / i18n issues
 * [ ] Linter / CI validation
 
+## 🔐 GDPR & Privacy Check
+
+* [ ] No personal data included in this report (emails, phone numbers, IDs, faces).
+* [ ] Issue relates only to repository content under `static/` or CI tooling.
 
 ## 📎 Additional Context
 
