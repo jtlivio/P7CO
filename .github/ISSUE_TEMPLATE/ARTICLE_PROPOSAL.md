@@ -1,9 +1,7 @@
 ---
-name: "📑 Article Proposal"
-about: "Propose a new in-depth article, whitepaper, or technical guide for P7CO® EcoResupply"
-title: "[ARTICLE] Short description"
-labels: ["article", "content/article"]
-assignees: ""
+name: "📝 Article Proposal (legacy)"
+about: Propose a new article (legacy MD template)
+labels: article, content/article
 ---
 
 ## 📑 Proposed Title
