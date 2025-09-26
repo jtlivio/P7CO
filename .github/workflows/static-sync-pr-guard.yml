@@ -1,0 +1,17 @@
+name: Deploy Static to Azure Storage
+
+on:
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dry-run (no deploy)
+        run: |
+          echo "PR guard: dry-run OK (no deploy)"
