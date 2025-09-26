@@ -1,0 +1,26 @@
+name: Content Lint (PR)
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - "content/**"
+      - "images/**"
+      - "ui/**"
+      - "tools/**"
+      - "package.json"
+      - "package-lock.json"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - name: Install deps
+        run: npm ci || npm install
+      - name: Lint content
+        run: npm run lint:content
