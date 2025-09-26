@@ -1,47 +1,20 @@
 version: 2
 updates:
-  # 1) NPM/Yarn (root do repo)
   - package-ecosystem: "npm"
     directory: "/"
-    schedule:
-      interval: "weekly"        # daily | weekly | monthly
-      day: "monday"
-      time: "08:00"
-      timezone: "Europe/Lisbon"
-    target-branch: "main"
-    open-pull-requests-limit: 10
-    commit-message:
-      prefix: "deps"
-      include: "scope"
-    labels:
-      - "dependencies"
-      - "automated pr"
-    reviewers:
-      - "jtlivio"
-    assignees:
-      - "jtlivio"
-    ignore:
-      # evita majors disruptivas; ajusta à vontade
-      - dependency-name: "*"
-        update-types: ["version-update:semver-major"]
-    versioning-strategy: widen
-    allow:
-      - dependency-type: "direct"     # diretas
-      - dependency-type: "production" # prod deps (exclui dev se quiseres)
-
-  # 2) NPM/Yarn (monorepo/pastas adicionais, se aplicável)
-  - package-ecosystem: "npm"
-    directory: "/tools"
     schedule:
       interval: "weekly"
       day: "monday"
       time: "08:00"
       timezone: "Europe/Lisbon"
     target-branch: "main"
-    open-pull-requests-limit: 5
-    labels: ["dependencies", "automated pr"]
+    labels: ["dependencies","automated pr"]
+    reviewers: ["jtlivio"]
+    assignees: ["jtlivio"]
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
 
-  # 3) GitHub Actions (actions/setup-node, checkout, etc.)
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -50,4 +23,4 @@ updates:
       time: "08:00"
       timezone: "Europe/Lisbon"
     target-branch: "main"
-    labels: ["ci", "dependencies", "automated pr"]
+    labels: ["ci","dependencies","automated pr"]
