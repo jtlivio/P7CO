@@ -19,8 +19,13 @@
   "dependencies": {
     "argparse": "^2.0.1",
     "esprima": "^4.0.1",
+<<<<<<< HEAD
     "extend-shallow": "^2.0.1",
     "is-extendable": "^1.0.1",
+=======
+    "extend-shallow": "^3.0.2",
+    "is-extendable": "^0.1.1",
+>>>>>>> c2a13a4 (chore(deps): bump extend-shallow from 2.0.1 to 3.0.2)
     "js-yaml": "^3.14.1",
     "kind-of": "^6.0.3",
     "section-matter": "^1.0.0",
