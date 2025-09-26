@@ -1,6 +1,9 @@
-name: "📑 Article Proposal"
-description: "Propose a new in-depth article, whitepaper, or technical guide for P7CO® EcoResupply"
+# .github/ISSUE_TEMPLATE/article_proposal.yml
+name: "📝 New Article Proposal"
+description: "Propose a new in-depth article, whitepaper, or technical guide for the P7CO® EcoResupply blog."
+title: "feat(content): article proposal — <short title>"
 labels: ["article", "content/article"]
+assignees: []
 body:
   - type: input
     id: title
@@ -41,43 +44,78 @@ body:
         - Technical Guide
         - Case Study
         - Report
-        - Policy/Compliance
+        - News / Update
+        - Opinion / Editorial
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: category
+    attributes:
+      label: Category (choose one or more)
+      options:
+        - label: guides
+        - label: news
+        - label: case-studies
+        - label: esg
+        - label: tech
+        - label: p7co
+        - label: policy
+        - label: community
+        - label: innovation
+        - label: circularity
+        - label: events
+        - label: opinion
+        - label: analysis
+        - label: whitepaper
+        - label: report
+        - label: insight
+        - label: legal
+        - label: environment
+        - label: market
+        - label: services
+        - label: about
+        - label: faq
 
   - type: textarea
-    id: sections
+    id: target_audience
     attributes:
-      label: Proposed Sections / Structure
-      description: "Outline the key sections, headings, or flow of the article"
+      label: Target Audience & Use-Cases
+      placeholder: "SMEs, municipalities, recyclers, logistics, NGOs, academia..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: outline
+    attributes:
+      label: Outline / Sections
       placeholder: |
-        1. Introduction
-        2. Background
-        3. Case Studies
-        4. Conclusion
+        1. Context
+        2. Problem / Opportunity
+        3. Method / Approach
+        4. Examples
+        5. Takeaways
+    validations:
+      required: true
 
   - type: textarea
     id: references
     attributes:
-      label: References / Sources
-      description: "List papers, reports, legislation, or datasets to be cited"
-      placeholder: "- https://eur-lex.europa.eu/...  \n- https://ec.europa.eu/environment/..."
+      label: References / Sources (if any)
+      placeholder: "Links to regulations, standards, datasets, or prior posts"
 
-  - type: textarea
-    id: assets
+  - type: input
+    id: hero_image
     attributes:
-      label: Assets Needed (optional)
-      description: "Images/figures/charts expected for the article"
-
-  - type: textarea
-    id: audience
-    attributes:
-      label: Target Audience (optional)
-      description: "Who is this for (municipalities, SMEs, policymakers, etc.)?"
+      label: Hero Image (path)
+      description: "Relative path under images/ or proxy URL: /proxy/image?path=images/..."
+      placeholder: "/proxy/image?path=images/article-template.jpg"
 
   - type: checkboxes
-    id: privacy
+    id: extras
     attributes:
-      label: Compliance
-      description: "Confirm no personal data will be added; author identity comes from the site profile."
+      label: Extras
       options:
-        - label: "I confirm no personal data will be added to Markdown; author identity comes from the site profile."
-          required: true
+        - label: Needs translation
+        - label: Requires SME review
+        - label: Include code samples
