@@ -17,7 +17,7 @@
     "sharp": "^0.34.4"
   },
   "dependencies": {
-    "argparse": "^1.0.10",
+    "argparse": "^2.0.1",
     "esprima": "^4.0.1",
     "extend-shallow": "^2.0.1",
     "is-extendable": "^1.0.1",
