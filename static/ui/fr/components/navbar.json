@@ -32,7 +32,7 @@
 
   "header.messages.label": "# Mess. ",
   "header.messages.aria_icon": "Messages",
-  "header.messages.icon_alt": "Messages",
+  "header.messages.icon_alt": "Messages", 
   "header.messages.loading": "Chargement…",
   "header.messages.view_all": "Tout voir",
   "header.messages.empty": "Aucun nouveau message",
