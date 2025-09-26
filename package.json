@@ -20,7 +20,7 @@
     "argparse": "^1.0.10",
     "esprima": "^4.0.1",
     "extend-shallow": "^2.0.1",
-    "is-extendable": "^0.1.1",
+    "is-extendable": "^1.0.1",
     "js-yaml": "^3.14.1",
     "kind-of": "^6.0.3",
     "section-matter": "^1.0.0",
