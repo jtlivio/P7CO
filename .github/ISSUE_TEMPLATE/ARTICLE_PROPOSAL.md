@@ -1,5 +1,5 @@
 ---
-name: "📝 Article Proposal (legacy)"
+name: "📑 Article Proposal (Markdown)"
 about: Propose a new article (legacy MD template)
 labels: article, content/article
 ---

@@ -1,5 +1,4 @@
-# .github/ISSUE_TEMPLATE/article_proposal.yml
-name: "📝 New Article Proposal"
+name: "📑 Article Proposal (Form)"
 description: "Propose a new in-depth article, whitepaper, or technical guide for the P7CO® EcoResupply blog."
 title: "feat(content): article proposal — <short title>"
 labels: ["article", "content/article"]
