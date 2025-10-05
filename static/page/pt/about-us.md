@@ -10,7 +10,7 @@ active = true
 ## Acerca de Nós
 
 O **P7CO® EcoResupply** é uma **plataforma portuguesa de circularidade e valorização de subprodutos**, criada pela **pH7x Systems®**, que transforma **excedentes industriais, resíduos reaproveitáveis e dados ambientais** em **valor económico e impacto sustentável**.  
-Acreditamos que **o futuro da sustentabilidade passa pela partilha inteligente de recursos** — e que o que hoje é considerado resíduo pode ser **a matéria-prima de amanhã**.
+Acreditamos que **o futuro da sustentabilidade passa pela partilha inteligente de recursos** e que o que hoje é considerado resíduo pode ser **a matéria-prima de amanhã**.
 
 ### Quem Somos
 O P7CO® nasceu para responder a uma necessidade clara: **ligar quem tem excedentes a quem precisa deles**, reduzindo desperdício e promovendo a economia circular em escala nacional.  
